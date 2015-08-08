@@ -1,0 +1,22 @@
+# From: Thomas Goirand <thomas@gplhost.com>
+# Ping: Mon, 26 Mar 2012 01:02:58 +0800 <1cf67474ff26695b7fc900500ae33d89@gplhost.com>
+
+<define-tag pagetitle>GPLHost LLC, Wilmington, Delaware, USA; GPLHost UK LTD, London, United Kingdom; GPLHost Networks PTE LTD, Singapore, Singapore</define-tag>
+<define-tag webpage>http://www.gplhost.com/</define-tag>
+
+#use wml::debian::users
+
+<p>
+GPLHost operates about 100 servers, (nearly) all of them running Debian.
+Most of these servers are running Xen to provide virtual servers for the
+customers of GPLHost. GPLHost is involved in the package maintenance of
+many Debian packages related to hosting. For example, Xen Cloud Platform
+is maintained in Debian by Thomas Goirand, who is both a Debian Developer,
+the CEO and founder of the company.
+</p>
+<p>
+These dedicated, virtual or shared hosting servers are spread around the
+world in (currently) 10 locations: Atlanta (us), Barcelona (es),
+Haifa (il), Kuala Lumpur (my), London (uk), Seattle (us), Singapore (sg),
+Sydney (au), Paris (fr), and Zurich (ch). 
+</p>

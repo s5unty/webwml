@@ -1,0 +1,40 @@
+# Config file used to send validation error report
+# Simply the language codename (as in http://www-master.debian.org/build-logs/validate/)
+# followed by the list of recipients
+
+ar Ayman Negm <negm@debian.org>, Mohammed Adnène Trojette <adn+deb@diwi.org>, Mohamed Amine <med@mailoo.org>
+bg Rumen Krasstev <rkrastev@obs.bg>, Damyan Ivanov <dmn@debian.org>
+ca Jordi Mallach <jordi@debian.org>
+cz Miroslav Kure <kurem@upcase.inf.upol.cz>, Juraj Kubelka <Juraj.Kubelka@email.cz>
+da Kåre Thor Olsen <kaare@nightcall.dk>
+de Holger Wansing <hwansing@mailbox.org>
+el George Papamichelakis <debian-l10n-greek@lists.debian.org>
+eo Eduardo Tr´pani <etrapani@unesco.org.uy>
+en Donald Norwood <dnorwood@portalus.com>, Kåre Thor Olsen <kaare@nightcall.dk>, Laura Arjona Reina <larjona@larjona.net>
+es Spanish localization <debian-l10n-spanish@lists.debian.org>
+fa Behrad Eslamifar <behrad_es@yahoo.com>
+fi Tommi Vainikainen <thv+debwww@iki.fi>
+fr Osamu Aoki <osamu@debian.org>, Jean-Pierre Giraud <jean-pierregiraud@neuf.fr>
+gl Jorge Barreiro <yortx.barry@gmail.com>, Galician localization <debian-l10n-galician@lists.debian.org>
+he Oz Nahum <nahumoz@gmail.com>
+hr Josip Rodin <joy-web@debian.org>
+hu Szabolcs Siebenhofer <the7up@gmail.com>
+hy Vardan Gevorgyan <vgevorgyan@debian.am>
+id Mahyuddin Susanto <udienz@ubuntu.com>, Junaedi Kartawijaya <milisdebian@yahoo.com>, Izharul Haq <atoz.chevara@yahoo.com>
+it Francesca Ciceri <madamezou@zouish.org>
+ja Nobuhiro IMAI (今井 伸広) <nov@yo.rim.or.jp>, Kenshi Muto (武藤 健志) <kmuto@debian.org>, victory <victory.deb@gmail.com>, Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, Ryuunosuke AYANOKOUZI <i38w7i3@yahoo.co.jp>
+ko Woo-il Song (송우일) <wooil@debian.or.kr>, Seongtae Yoo (유성태) <alloying@nownuri.net>, Hyun-Gwan Seo (서현관) <westporch@gmail.com>
+lt Martynas Sklizmantas <saint@ghost.lt>
+nb Hans Fredrik Nordhaug <hansfn@gmail.com>
+nl Jeroen Schot <schot@a-eskwadraat.nl>
+pl Bartosz Feński <fenio@debian.org>, Marcin Owsiany <porridge@debian.org>
+pt Eder L. Marques <eder@edermarques.net>, Marcelo Santana <marcelo@msantana.eng.br>
+ro Andrei Popescu <andreimpopescu@gmail.com>
+ru Yuri Kozlov <debian-l10n-russian@lists.debian.org>
+sl Zoran Obradović <zocky@huda.ljudmila.org>
+sk Ivan Masár <helix84@centrum.sk>
+sv Andreas Rönnquist <gusnan@openmailbox.org>
+ta Sri Ramadoss M | ம ஸ்ரீ ராமதாஸ் <ramadasan@amachu.net>
+tr Çeviri Ekibi <debian-l10n-turkish@lists.debian.org>
+uk Eugeniy Meshcheryakov (Євгеній Мещеряков) <eugen@debian.org>
+zh-tw Meng Liang <liangmeng@tsinghua.org.cn>, Kanru Chen (陳侃如) <koster@debian.org.tw>, Anthony Wong (黃彥邦) <ypwong@debian.org>, Anthony Fok (霍東靈) <foka@debian.org>, Rex Tsai (蔡志展) <chihchun@kalug.linux.org.tw>

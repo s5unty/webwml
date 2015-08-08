@@ -1,0 +1,675 @@
+[Initial split commit → four passes: still 49 to handle out of 125]
+[over 6 years old entries: still 14 to handle out of 30]
+[over 5 years old entries: still 23 to handle out of 31]
+
+  edu
+  ===
+
+harvard.wml
+  Ken Shan <ken@digitas.harvard.edu>
+  <4EBEE42F.4070009@debian.org> Sat, 12 Nov 2011 17:25:03 -0400
+    <20111114202733.GD16699@mantle.bostoncoop.net>	Mon, 14 Nov 2011 15:27:33 -0500 → No clue
+  Pierce Hall <communications@seas.harvard.edu>, Jay Tumas <jay_tumas@harvard.edu>
+  <4EC187E9.9010504@debian.org>	Mon, 14 Nov 2011 17:28:09 -0400
+  <4ED111E5.4010209@debian.org>	Sat, 26 Nov 2011 12:20:53 -0400
+  Evelyn Hu <ehu@seas.harvard.edu>, Sarah Lefebvre <sarahl@seas.harvard.edu>
+  Michael Mitzenmacher <michaelm@seas.harvard.edu>,
+  Phyllis Gorman <pgorman@seas.harvard.edu>
+  <4EE4D793.9030102@debian.org>	Sun, 11 Dec 2011 12:17:23 -0400
+  <4EFA040F.1030509@debian.org>	Tue, 27 Dec 2011 13:44:47 -0400
+  Ryan P. Adams <rpa@seas.harvard.edu>, David M. Brooks <dbrooks@seas.harvard.edu>
+  <4F1AEA40.3040809@debian.org>	Sat, 21 Jan 2012 12:39:28 -0400
+  <4F2ED569.5000409@debian.org>	Sun, 05 Feb 2012 15:15:53 -0400
+taskpoland.wml
+  Tomasz Z. Napierala <zen@maroonpoint.com> [ User unknown ]
+  <4EBEE699.8050408@debian.org> Sat, 12 Nov 2011 17:35:21 -0400
+  office@task.gda.pl
+  <4EBEE9B3.4040508@debian.org> Sat, 12 Nov 2011 17:48:35 -0400
+  <4ED111F1.7080805@debian.org>	Sat, 26 Nov 2011 12:21:05 -0400
+  dr inż. Jerzy Bobiński <bobin@task.gda.pl>,
+  dr Maciej Bobrowski <mate@task.gda.pl>,
+  dr inż. Paweł Flaszyński <pflaszyn@task.gda.pl>
+  <4EE4D939.80902@debian.org>	Sun, 11 Dec 2011 12:24:25 -0400
+  <4EFA041F.20507@debian.org>	Tue, 27 Dec 2011 13:45:03 -0400
+  Mscislaw Nakonieczny <m.nakonieczny@task.gda.pl>,
+  Slawomir Polomski <s.polomski@task.gda.pl>,
+  Rafal Tylman <r.tylman@task.gda.pl>
+  <4F1AEC2A.8060403@debian.org>	Sat, 21 Jan 2012 12:47:38 -0400
+  <4F2ED567.8020008@debian.org>	Sun, 05 Feb 2012 15:15:51 -0400
+trinitycollege.wml
+  Trishan R. de Lanerolle <Trishan.DeLanerolle@trincoll.edu>
+  <4EBEEBF0.6010702@debian.org> Sat, 12 Nov 2011 17:58:08 -0400
+  <4ED111F6.7030001@debian.org>	Sat, 26 Nov 2011 12:21:10 -0400
+    <835385A92A9EB44ABC2276B5D5613A51F7CFE6B5@exmb3.cmpcntr.tc.trincoll.edu> Sat, 26 Nov 2011 17:01:05 +0000 → OK [ forwarded ]
+  <4ED15655.9080409@debian.org>	Sat, 26 Nov 2011 17:12:53 -0400
+  <4EE668F0.9080901@debian.org>	Mon, 12 Dec 2011 16:49:52 -0400
+mec.wml
+  Titty Jacob <titty@mec.ac.in>
+  <4EBEF19C.5010905@debian.org> Sat, 12 Nov 2011 18:22:20 -0400
+  <4ED11206.4040704@debian.org>	Sat, 26 Nov 2011 12:21:26 -0400
+  Murali Mohanan <murali@mec.ac.in>, Titty Jacob <ttjacob@gmail.com>
+  <4EE4DE97.3050205@debian.org>	Sun, 11 Dec 2011 12:47:19 -0400
+  <4EFA0426.8040105@debian.org>	Tue, 27 Dec 2011 13:45:10 -0400
+  Preetha Theresa Joy <preetha@mec.ac.in>
+  <4F1B1D48.3040700@debian.org> Sat, 21 Jan 2012 16:17:12 -0400
+  <4F2ED560.8010808@debian.org> Sun, 05 Feb 2012 15:15:44 -0400
+cocararaquara.wml
+  jhgb@coc.com.br [ User unknown ]
+  <4EBEF4A6.4040701@debian.org> Sat, 12 Nov 2011 18:35:18 -0400
+  João Henrique Gião Borges <jhgborges@gmail.com>
+  <4EBEF813.9060802@debian.org> Sat, 12 Nov 2011 18:49:55 -0400
+  <4ED1120A.9050906@debian.org>	Sat, 26 Nov 2011 12:21:30 -0400
+  # Pedro Zorzenon Neto <pzn@debian.org>
+  # webform: http://www.cocararaquara.com.br/site/contato
+  <4EE51F36.4090709@debian.org>	Sun, 11 Dec 2011 17:23:02 -0400
+  <4EFA0429.2080804@debian.org> Tue, 27 Dec 2011 13:45:13 -0400
+    <CAONbS7w_4PEmwByxXKySRLWcYXWkcB8-T9rCQa0JDGgSOVcUTw@mail.gmail.com> Tue, 27 Dec 2011 15:49:06 -0200 → OK [ moreinfo ]
+  <4EFA0862.5050306@debian.org>	Tue, 27 Dec 2011 14:03:14 -0400
+labpomaangers.wml
+  Dominique Guichaoua <dominique.guichaoua@univ-angers.fr>
+  <4EBEF69E.6010604@debian.org> Sat, 12 Nov 2011 18:43:42 -0400
+  <4ED1120F.6010302@debian.org>	Sat, 26 Nov 2011 12:21:35 -0400
+  Prof. François Sanchez <francois.sanchez@univ-angers.fr>,
+  Sylvie Chaumont <sylvie.chaumont@univ-angers.fr>
+  <4EE52188.4020304@debian.org>	Sun, 11 Dec 2011 17:32:56 -0400
+  <4EFA042C.3030303@debian.org>	Tue, 27 Dec 2011 13:45:16 -0400
+  Christophe Cassagne <christophe.cassagne@univ-angers.fr>
+  <4F1B266E.7050504@debian.org>	Sat, 21 Jan 2012 16:56:14 -0400
+  <4F2ED55C.1090704@debian.org>	Sun, 05 Feb 2012 15:15:40 -0400
+indonesia.wml
+  Mouammer H. Rayes <banggae@fisika.ui.ac.id>
+  <4EBF0F55.9080505@debian.org> Sat, 12 Nov 2011 20:29:09 -0400
+  <4ED11213.7010700@debian.org>	Sat, 26 Nov 2011 12:21:39 -0400
+  sekretariat@fisika.ui.ac.id, pusdiklat@batan.go.id,
+  ewinarno@batan.go.id, wsoemadi@batan.go.id
+  <4EE52475.7040109@debian.org>	Sun, 11 Dec 2011 17:45:25 -0400
+  <4EFA042F.9080702@debian.org>	Tue, 27 Dec 2011 13:45:19 -0400
+merlostation.wml
+  Paul Johnson <baloo@ursine.dyndns.org> [ Unrouteable address ]
+  <4EBF19B4.1080207@debian.org> Sat, 12 Nov 2011 21:13:24 -0400
+  Mary Jean Katz <MaryJean_Katz@beaverton.k12.or.us>
+  <4EBF200A.9010308@debian.org> Sat, 12 Nov 2011 21:40:26 -0400
+  <4ED152A8.3000606@debian.org>	Sat, 26 Nov 2011 16:57:12 -0400
+  David Moss <david_moss@beaverton.k12.or.us>
+  <4EE52EB7.30502@debian.org>	Sun, 11 Dec 2011 18:29:11 -0400
+  <4EFA0435.3000109@debian.org>	Tue, 27 Dec 2011 13:45:25 -0400
+polimi.wml
+  Marco Ferrara <emme.pi.effe@gmail.com>
+  <4EBF1A3F.6080807@debian.org> Sat, 12 Nov 2011 21:15:43 -0400
+  <4ED152AC.50309@debian.org>	Sat, 26 Nov 2011 16:57:16 -0400
+  Prof. Francalanci Chiara <francala@elet.polimi.it>
+  <4EE53A32.6020200@debian.org>	Sun, 11 Dec 2011 19:18:10 -0400
+  <4EFA0438.4000407@debian.org>	Tue, 27 Dec 2011 13:45:28 -0400
+calgary.wml
+  Tom Clements <sysadmin@phas.ucalgary.ca>
+  <4EBF1B6F.5000200@debian.org> Sat, 12 Nov 2011 21:20:47 -0400
+  <4ED152B7.2030709@debian.org>	Sat, 26 Nov 2011 16:57:27 -0400
+  Leslie Holmes <lesholme@ucalgary.ca>,
+  office@phas.ucalgary.ca, admin@phas.ucalgary.ca
+  <4EE54C5E.1010706@debian.org>	Sun, 11 Dec 2011 20:35:42 -0400
+  <4EFA043A.2010800@debian.org>	Tue, 27 Dec 2011 13:45:30 -0400
+montanatech.wml
+  Lou Glassy <lglassy@mtech.edu> [ User unknown ]
+  <4EBF1CFF.3080300@debian.org> Sat, 12 Nov 2011 21:27:27 -0400
+  ctshelpdesk@mtech.edu, webmaster@mtech.edu
+  <4EBF21F5.6050502@debian.org> Sat, 12 Nov 2011 21:48:37 -0400
+  <4ED152CB.4030103@debian.org>	Sat, 26 Nov 2011 16:57:47 -0400
+  Jeff Braun <jbraun@mtech.edu>
+  <4EE571E6.8070001@debian.org>	Sun, 11 Dec 2011 23:15:50 -0400
+  <4EFA043F.60601@debian.org>	Tue, 27 Dec 2011 13:45:35 -0400
+    <AEC2139945463246967DF069BB2FA52153DC42BB93@mtmail8b.butte.campus> Mon, 9 Jan 2012 15:05:33 -0700 → OK [ moreinfo ]
+  <4F1324EA.6080501@debian.org>	Sun, 15 Jan 2012 15:11:38 -0400
+laboratoriocomunicacionesdigitales.wml
+  hugo@gtwing.efn.uncor.edu [ User unknown ]
+  <4EBF23E2.2030705@debian.org> Sat, 12 Nov 2011 21:56:50 -0400
+  lcd@gtwing.efn.uncor.edu
+  <4EBF2B3A.2070504@debian.org> Sat, 12 Nov 2011 22:28:10 -0400
+  <4ED152DD.1010706@debian.org>	Sat, 26 Nov 2011 16:58:05 -0400
+  Ing. Carmen Rodríguez <carmen@ciec.com.ar>
+  <4EE57818.4050905@debian.org>	Sun, 11 Dec 2011 23:42:16 -0400
+  <4EFA0441.9010603@debian.org>	Tue, 27 Dec 2011 13:45:37 -0400
+proteindesigngroup.wml
+  Eduardo Andres Leon <leon@cnb.uam.es> [ Unrouteable address ]
+  <4EBF247C.503@debian.org>	Sat, 12 Nov 2011 21:59:24 -0400
+  Florencio Pazos <pazos@cnb.csic.es>
+  <4EBF2978.4090009@debian.org> Sat, 12 Nov 2011 22:20:40 -0400
+  <4ED152E3.2050707@debian.org>	Sat, 26 Nov 2011 16:58:11 -0400
+  Juan Carlos Sanchez <jcsanchez@cnb.csic.es>
+  <4EE578DF.7030401@debian.org>	Sun, 11 Dec 2011 23:45:35 -0400
+  <4EFA0443.5070305@debian.org>	Tue, 27 Dec 2011 13:45:39 -0400
+unsw_cs.wml
+  Trent Swift <trents@cse.unsw.EDU.AU>
+  <4EBF2510.4020908@debian.org>	Sat, 12 Nov 2011 22:01:52 -0400
+  <4ED152E8.1010809@debian.org>	Sat, 26 Nov 2011 16:58:16 -0400
+  helpdesk@cse.unsw.edu.au, office@cse.unsw.edu.au, ss@cse.unsw.edu.au
+  <4EE57B77.5070707@debian.org>	Sun, 11 Dec 2011 23:56:39 -0400
+  <4EFA0445.808@debian.org>	Tue, 27 Dec 2011 13:45:41 -0400
+  Robert Doran <robertd@cse.unsw.edu.au>
+  <4EFA688C.5090708@debian.org>	Tue, 27 Dec 2011 20:53:32 -0400
+  ss@cse.unsw.edu.au
+    <FB28F695-0B53-493F-9F59-444AE835A248@cse.unsw.edu.au> Fri, 30 Dec 2011 22:54:10 +1100 → OK [ moreinfo ]
+  <4F037FCA.9050807@debian.org>	Tue, 03 Jan 2012 18:23:06 -0400
+cambridgesemiconductor.wml
+  Frank Lee <rl201@cam.ac.uk>
+  <4EBF2DCD.2070707@debian.org> Sat, 12 Nov 2011 22:39:09 -0400
+  <4ED15309.6010404@debian.org> Sat, 26 Nov 2011 16:58:49 -0400
+  Dr. Andrew Alderwick <ara32@cam.ac.uk>, Mr. Alex Crook <ac692@cam.ac.uk>,
+  Mr. Colin Edwards <cwe20@cam.ac.uk>,  Mr. Doug Heftel <dwh21@cam.ac.uk>,
+  Mr. Cormac O'Connell <cjo24@cam.ac.uk>
+  <4EE64AA3.2060004@debian.org> Mon, 12 Dec 2011 14:40:35 -0400
+  <4EFA0450.3060806@debian.org>	Tue, 27 Dec 2011 13:45:52 -0400
+sidneygeo.wml
+  Ivan Teliatnikov <ivan@geosci.usyd.edu.au>
+  <4EBF30CB.8000908@debian.org> Sat, 12 Nov 2011 22:51:55 -0400
+  <4ED1530D.3050006@debian.org>	Sat, 26 Nov 2011 16:58:53 -0400
+  Ivan Teliatnikov <ivan.teliatnikov@sydney.edu.au>, geosci-technical@mail.usyd.edu.au
+  <4EE64C79.8020405@debian.org>	Mon, 12 Dec 2011 14:48:25 -0400
+  <4EFA0453.1070505@debian.org>	Tue, 27 Dec 2011 13:45:55 -0400
+cambridgesidney.wml
+  Frank Lee <rl201@cam.ac.uk>
+  <4EBF36DD.5070502@debian.org> Sat, 12 Nov 2011 23:17:49 -0400
+  <4ED15316.6010003@debian.org> Sat, 26 Nov 2011 16:59:02 -0400
+  webmaster@sid.cam.ac.uk, Dr Andrew J Flewitt <ajf@eng.cam.ac.uk>,
+  Dr Andrew J Flewitt <ajf23@cam.ac.uk>
+  <4EE65325.3020806@debian.org>	Mon, 12 Dec 2011 15:16:53 -0400
+  <4EFA0456.2050100@debian.org>	Tue, 27 Dec 2011 13:45:58 -0400
+ceic.wml
+  Lucio Pileggi <pileggi@sns.it>
+  <4EBF3769.30004@debian.org>	Sat, 12 Nov 2011 23:20:09 -0400
+  <4ED15319.4020003@debian.org>	Sat, 26 Nov 2011 16:59:05 -0400
+  Lucio Pileggi <Lucio.Pileggi@sns.it>, Dr.ssa Paola Mancini <Paola.Mancini@sns.it>
+  <4EE65A8C.30607@debian.org>	Mon, 12 Dec 2011 15:48:28 -0400
+  <4EFA0459.4010404@debian.org>	Tue, 27 Dec 2011 13:46:01 -0400
+innsbruck.wml
+  Hannes Loeffler <Hannes.Loeffler@uibk.ac.at> [ User unknown ]
+  <4EBF3A37.9030003@debian.org>	Sat, 12 Nov 2011 23:32:07 -0400
+  Anorganische-Chemie@uibk.ac.at
+  <4EBF3AB4.60608@debian.org>	Sat, 12 Nov 2011 23:34:12 -0400
+  <4ED1531F.4070903@debian.org>	Sat, 26 Nov 2011 16:59:11 -0400
+  Hubert HUPPERTZ <hubert.huppertz@uibk.ac.at>
+  <4EE6616F.4050406@debian.org>	Mon, 12 Dec 2011 16:17:51 -0400
+  <4EFA0460.2070108@debian.org>	Tue, 27 Dec 2011 13:46:08 -0400
+uoa_iarc.wml
+  Christopher Swingley <cswingle@iarc.uaf.edu> [ User unknown ]
+  info@iarc.uaf.edu, webmaster@iarc.uaf.edu
+  <4F1AE2B7.9050908@debian.org>	Sat, 21 Jan 2012 12:07:19 -0400
+  <4F2EE30F.3010305@debian.org>	Sun, 05 Feb 2012 16:14:07 -0400
+  Matt Barkdull <mattb@iarc.uaf.edu>
+  <4F6CC4CA.90208@debian.org>	Fri, 23 Mar 2012 14:45:30 -0400
+  <4F80B6E8.90404@debian.org>	Sat, 07 Apr 2012 17:51:36 -0400
+punecs.wml
+  Warange Rajesh Ramesh <u03148@cs.unipune.ernet.in>
+  <4F1ADD80.7050503@debian.org>	Sat, 21 Jan 2012 11:45:04 -0400
+  <4F2ED558.2070402@debian.org>	Sun, 05 Feb 2012 15:15:36 -0400
+  Dr. Vilas Kharat <hod_cs@cs.unipune.ac.in>
+  <4F6CC588.1030804@debian.org>	Fri, 23 Mar 2012 14:48:40 -0400
+  <4F80B6F2.80207@debian.org>	Sat, 07 Apr 2012 17:51:46 -0400
+fidelcano.wml
+  Igor Tamara <igor@tamarapatino.org>
+  <4F1AE00B.1010004@debian.org>	Sat, 21 Jan 2012 11:55:55 -0400
+  <4F2ED550.1060103@debian.org> Sun, 05 Feb 2012 15:15:28 -0400
+  David Pinzón <webmaster@gfc.edu.co>
+  <4F6CC6AC.5060202@debian.org>	Fri, 23 Mar 2012 14:53:32 -0400
+  <4F80B6FE.9050805@debian.org>	Sat, 07 Apr 2012 17:51:58 -0400
+    <CAJovUb=cGRxc3LruPjM520UK5cAdThy1YW3zRfzGDkwAON4RJQ@mail.gmail.com> Mon, 9 Jul 2012 10:02:54 -0500 → [ removed ]
+brainimaginglab.wml
+  markus schatzl <m.schatzl@gmx.net>
+  <4F1AE08E.3060500@debian.org>	Sat, 21 Jan 2012 11:58:06 -0400
+    <20120122220718.GB31421@fugu.target23.de> Sun, 22 Jan 2012 23:07:18 +0100 → No clue [ forwarded ]
+  tobias.schmidt-wilcke@klinik.uni-regensburg.de
+  <4F99EF9E.20507@debian.org>	Thu, 26 Apr 2012 21:00:14 -0400  
+doshisha.wml
+  Junichi Uekawa <dancer@netfort.gr.jp>
+  <4F1AE0DD.70207@debian.org>	Sat, 21 Jan 2012 11:59:25 -0400
+  Tomo Hiroyasu <tomo@is.doshisha.ac.jp>
+    <CALSThqjjfr_4z8WAanUHEwTOCEUQXFWL2B+0My_MgeHtgjt89A@mail.gmail.com> Sat, 4 Feb 2012 11:34:59 +0900 → OK [ moreinfo ]
+  <4F2C9AEB.8010605@debian.org>	Fri, 03 Feb 2012 22:41:47 -0400
+  <4F99F0D3.2080403@debian.org>	Thu, 26 Apr 2012 21:05:23 -0400
+mit.wml
+  Jonathan D. Proulx <jon@ai.mit.edu>
+  <4F1AE132.6050903@debian.org>	Sat, 21 Jan 2012 12:00:50 -0400
+    <20120123145627.GA396@csail.mit.edu> Mon, 23 Jan 2012 09:56:27 -0500 → OK
+  <4F299393.4020607@debian.org>	Wed, 01 Feb 2012 15:33:39 -0400
+  <4F99F241.1070708@debian.org>	Thu, 26 Apr 2012 21:11:29 -0400
+engineering-diponegoro.wml
+  Adian Fatchur R <adianefer@gmail.com>
+  <4F6E4370.2080001@debian.org>	Sat, 24 Mar 2012 17:58:08 -0400
+  <4F80BF7F.2050501@debian.org>	Sat, 07 Apr 2012 18:28:15 -0400
+  teknik@undip.ac.id
+  <4F99FE71.4020106@debian.org>	Thu, 26 Apr 2012 22:03:29 -0400
+economics-utoronto.wml
+  Peter St. Onge <pete@economics.utoronto.ca>
+  <4F6E4394.3090605@debian.org>	Sat, 24 Mar 2012 17:58:44 -0400
+  <4F80BF84.8060106@debian.org>	Sat, 07 Apr 2012 18:28:20 -0400
+  Prof. John E. Floyd <floyd@chass.utoronto.ca>
+  <4F99FE7A.8020100@debian.org>	Thu, 26 Apr 2012 22:03:38 -0400
+rocva-hilversum.wml
+  J. Rozema <j.rozema@rocva.nl>
+  <4F6E4441.9080403@debian.org>	Sat, 24 Mar 2012 18:01:37 -0400
+  <4F80BF8D.3020409@debian.org>	Sat, 07 Apr 2012 18:28:29 -0400
+  info.gvs@rocva.nl
+  <4F99FF71.1000509@debian.org>	Thu, 26 Apr 2012 22:07:45 -0400
+sharifuni.wml
+  tootoonchian@ce.sharif.edu
+  <4F6E449B.2070105@debian.org>	Sat, 24 Mar 2012 18:03:07 -0400
+  <4F80BF94.2050109@debian.org>	Sat, 07 Apr 2012 18:28:36 -0400
+  webmaster@ce.sharif.edu
+  <4F99FFC1.6030802@debian.org>	Thu, 26 Apr 2012 22:09:05 -0400
+christianalliance-hk.wml
+  Jon Branch <jbranch@cais.edu.hk>
+  <4F6E44C5.8080607@debian.org>	Sat, 24 Mar 2012 18:03:49 -0400
+  <4F80BF98.1050502@debian.org>	Sat, 07 Apr 2012 18:28:40 -0400
+  admin@lionsdenhk.net
+  <4F9A002E.8030707@debian.org>	Thu, 26 Apr 2012 22:10:54 -0400
+nsysu-isl.wml
+  guan@mail.nsysu.edu.tw
+  <4F6E44FA.5010401@debian.org>	Sat, 24 Mar 2012 18:04:42 -0400
+  <4F80BF9B.6080801@debian.org>	Sat, 07 Apr 2012 18:28:43 -0400
+  Dr. D. J. Guan <guan@cse.nsysu.edu.tw>
+  <4F9A00AF.6000901@debian.org>	Thu, 26 Apr 2012 22:13:03 -0400
+
+
+  org
+  ===
+
+subnet.wml
+  Markus Amersdorfer <max@subnet.at> <markus.amersdorfer@gmail.com>
+  <4EBFF019.6050005@debian.org>	Sun, 13 Nov 2011 12:28:09 -0400
+  <4ED16A43.7070707@debian.org>	Sat, 26 Nov 2011 18:37:55 -0400
+    <4F0228A8.6090108@gmail.com> Mon, 02 Jan 2012 22:59:04 +0100 → no clue
+  info@subnet.at [ mailbox is full ]
+  Michael Hackl <michael.hackl@subnet.at>, Rüdiger Wassibauer <rutiger@schmiede.ca>,
+  Anne Grabs <anne.grabs@subnet.at>, Marius Scheblla <marius.schebella@gmail.com>
+  <4EE6829D.3080806@debian.org>	Mon, 12 Dec 2011 18:39:25 -0400
+  <4EFB2613.1010007@debian.org>	Wed, 28 Dec 2011 10:22:11 -0400
+uhkt.wml
+  Ing. Vladimir M. Kerka <kerka@dinmont.cz>
+  <4EBFF068.1000704@debian.org>	Sun, 13 Nov 2011 12:29:28 -0400
+  <4ED16A49.8020602@debian.org>	Sat, 26 Nov 2011 18:38:01 -0400
+  darce@uhkt.cz, info@uhkt.cz
+  <4EE6845D.7020803@debian.org> Mon, 12 Dec 2011 18:46:53 -0400
+  <4EFB261F.8070400@debian.org>	Wed, 28 Dec 2011 10:22:23 -0400
+kranjpubliclibrary.wml
+  Joze Volf <joze.volf@siol.net> [ Invalid recipient ]
+  <4EBFF118.9010006@debian.org>	Sun, 13 Nov 2011 12:32:24 -0400
+  Dani Jurgec <dani@kr.sik.si>
+  <4EBFFA02.8090700@debian.org>	Sun, 13 Nov 2011 13:10:26 -0400
+  <4ED16A57.7050800@debian.org>	Sat, 26 Nov 2011 18:38:15 -0400
+  Urša Vidergar <ursa@kr.sik.si>, mkk@kr.sik.si
+  <4EE69696.8020309@debian.org>	Mon, 12 Dec 2011 20:04:38 -0400
+  <4EFB2624.5030407@debian.org>	Wed, 28 Dec 2011 10:22:28 -0400
+terexau.wml
+  Shaun de Burgh <sdeburgh@terex-mining.com.au> [ Unrouteable address ]
+  <4EBFF24A.4060008@debian.org>	Sun, 13 Nov 2011 12:37:30 -0400
+  Cole Latimer <editor@miningaustralia.com.au>
+  <4EC01CEF.2050103@debian.org>	Sun, 13 Nov 2011 15:39:27 -0400
+  <4ED16A63.8000708@debian.org>	Sat, 26 Nov 2011 18:38:27 -0400
+  yogi@reedbusiness.com.au, info@terex.com
+  <4EE6A626.90507@debian.org>	Mon, 12 Dec 2011 21:11:02 -0400
+  <4EFB2628.1040506@debian.org>	Wed, 28 Dec 2011 10:22:32 -0400
+hispalinux.wml
+  Jesus Climent <jesus.climent@hispalinux.es>
+  <4EBFF3C7.8000703@debian.org>	Sun, 13 Nov 2011 12:43:51 -0400
+  <4ED16A67.8000406@debian.org>	Sat, 26 Nov 2011 18:38:31 -0400
+  asociacion@hispalinux.es, Jesus Climent <mooch@debian.org>
+  <4EE6A765.8050102@debian.org>	Mon, 12 Dec 2011 21:16:21 -0400
+  <4EFB2639.7000809@debian.org>	Wed, 28 Dec 2011 10:22:49 -0400
+eogalliera.wml
+  Marco De Benedetto <debe@galliera.it>
+  <4EBFF53D.5030304@debian.org>	Sun, 13 Nov 2011 12:50:05 -0400
+  <4ED16A72.9010602@debian.org>	Sat, 26 Nov 2011 18:38:42 -0400
+  Marco De Benedetto <marco.de.benedetto@galliera.it>
+  <4EE6AD09.6050101@debian.org>	Mon, 12 Dec 2011 21:40:25 -0400
+  <4EFB2642.3010805@debian.org>	Wed, 28 Dec 2011 10:22:58 -0400
+greenpeace-spain.wml
+  Manuel Campos <manuel.campos@es.greenpeace.org> [ Unrouteable address ]
+  info@greenpeace.es
+  <4F3AE101.3000501@debian.org>	Tue, 14 Feb 2012 18:32:33 -0400
+  <4F4D99EE.6010104@debian.org>	Tue, 28 Feb 2012 23:22:22 -0400
+  Laura Pérez <laura.perez@greenpeace.org>
+  <4F6CD2EA.5040605@debian.org>	Fri, 23 Mar 2012 15:45:46 -0400
+  <4F80B7AA.7040503@debian.org>	Sat, 07 Apr 2012 17:54:50 -0400
+justicemaryland.wml
+  Jordan Haven <jhaven@gmail.com>
+  <4F3AD6B2.3070608@debian.org>	Tue, 14 Feb 2012 17:48:34 -0400
+  <4F4D99E3.7050908@debian.org>	Tue, 28 Feb 2012 23:22:11 -0400
+  Kimberly <kimberly@justicemaryland.org>
+  <4F6CD488.2010803@debian.org>	Fri, 23 Mar 2012 15:52:40 -0400
+  <4F80B7BE.6020602@debian.org>	Sat, 07 Apr 2012 17:55:10 -0400
+hivos.wml
+  Hapee de Groot <hapee@hivos.nl>
+  <4F6E4B38.40904@debian.org>	Sat, 24 Mar 2012 18:31:20 -0400
+  <4F80C04E.7080505@debian.org>	Sat, 07 Apr 2012 18:31:42 -0400
+
+
+  gov
+  ===
+
+europeanaudiovisualobservatory.wml
+  Cyril Chaboisseau <cyril.chaboisseau@obs.coe.int>
+  <4EC0357F.7070608@debian.org>	Sun, 13 Nov 2011 17:24:15 -0400
+  <4ED1741B.2040002@debian.org>	Sat, 26 Nov 2011 19:19:55 -0400
+  Cyril Chaboisseau <cyril.chaboisseau@coe.int>
+  <4EE7DFC4.3070800@debian.org>	Tue, 13 Dec 2011 19:29:08 -0400
+  <4EFB2888.2060408@debian.org>	Wed, 28 Dec 2011 10:32:40 -0400
+eln.wml
+  Rodrigo A B Freire <rodfreire@eln.gov.br> [ User unknown ]
+  Rodrigo A B Freire <zazgyn@terra.com.br> [ User unknown ]
+  Rodrigo A B Freire <bit-bucket@brasilia.br> [ User unknown ]
+  Rodrigo A B Freire <nntpstuffs@brasilia.br> [ User unknown ]
+  registroeln@eln.gov.br [ Unauthorized ]
+  Tereza Cristina de Rozendo Pinto <pgr@eletrobras.com>
+  <4F2F466A.2080703@debian.org>	Sun, 05 Feb 2012 23:18:02 -0400
+  <4F4D9AB1.6020405@debian.org>	Tue, 28 Feb 2012 23:25:37 -0400
+  imprensa@eletronorte.gov.br
+  <4F6CDA9A.7090404@debian.org>	Fri, 23 Mar 2012 16:18:34 -0400
+  <4F80B859.7050007@debian.org>	Sat, 07 Apr 2012 17:57:45 -0400
+sapi-milco.wml
+  Jose Parrella <joseparrella@cantv.net>
+  <4F2ED8FD.1030100@debian.org>	Sun, 05 Feb 2012 15:31:09 -0400
+  <4F4D9AAB.6070405@debian.org>	Tue, 28 Feb 2012 23:25:31 -0400
+  contraloriasocial@sapi.gob.ve
+  <4F6CDC52.3070407@debian.org>	Fri, 23 Mar 2012 16:25:54 -0400
+  <4F80B85E.4090009@debian.org>	Sat, 07 Apr 2012 17:57:50 -0400
+ble-philippines.wml
+  jan.gestre@ble.dole.gov.ph [ retry timeout exceeded ]
+  ble_od@dole.gov.ph [ Unknown User ]
+  od_ble@yahoo.com
+  <4F74BB69.9040202@debian.org>	Thu, 29 Mar 2012 15:43:37 -0400
+  <4F834D14.3090006@debian.org>	Mon, 09 Apr 2012 16:56:52 -0400
+itgrenchen.wml
+  Mario Iseli <mario@marioiseli.com>
+  <4F6F1D92.6060003@debian.org>	Sun, 25 Mar 2012 09:28:50 -0400
+  <4F834D18.6030004@debian.org>	Mon, 09 Apr 2012 16:56:56 -0400
+municipiodeibarra.wml
+  Tonny <tonny@municipiodeibarra.com> [ domain issue ]
+  info@ibarra.gob.ec
+  <4F74C552.2050002@debian.org>	Thu, 29 Mar 2012 16:25:54 -0400
+  <4F834D1E.6090807@debian.org>	Mon, 09 Apr 2012 16:57:02 -0400
+
+
+  com
+  ===
+
+portuaria.wml
+  Marco Salgado <msalgado@netserv.cl> [ User unknown ]
+  <4EC0442F.7060807@debian.org>	Sun, 13 Nov 2011 18:26:55 -0400
+  contacto@pandes.cl [ User unknown ]
+  <4EC0453C.5000402@debian.org>	Sun, 13 Nov 2011 18:31:24 -0400
+  webform: http://www.pandes.cl/index.php?id=8
+  Mon, 28 Nov 2011 14:40 -0400
+  Fri, 16 Dec 2011 14:12 -0400
+  Marco Salgado <msalgado@inf.utfsm.cl>
+  <4F028047.2080506@debian.org>	Tue, 03 Jan 2012 00:12:55 -0400
+  <4F80B93C.1050508@debian.org>	Sat, 07 Apr 2012 18:01:32 -0400
+euronetics.wml
+  Ola Lundqvist <opal@debian.org>
+  <4EC03F32.4000507@debian.org>	Sun, 13 Nov 2011 18:05:38 -0400
+   <9300c9e4-5a54-4798-b44b-3ecd66c3b474.maildroid@localhost> Fri, 16 Dec 2011 20:00:18 +0100 (GMT+01:00) → No clue
+  kontakt@euronetics.se
+  <4EC14140.2020902@debian.org>	Mon, 14 Nov 2011 12:26:40 -0400
+  <4ED3D763.2000005@debian.org>	Mon, 28 Nov 2011 14:48:03 -0400
+  <4EEB8FEF.3050902@debian.org>	Fri, 16 Dec 2011 14:37:35 -0400
+  kontakt@vikariebanken.se
+  <4F026C27.3000200@debian.org>	Mon, 02 Jan 2012 22:47:03 -0400
+  <4F80B940.1010401@debian.org>	Sat, 07 Apr 2012 18:01:36 -0400
+develgroup.wml
+  Rodrigo A Diaz Leven <root@develgroup.com>
+  <4EC04134.5090802@debian.org>	Sun, 13 Nov 2011 18:14:12 -0400
+  <4ED3D770.1030206@debian.org>	Mon, 28 Nov 2011 14:48:16 -0400
+  Gustavo Funes <dominios@develgroup.com>
+  <4EEBB884.8040800@debian.org>	Fri, 16 Dec 2011 17:30:44 -0400
+  <4F022FA0.4040807@debian.org>	Mon, 02 Jan 2012 18:28:48 -0400
+charlesretina.wml
+  Keith G. Murphy <keithmur@mindspring.com> [ User unknown ]
+  <4EC07C1C.1030306@debian.org>	Sun, 13 Nov 2011 22:25:32 -0400
+  webmaster@charles-retina.com
+  <4EC081C6.8000502@debian.org>	Sun, 13 Nov 2011 22:49:42 -0400
+  <4ED3D774.8020004@debian.org>	Mon, 28 Nov 2011 14:48:20 -0400
+  Judy Perry <jperry@charles-retina.com>
+  <4EEBBAE4.2080705@debian.org>	Fri, 16 Dec 2011 17:40:52 -0400
+  <4F022FAD.2050105@debian.org>	Mon, 02 Jan 2012 18:29:01 -0400
+frogfoot.wml
+  Johann Botha <joe@frogfoot.net>
+  <4EC0420C.4060407@debian.org>	Sun, 13 Nov 2011 18:17:48 -0400
+    <20111114085932.GA16417@blue.frogfoot.net>	Mon, 14 Nov 2011 10:59:32 +0200	→ OK [ forwarded ]
+  Yassin Adams <yassin@frogfoot.com>
+  <4EEBBD83.6000605@debian.org>	Fri, 16 Dec 2011 17:52:03 -0400
+mttm.wml
+  Vincent Correze <VincentCorreze@mttm.com> [ User unknown ]
+  <4EC042B5.2060905@debian.org>	Sun, 13 Nov 2011 18:20:37 -0400
+  mttm@mttm.com
+  <4EC08306.8030909@debian.org>	Sun, 13 Nov 2011 22:55:02 -0400
+  <4ED3D781.7000901@debian.org>	Mon, 28 Nov 2011 14:48:33 -0400
+  Vincent Correze <vincent.correze@accoord.fr>
+  <4EEBDE79.9070709@debian.org>	Fri, 16 Dec 2011 20:12:41 -0400
+  <4F022FD9.4060200@debian.org>	Mon, 02 Jan 2012 18:29:45 -0400
+    <bf8e6096.1ccc9fa.3e824a.29@accoord.fr>	Tue, 03 Jan 2012 10:33:00 +0100 → should be OK (no contact there)
+b_open.wml
+  Alessandro Amici <a.amici@bopen.it>
+  <4EC04AAD.3020606@debian.org>	Sun, 13 Nov 2011 18:54:37 -0400
+  <4ED3D786.3000304@debian.org>	Mon, 28 Nov 2011 14:48:38 -0400
+  Alessandro Amici <info@bopen.it>
+  <4EEBED64.6080102@debian.org>	Fri, 16 Dec 2011 21:16:20 -0400
+  <4F022FE8.2030103@debian.org>	Mon, 02 Jan 2012 18:30:00 -0400
+cybersalad.wml
+  glen@cybersalad.net [ Crazy F#©$!g antispam ]
+  <4EC07D29.2000005@debian.org>	Sun, 13 Nov 2011 22:30:01 -0400
+  <4ED3D78B.8010605@debian.org>	Mon, 28 Nov 2011 14:48:43 -0400
+  support@cybersalad.net [ Crazy F#©$!g antispam ]
+  Clay Pereira <clay@oneando.com>
+  <4EEBF229.6090508@debian.org>	Fri, 16 Dec 2011 21:36:41 -0400
+  <4F022FFC.5020108@debian.org>	Mon, 02 Jan 2012 18:30:20 -0400
+nesac.wml
+  Tom Clark <tom.clark@snowconditions.info> [ Address rejected ]
+  <4EC04C81.6090003@debian.org>	Sun, 13 Nov 2011 19:02:25 -0400
+  Michael Martinez <michael.martinez@snocountry.org>, info@snocountry.org
+  <4EC0877B.6030807@debian.org>	Sun, 13 Nov 2011 23:14:03 -0400
+  <4ED3D79D.8060803@debian.org>	Mon, 28 Nov 2011 14:49:01 -0400
+  Andrew Davis <andrew.davis@snocountry.org>,
+  Chuck Devine <chuck.devine@snocountry.org>,
+  Rob Chandler <rob.chandler@snocountry.org>
+  <4EEF7103.8060405@debian.org>	Mon, 19 Dec 2011 13:14:43 -0400
+  <4F023010.5070606@debian.org>	Mon, 02 Jan 2012 18:30:40 -0400
+hostsharing.wml
+  Noel Koethe <noel@hostsharing.net>
+  <4EC04CDB.6050500@debian.org>	Sun, 13 Nov 2011 19:03:55 -0400
+    <1321383042.2654.61.camel@air.domain.lan>	Tue, 15 Nov 2011 19:50:42 +0100	→ OK [ forwarded ]
+  <4F038A86.6080005@debian.org>	Tue, 03 Jan 2012 19:08:54 -0400
+internetsocietynz.wml
+  Andrew McMillan <andrew@catalyst.net.nz>
+  <4EC04E56.1090202@debian.org>	Sun, 13 Nov 2011 19:10:14 -0400
+    <1321498352.4831.52.camel@dave.home.mcmillan.net.nz> Thu, 17 Nov 2011 13:52:32 +1100  → OK [ forwarded ]
+  Jay Daley <jay@nzrs.net.nz>
+  <4EC6E24D.3040104@debian.org> Fri, 18 Nov 2011 18:55:09 -0400
+  <4F038C6D.6020800@debian.org>	Tue, 03 Jan 2012 19:17:01 -0400
+icns_xtec.wml
+  Uwe A. P. Wuerdinger <wuerdinger@x-tec.de> [ Unrouteable address ]
+  <4EC04EA1.5070301@debian.org>	Sun, 13 Nov 2011 19:11:29 -0400
+  info@x-tec.de
+  <4EC08B79.9070903@debian.org>	Sun, 13 Nov 2011 23:31:05 -0400
+  <4ED3D7AA.4070306@debian.org>	Mon, 28 Nov 2011 14:49:14 -0400
+  Philipp Dittert <dittert@x-tec.de>
+  <4EEFB36A.7070601@debian.org>	Mon, 19 Dec 2011 17:58:02 -0400
+  <4F023026.7040803@debian.org>	Mon, 02 Jan 2012 18:31:02 -0400
+uniteddrug.wml
+  Joey Walsh <Joey.Walsh@united-drug.ie>
+  <4EC04F07.8010009@debian.org>	Sun, 13 Nov 2011 19:13:11 -0400
+  <4ED3D7AF.7060906@debian.org>	Mon, 28 Nov 2011 14:49:19 -0400
+  info@united-drug.com
+  <4EEFB3CB.70001@debian.org>	Mon, 19 Dec 2011 17:59:39 -0400
+  <4F02305C.7060406@debian.org>	Mon, 02 Jan 2012 18:31:56 -0400
+nuevomundoseguros.wml
+  Ernesto Hernandez-Novich <emhn@telcel.net.ve>
+  <4EC090B2.2060100@debian.org>	Sun, 13 Nov 2011 23:53:22 -0400
+  <4ED3D7B6.9020608@debian.org>	Mon, 28 Nov 2011 14:49:26 -0400
+    <1322513318.21238.213.camel@deepthought.ius.cc> Mon, 28 Nov 2011 16:18:38 -0430 → No clue 
+  dominios@nuevomundo.com.ve
+  <4ED3FE2E.7070409@debian.org>	Mon, 28 Nov 2011 17:33:34 -0400
+  <4EEFB995.50802@debian.org>	Mon, 19 Dec 2011 18:24:21 -0400
+  webmaster@nuevomundo.com.ve [ User unknown ]
+  José Miguel Parrella Romero <joseparrella@cantv.net>
+  <4F027C97.4000508@debian.org>	Mon, 02 Jan 2012 23:57:11 -0400
+    <CA+AEj1aKRq+uSvC0qAi1WhuHhdqsE-zgX_Ctcp58AuWKbGWqrQ@mail.gmail.com> Mon, 2 Jan 2012 23:16:32 -0500 → loop back to start
+seznam_cz.wml
+  Jindra Fucik <Jindrich.Fucik@firma.seznam.cz> [ User unknown ]
+  <4EC09275.3020301@debian.org>	Mon, 14 Nov 2011 00:00:53 -0400
+  domeny@firma.seznam.cz
+  <4EC17C54.4010401@debian.org>	Mon, 14 Nov 2011 16:38:44 -0400
+  <4ED3D7BF.8000901@debian.org>	Mon, 28 Nov 2011 14:49:35 -0400
+  reklama@firma.seznam.cz
+  <4EEFBDFC.1080108@debian.org>	Mon, 19 Dec 2011 18:43:08 -0400
+  <4F023070.8020403@debian.org>	Mon, 02 Jan 2012 18:32:16 -0400
+dreamhost.wml
+  DreamHost Customer Support Team <support@dreamhost.com>
+  <4EC092CC.8080806@debian.org>	Mon, 14 Nov 2011 00:02:20 -0400
+  <4ED3D7C2.1080207@debian.org>	Mon, 28 Nov 2011 14:49:38 -0400
+  webform: http://dreamhost.com/contact/
+  Mon, 19 Dec 2011 19:07 -0400
+  Kyle Bader <kyle.bader@dreamhost.com>,
+  Sandon Van Ness <sandon@van-ness.com>
+  <4F0279D3.40607@debian.org>	Mon, 02 Jan 2012 23:45:23 -0400
+  <4F80BA98.7030902@debian.org>	Sat, 07 Apr 2012 18:07:20 -0400
+iskoninternet.wml
+  Igor Briski <igor.briski@iskon.hr>
+  <4EC09318.4040304@debian.org>	Mon, 14 Nov 2011 00:03:36 -0400
+  <4ED3D7C5.9050103@debian.org>	Mon, 28 Nov 2011 14:49:41 -0400
+  pomoc@iskon.hr, info@iskon.hr
+  <4EEFDF55.9090903@debian.org>	Mon, 19 Dec 2011 21:05:25 -0400
+  <4F023084.8030309@debian.org>	Mon, 02 Jan 2012 18:32:36 -0400
+deqx.wml
+  Brett George <bgeorge@deqx.com> [ User unknown ]
+  <4EC09370.5000806@debian.org>	Mon, 14 Nov 2011 00:05:04 -0400
+  sales@deqx.com
+  <4EC17D28.6020002@debian.org>	Mon, 14 Nov 2011 16:42:16 -0400
+  <4ED3D7CD.5080000@debian.org>	Mon, 28 Nov 2011 14:49:49 -0400
+  Brett George <bg@apple.com>
+  <4EEFE278.803@debian.org>	Mon, 19 Dec 2011 21:18:48 -0400
+  <4F02308A.2070805@debian.org>	Mon, 02 Jan 2012 18:32:42 -0400
+heureka.wml
+  David Schmitt <david@heureka.co.at>
+  <4EC09550.9020509@debian.org>	Mon, 14 Nov 2011 00:13:04 -0400
+  <4ED3D7D2.6080106@debian.org>	Mon, 28 Nov 2011 14:49:54 -0400
+  wien@heureka.co.at
+  <4EEFF0EE.6000505@debian.org>	Mon, 19 Dec 2011 22:20:30 -0400
+  <4F023092.8030701@debian.org>	Mon, 02 Jan 2012 18:32:50 -0400
+cybercartes.wml
+  Thomas Martin <thomas@cybercartes.net>
+  <4EC095FF.5010403@debian.org>	Mon, 14 Nov 2011 00:15:59 -0400
+  <4ED3D7D6.6020706@debian.org>	Mon, 28 Nov 2011 14:49:58 -0400
+  support@cybercartes.com, presse@cybercartes.com
+  <4EEFF678.5070201@debian.org>	Mon, 19 Dec 2011 22:44:08 -0400
+  <4F0230AE.2010307@debian.org>	Mon, 02 Jan 2012 18:33:18 -0400
+directron.wml
+  Jacob Herpin <skumby@flame.org> [ permanent error ]
+  <4EC09648.9060308@debian.org>	Mon, 14 Nov 2011 00:17:12 -0400
+  tech@directron.us
+  <4ECA70BC.4000700@debian.org>	Mon, 21 Nov 2011 11:39:40 -0400
+  <4EEFFB75.4030408@debian.org>	Mon, 19 Dec 2011 23:05:25 -0400
+  techsupport@directron.us, General_sales@directron.us,
+  Customer_service@directron.us
+  <4F0270DB.6090101@debian.org>	Mon, 02 Jan 2012 23:07:07 -0400
+  <4F80BA9D.2050806@debian.org>	Sat, 07 Apr 2012 18:07:25 -0400
+epigenomics.wml
+  Robert Sander <robert.sander@epigenomics.com>
+  <4EC096F8.8080206@debian.org>	Mon, 14 Nov 2011 00:20:08 -0400
+  <4ED3D7DA.1040406@debian.org>	Mon, 28 Nov 2011 14:50:02 -0400
+  contact@epigenomics.com
+  <4EEFFBEB.3070009@debian.org>	Mon, 19 Dec 2011 23:07:23 -0400
+  <4F0230D0.5010202@debian.org>	Mon, 02 Jan 2012 18:33:52 -0400
+thawte_com.wml
+  Morgan Collett <morganc@thawte.com> [ Invalid recipient ]
+  <4EC0978B.6060601@debian.org>	Mon, 14 Nov 2011 00:22:35 -0400
+  webform: http://www.thawte.com/about/contact/forms/contact-pr.html
+  support@thawte.com
+  <4ED3D74A.2030504@debian.org>	Mon, 28 Nov 2011 14:47:38 -0400
+  <4EEFFC86.7020100@debian.org>	Mon, 19 Dec 2011 23:09:58 -0400
+  channel-partners@verisign.com
+  <4F026E17.2020804@debian.org>	Mon, 02 Jan 2012 22:55:19 -0400
+  <4F4D9C67.1020307@debian.org>	Tue, 28 Feb 2012 23:32:55 -0400
+diversicom.wml
+  Jon Ortiz <Jon@diversicomcorp.com> [ User unknown ]
+  techadmin@diversicomcorp.com
+  <4F62A577.4040406@debian.org>	Thu, 15 Mar 2012 22:29:11 -0400
+  <4F74CC90.8060202@debian.org>	Thu, 29 Mar 2012 16:56:48 -0400
+  Scott Beene <scott@diversicomcorp.com>
+  <4F89A6C7.1010204@debian.org>	Sat, 14 Apr 2012 12:33:11 -0400
+teammania.wml
+  Rob Stoecklein <Rob@TeamMania.net>
+  <4F4DA034.7020108@debian.org>	Tue, 28 Feb 2012 23:49:08 -0400
+  <4F62A34E.9060002@debian.org>	Thu, 15 Mar 2012 22:19:53 -0400
+  info@TeamMania.net
+  <4F74CD21.7040908@debian.org>	Thu, 29 Mar 2012 16:59:13 -0400
+  <4F898E17.2050102@debian.org> Sat, 14 Apr 2012 10:47:51 -0400
+granada-in.wml
+  sultans@freemail.hu [ address rejected ]
+  gra.administracion@hammamalandalus.com
+  <4F62A773.4000601@debian.org>	Thu, 15 Mar 2012 22:37:39 -0400
+  <4F74CD56.50402@debian.org>	Thu, 29 Mar 2012 17:00:06 -0400
+  granadacomercial@hammamalandalus.com
+  <4F898F9E.4090005@debian.org>	Sat, 14 Apr 2012 10:54:22 -0400
+caminosca.wml
+  Daniel <daniel.ovalle@caminosca.com> [ User unknown ]
+  caminosca@caminosca-sa.com
+  <4F62A7F0.4000605@debian.org>	Thu, 15 Mar 2012 22:39:44 -0400
+  <4F74CE0C.2090802@debian.org>	Thu, 29 Mar 2012 17:03:08 -0400
+  webform: http://www.caminosca.com/index.php?option=com_contact&view=contact&id=1
+  <5b4272021f74391e969158186de06f0b@www.caminosca.com> Sat, 14 Apr 2012 07:56:26 -0700 (PDT)
+novaoffice.wml
+  ketil vestby <ketil@novaoffice.no> [ Dead domain for five years ]
+  Richard Nilsen <RNI@teamnett.no> [ User unknown ]
+  Ingvar Øijordsbakken <IOE@teamnett.no>
+  <4F6F326D.7050809@debian.org>	Sun, 25 Mar 2012 10:57:49 -0400
+  <4F834EB5.1070105@debian.org>	Mon, 09 Apr 2012 17:03:49 -0400
+bb-hosting.wml
+  BB-Hosting - info <info@bb-hosting.org>
+  <4F6F2262.1050003@debian.org>	Sun, 25 Mar 2012 09:49:22 -0400
+  <4F834EB9.3070701@debian.org>	Mon, 09 Apr 2012 17:03:53 -0400
+qualitybenefits.wml
+  Sujay D'Souza <sad@acm.org>
+  <4F6F22B2.3020503@debian.org>	Sun, 25 Mar 2012 09:50:42 -0400
+  <4F834EBC.7000001@debian.org>	Mon, 09 Apr 2012 17:03:56 -0400
+geodatadk.wml
+  Brian Simonsen <brian@evigmail.dk>
+  <4F6F2317.3070003@debian.org>	Sun, 25 Mar 2012 09:52:23 -0400
+  <4F834EC0.60604@debian.org>	Mon, 09 Apr 2012 17:04:00 -0400
+santiagoengenharia.wml
+  Lorscheider Santiago <lorscheider@santiagoengenharia.com.br> [ Unrouteable address ]
+  contatos@santiagoengenharia.com.br
+  <4F6F3366.3040402@debian.org>	Sun, 25 Mar 2012 11:01:58 -0400
+  <4F834EC5.4000601@debian.org>	Mon, 09 Apr 2012 17:04:05 -0400
+ecomputecorp.wml
+  info@ecompute.co.jp
+  <4F6F2507.8070000@debian.org>	Sun, 25 Mar 2012 10:00:39 -0400
+  <4F834EC9.8020001@debian.org>	Mon, 09 Apr 2012 17:04:09 -0400
+teracorp.wml
+  Abe Arif. <obenk@terakorp.com>
+  <4F6F2557.80204@debian.org>	Sun, 25 Mar 2012 10:01:59 -0400
+  <4F834ECC.5090808@debian.org>	Mon, 09 Apr 2012 17:04:12 -0400
+telsystem.wml
+  Marcos Borges <suporte@telsystem.com.br>
+  <4F6F2B66.8010301@debian.org>	Sun, 25 Mar 2012 10:27:50 -0400
+  <4F834ED0.1080200@debian.org>	Mon, 09 Apr 2012 17:04:16 -0400
+silverstorm.wml
+  chris barry <cbarry@silverstorm.com> [ timeout ]
+  tim.lustig@qlogic.co [ medical leave ]
+  Chris Humphrey <chris.humphrey@qlogic.com>
+  <4F74C3E6.9040700@debian.org>	Thu, 29 Mar 2012 16:19:50 -0400
+  <4F834ED4.6070009@debian.org>	Mon, 09 Apr 2012 17:04:20 -0400
+inap.wml
+  Johan Palmqvist <johan.palmqvist@inap.se>
+  <4F6F2666.8010303@debian.org>	Sun, 25 Mar 2012 10:06:30 -0400
+  <4F834EDC.2070401@debian.org>	Mon, 09 Apr 2012 17:04:28 -0400
+boeingtestdatasystems.wml
+  Michael S Denney <Michael.S.Denney@boeing.com> [ User unknown ]
+  ddcs@boeing.com
+  <4F6F59F7.6010508@debian.org>	Sun, 25 Mar 2012 13:46:31 -0400
+  <4F834EDF.1030206@debian.org>	Mon, 09 Apr 2012 17:04:31 -0400
+davidandjoe.wml
+  Joseph Hill <joe@davidandjoe.com>
+  <4F6F29F6.9020209@debian.org>	Sun, 25 Mar 2012 10:21:42 -0400
+  <4F834EE2.9040108@debian.org>	Mon, 09 Apr 2012 17:04:34 -0400
+lindenlab.wml
+  presscontact@lindenlab.com
+  <4F6F2A86.4020002@debian.org>	Sun, 25 Mar 2012 10:24:06 -0400
+  <4F834EE7.1020002@debian.org>	Mon, 09 Apr 2012 17:04:39 -0400

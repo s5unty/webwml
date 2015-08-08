@@ -1,0 +1,431 @@
+#use wml::debian::common_tags
+
+# <country-name XX> should now be used instead of <XXc>
+
+<:
+my %countries,%countries_in_english;
+
+my $arg = '';
+$arg = "-l $CUR_ISO_LANG" if $CUR_ISO_LANG ne 'en';
+
+foreach (`isoquery -c $arg 2>/dev/null`) {
+        chomp ;
+        my $code = substr($_,0,2);
+        $_ =~ s/.*\t//;
+        $countries{$code} = $_;
+}
+
+foreach (`isoquery -c`) {
+        chomp ;
+        my $code = substr($_,0,2);
+        $_ =~ s/.*\t//;
+        $countries_in_english{$code} = $_;
+}
+
+sub country_name {
+        my $code=shift;
+	if ($code eq 'WW') {
+		return '<WWc>';
+	} else {
+		return $countries{uc $code};
+	}
+}
+
+use Unicode::Normalize;
+sub country_list {
+    my $ccodepos = shift;
+    $ccodepos = 'ccafter' unless (defined($ccodepos));
+    if ($ccodepos eq 'ccafter' or $ccodepos eq 'ccbefore') {
+	foreach $c (sort { Unicode::Normalize::NFKD($countries{$a}) cmp Unicode::Normalize::NFKD($countries{$b}) } keys %countries) {
+	   my $localname = $countries{$c};
+	   my $label;
+	   if ($ccodepos eq 'ccafter') {
+		$label = "$localname [$c]";
+	   } elsif ($ccodepos eq 'ccbefore') {
+		$label = "[$c] $localname";
+	   }
+	   print "<option value=\"$c $countries_in_english{$c}\">$label</option>\n";
+	}
+     } else {
+	my @list = split ' ', $ccodepos;
+	my $type = shift @list;
+	my ($list,$pre,$post) = ('','','');
+
+	my %count;
+	if ($type eq 'consultants' or $type eq 'vendors') {
+		my @temp;
+		foreach (@list) {
+			my $code = substr($_,0,2);
+			push @temp,$code;
+			$_ =~ s/\w*-//;
+			$count{$code} = $_;
+		}
+		@list = @temp;
+	}
+
+	($pre,$post) = ('<li><a href="#',")</li>\n") if $type eq 'consultants';
+	($pre,$post) = ('<a href="#',")&nbsp;&nbsp;\n") if $type eq 'vendors';
+	foreach (sort { Unicode::Normalize::NFKD($countries{uc $a}) cmp Unicode::Normalize::NFKD($countries{uc $b}) } @list) {
+		$list .= $pre;
+		$list .= $_.'">' if $type eq 'consultants' or $type eq 'vendors';
+		$list .= $countries{uc $_};
+		$list .= '</a>&nbsp;('.$count{$_} if $type eq 'consultants' or $type eq 'vendors';
+		$list .= $post;
+	}
+	return $list;
+     }
+}
+:>
+
+<define-tag country-name whitespace=delete>
+<:=country_name('%0'):>
+</define-tag>
+
+<define-tag country-list whitespace=delete>
+<:=country_list('%attributes'):>
+</define-tag>
+
+<bind-gettext-domain domain="countries" />
+
+#   The define-country tag defines 2 different thing;
+#     * A <XXc> tag for pass 2 (mp4h)
+#     * A hash variable %countries{code}{lang} for pass 3 (eperl)
+<define-tag define-country endtag=required whitespace=delete>
+<preserve code />
+<set-var %attributes />
+<define-tag <get-var code />c whitespace=delete>
+%body
+</define-tag>
+<:
+  $_ = <<'EOT';
+%body
+EOT
+  s/^\s+//s;
+  s/\s+$//s;
+  $countries{<get-var code />}{<upcase $(CUR_ISO_LANG) />} = $_;
+:>
+<restore code />
+</define-tag>
+
+<define-country code="AE">
+    <gettext domain="countries">United Arab Emirates</gettext>
+</define-country>
+<define-country code="AL">
+    <gettext domain="countries">Albania</gettext>
+</define-country>
+<define-country code="AM">
+    <gettext domain="countries">Armenia</gettext>
+</define-country>
+<define-country code="AR">
+    <gettext domain="countries">Argentina</gettext>
+</define-country>
+<define-country code="AT">
+    <gettext domain="countries">Austria</gettext>
+</define-country>
+<define-country code="AU">
+    <gettext domain="countries">Australia</gettext>
+</define-country>
+<define-country code="BA">
+    <gettext domain="countries">Bosnia and Herzegovina</gettext>
+</define-country>
+<define-country code="BD">
+    <gettext domain="countries">Bangladesh</gettext>
+</define-country>
+<define-country code="BE">
+    <gettext domain="countries">Belgium</gettext>
+</define-country>
+<define-country code="BG">
+    <gettext domain="countries">Bulgaria</gettext>
+</define-country>
+<define-country code="BR">
+    <gettext domain="countries">Brazil</gettext>
+</define-country>
+<define-country code="BS">
+    <gettext domain="countries">Bahamas</gettext>
+</define-country>
+<define-country code="BY">
+    <gettext domain="countries">Belarus</gettext>
+</define-country>
+<define-country code="CA">
+    <gettext domain="countries">Canada</gettext>
+</define-country>
+<define-country code="CH">
+    <gettext domain="countries">Switzerland</gettext>
+</define-country>
+<define-country code="CL">
+    <gettext domain="countries">Chile</gettext>
+</define-country>
+<define-country code="CN">
+    <gettext domain="countries">China</gettext>
+</define-country>
+<define-country code="CO">
+    <gettext domain="countries">Colombia</gettext>
+</define-country>
+<define-country code="CR">
+    <gettext domain="countries">Costa Rica</gettext>
+</define-country>
+<define-country code="CZ">
+    <gettext domain="countries">Czech Republic</gettext>
+</define-country>
+<define-country code="DE">
+    <gettext domain="countries">Germany</gettext>
+</define-country>
+<define-country code="DK">
+    <gettext domain="countries">Denmark</gettext>
+</define-country>
+<define-country code="DO">
+    <gettext domain="countries">Dominican Republic</gettext>
+</define-country>
+<define-country code="DZ">
+    <gettext domain="countries">Algeria</gettext>
+</define-country>
+<define-country code="EC">
+    <gettext domain="countries">Ecuador</gettext>
+</define-country>
+<define-country code="EE">
+    <gettext domain="countries">Estonia</gettext>
+</define-country>
+<define-country code="EG">
+    <gettext domain="countries">Egypt</gettext>
+</define-country>
+<define-country code="ES">
+    <gettext domain="countries">Spain</gettext>
+</define-country>
+<define-country code="ET">
+    <gettext domain="countries">Ethiopia</gettext>
+</define-country>
+<define-country code="FI">
+    <gettext domain="countries">Finland</gettext>
+</define-country>
+<define-country code="FO">
+    <gettext domain="countries">Faroe Islands</gettext>
+</define-country>
+<define-country code="FR">
+    <gettext domain="countries">France</gettext>
+</define-country>
+<define-country code="GB">
+    <gettext domain="countries">United Kingdom</gettext>
+</define-country>
+<define-country code="GD">
+    <gettext domain="countries">Grenada</gettext>
+</define-country>
+<define-country code="GE">
+    <gettext domain="countries">Georgia</gettext>
+</define-country>
+<define-country code="GL">
+    <gettext domain="countries">Greenland</gettext>
+</define-country>
+<define-country code="GR">
+    <gettext domain="countries">Greece</gettext>
+</define-country>
+<define-country code="GT">
+    <gettext domain="countries">Guatemala</gettext>
+</define-country>
+<define-country code="HK">
+    <gettext domain="countries">Hong Kong</gettext>
+</define-country>
+<define-country code="HN">
+    <gettext domain="countries">Honduras</gettext>
+</define-country>
+<define-country code="HR">
+    <gettext domain="countries">Croatia</gettext>
+</define-country>
+<define-country code="HU">
+    <gettext domain="countries">Hungary</gettext>
+</define-country>
+<define-country code="ID">
+    <gettext domain="countries">Indonesia</gettext>
+</define-country>
+<define-country code="IR">
+    <gettext domain="countries">Iran</gettext>
+</define-country>
+<define-country code="IE">
+    <gettext domain="countries">Ireland</gettext>
+</define-country>
+<define-country code="IL">
+    <gettext domain="countries">Israel</gettext>
+</define-country>
+<define-country code="IN">
+    <gettext domain="countries">India</gettext>
+</define-country>
+<define-country code="IS">
+    <gettext domain="countries">Iceland</gettext>
+</define-country>
+<define-country code="IT">
+    <gettext domain="countries">Italy</gettext>
+</define-country>
+<define-country code="JO">
+    <gettext domain="countries">Jordan</gettext>
+</define-country>
+<define-country code="JP">
+    <gettext domain="countries">Japan</gettext>
+</define-country>
+<define-country code="KE">
+    <gettext domain="countries">Kenya</gettext>
+</define-country>
+<define-country code="KR">
+    <gettext domain="countries">Korea</gettext>
+</define-country>
+<define-country code="KW">
+    <gettext domain="countries">Kuwait</gettext>
+</define-country>
+<define-country code="KZ">
+    <gettext domain="countries">Kazakhstan</gettext>
+</define-country>
+<define-country code="LK">
+    <gettext domain="countries">Sri Lanka</gettext>
+</define-country>
+<define-country code="LT">
+    <gettext domain="countries">Lithuania</gettext>
+</define-country>
+<define-country code="LU">
+    <gettext domain="countries">Luxembourg</gettext>
+</define-country>
+<define-country code="LV">
+    <gettext domain="countries">Latvia</gettext>
+</define-country>
+<define-country code="MA">
+    <gettext domain="countries">Morocco</gettext>
+</define-country>
+<define-country code="MD">
+    <gettext domain="countries">Moldova</gettext>
+</define-country>
+<define-country code="ME">
+    <gettext domain="countries">Montenegro</gettext>
+</define-country>
+<define-country code="MG">
+    <gettext domain="countries">Madagascar</gettext>
+</define-country>
+<define-country code="MK">
+    <gettext domain="countries">Macedonia, Republic of</gettext>
+</define-country>
+<define-country code="MN">
+    <gettext domain="countries">Mongolia</gettext>
+</define-country>
+<define-country code="MT">
+    <gettext domain="countries">Malta</gettext>
+</define-country>
+<define-country code="MX">
+    <gettext domain="countries">Mexico</gettext>
+</define-country>
+<define-country code="MY">
+    <gettext domain="countries">Malaysia</gettext>
+</define-country>
+<define-country code="NC">
+    <gettext domain="countries">New Caledonia</gettext>
+</define-country>
+<define-country code="NI">
+    <gettext domain="countries">Nicaragua</gettext>
+</define-country>
+<define-country code="NL">
+    <gettext domain="countries">Netherlands</gettext>
+</define-country>
+<define-country code="NO">
+    <gettext domain="countries">Norway</gettext>
+</define-country>
+<define-country code="NZ">
+    <gettext domain="countries">New Zealand</gettext>
+</define-country>
+<define-country code="PA">
+    <gettext domain="countries">Panama</gettext>
+</define-country>
+<define-country code="PE">
+    <gettext domain="countries">Peru</gettext>
+</define-country>
+<define-country code="PF">
+    <gettext domain="countries">French Polynesia</gettext>
+</define-country>
+<define-country code="PH">
+    <gettext domain="countries">Philippines</gettext>
+</define-country>
+<define-country code="PK">
+    <gettext domain="countries">Pakistan</gettext>
+</define-country>
+<define-country code="PL">
+    <gettext domain="countries">Poland</gettext>
+</define-country>
+<define-country code="PT">
+    <gettext domain="countries">Portugal</gettext>
+</define-country>
+<define-country code="RO">
+    <gettext domain="countries">Romania</gettext>
+</define-country>
+<define-country code="RS">
+    <gettext domain="countries">Serbia</gettext>
+</define-country>
+<define-country code="RU">
+    <gettext domain="countries">Russia</gettext>
+</define-country>
+<define-country code="SA">
+    <gettext domain="countries">Saudi Arabia</gettext>
+</define-country>
+<define-country code="SE">
+    <gettext domain="countries">Sweden</gettext>
+</define-country>
+<define-country code="SG">
+    <gettext domain="countries">Singapore</gettext>
+</define-country>
+<define-country code="SI">
+    <gettext domain="countries">Slovenia</gettext>
+</define-country>
+<define-country code="SK">
+    <gettext domain="countries">Slovakia</gettext>
+</define-country>
+<define-country code="SV">
+    <gettext domain="countries">El Salvador</gettext>
+</define-country>
+<define-country code="TH">
+    <gettext domain="countries">Thailand</gettext>
+</define-country>
+<define-country code="TJ">
+    <gettext domain="countries">Tajikistan</gettext>
+</define-country>
+<define-country code="TN">
+    <gettext domain="countries">Tunisia</gettext>
+</define-country>
+<define-country code="TR">
+    <gettext domain="countries">Turkey</gettext>
+</define-country>
+<define-country code="TW">
+    <gettext domain="countries">Taiwan</gettext>
+</define-country>
+<define-country code="UA">
+    <gettext domain="countries">Ukraine</gettext>
+</define-country>
+<define-country code="US">
+    <gettext domain="countries">United States</gettext>
+</define-country>
+<define-country code="UY">
+    <gettext domain="countries">Uruguay</gettext>
+</define-country>
+<define-country code="UZ">
+    <gettext domain="countries">Uzbekistan</gettext>
+</define-country>
+<define-country code="VE">
+    <gettext domain="countries">Venezuela</gettext>
+</define-country>
+<define-country code="VN">
+    <gettext domain="countries">Vietnam</gettext>
+</define-country>
+<define-country code="VU">
+    <gettext domain="countries">Vanuatu</gettext>
+</define-country>
+<define-country code="ZA">
+    <gettext domain="countries">South Africa</gettext>
+</define-country>
+<define-country code="ZW">
+    <gettext domain="countries">Zimbabwe</gettext>
+</define-country>
+
+#     These lines generate the countries.def file, only when this file
+#     is processed through
+#         sed -e /^#/d countries.wml | eperl -B '<:' -E ':>' - >/dev/null
+#     WML will skip this block
+<:
+if ('$(DUMMY_VAR_DO_NOT_REMOVE)' ne '') {
+    open(GEN, "> countries.def");
+    print GEN "#   File generated automatically.  Do not edit!\n";
+    close(GEN);
+}
+:>
+

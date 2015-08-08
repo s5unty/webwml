@@ -1,0 +1,24 @@
+# From: Fritz Ullmann <fritz.ullmann@ein-linker.de>
+
+<define-tag pagetitle>EIN LINKER, City Councillor's Office of the political party LINKES FORUM, Radevormwald, Germany</define-tag>
+<define-tag webpage>http://www.ein-linker.de/</define-tag>
+
+#use wml::debian::users
+
+<p>
+We use Debian as the desktop operation system on all but one system in our 
+office with four laptops and one workstation.
+</p>
+
+<p>
+We use GNOME-environments and Xfce, LibreOffice, Sylpheed, Icedove, Iceweasel, 
+Scribus, Inkscape, and GIMP.
+</p>
+
+<p>
+We have been successfully using Debian GNU/Linux since 2011 to our full 
+satisfaction. Our original decision to switch to Debian was based primarily 
+on: stability and security, our desire to support a genuinely independent 
+project which also reflects some of our own political ideas, and for saving 
+licensing fees.
+</p>

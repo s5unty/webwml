@@ -1,0 +1,55 @@
+#use wml::debian::template title="S/390 Port"
+#use wml::debian::toc
+
+<toc-display/>
+
+<toc-add-entry name="status">Status</toc-add-entry>
+
+<p>S/390 has been an officially  supported Debian architecture since the release
+of Debian 3.0 (woody).</p>
+
+<p>For instructions on installing Debian, see the
+<a href="$(HOME)/releases/stable/s390/">Installation Guide</a>.</p>
+
+<toc-add-entry name="team">S/390 porting team</toc-add-entry>
+
+<p>
+The following people contributed to the Debian port to s390:
+</p>
+
+<ul>
+  <li>Aurélien Jarno</li>
+  <li>Bastian Blank</li>
+  <li>Chu-yeon Park and Jae-hwa Park</li>
+  <li>Frank Kirschner</li>
+  <li>Frans Pop</li>
+  <li>Gerhard Tonn</li>
+  <li>Jochen Röhrig</li>
+  <li>Matt Zimmerman</li>
+  <li>Philipp Kern</li>
+  <li>Richard Higson</li>
+  <li>Stefan Gybas</li>
+</ul>
+
+<toc-add-entry name="development">Development</toc-add-entry>
+
+<p>One build server and the porterbox for the <em>s390</em> and <em>s390x</em>
+architectures are currently hosted by <a href="http://www.zivit.de/">Zentrum
+fuer Informationsverarbeitung und Informationstechnik</a>. Other build servers
+are provided by <a href="http://www.iic.kit.edu">Informatics Innovation Center,
+Karlsruhe Institute of Technology (KIT)</a> and <a
+href="http://www.marist.edu/">Marist College</a>. We thank those hosters for
+their support!</p>
+
+<p>In the past <a href="http://www.millenux.de/">Millenux</a> and the <a
+href="http://www-03.ibm.com/systems/z/os/linux/support/community.html">Linux
+Community Development System</a> hosted such build machines.</p>
+
+<toc-add-entry name="contact">Contact information</toc-add-entry>
+
+<p>If you would like to help, you should subscribe to the debian-s390
+mailing list. To do this, send a message containing the word "subscribe"
+as the subject to <email "debian-s390-request@lists.debian.org">, or use the
+<a href="https://lists.debian.org/debian-s390/">mailing list web page</a>.
+You can also browse and search the
+<a href="https://lists.debian.org/debian-s390/">mailing list archive</a>.</p>

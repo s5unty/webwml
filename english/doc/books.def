@@ -1,0 +1,58 @@
+#use wml::debian::countries
+#use wml::debian::language_names
+#use wml::debian::url
+#use wml::debian::common_tags
+
+<define-tag language endtag=required>
+<preserve name />
+<set-var %attributes />
+<h3>
+  <a name="<get-var name />">
+  <:= $trans{$CUR_ISO_LANG}{<get-var name />} :>
+  </a>
+</h3>
+%body			
+<restore name />
+</define-tag>
+
+
+
+<define-tag langindex>
+<preserve name />
+<set-var %attributes />
+  <a href="#<get-var name />">
+  <:= $trans{$CUR_ISO_LANG}{<get-var name />} :></a>			
+<restore name />
+</define-tag>
+
+
+<define-tag title>\
+	<p><span class="ddpbooktitle"><strong>\
+	%attributes\
+	</strong></span><br />
+</define-tag>
+
+<bind-gettext-domain domain="doc" />
+
+<define-tag author>
+  <strong><gettext domain="doc">Author:</gettext></strong> %attributes<br />
+</define-tag>
+<define-tag email>
+  <strong><gettext domain="doc">email:</gettext></strong> 
+  <a href="mailto:%attributes">%attributes</a><br />
+</define-tag>
+<define-tag available>
+  <strong><gettext domain="doc">Available at:</gettext></strong> %attributes<br />
+</define-tag>
+<define-tag cd-included>
+  <strong><gettext domain="doc">CD Included:</gettext></strong> %attributes<br />
+</define-tag>
+<define-tag publisher>
+  <strong><gettext domain="doc">Publisher:</gettext></strong> %attributes<br />
+</define-tag>
+
+<define-tag description>
+%attributes<br />
+</define-tag>
+# this is probably the most stupid custom tag ever
+<define-tag bookentry endtag=required>%body</p><hr /></define-tag>

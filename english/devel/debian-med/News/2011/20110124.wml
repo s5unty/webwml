@@ -1,0 +1,19 @@
+<define-tag pagetitle>Debian Med organises workshop on Bioinformatics</define-tag>
+<define-tag release_date>2011-01-24</define-tag>
+#use wml::debian::news
+# $Id: 20110124.wml,v 1.6 2014/04/30 07:42:28 pabs Exp $
+
+<p>Over the last weekend of January the first <a
+href="https://wiki.debian.org/DebianMed/Meeting/Luebeck2011">Debian Sprint on
+Bioinformatics</a> is taking place in L&uuml;beck-Travenm&uuml;nde, Germany.  This brings
+a series of developers from upstream, Debian, its derivatives and their users
+(scientists) together. For two intensive days they expect to find ways for
+better avoidance of redundancies in their daily work, the packaging and further
+develop ideas to extend the outreach of the distributions into the field. The
+effort shall yield an improved transfer of skills between groups and, just as
+Debian at large, help students and hobbyists of all ages to gain insights and
+contribute to scientific developments.</p>
+
+<p><em>P.S.:</em> see the <a
+href="https://lists.debian.org/4D571650.9090004@gmx.de">report of the Sprint</a>
+in the archives of the debian-project discussion list, Sun, 13 Feb 2011.</p>

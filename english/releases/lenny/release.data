@@ -1,0 +1,155 @@
+<perl>
+
+# list of architectures
+@arches = (
+        alpha,
+        amd64,
+        arm,
+	armel,
+        hppa,
+        i386,
+        ia64,
+        mips,
+        mipsel,
+        powerpc,
+        s390,
+        sparc,
+);
+
+# list of architectures for install manual
+# (normally the same list can be used for manual and release notes,
+# but for lenny we need separate lists as the manual does not have
+# a separate version for armel)
+@archesinstall = (
+        alpha,
+        amd64,
+        arm,
+        armel,
+        hppa,
+        i386,
+        ia64,
+        mips,
+        mipsel,
+        powerpc,
+        s390,
+        sparc,
+);
+
+# list of install manual output formats
+%formats = (
+	html => "HTML",
+	pdf  => "PDF",
+	txt  => "plain text",
+);
+
+# list of languages install manual is translated to
+%langsinstall = (
+	english => "en",
+	catalan => "ca",
+	czech => "cs",
+#	danish => "da",
+	german => "de",
+	greek => "el",
+	spanish => "es",
+	finnish => "fi",
+	french => "fr",
+#	hungarian => "hu",
+	italian => "it",
+	japanese => "ja",
+	korean => "ko",
+#	dutch => "nl",
+	portuguese => "pt",
+	portuguese_br => "pt_BR",
+	russian => "ru",
+	swedish => "sv",
+	vietnamese => "vi",
+	chinese_cn => "zh_CN",
+);
+
+# list of languages release notes are translated to
+%langsrelnotes = (
+	english => "en",
+	catalan => "ca",
+	czech => "cs",
+#	danish => "da",
+	german => "de",
+	spanish => "es",
+	french => "fr",
+	italian => "it",
+	japanese => "ja",
+	lithuanian => "lt",
+	malayalam => "ml",
+	norwegian => "nb",
+#	dutch => "nl",
+	portuguese => "pt",
+	portuguese_br => "pt_BR",
+	romanian => "ro",
+	russian => "ru",
+	slovak => "sk",
+	swedish => "sv",
+	vietnamese => "vi",
+	chinese_cn => "zh_CN",
+	chinese_tw => "zh_TW",
+);
+
+</perl>
+
+### While lenny is stable, we can reuse the tags defined in
+### templates/debian/release_images.wml.
+### When the website gets prepared for the next stable release,
+### the tags should be defined here instead (see previous releases
+### for examples).
+### Note that images for the new oldstable release will be moved to
+### cdimage/archive at the time of the release!
+
+## Next line should be changed to 'wml::debian::installer' when
+## preparing for next stable release; don't forget the Makefile!
+#use wml::debian::release_images
+
+<define-tag lenny-images-url>http://cdimage.debian.org/cdimage/archive/5.0.10</define-tag>
+<define-tag lenny-cd-release-filename>5010</define-tag>
+
+
+<define-tag netinst-images>
+<images-list url="<lenny-images-url/>/@ARCH@/iso-cd/debian-<lenny-cd-release-filename/>-@ARCH@-netinst.iso" arch="<strip-arches "<lenny-images-arches />" "s390 source" />" />
+</define-tag>
+
+<define-tag businesscard-images>
+<images-list url="<lenny-images-url/>/@ARCH@/iso-cd/debian-<lenny-cd-release-filename/>-@ARCH@-businesscard.iso" arch="<strip-arches "<lenny-images-arches />" "s390 source" />" />
+</define-tag>
+
+<define-tag full-cd-images>
+<images-list url="<lenny-images-url/>/@ARCH@/iso-cd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-cd-torrent>
+<images-list url="<lenny-images-url/>/@ARCH@/bt-cd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-cd-jigdo>
+<images-list url="<lenny-images-url/>/@ARCH@/jigdo-cd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-dvd-images>
+<images-list url="<lenny-images-url/>/@ARCH@/iso-dvd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-dvd-torrent>
+<images-list url="<lenny-images-url/>/@ARCH@/bt-dvd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-dvd-jigdo>
+<images-list url="<lenny-images-url/>/@ARCH@/jigdo-dvd/" arch="<lenny-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag full-bluray-jigdo>
+<images-list url="<lenny-images-url/>/@ARCH@/jigdo-bd/" arch="i386 amd64 source" />
+</define-tag>
+
+<define-tag otherimages-url>http://ftp.debian.org/debian/dists/lenny/main/installer-@ARCH@/current/images/</define-tag>
+
+<define-tag other-images>
+<images-list url="<otherimages-url/>" arch="<strip-arches "<lenny-images-arches />" "source" />" />
+</define-tag>
+
+

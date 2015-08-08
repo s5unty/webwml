@@ -1,0 +1,36 @@
+# From: Dr.S.Mercy Shalinie <shalinie@tce.edu>
+# Ping: Tue, 10 Apr 2012 18:20:58 +0530 <5fd0740c0159512f189975f57c1101b4.squirrel@mail.tce.edu>
+
+<define-tag pagetitle>Department of Computer and Engineering, Thiagarajar College of Engineering, Madurai, India</define-tag>
+<define-tag webpage>http://www.tce.edu/</define-tag>
+
+#use wml::debian::users
+
+<p>
+We at Thiagarajar College of Engineering, Madurai, have a 32 node cluster
+for the Hadoop MapReduce Framework running on Debian. All our servers in
+Data Center including our web server, LDAP server, mail server, database
+server, firewall, proxy server and DNS servers run on Debian. Debian is so
+widely used in our college that we have a separate intranet repository
+containing disc images and packages for various versions of Debian. We are
+also actively migrating Windows and Macintosh based machines to run
+Debian. We found Debian to be much more stable and secure.
+</p>
+<p>
+Practical sessions and laboratories on C Programming, System Software
+and Network Programming are conducted with the help of Debian
+machines. Users can logon to their accounts from any machine in
+college and use samba based shares provided to them. Demo stalls on
+Debian are organized on Software Freedom day every year. This has
+encouraged students to use Debian when working on their projects.
+</p>
+<p>
+The number of client workstations that houses Debian would be around 110
+in the Central Computing Center and another 100 computers in various labs
+in Computer Science Department.
+</p>
+<p>
+Debian has enabled us to automate several System Administration tasks.
+Several cron jobs and shell scripts are currently being used. iptables
+is very useful in Network Management activities.
+</p>

@@ -1,0 +1,93 @@
+#use wml::debian::template title="Debian-Installer errata"
+#use wml::debian::recent_list
+#include "$(ENGLISHDIR)/devel/debian-installer/images.data"
+
+<h1>Errata for <humanversion /></h1>
+
+<p>
+This is a list of known problems in the <humanversion /> release of the Debian
+Installer. If you do not see your problem listed here, please send us an
+<a href="$(HOME)/releases/stable/amd64/ch05s04.html#submit-bug">installation
+report</a> describing the problem.
+</p>
+
+<dl class="gloss">
+
+     <dt>Desktop installations may not work using CD#1 alone</dt>
+
+     <dd>Due to space constraints on the first CD, not all of the
+     expected GNOME desktop packages fit on CD#1. For a successful
+     installation, use extra package sources (e.g. a second CD or a
+     network mirror) or use a DVD instead. <br /> <b>Status:</b> It is
+     unlikely more efforts can be made to fit more packages on
+     CD#1. </dd>
+
+     <dt>Theme used in the installer</dt>
+
+     <dd>There's no Stretch artwork yet, and the installer is still
+       using the Jessie theme, which might be confusing (<a href="https://bugs.debian.org/793125">#793125</a>).</dd>
+
+     <dt>Boot menus in multi-arch image</dt>
+
+     <dd>The boot menus of the multi-arch image suffer from some
+       regression: <q>Rescue</q> menus are missing for the 32-bit
+       flavours (<a href="https://bugs.debian.org/793118">#793118</a>).</dd>
+
+<!-- things should be better starting with Jessie Beta 2...
+	<dt>GNU/kFreeBSD support</dt>
+
+	<dd>GNU/kFreeBSD installation images suffer from various
+	important bugs
+	(<a href="https://bugs.debian.org/757985"><a href="https://bugs.debian.org/757985">#757985</a></a>,
+	<a href="https://bugs.debian.org/757986"><a href="https://bugs.debian.org/757986">#757986</a></a>,
+	<a href="https://bugs.debian.org/757987"><a href="https://bugs.debian.org/757987">#757987</a></a>,
+	<a href="https://bugs.debian.org/757988"><a href="https://bugs.debian.org/757988">#757988</a></a>). Porters
+	could surely use some helping hands to bring the installer back
+	into shape!</dd>
+-->
+
+<!-- kind of obsoleted by the first "important change" mentioned in the 20140813 announce...
+	<dt>Accessibility of the installed system</dt>
+	<dd>Even if accessibility technologies are used during the
+	installation process, they might not be automatically enabled
+	within the installed system.
+	</dd>
+-->
+
+<!-- leaving this in for possible future use...
+	<dt>Desktop installations on i386 do not work using CD#1 alone</dt>
+	<dd>Due to space constraints on the first CD, not all of the expected GNOME desktop
+	packages fit on CD#1. For a successful installation, use extra package sources (e.g.
+	a second CD or a network mirror) or use a DVD instead.
+	<br />
+	<b>Status:</b> It is unlikely more efforts can be made to fit more packages on CD#1.
+	</dd>
+-->
+
+<!-- ditto...
+	<dt>Potential issues with UEFI booting on amd64</dt>
+	<dd>There have been some reports of issues booting the Debian Installer in UEFI mode
+	on amd64 systems. Some systems apparently do not boot reliably using <code>grub-efi</code>, and some
+	others show graphics corruption problems when displaying the initial installation splash
+	screen.
+	<br />
+	If you encounter either of these issues, please file a bug report and give as much detail
+	as possible, both about the symptoms and your hardware - this should assist the team to fix
+	these bugs. As a workaround for now, try switching off UEFI and installing using <q>Legacy
+	BIOS</q> or <q>Fallback mode</q> instead.
+	<br />
+	<b>Status:</b> More bug fixes might appear in the various Wheezy point releases.
+	</dd>
+-->
+
+<!-- ditto...
+	<dt>i386: more than 32 mb of memory is needed to install</dt>
+	<dd>
+	The minimum amount of memory needed to successfully install on i386
+	is 48 mb, instead of the previous 32 mb. We hope to reduce the
+	requirements back to 32 mb later. Memory requirements may have
+	also changed for other architectures.
+	</dd>
+-->
+
+</dl>

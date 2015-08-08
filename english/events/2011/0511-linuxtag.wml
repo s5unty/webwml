@@ -1,0 +1,48 @@
+<define-tag abbr>LT2k11</define-tag>
+<define-tag year>2011</define-tag>
+<define-tag pagetitle>LinuxTag</define-tag>
+<define-tag where>Berlin, Germany</define-tag>
+<define-tag startdate>2011-05-11</define-tag>
+<define-tag enddate>2011-05-14</define-tag>
+<define-tag infolink>http://www.linuxtag.org/2011</define-tag>
+<define-tag coord><a href="mailto:lt2011@kalbow.com">Annette Kalbow</a></define-tag>
+
+<define-tag intro>
+
+<p>LinuxTag is the most important place for Linux and open source software in
+Europe. The 17th LinuxTag presents all the latest for professional users,
+decision makers, developers, beginners and the Linux community. LinuxTag is
+organized by the LinuxTag Association in partnership with Messe Berlin GmbH. </p>
+
+</define-tag>
+
+<define-tag involve>
+
+<p>The Debian project will maintain a booth where Debian's capabilities will
+be displayed, questions can be answered and various Debian-branded items
+(T-shirts, umbrellas, stickers) will be on sale.</p>
+<p>Our booth will be at Hall 7.2b stand 118c.</p>
+
+<p>Some Debian Developers will give talks about specific aspects of the
+project:</p>
+<ul>
+<li>on Thursday 12th at 12:00 Stefano Zacchiroli will give a talk (in English) titled <a
+href="http://www.linuxtag.org/2011/de/program/freies-vortragsprogramm/rednerliste/vortragsdetails.html?talkid=245">Debian,
+18 years and counting</a></li>
+<li>on Friday 13th at 11:00 Moritz M&uuml;hlenhoff will give a presentation
+(in German) titled <a
+href="http://www.linuxtag.org/2011/en/program/free-conference/all-speakers/details.html?talkid=683">The
+Debian Security Tracker</a></li>
+<li>on Saturday 14th at 12:00 Alexander Reichle-Schmehl will give a
+presentation (in German) of the new stable release <q>Squeeze</q>, titled <a
+href="http://www.linuxtag.org/2011/en/program/free-conference/all-events/details.html?talkid=425"><q>Squeeze
+me!</q> &mdash; News in Debian 6.0</a></li>
+</ul>
+</define-tag>
+
+#use wml::debian::past_event
+#Related Links here (free form)
+<ul>
+ <li><a href="https://wiki.debian.org/DebianEventsDe/2011/LinuxTag">coordination wiki
+ page</a></li>
+</ul>

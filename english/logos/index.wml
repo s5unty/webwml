@@ -1,0 +1,125 @@
+#use wml::debian::template title="Debian logos" BARETITLE=true
+#include "$(ENGLISHDIR)/logos/index.data"
+
+<p>Debian has two logos. The <a href="#open-use">official logo</a> (also known
+  as <q>open use logo</q>) contains the well-known Debian <q>swirl</q> and best
+  represents the visual identity of the Debian Project. A separate, <a
+  href="#restricted-use">restricted-use logo</a>, also exists for use by the
+  Debian Project and its members only. To refer to Debian, please prefer the
+  open use logo.</p>
+
+<hr>
+
+<table cellspacing="0" cellpadding="5" width="100%">
+<colgroup span="2">
+<col width="65%" />
+<col width="35%" />
+</colgroup>
+<tr>
+<th colspan="2"><a name="open-use">Debian Open Use Logo</a></th>
+</tr>
+<tr>
+<td>
+
+<p>The Debian Open Use Logo comes in two flavors, with and without
+  &ldquo;Debian&rdquo; label.</p>
+
+<p>The Debian Open Use Logo(s) are Copyright (c) 1999
+  <a href="http://www.spi-inc.org/">Software in the Public Interest, Inc.</a>,
+  and are released under the terms of the
+  <a href="http://www.gnu.org/copyleft/lgpl.html">GNU Lesser General Public
+  License</a>, version 3 or any later version, or, at your option, of
+  the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+  Attribution-ShareAlike 3.0 Unported License</a>.</p>
+
+<p>Note: we would appreciate that you make the image a link to
+<a href="$(HOME)">https://www.debian.org/</a> if you use it on a web page.</p>
+</td>
+<td>
+<openlogotable>
+</td>
+</tr>
+</table>
+
+<hr />
+
+<table cellspacing="0" cellpadding="5" width="100%">
+<colgroup span="2">
+<col width="65%" />
+<col width="35%" />
+</colgroup>
+<tr>
+<th colspan="2"><a name="restricted-use">Debian Restricted Use Logo</a></th>
+</tr>
+<tr>
+<td>
+<h3>Debian Restricted Use Logo License</h3>
+
+<p>Copyright (c) 1999 Software in the Public Interest</p>
+<ol>
+	<li>This logo may only be used if:
+         <ul>
+	    <li>the product it is used for is made using a documented
+		procedure as published on www.debian.org (for example
+		official CD-creation), or </li>
+	    <li>official approval is given by Debian for its use in this
+                purpose </li>
+         </ul>
+	 </li>
+	<li>May be used if an official part of debian (decided using the rules
+         in I) is part of the complete product, if it is made clear that only
+         this part is officially approved </li> 
+	<li>We reserve the right to revoke a license for a product</li>
+</ol>
+
+<p>Permission has been given to use the restricted logo on clothing (shirts,
+hats, etc) as long as they are made by a Debian developer and not sold for
+profit.</p>
+</td>
+<td>
+<officiallogotable>
+</td>
+</tr>
+</table>
+
+<hr />
+
+<h2>About the Debian logos</h2>
+<p>
+The Debian logos were selected by a vote by the Debian developers in 1999.
+They were created by <a href="mailto:rsilva@debian.org">Raul Silva</a>. You 
+can find more details about the logos on the 
+<a href="https://wiki.debian.org/DebianLogo">Debian Logo Wiki Page</a>.</p>
+
+<h2>Other promotional images</h2>
+
+<p><img class="ico" src="button-1.gif" alt="[Debian GNU/Linux]" />
+This is the first button made for the Project.  The license of
+this logo is equivalent to the Open Use logo license.  The button was
+created by <a href="mailto:csmall@debian.org">Craig Small</a>.</p>
+
+<p>Here are some more buttons that have been made for Debian:</p>
+<br />
+<morebuttons>
+
+<p>You can get more nice images from sites like:</p>
+
+<table summary="Other Debian art web sites"><tr>
+<td valign="bottom" align="center">
+<a href="http://gnuart.onshore.com/">\
+<img src="gnuart.png" alt="GNU/art" />\
+</a><br />
+<a href="http://gnuart.onshore.com/">GNU/art</a>
+</td>
+</tr></table>
+
+<p><a href="tshirt-lt99.jpg">T-shirt art</a> from LinuxTag 99.</p>
+
+<p>If you'd like to help advertise Debian on the web, you can use our
+<a href="../banners/">banners</a>.</p>
+
+#
+# Logo font: Poppl Laudatio Condensed
+#
+# https://lists.debian.org/debian-www/2003/08/msg00261.html
+#

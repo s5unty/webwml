@@ -1,0 +1,303 @@
+#use wml::debian::ddp title="Debian Users' Manuals"
+#include "$(ENGLISHDIR)/doc/manuals.defs"
+#include "$(ENGLISHDIR)/doc/user-manuals.defs"
+
+<document "Debian GNU/Linux FAQ" "faq">
+
+<div class="centerblock">
+<p>
+  Users' Frequently Asked Questions.
+
+<doctable>
+  <authors "Susan G. Kleinmann, Sven Rudolph, Santiago Vila, Josip Rodin, Javier Fernández-Sanguino Peña">
+  <maintainer "Javier Fernández-Sanguino Peña">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "debian-faq"><br>
+  <inddpsvn-debian-faq>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Debian Installation Guide" "install">
+
+<div class="centerblock">
+<p>
+  Installation instructions for the Debian GNU/Linux distribution.
+  The manual describes the installation process using the Debian Installer,
+  the installation system for Debian that was first released with
+  <a href="$(HOME)/releases/sarge/">Sarge</A> (Debian GNU/Linux 3.1).<br>
+  Additional information related to the installation can be found in the 
+  <a href="https://wiki.debian.org/DebianInstaller/FAQ">Debian Installer FAQ</a>
+  and the 
+  <a href="https://wiki.debian.org/DebianInstaller">Debian Installer wiki pages</a>.
+
+<doctable>
+  <authors "Debian Installer team">
+
+  <maintainer "Debian Installer team">
+  <status>
+   The manual is not yet perfect. Active work is being done for the current
+   and future Debian releases. Help is welcome, especially with non-x86
+   installation and translations.
+   Contact 
+   <a href="mailto:debian-boot@lists.debian.org?subject=Install%20Manual">debian-boot@lists.debian.org</a>
+   for more information.
+  </status>
+  <availability>
+  <insrcpackage "installation-guide">
+  <br><br>
+  <a href="$(HOME)/releases/stable/installmanual">Published version 
+  for the stable release</a>
+  <br>
+  Available on the <a href="$(HOME)/CD/">official full CDs and DVDs</a>
+  in the <tt>/doc/manual/</tt> directory.
+  <br><br>
+  <a href="https://d-i.alioth.debian.org/manual/">Development version</a>
+# <br>
+# <a href="$(HOME)/releases/testing/installmanual">Version being prepared
+# for the next stable (in testing)</a>
+  <br>
+  <inddpsvn-installation-guide>
+  </availability>
+</doctable>
+
+<p>
+Versions of the installation guide for previous releases (and possibly the
+next release) of Debian are linked from the <a href="$(HOME)/releases/">release
+page</a> for those releases.
+
+</div>
+
+<hr />
+
+<document "Debian Release Notes" "relnotes">
+
+<div class="centerblock">
+<p>
+  This document contains information on what's new in the current Debian
+  GNU/Linux distribution and complete upgrading information for users of
+  older Debian releases.
+
+<doctable>
+  <authors "Adam Di Carlo, Bob Hilliard, Josip Rodin, Anne Bezemer, Rob Bradford, Frans Pop, Andreas Barth, Javier Fernández-Sanguino Peña, Steve Langasek">
+  <status>
+  Actively worked upon for Debian releases.
+  Contact
+  <a href="mailto:debian-doc@lists.debian.org?subject=Release%20Notes">debian-doc@lists.debian.org</a>
+  for more information.  Problems and patches should be reported as
+  <a href="https://bugs.debian.org/release-notes">bugs against the
+  release-notes pseudo-package</a>.
+  </status>
+  <availability>
+  <a href="$(HOME)/releases/stable/releasenotes">Released version</a>
+  <br>
+  Available on the <a href="$(HOME)/CD/">official full CDs and DVDs</a>
+  in the <tt>/doc/release-notes/</tt> directory.
+#  <br>
+#  Also available at <a href="$(HOME)/mirror/list">ftp.debian.org and all mirrors</a>
+#  in the <tt>/debian/doc/release-notes/</tt> directory.
+#  <br>
+#  <a href="$(HOME)/releases/testing/releasenotes">Version being prepared
+#  for the next stable (in testing)</a>
+
+  <inddpsvn-release-notes>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Debian Reference Card" "refcard">
+
+<div class="centerblock">
+<p>
+   This card provides new users of Debian GNU/Linux with the most
+   important commands in a single page to be used as a reference
+   when working with Debian GNU/Linux systems.  Basic (or better)
+   knowledge of computers, files, directories and the command line is
+   required.
+
+<doctable>
+  <authors "W. Martin Borgert">
+  <maintainer "W. Martin Borgert">
+  <status>
+  published; in active development
+  </status>
+  <availability>
+  <inpackage "debian-refcard"><br>
+  <inddpsvn-refcard>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "The Debian Administrator's Handbook" "debian-handbook">
+
+<div class="centerblock">
+<p>
+    The Debian Administrator's Handbook teaches the
+    essentials to anyone who wants to become an effective and independent Debian
+    GNU/Linux administrator.
+
+<doctable>
+  <authors "Raphaël Hertzog, Roland Mas">
+  <status>
+  Published; in active development
+  </status>
+  <availability>
+  <inpackage "debian-handbook"><br>
+  <inddpsvn-debian-handbook>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Debian Reference" "quick-reference">
+
+<div class="centerblock">
+<p>
+   This Debian GNU/Linux reference covers many aspects of system
+   administration through shell-command examples. Basic tutorials, tips, and
+   other information are provided for topics including system installation,
+   Debian package management, the Linux kernel under Debian, system tuning,
+   building a gateway, text editors, CVS, programming, and GnuPG.
+
+   <p>Previously known as "Quick Reference".
+
+<doctable>
+  <authors "Osamu Aoki (&#38738;&#26408; &#20462;)">
+  <maintainer "Osamu Aoki (&#38738;&#26408; &#20462;)">
+  <status>
+  Published; in active development
+  </status>
+  <availability>
+  <inpackage "debian-reference"><br>
+  <inddpsvn-debian-reference>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Securing Debian Manual" "securing">
+
+<div class="centerblock">
+<p>
+  This manual describes the security of the Debian GNU/Linux 
+  operating system and within the Debian project. It starts
+  with the process of securing and hardening the default Debian GNU/Linux
+  installation (both manually and automatically), covers some of the 
+  common tasks involved in setting up a secure user and network environment,
+  gives information on the security tools available, steps to take
+  before and after a compromise and also describes how security is
+  enforced in Debian by the security team. The document includes
+  a step by step hardening guide and within the appendix there
+  is detailed information on how to setup an intrusion detection
+  system and a bridge firewall with Debian GNU/Linux.
+
+<doctable>
+  <authors "Alexander Reelsen, Javier Fernández-Sanguino Peña">
+  <maintainer "Javier Fernández-Sanguino Peña">
+  <status>
+  Published; under development with few changes. Some of its content might not be fully up-to-date.
+  </status>
+  <availability>
+  <inpackage "harden-doc"><br>
+  <inddpsvn-securing-debian-howto>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "aptitude user's manual" "aptitude">
+
+<div class="centerblock">
+<p>
+    An introductory guide to the aptitude package manager with the
+    complete command reference.
+
+
+<doctable>
+  <authors "Daniel Burrows">
+  <status>
+  Published; in active development
+  </status>
+  <availability>
+  <inpackage "aptitude-doc"><br>
+  <inddpsvn-aptitude>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "APT User's Guide" "apt-guide">
+
+<div class="centerblock">
+<p>
+    This document provides an overview of how to use the APT package manager.
+
+
+<doctable>
+  <authors "Jason Gunthorpe">
+  <status>
+  Published; somewhat stale
+  </status>
+  <availability>
+  <inpackage "apt-doc"><br>
+  <inddpsvn-apt-guide>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Using APT Offline" "apt-offline">
+
+<div class="centerblock">
+<p>
+    This document describes how to use APT in a non-networked environment,
+    specifically a 'sneaker-net' approach for performing upgrades.
+
+<doctable>
+  <authors "Jason Gunthorpe">
+  <status>
+  Published; somewhat stale
+  </status>
+  <availability>
+  <inpackage "apt-doc"><br>
+  <inddpsvn-apt-offline>
+  </availability>
+</doctable>
+</div>
+
+<hr />
+
+<document "Debian Java FAQ" "java-faq">
+
+<div class="centerblock">
+<p>
+The purpose of this FAQ is to be a place to look for all kind of
+questions a developer or user might have regarding Java as far as Debian
+is concerned, it includes license issues, development packages available,
+and programs related to building a Free Software Java environment.
+
+<doctable>
+  <authors "Javier Fernández-Sanguino Peña, Torsten Werner, Niels Thykier, Sylvestre Ledru">
+  <status>
+  Published; in active development although some of its content might not be current.
+  </status>
+  <availability>
+  <inpackage "java-common"><br>
+  <inddpsvn-debian-java-faq>
+  </availability>
+</doctable>
+</div>

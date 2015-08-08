@@ -1,0 +1,192 @@
+#use wml::debian::template title="PowerPC Port" NOHEADER="yes"
+#include "$(ENGLISHDIR)/ports/powerpc/menu.inc"
+#use wml::debian::toc
+
+<toc-display/>
+
+<toc-add-entry name="about">Debian for PowerPC</toc-add-entry>
+
+<p>
+<img src="pics/ppc750.jpg" alt="PPC-750 picture" class="rightico">
+ The PowerPC is a <a href="http://en.wikipedia.org/wiki/RISC">\
+ RISC</a> microprocessor architecture 
+ developed by <a href="http://www.ibm.com/systems/power/">IBM</a>, 
+ Motorola (now <a href="http://www.freescale.com/">Freescale</a>) and <a
+ href="http://www.apple.com/">Apple</a>.  The PowerPC architecture allows both
+ 64-bit and 32-bit implementations (the 64-bit implementation includes
+ the 32-bit implementation).  The first PowerPC microprocessor was the
+ 601, a 32-bit implementation released in 1992. Several other 32-bit
+ implementations have since been released, including the 603, 604, 750
+ (G3), 7400 (G4) and the PowerQUICC embedded communications
+ processors. 64-bit implementations include the 620, POWER4, POWER5
+ and the 970 (G5).
+</p>
+
+<p> 
+ Linux for the PowerPC was first released at the 2.2.x version of
+ the kernel. A key resource for PowerPC Linux development is <a
+ href="http://penguinppc.org/">penguinppc</a>, which also includes
+ a hardware compatibility list. PowerPC support in the
+ Linux kernel is now developed as part of the `main' Linux kernel at
+ <a href="http://kernel.org">kernel.org</a>.
+</p>
+
+<p>
+ The Debian PowerPC port began in 1997 at the <a href="http://www.linux-kongress.org/">
+ German Linux Congress</a> in W&uuml;rzburg. 
+ <a href="http://www.infodrom.north.de/Infodrom/tervola.html">A
+ PowerPC machine</a> (Motorola StarMax 4000, 200 MHz 604e) was donated to
+ the Debian project. Additional information about this computer is available
+ from <a href="history">the history page</a>.
+</p> 
+
+<p>
+It first became an official <q>release architecture</q> with Debian
+GNU/Linux 2.2 (<q>potato</q>) and has retained that status ever since.
+See the <a href="$(HOME)/releases/stable/powerpc/release-notes/">\
+release note</a> and <a href="$(HOME)/releases/stable/powerpc/">\
+installation manual</a> for further information.
+</p>
+
+<toc-add-entry name="ppc64el">Debian on 64-bit Little Endian PowerPC (ppc64el)</toc-add-entry>
+<p>
+Starting on the release of Debian 8.0 (Jessie), ppc64el is an officially
+supported architecture on Debian.
+</p>
+<p>
+Here you can find information about the
+<a href="http://en.wikipedia.org/wiki/Ppc64">64-bit PowerPC</a>
+<a href="http://en.wikipedia.org/wiki/Little_endian">Little Endian</a> 
+architecture.
+</p>
+<p>
+However, note that there is also information at the 
+<a href="https://wiki.debian.org/ppc64el">ppc64el wiki</a> page, such as 
+installation and ABI information.
+</p>
+
+<toc-add-entry name="installation">Installation</toc-add-entry>
+
+<p>
+ There are a variety of systems using the PowerPC
+ microprocessor. Check our <a href="inst/install">Installation</a> pages
+ for specific information about installing Debian/PowerPC on your system.
+</p>
+
+
+<p>
+ There are some quirks you need to know about when installing on an
+ iBook, TiBook, or iBook2, especially when dual booting with Mac
+ OS X. Some iBook2 hardware, especially on recently introduced models,
+ is not well supported as yet.  For specific information on potential
+ problems and solutions, study these web pages: 
+</p>
+
+<ul>
+<li>William R. Sowerbutts' <a
+         href="http://www.sowerbutts.com/linux-mac-mini/">Installing
+         Debian GNU/Linux on the Mac Mini</a></li>
+<li>Mij's <a href="http://mij.oltrelinux.com/ibook/ppc_linux.html">\
+       Hints on installing debian on an iBook2</a></li>
+<li><a href="http://seb.france.free.fr/linux/ibookG4/iBookG4-howto.html">\
+       Installing Debian GNU/Linux on an iBook 3.3 (G4)</a> by Sébastien FRANÇOIS</li>
+<li><a href="https://lists.debian.org/debian-powerpc/2002/07/msg00858.html">\
+      Debian network installation on IBM RS/6000 44P-170 (POWER3)
+      HOWTO</a> by Rolf Brudeseth</li>
+<li> Installing Debian GNU/Linux on a p630 LPAR (7028-6C4) - <a
+     href="https://people.debian.org/~fmw/p630-LPAR-Debian-en.txt">English</a>
+     and <a
+     href="https://people.debian.org/~fmw/p630-LPAR-Debian-de.txt">German</a>
+     (Florian M. Weps)</li>
+<li>Daniel DeVoto's <a href="http://ppcluddite.blogspot.de/2012/03/installing-debian-linux-on-ppc-part-i.html">\
+Installing Debian Wheezy/testing on an iBook G3</a></li>
+</ul>
+
+<p> 
+ Debian GNU/Linux does not officially support NuBus PowerPC
+ machines, such as the 6100, 7100, 8100 and most of the Performa
+ series.  However, an MkLinux-based kernel is available, which can be
+ launched from a Mac OS boot loader. A Debian system can be installed
+ using this kernel, which is available at
+ <url "http://nubus-pmac.sourceforge.net/">.
+</p>
+ 
+<p>
+ When upgrading from Potato to Woody or upgrading really old kernels,
+ there is some <a href="keycodes">important information</a> you should
+ be aware of regarding a change in keyboard coding. This could save
+ you some time and headaches!
+</p>
+
+<toc-add-entry name="docs">Links - Documentation</toc-add-entry>
+
+<p>Up-to-date information on Linux for PowerPC is at
+<a href="http://penguinppc.org/">PenguinPPC</a>.
+We have an <a href="docu">older collection of PowerPC links</a> and
+a couple of <a href="devel">pointers</a> for Debian PowerPC developers.</p>
+
+<p>Hardware specifications for Apple computers are available at 
+<a href="http://support.apple.com/specs/">AppleSpec</a>.</p>
+<p>
+More information and documentation about the POWER architecture:
+</p>
+<ul>
+<li><a href="https://www-03.ibm.com/technologyconnect/tgcm/TGCMServlet.wss?alias=OpenPOWER">
+Official ELFv2 ABI Specification</a> (under section 'Link')
+or this
+<a href="https://www-03.ibm.com/technologyconnect/tgcm/TGCMFileServlet.wss/ABI64BitOpenPOWER_21July2014_pub.pdf?id=B81AEC1A37F5DAF185257C3E004E8845">
+PDF</a>. Registration required. </li>
+<li><a href="https://gcc.gnu.org/wiki/cauldron2014#Slides_and_Notes">GNU Tools
+Caldron 2014</a> slides &amp; video</li>
+</ul>
+
+<toc-add-entry name="availablehw">Available Hardware for Contributors</toc-add-entry>
+
+<p> Please read the <a href="https://db.debian.org/machines.cgi">list of
+Debian machines</a> to access powerpc/ppc64el Debian porterboxen.
+</p>
+
+<toc-add-entry name="contact">Contact information</toc-add-entry>
+
+<p>If you need help, try asking for help in the following places:</p>
+
+<h3>Mailing Lists</h3>
+
+<p>The Debian PowerPC mailing list is the proper place for questions,
+suggestions for improvements, or just for chat concerning PowerPC
+systems running Debian. The debian-user list is also available for
+general Debian questions which are not specific to PowerPC.</p>
+
+<p>To join the list, send e-mail to
+<a href="mailto:debian-powerpc-request@lists.debian.org">
+&lt;debian-powerpc-request@lists.debian.org&gt;</a> with the word
+"subscribe" in the Subject line.
+<a href="https://lists.debian.org/debian-powerpc/">List archives are
+available</a>.</p>
+
+<h3>Usenet Newsgroups</h3>
+
+<p>Linux for PowerPC Systems</p>
+<ul>
+  <li><a href="news:comp.os.linux.powerpc">comp.os.linux.powerpc</a></li>
+</ul>
+
+<p>Linux in general</p>
+<ul>
+  <li><a href="news:comp.os.linux.misc">comp.os.linux.misc</a></li>
+  <li><a href="news:comp.os.linux.networking">comp.os.linux.networking</a></li>
+  <li><a href="news:comp.os.linux.hardware">comp.os.linux.hardware</a></li>
+  <li><a href="news:comp.os.linux.x">comp.os.linux.x</a></li>
+</ul>
+
+<h3>IRC</h3>
+
+<p>The <code>#debian</code> channel on <code>irc.debian.org</code> is
+for general topics relating to Debian, and there is the
+<code>#debianppc</code> channel for topics specific to Debian on
+PowerPC processors. You will almost always find someone on-line who is
+happy to share information and help you with your problem.</p>
+
+<hr />
+
+#include "$(ENGLISHDIR)/ports/powerpc/menu.inc"

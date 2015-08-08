@@ -1,0 +1,126 @@
+#use wml::debian::template title="ARM Ports"
+#include "$(ENGLISHDIR)/releases/info"
+#use wml::debian::toc
+
+<toc-display/>
+
+<toc-add-entry name="about">Debian on arm</toc-add-entry>
+<p>On these pages you'll find information about the ongoing effort of
+porting Debian GNU/Linux to the <a
+href="http://en.wikipedia.org/wiki/ARM_architecture">ARM
+architecture</a> which is often found in embedded systems.</p>
+
+<toc-add-entry name="status">Current Status</toc-add-entry>
+<p>Debian fully supports three ports to different flavours of
+little-endian ARM hardware:</p>
+
+<ul>
+
+<li>The <a href="https://wiki.debian.org/ArmEabiPort">ARM EABI</a>
+(armel) port targets a range of older 32-bit ARM devices, particularly
+those used in NAS hardware and a variety of *plug computers.</li>
+
+<li>The newer <a href="https://wiki.debian.org/ArmHardFloatPort">ARM
+hard-float</a> (armhf) port supports newer, more powerful 32-bit
+devices using version 7 of the ARM architecture specification.</li>
+
+<li>The <a href="https://wiki.debian.org/Arm64Port">64-bit ARM</a>
+(arm64) port supports the latest 64-bit ARM-powered devices.</li>
+
+</ul>
+
+<p>Other ports to ARM hardware exist / have existed in and around
+Debian - see <a href="https://wiki.debian.org/ArmPorts">the wiki</a>
+for more links and an overview.</p>
+
+<p>For a full and up-to-date list of the different hardware supported
+by each of the ports, check the respective wiki pages. New ARM devices
+are released every week, and it's easier for people to keep
+information updated there.</p>
+
+<toc-add-entry name="availablehw">Available Hardware for Debian Developers</toc-add-entry>
+<p>Multiple machines are made available to Debian developers for ARM
+porting work: abel.debian.org (armel/armhf), asachi.debian.org
+(armhf/arm64) and harris.debian.org (armhf). The machines have
+development chroot environments which you can access with
+<em>schroot</em>.  Please see the <a
+href="https://db.debian.org/machines.cgi">machine database</a> for
+more information about these machines.</p>
+
+<toc-add-entry name="contacts">Contacts</toc-add-entry>
+<h3>Mailing lists</h3>
+
+<p>The Debian ARM port mailing list is located at
+<email "debian-arm@lists.debian.org">.
+If you wish to sign up, send a message with the word <q>subscribe</q> as the
+subject to <email "debian-arm-request@lists.debian.org">. The list is
+archived at the <a href="https://lists.debian.org/debian-arm/">debian-arm
+list archives</a>.</p>
+
+<p>
+It's also a good idea to sign up with the
+<a href="http://www.arm.linux.org.uk/mailinglists/">\
+linux-arm</a> mailing list.</p>
+
+<h3>IRC</h3>
+
+<p>You can find us on IRC on <em>irc.debian.org</em> on the channel
+<em>#debian-arm</em>.</p>
+
+<toc-add-entry name="people">People</toc-add-entry>
+<p>
+This is a list of significant people who are currently involved in the Debian
+ARM port.
+</p>
+
+<ul>
+
+<li>Martin Michlmayr <email "tbm@cyrius.com">
+<br />
+Documentation, debian-installer, kernel
+</li>
+
+<li>Riku Voipio <email "riku.voipio@iki.fi">
+<br />
+armel porter and buildd maintainer
+</li>
+
+<li>Aurelien Jarno <email "aurel32@debian.org">
+<br />
+ARM buildd maintainer and general porter
+</li>
+
+<li>Wookey <email "wookey@wookware.org">
+<br />
+Documentation
+</li>
+
+<li>Steve McIntyre <email "steve@einval.com">
+<br />
+Local admin for ARM machines, documentation and general porter
+</li>
+
+</ul>
+
+<toc-add-entry name="dedication">Dedication</toc-add-entry>
+
+<p>Chris Rutter 
+who was the Project Coordinator and Autobuilder Coordinator for Debian ARM
+port got killed in a car accident. We dedicate the ARM port's
+release in the Debian GNU/Linux <q>woody</q> distribution to his
+memory.</p>
+
+<toc-add-entry name="thanks">Thanks</toc-add-entry>
+
+<p>
+These people were helpful in making the ARM port viable for Debian:
+
+Jim Studt, Jim Pick, Scott Bambrough, Peter Naulls, Tor Slettnes,
+Phil Blundell, Vincent Sanders
+</p>
+
+<toc-add-entry name="links">Links</toc-add-entry>
+
+<p>
+A dedicated page gather some <a href="links">links related to the ARM port</a>.
+</p>

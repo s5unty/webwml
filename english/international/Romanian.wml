@@ -1,0 +1,47 @@
+#use wml::debian::template title="Debian Romanian Pages"
+#use wml::debian::translation-check original="romanian" translation="1.45"
+
+# The contents of this page are completely the responsibility of
+# the translation team
+
+<ul>
+      <li><strong>The Debian Romanian Localization Team</strong> translates into
+      Romanian Debian specific documents, packages' configuration
+      messages and applications specific to Debian. Any new members in
+      the team are welcome. The coordination is mainly done via the
+      <a href="https://lists.debian.org/debian-l10n-romanian/">\
+      debian-l10n-romanian</a> mailing list. More detailed information
+      can be found on the
+      <a href="https://wiki.debian.org/L10N/Romanian/">RomanianL10N wiki page</a>.</li>
+      <li>As there is currently no dedicated users mailing list,
+      you are also welcome to address (in Romanian) any Debian
+      specific questions you might have to the
+      <a href="mailto:debian-l10n-romanian@lists.debian.org">\
+      localization mailing list</a>.</li>
+      <li>The official IRC channel is #debian-ro on irc.debian.org (OFTC). Please
+      do not use the channel on Freenode to not split the community.</li>
+#      <li>There is a <a href="http://www.debian.ro">Romanian site</a>
+#      dedicated to Debian.</li>
+
+</ul>
+
+
+<p><strong>Romanian resources not specific to Debian:</strong></p>
+<ul>
+      <li>Coordination of all the Romanian translation and localization
+      teams is done on the <a href="mailto:diacritice@googlegroups.com">\
+      Diacritice</a> mailing list.</li>
+      <li>For translating Gnome applications see the
+      <a href="http://gnomero.sourceforge.net">gnomero project</a>.</li>
+      <li>For translating KDE applications see
+      <a href="http://www.ro.kde.org">ro.kde</a>.</li>
+      <li>Romanian Linux Users Group: <a href="http://www.rlug.ro/">\
+      http://www.rlug.ro/</a>.</li>
+#      <li><a href="http://www.tmlug.ro/">TMLUG</a> is the Timi&#351;oara
+#      Linux Users Group. The mailing list is particularly friendly to
+#      new users.</li>
+</ul>
+
+<p>Please contact <a href="mailto:debian-l10n-romanian@lists.debian.org">\
+the Romanian translators</a> for any issue pertaining to the Romanian
+translations.</p>

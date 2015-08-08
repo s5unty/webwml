@@ -1,0 +1,13 @@
+#use wml::debian::template title="Debian-Installer Subversion repository"
+#use wml::debian::recent_list
+
+<p>
+The information that used to be here has moved to the Debian wiki:
+<a href="https://wiki.debian.org/DebianInstaller/CheckOut">checking
+out the source code for Debian-Installer</a>, 
+<a href="https://wiki.debian.org/DebianInstaller/Contrib">general
+contributor information</a>, and
+<a href="https://wiki.debian.org/DebianInstaller/Build">building
+the installer yourself</a>.
+</p>
+

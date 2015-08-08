@@ -1,0 +1,50 @@
+<define-tag description>several vulnerabilities</define-tag>
+<define-tag moreinfo>
+<p>Several remote vulnerabilities have been discovered in PHP&nbsp;5, an hypertext
+preprocessor.
+The Common Vulnerabilities and Exposures project identifies the following
+problems:</p>
+
+<ul>
+
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2010-1917">CVE-2010-1917</a>
+
+    <p>The fnmatch function can be abused to conduct denial of service attacks
+    (by crashing the interpreter) by the means of a stack overflow.</p></li>
+
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2010-2225">CVE-2010-2225</a>
+
+    <p>The SplObjectStorage unserializer allows attackers to execute arbitrary
+    code via serialized data by the means of a use-after-free
+    vulnerability.</p></li>
+
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2010-3065">CVE-2010-3065</a>
+
+    <p>The default sessions serializer does not correctly handle a special
+    marker, which allows an attacker to inject arbitrary variables into the
+    session and possibly exploit vulnerabilities in the unserializer.</p></li>
+
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2010-1128">CVE-2010-1128</a>
+
+    <p>For this vulnerability (predictable entropy for the Linear Congruential
+    Generator used to generate session ids) we do not consider upstream's
+    solution to be sufficient.  It is recommended to uncomment the
+    <q>session.entropy_file</q> and <q>session.entropy_length</q> settings in the php.ini
+    files.  Further improvements can be achieved by setting
+    <q>session.hash_function</q> to 1 (one) and incrementing the value of
+    <q>session.entropy_length</q>.</p></li>
+
+</ul>
+
+<p>For the stable distribution (lenny), these problems have been fixed in
+version 5.2.6.dfsg.1-1+lenny9.</p>
+
+<p>For the testing distribution (squeeze) and the unstable distribution (sid),
+these problems will be fixed soon.</p>
+
+<p>We recommend that you upgrade your php5 packages.</p>
+</define-tag>
+
+# do not modify the following line
+#include "$(ENGLISHDIR)/security/2010/dsa-2089.data"
+# $Id: dsa-2089.wml,v 1.5 2014/04/30 07:16:22 pabs Exp $

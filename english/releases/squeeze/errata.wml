@@ -1,0 +1,95 @@
+#use wml::debian::template title="Debian 6.0 -- Errata" BARETITLE=true
+#use wml::debian::toc
+
+#include "$(ENGLISHDIR)/releases/info"
+
+<toc-display/>
+
+
+# <toc-add-entry name="known_probs">Known problems</toc-add-entry>
+<toc-add-entry name="security">Security issues</toc-add-entry>
+
+<p>Debian 6.0 'Squeeze' has reached the end of its regular security support
+timeline. However, the <a href="https://wiki.debian.org/LTS">Squeeze LTS
+team</a> provides continued security support for this distribution.</p>
+
+<p>Note that these updates are not distributed through the regular
+security mirrors; instead you need to add the <q>squeeze-lts</q> repository
+to make use of them.</p>
+
+<p>If you use APT, add the following line to <tt>/etc/apt/sources.list</tt>
+to be able to access the latest security updates:</p>
+
+<pre>
+  deb http://http.debian.net/debian/ squeeze-lts main contrib non-free  
+</pre>
+
+<p>After that, run <kbd>apt-get update</kbd> followed by
+<kbd>apt-get upgrade</kbd>.</p>
+
+
+<toc-add-entry name="pointrelease">Point releases</toc-add-entry>
+
+<p>Sometimes, in the case of several critical problems or security updates, the
+released distribution is updated.  Generally, these are indicated as point
+releases.</p>
+
+<ul>
+  <li>The first point release, 6.0.1, was released on
+      <a href="$(HOME)/News/2011/20110319">March 19, 2011</a>.</li>
+  <li>The second point release, 6.0.2, was released on
+      <a href="$(HOME)/News/2011/20110625">June 25, 2011</a>.</li>
+  <li>The third point release, 6.0.3, was released on
+      <a href="$(HOME)/News/2011/20111008">October 8, 2011</a>.</li>
+  <li>The forth point release, 6.0.4, was released on
+      <a href="$(HOME)/News/2012/20120128">January 28, 2012</a>.</li>
+  <li>The fifth point release, 6.0.5, was released on
+      <a href="$(HOME)/News/2012/20120512">May 12, 2012</a>.</li>
+  <li>The sixth point release, 6.0.6, was released on
+      <a href="$(HOME)/News/2012/20120929">September 29, 2012</a>.</li>
+  <li>The seventh point release, 6.0.7, was released on
+      <a href="$(HOME)/News/2013/20130223">February 23, 2013</a>.</li>
+  <li>The eighth point release, 6.0.8, was released on
+      <a href="$(HOME)/News/2013/20131020">October 20, 2013</a>.</li>
+  <li>The ninth point release, 6.0.9, was released on
+      <a href="$(HOME)/News/2014/20140215">February 15, 2014</a>.</li>
+  <li>The tenth and final point release, 6.0.10, was released on
+      <a href="$(HOME)/News/2014/20140719">July 19, 2014</a>.</li>
+</ul>
+
+<ifeq <current_release_squeeze> 6.0.0 "
+
+<p>There are no point releases for Debian 6.0 yet.</p>" "
+
+<p>See the <a
+href=http://http.us.debian.org/debian/dists/squeeze/ChangeLog>\
+ChangeLog</a>
+for details on changes between 6.0.0 and <current_release_squeeze/>.</p>"/>
+
+
+<p>Fixes to the released stable distribution often go through an
+extended testing period before they are accepted into the archive.
+However, these fixes are available in the
+<a href="http://ftp.debian.org/debian/dists/squeeze-proposed-updates/">\
+dists/squeeze-proposed-updates</a> directory of any Debian archive
+mirror.</p>
+
+<p>If you use APT to update your packages, you can install
+the proposed updates by adding the following line to
+<tt>/etc/apt/sources.list</tt>:</p>
+
+<pre>
+  \# proposed additions for a 6.0 point release
+  deb http://ftp.us.debian.org/debian squeeze-proposed-updates main contrib non-free
+</pre>
+
+<p>After that, run <kbd>apt-get update</kbd> followed by
+<kbd>apt-get upgrade</kbd>.</p>
+
+
+<toc-add-entry name="installer">Installation system</toc-add-entry>
+
+<p>
+For information about errata and updates for the installation system, see
+the <a href="debian-installer/">installation information</a> page.
+</p>

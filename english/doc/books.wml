@@ -1,0 +1,47 @@
+#use wml::debian::template title="Debian Books" GEN_TIME="yes"
+#include "$(ENGLISHDIR)/doc/books.def"
+
+# Greetings translators!
+# As you may have noticed, we have changed the system for handling this
+# list: from now translation of the blurb of books will be managed with
+# gettext through the
+# doc.XX.po file (where XX is the code of your language), located at
+# webwml/$lang/po directory.
+# You can add directly there the translation for the description of
+# books, and they will be automagically included in the book list page.
+# More information about the translation of PO strings of the website are
+# available in the README file at webwml/english/po. For any doubt,
+# please contact debian-www@lists.debian.org
+
+<p>
+<langindex name=english />&nbsp;&nbsp;
+<langindex name=french />&nbsp;&nbsp;
+<langindex name=german />&nbsp;&nbsp;
+<langindex name=japanese />&nbsp;&nbsp;
+<langindex name=korean />&nbsp;&nbsp;
+<langindex name=persian />&nbsp;&nbsp;
+<langindex name=portuguese />&nbsp;&nbsp;
+<langindex name=spanish />&nbsp;&nbsp;
+</p>
+
+
+#include "$(ENGLISHDIR)/doc/books.data"
+
+<h2>Adding new Debian books</h2>
+
+<p>If you would like to have your book mentioned here, send mail
+<strong>in English</strong> to
+&lt;<a href="mailto:books@debian.org">books@debian.org</a>&gt;.
+<br />
+Please include the following information:</p>
+<ul>
+<li>Book title,</li>
+<li>Author,</li>
+<li>Publisher,</li>
+<li>Language(s) the book is written in,</li>
+<li>A URL to a page describing the book, or at least to the organisation,</li>
+<li>Email address for customer enquiries,</li>
+<li>What CDs are included with the book, and</li>
+<li>A brief description or blurb about the book, around 50 words or so
+(<b>in english</b>).</li>
+</ul>

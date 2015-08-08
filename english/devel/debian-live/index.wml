@@ -1,0 +1,27 @@
+#use wml::debian::template title="Debian Live" NOHEADER="true"
+
+<h1>The Debian Live project</h1>
+
+<p>The Debian Live project produces the framework used to build official Debian Live
+systems and the <a href="$(HOME)/CD/live/">official Debian Live images</a>
+themselves.</p>
+
+<p>More information can be found at the <a href="http://live.debian.net/">Debian
+Live project website</a>.</p>
+
+<h2>Contacting the team</h2>
+
+<p>You can reach the Debian Live team in one of the following ways:</p>
+<ul>
+<li>Bugs should be reported in the <a href="https://bugs.debian.org/">\
+Debian Bug Tracking System</a> against the appropriate package (e.g.
+<a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-build">live-build</a> or
+one of the other
+<a href="https://qa.debian.org/developer.php?login=debian-live%40lists.debian.org&amp;comaint=yes">\
+packages maintained by the Debian Live Project</a>).
+<li>You can send an email to the <a href="https://lists.debian.org/debian-live/">debian-live mailing list</a>
+and use the archives to learn more about our activities.
+<li>Team members and users are at times available on our
+<a href="irc://irc.debian.org/debian-live">IRC channel</a>.
+If you don't get a useful response, try our mailing list instead.
+</ul>

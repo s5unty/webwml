@@ -1,0 +1,56 @@
+<define-tag pagetitle>Template for new Debian Women profile</define-tag>
+#use wml::debian::profiles
+#include "$(ENGLISHDIR)/women/profiles/profiles.def"
+
+<profile name="Template for new Debian Women profile" picture="">
+    # IN THE ABOVE LINES, CHANGE "Template for new Debian Women profile" FOR THE NAME OF WOMAN.
+    
+    Download the template:
+    # REMOVE THE ABOVE LINE ("Download the template")
+    
+    <URL>http://anonscm.debian.org/viewvc/webwml/webwml/english/women/profiles/template.wml?view=co</URL>
+    # CHANGE THE URL TO THE URL OF WOMAN'S WEBSITE, IF ANY
+    <email></email> 
+
+    <question1>
+    # How long have you been using Debian?
+    <answer>
+    your answer
+    </answer>
+
+    <question2>
+    # Are you a Debian Developer?
+    <answer>
+    your answer
+    </answer>
+    
+    <question3>
+    # What areas of Debian are you involved in?
+    <answer>
+    your answer
+    </answer>
+
+    <question4>
+    # What got you interested in working with Debian?
+    <answer>
+    your answer
+    </answer>
+
+    <question5>
+    # Do you have any tips for women interested in getting more involved with Debian?
+    <answer>
+    your answer
+    </answer>
+
+    <question6>
+    # Are you involved with any other women in technology group? Which one(s)?
+    <answer>
+    your answer
+    </answer>
+
+    <question7>
+    # A bit more about you...
+    <answer>
+    your answer
+    </answer>
+</profile>

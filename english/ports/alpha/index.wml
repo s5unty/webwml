@@ -1,0 +1,27 @@
+#use wml::debian::template title="Alpha Port" NOHEADER="true"
+#include "$(ENGLISHDIR)/ports/alpha/menu.inc"
+
+<h1>Debian GNU/Linux on Alpha Systems</h1>
+
+<p>The Alpha port is <a
+href="https://lists.debian.org/debian-devel-announce/2009/10/msg00000.html">\
+no longer officially supported</a> in the Debian stable release.
+The last release with official Alpha support was <a
+href="https://www.debian.org/releases/lenny/releasenotes">Debian 5.0
+<q>lenny</q></a>.
+For further information, please visit the <a href="port-status">port
+status page</a>.</p>
+
+
+<p>If you'd like to join us in this project, please peruse this page
+and <a href="links#lists">join the mailing list</a>.
+Things can be fast-moving and we all
+realise that not everyone has the technical expertise to do it all,
+but any help that people can or want to offer would be gladly
+accepted.</p>
+
+<p><em>Cheers and happy Alpha-ing!<br />
+Helge Kreutzmann (former maintainer of these webpages),<br />
+Chris Chimelis (original maintainer of these webpages)</em></p>
+
+<p class="center"><img src="alpha-penguin.jpg" /></p>

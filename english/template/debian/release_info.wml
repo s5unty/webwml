@@ -1,0 +1,57 @@
+#use wml::debian::common_tags
+#use wml::debian::ctime
+
+<define-tag current_release_name>jessie</define-tag>
+<define-tag current_testing_name>stretch</define-tag>
+<define-tag current_oldstable_name>wheezy</define-tag>
+
+<define-tag current_release><current_release_jessie/></define-tag>
+<define-tag current_release_date><current_release_date_jessie/></define-tag>
+<define-tag current_initial_release>8</define-tag>
+<define-tag current_initial_release_date><:=spokendate('2015-04-25'):></define-tag>
+
+<define-tag current_release_potato>2.2r7</define-tag>
+<define-tag current_release_date_potato><:=spokendate('2002-07-13'):></define-tag>
+<define-tag current_release_woody>3.0r6</define-tag>
+<define-tag current_release_date_woody><:=spokendate('2005-06-02'):></define-tag>
+<define-tag current_release_sarge>3.1r8</define-tag>
+<define-tag current_release_date_sarge><:=spokendate('2008-04-13'):></define-tag>
+<define-tag current_release_etch>4.0r9</define-tag>
+<define-tag current_release_date_etch><:=spokendate('2010-05-22'):></define-tag>
+<define-tag current_release_lenny>5.0.10</define-tag>
+<define-tag current_release_date_lenny><:=spokendate('2012-03-10'):></define-tag>
+<define-tag current_release_squeeze>6.0.10</define-tag>
+<define-tag current_release_date_squeeze><:=spokendate('2014-07-19'):></define-tag>
+<define-tag current_release_wheezy>7.8</define-tag>
+<define-tag current_release_date_wheezy><:=spokendate('2015-01-10'):></define-tag>
+<define-tag current_release_jessie>8.1</define-tag>
+<define-tag current_release_date_jessie><:=spokendate('2015-06-06'):></define-tag>
+
+
+<define-tag current_release_short><: $f = "<current_release/>"; $f =~ s/r\d+$//; $f =~ s/^(\d\.\d)\.\d$/$1/; print $f :></define-tag>
+
+<define-tag current-cd-release>8.1.0</define-tag>
+<define-tag current-cd-release-dirname><current-cd-release/></define-tag>
+# netinst and buisnesscard name
+<define-tag current-tiny-cd-release-filename><current-cd-release/></define-tag>
+# live CD are not always in sync
+<define-tag current-live-cd-release-dirname>current</define-tag>
+# non-free cd including firmware are not always in sync
+<define-tag current-nonfree-cd-release-dirname><current-cd-release/></define-tag>
+<define-tag current-nonfree-cd-release-filename><current-nonfree-cd-release-dirname/></define-tag>
+
+<define-tag packages_in_stable>43000</define-tag>
+
+<set-var diversions:_cnt=0 />
+
+<define-tag if-stable-release endtag=required>
+<preserve release />
+<set-var %attributes />
+<ifneq "<current_release_name />" "<get-var release />"
+	      "<enter NO<get-var release /><get-var diversions:_cnt /> />" "<enter <get-var release /><get-var diversions:_cnt /> />" />
+%body
+<leave />
+<dump "<get-var release /><get-var diversions:_cnt />" />
+<increment diversions:_cnt />
+<restore release />
+</define-tag>

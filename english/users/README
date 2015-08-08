@@ -1,0 +1,79 @@
+   /users/ - Debian Users
+   ======================
+
+ Below this directory you will find the various users of Debian:
+
+com - commercial users
+edu - educational users
+gov - government users
+org - organizational users
+
+ Each file in these directories will create a link from the /users/ page,
+showing the content of the <pagetitle> tag.  BE CAREFUL - the <pagetitle>
+is added verbatim, that means it MUST NOT contain any 8bit characters (in
+the english tree) because these titles are put into the translated pages
+when there is no translation of the file itself and create wrong
+characters.
+
+ AGAIN: DO NOT put any 8BIT CHARACTERS into the <pagetitle>.
+
+
+  Keeping data up to date
+  =======================
+
+Current (manual) process data in ping.data.
+
+Proposed ping process workflow
+------------------------------
+
+                  +---+
+                  | 0 |
+                  +-+-+
+                    |
+                    +-- Page not updated since N years
+                    |
+                    +<----------<-------------<--------------<---------+
+                    |                                                  |
+                  +-+-+  +-------------------+                         ^
+                  | 1 +--+ Send initial mail |                         |
+                  +-+-+  +-------------------+                         |
+                    |                                                  |
+  +-----------------+--------------------------------+                 |
+  |                 |                                |                 ^
+  +-- Answer        +-- No answer within two weeks   +-- Bouncing      |
+  |                 |                                |   e-mail        |
+  |               +-+-+  +------------------+        |                 |
+  |               | 2 +--+ Send second mail |        |                 |
+  |               +-+-+  +------------------+        |                 |
+  |                 |                                |                 ^
+  |        +--------+----------+                     |                 |
+  |        |                   |   No answer         |                 |
+  |        +-- Answer          +-- within two weeks  |                 |
+  |        |                   |                     |                 |
+  +--+-----+                   +------+--------------+                 |
+     |                                |                                ^
+   +-+-+  +-------------------+     +-+-+  +----------------------+    |
+   | 3 +--+    Update text    |     | 4 +--+ Search other contact |    |
+   +-+-+  | (or delete entry) |     +-+-+  +----------------------+    |
+          +-------------------+       |                                |
+                                      |                                |
+     +--------------------------------+------+                         ^
+     |                                       |                         |
+     +-- No existing contact found           +-- New e-mail addresses  |
+     |                                       |                         |
+   +-+-+  +--------------+                   +-------->-------->-------+
+   | 5 +--+ Delete entry |
+   +---+  +--------------+
+
+
+Proposed initial mail	→ See ping.pl script
+---------------------
+
+Proposed second mail
+--------------------
+
+Hi [Name, if known],
+
+This is a reminder about my previous email, sent two weeks ago.
+
+[ copy of the initial mail ]

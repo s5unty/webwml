@@ -1,0 +1,955 @@
+#use wml::debian::cdimage title="Frequently Asked Questions about Debian CDs" NOHEADER=true BARETITLE=true
+#use wml::debian::toc
+#include "$(ENGLISHDIR)/releases/info"
+
+<define-tag toc-title-formatting endtag="required" whitespace="delete">
+<p><strong>%body</strong></p>
+</define-tag>
+
+<h1><a name="top">Frequently Asked Questions</a></h1>
+
+<toc-display/>
+
+
+
+<toc-add-entry name="what-is">What is a <q>CD image</q> anyway?</toc-add-entry>
+
+<p>A CD image is the exact representation of the data on a CD in a
+normal computer file, that can e.g. be transmitted over the
+Internet. CD burning programs can use the image files to make real
+CDs.</p>
+
+<p>For a correctly written CD, the <tt>.iso</tt> file must not appear
+on the CD when you access it! Instead, you should see a number of
+files and directories - in the case of a Debian CD, this includes a
+<q>dists</q> directory and a <q>README.html</q> file.</p>
+
+<p>The <tt>.iso</tt> format is roughly comparable to a <tt>.zip</tt>
+file: It contains other files and directories, and only these will
+appear on the final CD. Some archive programs allow you to <q>unpack</q>
+<tt>.iso</tt> files. Do not use this feature to create a CD from the
+unpacked files! The resulting CD will fail to boot because the
+<tt>.iso</tt> format includes special information related to booting
+from the CD, which is lost when you unpack the file. See below on how
+to correctly write a CD image under <a href="#record-unix">Linux</a>,
+<a href="#record-windows">Windows</a> or <a
+href="#record-mac">Mac OS</a>.</p>
+
+# ============================================================
+
+<toc-add-entry name="mailing-list">My question is not answered by this
+FAQ!</toc-add-entry>
+
+<p>If you cannot find an answer to your question here, you can ask for
+help on one of the Debian mailing lists.
+In all cases, you should <a href="https://lists.debian.org/">search
+the mailing list archives</a> before sending mail to the lists.
+You can <a href="$(HOME)/MailingLists/subscribe">subscribe</a>
+to and <a href="$(HOME)/MailingLists/unsubscribe">unsubscribe</a>
+from the lists. However, you do not need to be subscribed in order
+to send mail to the lists - if you are not subscribed, ask for
+replies to be CC'd to you.</p>
+
+<p>Mailing lists relevant to problems with CD installation:</p>
+
+<ul>
+
+  <li><a href="https://lists.debian.org/debian-cd/">debian-cd</a>:
+  Discussion about the CD image creation process, available CD
+  mirrors, problems when booting from CD, announcements of new
+  official images.</li>
+
+  <li><a href="https://lists.debian.org/debian-boot/">debian-boot</a>: A
+  bit of a misnomer, this list actually covers the installation
+  process; any problems encountered after successfully booting
+  from CD may be more appropriate here than in debian-cd.</li>
+
+  <li><a href="https://lists.debian.org/debian-live/">debian-live</a>:
+  A list for the Debian Live project, focused on development of the software
+  that is used to build Debian Live images, but also appropriate
+  for discussion particular to using those images.</li>
+
+  <li><a href="https://lists.debian.org/debian-user/">debian-user</a>:
+  General support list for users of Debian. Focus is
+  more on problems encountered after a successful installation,
+  when using the system. There are also several lists for
+  non-English speakers, in <a href="https://lists.debian.org/debian-user-catalan/">Catal&agrave;</a>,
+  <a href="https://lists.debian.org/debian-chinese-big5/">Chinese</a>,
+  <a href="https://lists.debian.org/debian-user-danish/">Dansk</a>,
+  <a href="https://lists.debian.org/debian-esperanto/">Esperanto</a>,
+  <a href="https://lists.debian.org/debian-user-french/">Français</a>,
+  <a href="https://lists.debian.org/debian-user-german/">Deutsch</a>,
+  <a href="https://lists.debian.org/debian-user-hungarian/">Magyar</a>,
+  <a href="https://lists.debian.org/debian-user-indonesian/">Indonesian</a>,
+  <a href="https://lists.debian.org/debian-italian/">Italiano</a>,
+  <a href="https://lists.debian.org/debian-japanese/">&#26085;&#26412;&#35486;&nbsp;(Nihongo)</a>,
+  <a href="https://lists.debian.org/debian-user-polish/">Polski</a>,
+  <a href="https://lists.debian.org/debian-user-portuguese/">Português</a>,
+  <a href="https://lists.debian.org/debian-russian/">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&nbsp;(Russkij)</a>,
+  <a href="https://lists.debian.org/debian-user-spanish/">Español</a>,
+  <a href="https://lists.debian.org/debian-user-swedish/">Svenska</a>,
+  <a href="https://lists.debian.org/debian-user-turkish/">T&uuml;rk&ccedil;e</a>,
+  and <a href="https://lists.debian.org/debian-user-ukrainian/">Ukrainian</a>.
+  </li>
+
+</ul>
+
+# ============================================================
+
+<toc-add-entry name="why-jigdo">Why should I use this <q>jigdo</q> program?
+I prefer a simple HTTP or FTP download!</toc-add-entry>
+
+<p>Today, there are nearly <a href="$(HOME)/mirror/list">300 Debian
+mirrors</a> (which contain the complete Debian distribution as .deb files),
+but <a href="../http-ftp/">far fewer</a> machines serving Debian CD images.
+As a result, the CD image servers are constantly overloaded.</p>
+
+<p>Additionally, nobody is very enthusiastic about setting up more
+CD servers because of the tremendous amounts of wasted bandwidth
+(some people keep <em>restarting</em> failed downloads instead of
+<em>resuming</em> from the point where the connection was closed)
+and because a regular mirror is more attractive (it allows
+continuous upgrades of Debian, or using the <q>testing</q>/<q>unstable</q>
+distribution instead of the <q>stable</q> one).</p>
+
+<p>jigdo tries to make
+the most out of this situation, by downloading the data for the CD
+images from one of the 300 mirrors. However, these mirrors only
+hold individual .deb files, not the CD image, so some additional
+manipulation of the data is necessary to produce one big CD image
+file from the many small .deb files.</p>
+
+<p>Do not be afraid to <a href="../jigdo-cd/">try out jigdo</a>!
+The complex process of generating the CD image is completely
+hidden from you - instead, you benefit from the fact that one of
+the 300 Debian mirrors is bound to be nearer and faster than any
+of the CD servers.</p>
+
+# ============================================================
+
+<toc-add-entry name="which-cd">Which of the numerous images
+should I download? Do I need all of them?</toc-add-entry>
+
+<p>No. First, of course you only need to download CD <em>or</em> DVD
+<em>or</em> BD images - the three types of images contain the same
+packages.</p>
+
+<p>Also, you only need the CD/DVD/BD images for your computer's
+architecture. The architecture is the type of hardware your computer
+uses. By far the most popular one is the Intel/AMD architecture, so
+most people will only want to get the images for <q>i386</q>. If your
+PC has a 64-bit AMD or Intel processor, you will most likely need the
+<q><a href="../../ports/amd64/">amd64</a></q> images (though
+<q>i386</q> is also fine), the <q><a
+href="../../ports/ia64/">ia64</a></q> images will <em>not</em>
+work.</p>
+
+<p>Furthermore, in most cases it is not necessary to download all of
+the images for your architecture. The packages are sorted by
+popularity: The first CD/DVD/BD contains the installation system and
+the most popular packages. The second one contains slightly less
+popular ones, the third one even less popular ones, etc. You will
+probably only need the first couple of DVDs (or the first few CDs)
+unless you have very special requirements. (And in case you happen to
+need a package later on which is not on one of the CDs/DVDs/BDs you
+downloaded, you can always install that package directly from the
+Internet.)</p>
+
+<p>Please also read the next paragraphs to determine whether you
+want/need to download network install CDs, update CDs or source
+CDs.</p>
+
+# ============================================================
+
+<toc-add-entry name="netinst">What is a <q>netinst</q> or <q>network install</q>
+CD?</toc-add-entry>
+
+<p>To quote the <a href="../netinst/">network install page</a>: A
+<q>network install</q> or <q>netinst</q> CD is a single CD which enables you to
+install the entire operating system. This single CD contains just the
+minimal amount of software to start the installation and fetch the
+remaining packages over the Internet.</p>
+
+<p>If you only want to install Debian on a single machine which has a
+fast Internet connection, the network install may be the fastest and
+easiest option for you: You only download the packages that you
+selected for installation on your machine, which saves both time and
+bandwidth.</p>
+
+# ============================================================
+
+<toc-add-entry name="update-cd">What are the <q>update</q>
+CDs/DVDs?</toc-add-entry>
+
+<p>Update CDs/DVDs are CDs/DVDs which contain all the packages that changed
+between the zero micro version number (e.g. 5.0.<strong>0</strong>, 6.0.<strong>0</strong>,
+etc.) and a later point release of the current stable distribution. For example, if you already
+have the full set of <q>debian-6.0.0</q> CDs/DVDs, you can use the <q>debian-update-6.0.1</q> CD to turn
+this <q>debian-6.0.0</q> set into a <q>debian-6.0.1</q> set.</p>
+
+<p>This type of CD/DVD is intended for vendors having large amounts of
+pressed zero micro version number CDs/DVDs (which makes them cheaper than individually burned
+CDs/DVDs). If you order CDs/DVDs from such a vendor, it is possible that you
+receive CDs/DVDs for a slightly older point release, plus an update CD/DVD for the
+latest revision. This is a perfectly acceptable way of distributing
+Debian on CD/DVD.</p>
+
+<p>Of course, this type of CD/DVD can also be useful to you as an end user;
+instead of creating the full set of CDs/DVDs for each new revision of a
+release, you only need to download and burn update CDs/DVDs for
+your architecture.</p>
+
+<p>Note that update CDs/DVDs are not meant to boot, they just contain the
+packages needed to upgrade an existing installation. If you don't have
+that existing installation, then you'll need to use the normal
+installation CDs/DVDs. After the new system is booted, the updated CD/DVD can be added with
+<code>apt-cdrom add</code>.</p>
+
+<p>Now, what if for some reason you do not want to download the update
+CD/DVD even though you already have the full set of CDs/DVDs/BDs for
+the previous revision? In this case, you should consider using <a
+href="../jigdo-cd/">jigdo</a>'s <q>update</q> feature: jigdo can read
+the contents of the old CDs/DVDs/BDs, download only those files that
+have changed for the new CDs/DVDs, and create the full set of new
+CDs/DVDs/BDs. Still, it will have done this by downloading only about
+the same amount of data as for an update CD/DVD.</p>
+
+# ============================================================
+
+<toc-add-entry name="source-cd">What are the <q>source</q>
+CDs?</toc-add-entry>
+
+<p>There are two types of images, the <q>binary</q> CDs that contain
+precompiled, ready-to-run programs, and the <q>source</q> CDs that
+contain the source code for the programs. The vast majority of
+people do not need the source CDs; you should not download them
+unless you really have a good reason for it.</p>
+
+# ============================================================
+
+<toc-add-entry name="nonfree">Where is the CD image with
+non-free?</toc-add-entry>
+
+<p>Debian has a quite strict view with regard to the licenses of
+software: Only software that is Free in the sense of the
+<a href="$(HOME)/social_contract#guidelines">Debian Free Software
+Guidelines</a> is allowed into the actual distribution. All the other,
+<q>non-free</q> software (for example, software for which source code is not
+available) is not supported officially.</p>
+
+<p>The official CDs may freely be used, copied and sold by anyone anywhere
+in the world. Packages of the <q>non-free</q> category have restrictions that
+conflict with this, so these packages are not placed on the official
+CDs.</p>
+
+<p>Sometimes, someone is kind enough to create unofficial non-free
+CDs. If you cannot find any links on this website, you can try
+<a href="#mailing-list">asking on the debian-cd mailing list</a>.</p>
+
+# ============================================================
+
+<toc-add-entry name="dvd">Are DVD images of Debian
+available?</toc-add-entry>
+
+<p>Yes - Debian offers DVD images for the current stable
+release. Additionally, as far as we know, Debian is the only Linux
+distribution to
+offer weekly full-size DVD images for download! Because of their size, these
+images are <a href="../jigdo-cd/">distributed with
+jigdo</a>.</p>
+
+# ============================================================
+
+<toc-add-entry name="official">What's the difference between official
+and unofficial images?</toc-add-entry>
+
+<p>Official images are built by a member of the Debian CD team and
+have undergone some testing to ensure they work. Once they have been
+released, the images never change - if they turn out to be broken, a
+new set with a different version number is released.</p>
+
+<p>Unofficial images can be built by anyone - CD team members, other
+Debian developers or even advanced Debian users. Typically, they are
+more up-to-date, but have received less testing. Some have new
+features (e.g. installation support for new hardware), or contain
+additional software packages which are not part of the Debian archive.</p>
+
+# ============================================================
+
+<toc-add-entry name="live-cd">Is a Debian <q>live CD</q>
+available?</toc-add-entry>
+
+<p> Yes. A so-called <q>live CD</q>, or more precisely, a <q>live system</q>,
+is a complete system prepared for a CD, DVD, USB key or other medium. You do not
+need to install anything on the hard drive.  Instead you boot from the CD or
+other medium and are able to start working on the machine right away. All
+programs run directly from the medium.</p>
+
+<p>The <a href="$(HOME)/devel/debian-live/">Debian Live Project</a> produces
+<a href="../live/">live image files</a> for a variety of system types and
+media.</p>
+
+# ============================================================
+
+<toc-add-entry name="bootable">The CD/DVD/BD fails to boot! / From
+which disc should I boot?</toc-add-entry>
+
+<p>Only the first CD/DVD/BD in a set is bootable.</p>
+
+<p>If your Debian disc fails to boot, first ensure that you have
+correctly written it to the medium - please <a href="#what-is">see the
+explanation above</a>. Additionally, please check whether your BIOS is
+set up to boot from your optical drive.</p>
+
+<p>If your system cannot boot from CD/DVD/BD at all, it is also
+possible to <a href="$(HOME)/distrib/netinst#verysmall">boot from a
+USB stick or from the network</a>.</p>
+
+# ============================================================
+
+<toc-add-entry name="arch">Where are the images for M68K, Hurd or
+other architectures?</toc-add-entry>
+
+<p>Depending on the state of support for a certain architecture,
+CD/DVD images are available from different places:</p>
+
+<ul>
+
+  <li>If the architecture you are looking for is officially
+  supported by the current <a href="$(HOME)/releases/stable/">stable
+  release</a>, see the <a href="../"><q>Debian on CD</q></a> page for
+  the available download options.</li>
+
+  <li>If a Debian port for an architecture exists, but has not
+  yet been released officially, CD images may or may not be
+  available. Again, see the <a href="../"><q>Debian on CD</q></a> page - in
+  contrast to stable images, only one download option may be
+  supported, so have a look at both the <q>jigdo</q> and <q>HTTP/FTP</q>
+  sections.</li>
+
+  <li>For the Debian port to the GNU/Hurd, see the
+  <a href="$(HOME)/ports/hurd/hurd-cd">page about unofficial Hurd CDs</a>.
+
+  <li>Otherwise, check the <a href="$(HOME)/ports/">Debian port pages</a>
+  for the architecture you are interested in.</li>
+
+</ul>
+
+# ============================================================
+
+<toc-add-entry name="unstable-images">Are images for the <q>unstable</q>
+distribution available?</toc-add-entry>
+
+<p>There are no <q>unstable</q> full CD/DVD/BD images. Due to the fact
+that the packages in <q>unstable</q> change so quickly, it is more
+appropriate for people to download and install <q>unstable</q> using a
+normal Debian FTP mirror.</p>
+
+<p>If you are aware of the <a href="../../releases/unstable/">risks of
+running unstable</a>, but still want to install it, you have two
+choices:</p>
+
+<ul>
+
+  <li>Install <q>testing</q> using a <a href="../netinst/">netinst
+  image</a>, then upgrade to <q>unstable</q> by changing the entries in
+  your <tt>/etc/apt/sources.list</tt>. To avoid unnecessary downloads
+  and package upgrades, it is advisable to install a minimal
+  <q>testing</q> system first and only to install most of the software
+  (e.g. desktop environment) after the switch to <q>unstable</q>.</li>
+
+</ul>
+
+# ============================================================
+
+<toc-add-entry name="search-for-package">Which CD/DVD/BD image
+contains package XYZ?</toc-add-entry>
+
+<p>To find out which image contains a certain file, use the <a
+href="http://cdimage-search.debian.org">cdimage search tool</a>. It
+has knowledge of just about all the Debian CDs/DVDs/BDs produced by
+Debian since the Woody release, covering all the official releases
+(both older archived releases and the current stable release) and the
+current sets of daily and weekly testing builds. </p>
+
+# ============================================================
+
+<toc-add-entry name="list-image-contents">Can I have a list of all the
+packages contained in an image?</toc-add-entry>
+
+<p>
+Yes.
+Look on <a
+href="http://cdimage.debian.org/cdimage/">cdimage.debian.org</a> for
+the corresponding <tt>.list.gz</tt> file - it will list all the
+packages and source files included in the image.
+For Debian Live images, you can find in the same directory as the
+image files some similarly named files suffixed with <tt>.packages</tt>.
+Download these and then search them for the desired package name.</p>
+
+# ============================================================
+
+<toc-add-entry name="outdated">The software on the official CDs is
+outdated - why don't you release a new version?</toc-add-entry>
+
+<p>We only make official releases of the <q>stable</q> distribution
+when we think they truly deserve that name. Unfortunately, this means
+that stable releases only happen about every 2 years...</p>
+
+<p>If you require more recent versions of some of the software in
+Debian, you can install <q>stable</q> and then upgrade (via the net)
+those parts you want to the versions from <q>testing</q> - it is
+possible to mix software from the different releases.</p>
+
+<p>Alternatively, try out the images of <q>testing</q> that are
+generated automatically every week. In this case, be sure to set up
+your computer correctly to receive <a
+href="http://secure-testing-master.debian.net/"><q>testing</q>
+security updates</a>, especially if you run <q>testing</q> on a
+server. More information about <a
+href="../../security/faq#testing"><q>testing</q> security support</a>
+is available from the security FAQ.</p>
+
+<p>If you only need newer versions of specific packages, you can also
+try the <q>backports</q> service, which takes packages from testing
+and modifies them to work on stable. This option may be safer than
+installing the same package directly from testing.</p>
+
+# ============================================================
+
+<toc-add-entry name="newest">How do I know if I am downloading the
+newest images?</toc-add-entry>
+
+<p>The note at the bottom of the <a href="../"><q>Debian on CD</q></a> page
+always shows the version number of the latest
+release.</p>
+
+# ============================================================
+
+<toc-add-entry name="verify">How can I verify the downloaded ISO
+images and written optical media?</toc-add-entry>
+
+<p>Detailed information on how to authenticate the signed checksum
+files containing the checksums of the ISO image files is available on
+the <a href="../verify">authenticity verification page</a>. After
+cryptographically verifying the checksum files, we can check that:
+</p>
+
+<ul>
+ <li>Checksums of the <em>downloaded ISO image files</em> match those
+ found in the checksum files. Computing the checksum of the ISO image
+ files is performed by tools such as <q>md5sum</q>, <q>sha1sums</q>,
+ <q>sha512sums</q>. </li>
+ <li>Checksums of already <em>written optical media</em> match those
+ found in the checksum files. This is a slightly more difficult
+ operation to describe. </li>
+</ul>
+
+<p>The problem with the verification of written optical media is that
+some media types will possibly return more bytes than those found in
+the ISO image. This trailing garbage is impossible to avoid with CD
+written in TAO mode, incrementally recorded DVD-R[W], formatted
+DVD-RW, DVD+RW, BD-RE, and also with USB keys. Therefore, we need to
+read exactly the same number of sectors of data from the media as are
+found in the ISO image itself; reading any more bytes from the media
+will alter the checksum result.</p>
+
+<ul>
+ <li>The <q>isosize</q> program can be used to find out the appropriate
+  amount of bytes to be read from the optical media. It shows the
+  <q>sector count</q> and the <q>sector size</q> from the optical media,
+  where <q>&lt;device&gt;</q> is the device file of the loaded optical media.
+  <br/><tt>$ /sbin/isosize -x &lt;device&gt;</tt>
+  <br/><tt>sector count: 25600, sector size: 2048
+  </tt>
+ </li>
+ <li>Then <q>sector count</q> and <q>sector size</q> are passed to <q>dd</q>
+  to read the appropriate amount of bytes from the optical media and the byte
+  stream is then piped to the appropriate checksum tool (md5sum, sha1sum, etc).
+  <br/><tt>$ dd if=&lt;device&gt; count=&lt;sector count&gt; bs=&lt;sector size&gt; | sha1sum
+  </tt>
+ </li>
+ <li>The computed checksum is to be compared against the corresponding checksum found
+ in the appropriate checksum file (MD5SUMS, SHA1SUMS, etc).
+ </li>
+</ul>
+
+<p>Alternatively, there is a useful helper script called <a
+href="https://people.debian.org/~danchev/debian-iso/check_debian_iso">
+check_debian_iso</a> which can verify <em>ISO image files</em> and
+<em>optical media</em>, reading the appropriate amount of bytes from
+media then computing the checksum and comparing it against the
+checksum file.</p>
+
+<ul>
+ <li><em>ISO image file verification.</em>
+  This will compare the checksum of the debian-6.0.3-amd64-netinst.iso
+  image file against the corresponding checksum found in the MD5SUMS
+  checksum file. 
+  <br/><tt>$ ./check_debian_iso  MD5SUMS  debian-6.0.3-amd64-netinst.iso</tt>
+ </li>
+ <li><em>Optical media verification.</em>
+  This will compare the checksum of the media accessible as /dev/dvd against the
+  checksum of debian-6.0.3-amd64-DVD-1.iso as found in the  MD5SUMS
+  checksum file. Note that the ISO image file itself is not needed,
+  its name is merely used to locate the corresponding checksum in
+  the checksum file.
+  <br/><tt>$ ./check_debian_iso  MD5SUMS  debian-6.0.3-amd64-DVD-1.iso  /dev/dvd</tt>
+ </li>
+</ul>
+
+# ============================================================
+
+<toc-add-entry name="small-dvd">Why is my downloaded DVD image smaller
+than 1&nbsp;GB when it should be larger than
+4&nbsp;GB?</toc-add-entry>
+
+<p><a id="wget-dvd"></a>Most likely, the tool you use for downloading
+the image does not have large file support, i.e. it has problems
+downloading files larger than 4&nbsp;GBytes. The usual symptom for
+this problem is that when you download the file, the file size
+reported by your tool (and the amount of data that it downloads) is
+too small by exactly 4&nbsp;GB. For example, if the DVD image is
+4.4&nbsp;GB, your tool will report a size of 0.4&nbsp;GB.</p>
+
+<p>Some old versions of <tt>wget</tt> also suffer from this problem -
+either upgrade to a version of <tt>wget</tt> which does not have this
+restriction or use the <tt>curl</tt> command line download tool:
+<q><tt>curl -C - </tt><i>[URL]</i></q></p>
+
+# ============================================================
+
+<toc-add-entry name="record-unix">How do I write an ISO image under
+Linux/Unix?</toc-add-entry>
+
+<p>Note that Debian ISO images for i386, amd64 and arm64 are also
+bootable from a USB key; see <a href="#write-usb">below</a>.</p>
+
+<p><a href="http://www.gnu.org/software/xorriso/xorriso.html">xorriso</a>
+for all optical media types (also doable as non-root user):
+<br/><tt>xorriso -as cdrecord -v dev=/dev/sr0 -eject debian-x.y.z-arch-MEDIUM-NN.iso</tt>
+<br/>In order to get the full nominal speed when writing to BD-RE
+(i.e. without the slowdown caused by the drive's internal defect
+management), add the option <tt>stream_recording=on</tt>.
+
+<p><a href="http://fy.chalmers.se/~appro/linux/DVD+RW/">growisofs</a>
+for DVD and BD optical media types:
+<br/><tt>growisofs -dvd-compat -Z /dev/sr0=debian-x.y.z-arch-MEDIUM-NN.iso</tt>
+</p>
+
+<p><a href="http://www.cdrkit.org/">wodim</a>
+for CD optical media type:
+<br/><tt>wodim -v dev=/dev/sr0 -eject -sao debian-x.y.z-arch-CD-NN.iso</tt>
+</p>
+
+<p>For Linux, there are also the X programs
+<a href="http://www.gnome.org/projects/brasero/">Brasero</a>,
+<a href="http://k3b.plainblack.com/">K3B</a> and
+<a href="http://www.xcdroast.org/">X-CD-Roast</a>,
+to name a few. Note that they're all frontends to the previously
+mentioned low-level burning applications.</p>
+
+<dl>
+  <dt><strong><a id="brasero"
+  href="http://www.gnome.org/projects/brasero/">Brasero</a></strong></dt>
+
+  <dd>Select the button <i>Burn Image</i>. Then click on
+  <i>Click here to select a disc image</i>, browse and select your
+  downloaded ISO file, check whether the settings under
+  <i>Properties</i> are correct and choose
+  <i>Create Image</i>.</dd>
+
+  <dt><strong><a id="k3b"
+  href="http://k3b.plainblack.com/">K3b</a></strong></dt>
+
+  <dd>Select the menu entry <i>Tools - CD - Burn CD Image</i>. In the
+  dialog that opens, enter the path to the image in the <i>Image to
+  Burn</i> field, check whether the other settings are correct, then
+  click on <i>Start</i>.</dd>
+
+  <dt><strong><a id="xcdroast"
+  href="http://www.xcdroast.org/">X-CD-Roast</a></strong></dt>
+
+  <dd>After the program has started, click on
+<i>Setup</i> and choose the <i>HD settings</i> tab. Copy the Debian CD
+image to one of the directories that are displayed in the table. (If
+the table is empty, enter the path of a directory you want to use for
+temporary storage, and click on <i>Add</i>.) Click on <i>OK</i> to
+exit the setup. Next, select <i>Create CD</i> and then <i>Write
+Tracks</i>. Choose the <i>Layout tracks</i> tab, select the line
+displaying the image filename and click on <i>Add</i>, then click on
+<i>Accept track layout</i>. Finally, click on <i>Write tracks</i>.</dd>
+
+</dl>
+
+# ============================================================
+
+<toc-add-entry name="record-windows">How do I write an ISO image under
+Windows?</toc-add-entry>
+
+<p>This might be a little problem on older versions of Windows, as
+many Windows image-burning programs use their own formats for CD
+images. To burn the <tt>.iso</tt> images you will most likely have to
+use a <q>special</q> menu. Look for options like <q>ISO9660 file</q>,
+<q>Raw ISO image</q> or <q>2048 bytes/sector</q>. (Note: other
+bytes/sector values are fatal!) Some programs do not offer these
+choices; use another burning program instead (ask a friend or
+colleague). Here is some information about how to write CD images with
+specific products:</p>
+
+<dl>
+
+  <dt><strong><a name="imgburn"
+  href="http://www.imgburn.com/">ImgBurn</a></strong>
+  (Freeware)</dt>
+  
+  <dd>There are <a href="http://www.imgburn.com/index.php?act=screenshots#isowrite">screenshots</a> of how to write an image to CD/DVD</dd>
+
+  <dt><strong><a name="cdburnerxp"
+  href="http://www.cdburnerxp.se/">CDBurnerXP Pro</a></strong>
+  (Freeware)</dt>
+
+  <dd>The process of writing an <tt>.iso</tt> image is described <a
+  href="http://www.cdburnerxp.se/help">in the program's
+  manual</a>.</dd>
+
+  <dt><strong><a name="isorecorder"
+  href="http://isorecorder.alexfeinman.com/isorecorder.htm">ISO
+  Recorder</a></strong> (Freeware)</dt>
+
+  <dd>This program can write <tt>.iso</tt> images on Windows 2003, XP
+  and Vista.</dd>
+
+  <dt><strong><a NAME="adaptec" href="http://www.adaptec.com/">Adaptec</a>\
+  /<a href="http://www.roxio.com/">Roxio</a> Easy-CD Creator</strong></dt>
+
+  <dd>From the <i>File</i> menu, choose <i>Create CD from
+  image...</i>. Then select the <q>.iso</q> file type, and the correct
+  image. This opens up the CD creation setup GUI, from there
+  ensure that all the information for your CD-R is correct. In the
+  <i>Create options</i> portion, choose <i>Create CD</i>; under
+  <i>Write method</i>, choose <i>Track at once</i> and <i>Close
+  CD</i>.</dd>
+
+  <dt><strong><a NAME="nero">Nero</a> from
+  <a href="http://www.ahead.de/">Ahead Software</a></strong></dt>
+
+  <dd>Disable the Wizard, then select <i>Burn Image</i> from the
+  <q>File</q> or <q>Recorder</q> menu. Select <i>All Files</i> in the file
+  selection window if necessary. Select the <tt>.iso</tt> file, click
+  OK in the <q>this is a foreign file</q> dialogue box, in case one is
+  displayed. In the
+  option box that opens, the defaults should be okay: <q><i>Data
+  Mode 1</i></q>, <q><i>Block Size 2048</i></q>, <q><i>Raw Data, Scrambled,
+  and Swapped</i></q> <strong>not</strong> selected, and <i>Image
+  Header</i> and <i>Image Trailer</i> left at 0. Click OK. Under
+  <i>Write CD</i> or <i>Burn</i>, use the default options, e.g. <i>Write</i>
+  and <i>Determine maximum speed</i>, plus check the <i>Finalize
+  CD</i> option.</dd>
+
+  <dt><strong><a NAME="winoncd">WinOnCD Power Edition</a> from
+  <a href="http://www.cequadrat.com/">CeQuadrat</a></strong></dt>
+
+  <dd>You have to select <i>Track Image</i> (<strong>not</strong>
+  <i>CD Image</i>!) in this program. File format is <q><i>2048 -
+  Mode 1 or Mode 2 Form 1 Data only</i></q> and Track format
+  <q><i>CD-Rom Mode 1</i></q>.</dd>
+
+  <dt><strong><a NAME="cdextreme">CD Extreme</a> from
+  <a href="http://www.storagebysony.com">Sony</a></strong></dt>
+
+  <dd>Choose <i>New Job...</i> from the <i>File</i> menu. Then
+  select <i>Global-Image</i> or <i>Other Image</i>. This opens up
+  the CD creation setup GUI, from there manually enter the path to
+  the .iso image or <i>browse...</i> using files of type <q>other</q>.
+  From the <i>Edit</i> menu, choose <i>Recoding Options</i>, in
+  the resulting <i>Disk Image Options</i> dialog,
+  choose:<br />&nbsp;&nbsp;&nbsp;<i>Recording Type: Disk at Once
+  (DAO) Closed</i><br />&nbsp;&nbsp;&nbsp;<i>Mode and Blocking: CD
+  Mode1 (Blocking 2048)-DVD</i><br />Do not check off
+  <q>Post-gap...</q>.</dd>
+
+  <dt><strong><a NAME="resource-kit-tools"
+  href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9d467a69-57ff-4ae7-96ee-b18c4790cffd">Microsoft
+  Resource Kit Tools</a></strong></dt>
+
+  <dd>The command-line Resource Kit Tools are provided by Microsoft
+  free of charge, they work with Windows 2003 and XP. Two programs to
+  write images to CD and DVD are included, they are named
+  <tt>Cdburn.exe</tt> and <tt>Dvdburn.exe</tt>. Usage of the programs
+  is described in the accompanying help file - essentially, the
+  command to be executed is something like
+  <tt>cdburn&nbsp;drive:&nbsp;iso-file.iso&nbsp;/speed&nbsp;max</tt></dd>
+
+</dl>
+
+<p>If you can provide updated information or details for other
+programs, please <a
+href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;debian-cd&#64;lists.debian.org"
+>let us know</a>.
+
+# ============================================================
+
+<toc-add-entry name="record-mac">How do I write an ISO image under
+Mac OS?</toc-add-entry>
+
+<p>The <strong>Toast</strong> program for Mac OS is reported to work fine with
+<tt>.iso</tt> files. You can be extra-safe by giving it the
+creator code <i>CDr3</i> (or possibly <i>CDr4</i>) and type code
+<i>iImg</i> using e.g. FileTyper. Double-clicking on the file will
+then open up Toast directly, without having to drag-and-drop or go
+via the File-Open menu.</p>
+
+<p>Another option is <strong>Disk Utility</strong> (included with Mac OS
+X&nbsp;10.3 and higher): After opening the Disk Utility application (in
+the <tt>/Applications/Utilities</tt> folder), select
+<i>Burn...</i> in the <i>Image</i> menu and choose the CD
+image to burn. Ensure that the settings are correct, then click on
+<i>Burn</i>.</p>
+
+<p>Another option is <strong>Disk Copy</strong> (included with Mac OS
+X&nbsp;10.1 and higher): After opening the Disk Copy application (in
+the <tt>/Applications/Utilities</tt> folder), select
+<i>Burn&nbsp;Image...</i> in the <i>Image</i> menu and choose the CD
+image to burn. Ensure that the settings are correct, then click on
+<i>Burn</i>.</p>
+
+
+# ============================================================
+
+<toc-add-entry name="write-usb">How do I write a CD/DVD/BD image to a
+USB flash drive?</toc-add-entry>
+
+<p>Several of the Debian and Debian Live images, notably all i386,
+amd64 and arm64 images, are created using the <i>isohybrid</i>
+technology, which means that they may be used in two different
+ways:</p>
+
+<ul>
+  <li>They may be written to CD/DVD/BD and used as normal for CD/DVD/BD booting.</li>
+  <li>They may be written to USB flash drives, bootable directly from the BIOS / EFI firmware of most PCs.</li>
+</ul>
+
+<p>On a Linux machine, simply use the <q>cp</q> command, to copy an
+image to a USB flash drive:</p>
+
+<p><code>cp &lt;file&gt; &lt;device&gt;</code></p>
+
+<p>Alternatively you can also use <q>dd</q>:</p>
+
+<p><code>dd if=&lt;file&gt; of=&lt;device&gt; bs=4M; sync</code></p>
+
+<p>where:</p>
+<ul>
+  <li>&lt;file&gt; is the name of the input image, e.g. <q>netinst.iso</q>
+  <li>&lt;device&gt; is the device matching the USB flash drive,
+  e.g. /dev/sda, /dev/sdb. <em>Be careful to make sure you have the right
+  device name</em>, as this command is capable of writing over your hard
+  disk just as easily if you get the wrong one!</li>
+  <li><q>bs=4M</q> tells dd to read/write in 4 megabyte chunks for
+  better performance; the default is 512 bytes, which will be much
+  slower
+  <li>The <q>sync</q> is to make sure that all the writes are flushed out
+  before the command returns.
+</ul>
+
+<p>Additionally to the method above for Linux systems, there is also
+   the <a NAME="win32diskimager"
+   href="http://sourceforge.net/projects/win32diskimager/">win32diskimager</a>
+   program available, which allows writing such bootable USB flash
+   drives under Windows. <b>Hint:</b> win32diskimager will apparently
+   only list input files named <i>*.img</i> by default, while the
+   Debian images are named <i>*.iso</i>. Change the filter to
+   <i>*.*</i> if you use this tool.
+</p>
+
+<p>Please note, that Debian advises not using <q>unetbootin</q> for
+   this task. It can cause difficult-to-diagnose problems with booting
+   and installing, so is not recommended.
+</p>
+
+# ============================================================
+
+<toc-add-entry name="whatlabel">How should I label the
+discs?</toc-add-entry>
+
+<p>There is no obligatory way of labeling. However, we suggest you
+use the following scheme to ensure interchangeability:</p>
+
+<div class="cdflash">
+      <p>Debian GNU/{Linux|Hurd|kFreeBSD}
+      &lt;version&gt;[&lt;revision&gt;]<br />Official
+      {&lt;architecture&gt;} {CD|DVD|BD}-&lt;number&gt;</p>
+</div>
+
+<p>For example:</p>
+
+<div class="cdflash">
+      <p>Debian GNU/Linux 6.0.3<br />Official i386
+      CD-1</p>
+</div>
+
+<div class="cdflash">
+      <p>Debian GNU/Linux 6.0.3<br />Official
+      amd64 DVD-2</p>
+</div>
+
+<div class="cdflash">
+      <p>Debian GNU/Linux 6.0.3<br />Official
+      source BD-1</p>
+</div>
+
+<div class="cdflash">
+      <p>Debian GNU/kFreeBSD 6.0.3<br />Official i386
+      Netinst CD</p>
+</div>
+
+<p>If you have enough space, you can also add the codename to the
+first line, as in: <i>Debian GNU/Linux 6.0.3 <q>Squeeze</q></i>.</p>
+
+<p>Note that you are allowed to use the <em>Official</em>
+designation <strong>only</strong> on CDs the image of which has a
+checksum that matches the one from the
+<a href="../jigdo-cd/#which">jigdo
+files of official releases</a>.
+Any CD that has no matching checksum (e.g. your own creations) must be
+clearly labelled as <em>Unofficial</em>, for example:</p>
+
+<div class="cdflash">
+      <p>Debian GNU/Linux 6.0.3<br />Unofficial
+      Non-free</p>
+</div>
+
+<p>In the case of official weekly snapshots, version numbers like
+<q>6.0.3</q> should not be used to avoid confusion with released
+Debian versions. Instead, label the image with a codename like
+<q>etch</q> or a distribution name like <q>testing</q>. Also add
+<q>Snapshot</q> and the date of the snapshot to help identify it:</p>
+
+<div class="cdflash">
+      <p>Debian GNU/Linux <q>etch</q><br />
+      Official Snapshot alpha Binary-2<br />
+      2005-06-17</p>
+</div>
+
+# ============================================================
+
+<toc-add-entry name="artwork">Is there any artwork for discs and
+covers?</toc-add-entry>
+
+<p>There is no official layout for the cover, back and label of a
+Debian CD/DVD/BD, but a number of people have produced nice-looking
+images. Please see the separate <a href="../artwork/">artwork
+page</a>.
+
+# ============================================================
+
+<toc-add-entry name="old">Are old CD/DVD/BD images still
+available?</toc-add-entry>
+
+<p>Some older images are available from the <a
+href="http://cdimage.debian.org/cdimage/archive/">archive
+section on cdimage.debian.org</a>. For example, you might want to try
+out older images if you need support for a certain (sub)architecture
+which has been dropped for a newer release.</p>
+
+<p>Note that when you install using a really old CD/DVD (pre 4.0,
+Etch), the contents of <tt>/etc/apt/sources.list</tt> will reference
+the <em>current</em> stable Debian release by default. This means that
+any upgrade over the net will upgrade to the current stable
+release.</p>
+
+# ============================================================
+
+<toc-add-entry name="lan-install">What is the best way of installing
+Debian on many interconnected computers?</toc-add-entry>
+
+<p>If you want to install Debian on a large number of machines and
+then keep all these installations up-to-date (e.g. security updates),
+installing from optical media is not ideal, but then neither is
+installing via the Internet, because the packages will have to be
+downloaded again for each machine. In this case, you should set up a
+local cache, the three options being:</p>
+
+<ul>
+
+  <li><em>Make disc contents available via HTTP or FTP:</em> Download the
+  images, then make their contents available to your LAN on a local
+  mirror. The individual machines can use this mirror as if it
+  were a regular Debian server. For example, if the contents of a CD
+  are available under the URL <tt>http://10.0.0.1/cd1/</tt>, machines
+  in the local network can use the packages from the CD with the
+  following line in their <tt>/etc/apt/sources.list</tt>:<br />
+  <tt>deb http://10.0.0.1/cd1/ stable main contrib</tt><br />
+  A different URL and a separate entry in <tt>sources.list</tt> is
+  necessary for each CD.</li>
+
+  <li><em>Instruct your HTTP proxy to cache .deb files:</em>
+  Configure the proxy to keep .deb files for a long time, then set
+  <tt>http_proxy</tt> in your environment on each machine to point
+  at the cache, and use apt's HTTP acquisition method.<br />
+  This gives you most of the benefits of running a mirror, with
+  none of the admin hassle. Since you can set limits on the
+  proxy's disk usage, it works even for sites with limited disk
+  space, and it has the advantage over mirroring that you only
+  download those packages you install, which saves bandwidth.
+  Squid can be told to keep the files by adding a line to
+  <tt>/etc/squid/squid.conf</tt>:<br /><tt>refresh_pattern&nbsp;&nbsp;&nbsp;debian.org/.*.deb$&nbsp;&nbsp;&nbsp;129600&nbsp;100%&nbsp;129600</tt></li>
+
+  <li><em>Set up a private Debian packages mirror:</em> Beware
+  that the Debian archive has grown to a tremendous size! Refer to
+  the <a href="$(HOME)/mirror/">mirroring page</a> for details.</li>
+
+</ul>
+
+<p>Installing on a large number of machines can be tricky.
+<a href="http://fai-project.org/">Fully automatic
+installation</a> (FAI), which is also available as a Debian
+package, may help you with this task.</p>
+
+# ============================================================
+
+<toc-add-entry name="diy">I have a local Debian mirror and want to
+create my own CD/DVDs/BDs/. How do I do this?</toc-add-entry>
+
+<p>Apart from a <a href="$(HOME)/mirror/">local Debian mirror</a>, you
+also need plenty of disc space. The image creation scripts are
+packaged in the <em>debian-cd</em> package. However, it is usually a
+better idea to use the latest code from git. (Still, you should have a
+look at the package's dependencies to ensure you have all the
+necessary tools.)</p>
+
+<p>To get the latest git version, make sure you have git
+installed. From an empty directory, give the following command:</p>
+
+<div class="centerblock">
+<p>
+<tt>git clone https://alioth.debian.org/anonscm/git/debian-cd/debian-cd.git</tt>
+</p>
+</div>
+
+<p>Should you try to use the scripts, check the
+<a href="https://lists.debian.org/debian-cd/">debian-cd mailing list
+archive</a> for solutions to the problems that will inevitably
+show up. :-)</p>
+
+# ============================================================
+
+<toc-add-entry name="become-cd-mirror">How do I become a mirror for
+Debian CD/DVD/BD images?</toc-add-entry>
+
+<p>The necessary steps to set up your debian-cd image mirror and keep
+it up to date are <a href="../mirroring/">described on a separate
+page</a>.</p>
+
+# ============================================================
+
+<toc-add-entry name="not-all-images">Some Images are missing!
+Only the first n images are available! Where is the rest?</toc-add-entry>
+
+<p>We don't store/serve the full set of ISO images for all architectures,
+to reduce the amount of space taken up on the mirrors. You can
+<a href="#why-jigdo">use the jigdo tool</a> to recreate the missing ISO
+images instead.</p>
+
+# ============================================================

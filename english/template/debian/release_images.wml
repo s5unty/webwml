@@ -1,0 +1,90 @@
+#use wml::debian::installer
+#use wml::debian::release_info
+
+<define-tag standard-images-url>http://cdimage.debian.org/debian-cd/<current-cd-release-dirname/></define-tag>
+
+<define-tag stable-images-url><standard-images-url/></define-tag>
+
+# used in CD/netinst/index.wml
+<define-tag stable-small-cd-images>
+<images-list url="<stable-images-url/>/@ARCH@/iso-cd/" arch="<strip-arches "<stable-images-arches />" "s390 source" />" />
+</define-tag>
+
+<define-tag stable-netinst-images>
+<images-list url="<stable-images-url/>/@ARCH@/iso-cd/debian-<current-tiny-cd-release-filename/>-@ARCH@-netinst.iso" arch="<strip-arches "<stable-images-arches />" "s390 source" />" />
+</define-tag>
+<define-tag stable-businesscard-images>
+<images-list url="<stable-images-url/>/@ARCH@/iso-cd/debian-<current-tiny-cd-release-filename/>-@ARCH@-businesscard.iso" arch="<strip-arches "<stable-images-arches />" "s390 source" />" />
+</define-tag>
+
+<define-tag stable-netinst-torrent>
+<images-list url="<stable-images-url/>/@ARCH@/bt-cd/debian-<current-tiny-cd-release-filename/>-@ARCH@-netinst.iso.torrent" arch="<strip-arches "<stable-images-arches />" "s390 source" />" />
+</define-tag>
+<define-tag stable-businesscard-torrent>
+<images-list url="<stable-images-url/>/@ARCH@/bt-cd/debian-<current-tiny-cd-release-filename/>-@ARCH@-businesscard.iso.torrent" arch="<strip-arches "<stable-images-arches />" "s390 source" />" />
+</define-tag>
+
+<define-tag stable-full-cd-images>
+<images-list url="<stable-images-url/>/@ARCH@/iso-cd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+<define-tag stable-full-dvd-images>
+<images-list url="<stable-images-url/>/@ARCH@/iso-dvd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag stable-full-cd-jigdo>
+<images-list url="<stable-images-url/>/@ARCH@/jigdo-cd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+<define-tag stable-full-dvd-jigdo>
+<images-list url="<stable-images-url/>/@ARCH@/jigdo-dvd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+<define-tag stable-full-bluray-jigdo>
+<images-list url="<stable-images-url/>/@ARCH@/jigdo-bd/" arch="i386 amd64 source" />
+</define-tag>
+
+<define-tag stable-full-cd-torrent>
+<images-list url="<stable-images-url/>/@ARCH@/bt-cd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+<define-tag stable-full-dvd-torrent>
+<images-list url="<stable-images-url/>/@ARCH@/bt-dvd/" arch="<stable-images-arches /> multi-arch" />
+</define-tag>
+
+<define-tag live-images-url>http://cdimage.debian.org/debian-cd/<current-live-cd-release-dirname/>-live</define-tag>
+
+<define-tag stable-live-install-bt-cd-images>
+<images-list url="<live-images-url/>/@ARCH@/bt-hybrid/" arch="amd64 i386" />
+</define-tag>
+<define-tag stable-live-install-iso-cd-images>
+<images-list url="<live-images-url/>/@ARCH@/iso-hybrid/" arch="amd64 i386" />
+</define-tag>
+<define-tag stable-live-install-net-images>
+<images-list url="<live-images-url/>/@ARCH@/net/" arch="amd64 i386" />
+</define-tag>
+<define-tag stable-live-install-usb-hdd-images>
+<images-list url="<live-images-url/>/@ARCH@/usb-hdd/" arch="amd64 i386" />
+</define-tag>
+<define-tag stable-live-install-web-images>
+<images-list url="<live-images-url/>/@ARCH@/web/" arch="amd64 i386" />
+</define-tag>
+
+# this needs to link a debian/ mirror rather than cdimage.d.o
+# no idea why ftp.nl.d.o is picked -joy, 2007-11-10
+# it's a reliable mirror that has all arches and good connectivity -fjp, 2008-02-08
+<define-tag stable-otherimages-url>http://ftp.nl.debian.org/debian/dists/<current_release_name/>/main/installer-@ARCH@/current/images/</define-tag>
+
+# this is a generic tag, used by releases/lenny/debian-installer/index.wml etc
+<define-tag stable-other-images>
+<images-list url="<stable-otherimages-url/>" arch="<strip-arches "<stable-images-arches />" "source" />" />
+</define-tag>
+
+# these are a bit more more fine-grained tags, used by distrib/netinst.wml
+<define-tag stable-verysmall-images>
+<images-list url="<stable-otherimages-url/>" arch="<strip-arches "<stable-images-arches />" "source alpha arm armel hppa mips mipsel sparc" />" />
+</define-tag>
+<define-tag stable-netboot-images>
+<images-list url="<stable-otherimages-url/>" arch="<strip-arches "<stable-images-arches />" "source s390" />" />
+</define-tag>
+
+# multi-arch cannot be linked as is, as we don't know which archs it include (used in the filename)
+<define-tag small-non-free-cd-images>
+<images-list url="http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/<current-nonfree-cd-release-dirname/>/@ARCH@/iso-cd/firmware-<current-nonfree-cd-release-filename/>-@ARCH@-netinst.iso" arch="amd64 i386 powerpc" />
+</define-tag>

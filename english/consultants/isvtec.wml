@@ -1,0 +1,9 @@
+#use wml::debian::consultant name="ISVTEC"
+
+<p>
+ISVTEC is a managed services company, specializing in management of
+large scale web and mail infrastructure using Debian as a platform.
+Along our managed services offer, we are providing Debian related
+services such as professional support, packaging and architecture.
+</p><p>
+More information at <a href="http://www.isvtec.com/">http://www.isvtec.com/</a>.</p>

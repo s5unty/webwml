@@ -1,0 +1,79 @@
+#use wml::debian::template title="Installing Debian via the Internet" BARETITLE=true
+#use wml::debian::toc
+#include "$(ENGLISHDIR)/releases/info"
+#include "$(ENGLISHDIR)/releases/images.data"
+
+<p>This method of installing Debian requires a functioning Internet connection
+<em>during</em> installation. Compared to other methods you end up downloading
+less data as the process will be tailored to your requirements. Ethernet and
+wireless connections are supported. Internal ISDN cards are unfortunately
+<em>not</em> supported.</p>
+<p>There are three options for installs over the network:</p>
+
+<toc-display />
+<div class="line">
+<div class="item col50">
+
+<toc-add-entry name="smallcd">Small CDs or USB sticks</toc-add-entry>
+
+<p>The following are image files which are up to 280&nbsp;MB in size.
+Choose your processor architecture below.</p>
+
+<stable-netinst-images />
+</div>
+<div class="clear"></div>
+</div>
+
+<p>For details, please see: <a href="../CD/netinst/">Network install
+from a minimal CD</a></p>
+
+<div class="line">
+<div class="item col50">
+
+<toc-add-entry name="verysmall">Tiny CDs, flexible USB sticks, etc.</toc-add-entry>
+
+<p>You can download a couple of image files of small size, suitable for
+USB Sticks and similar devices, write them to the media,
+and then start the installation by booting from that.</p>
+
+<p>There is some diversity in the support for installing from various
+very small images between the architectures.
+</p>
+
+<p>For details, please refer to the
+<a href="$(HOME)/releases/stable/installmanual">installation manual for
+your architecture</a>, especially the chapter
+<q>Obtaining System Installation Media</q>.</p>
+
+<p>
+Here are the links to
+the available image files (look at the MANIFEST file for information):
+</p>
+
+<stable-verysmall-images />
+</div>
+<div class="item col50 lastcol">
+
+<toc-add-entry name="netboot">Network boot</toc-add-entry>
+
+<p>You set up a TFTP and a DHCP (or BOOTP, or RARP) server which will
+serve the installation media to machines on your local network.
+If your client machine's BIOS supports it, you can then boot the Debian
+installation system from the network (using PXE and TFTP), and proceed
+with installing the rest of Debian from the network.</p>
+
+<p>Not all machines support booting from the network. Because of the
+additional work required, this method for installing Debian is not
+recommended for novice users.</p>
+
+<p>For details, please refer to the
+<a href="$(HOME)/releases/stable/installmanual">installation manual for
+your architecture</a>, especially the chapter
+<q>Preparing Files for TFTP Net Booting</q>.</p>
+<p>Here are the links to the image files (look at the MANIFEST file for
+information):</p>
+
+<stable-netboot-images />
+</div>
+</div>
+

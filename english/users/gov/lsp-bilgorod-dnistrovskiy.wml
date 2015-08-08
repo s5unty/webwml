@@ -1,0 +1,14 @@
+# From: noisy patient <chillout.wave@gmail.com>
+# Date: Mon, 28 Jan 2013 19:03:48 +0200
+# Message-ID: <5106AF74.90009@gmail.com>
+
+<define-tag pagetitle>Department of Labour and Social Protection, Bilgorod-Dnistrovskyi, Ukraine</define-tag>
+
+#use wml::debian::users
+
+<p>
+    Our organization uses 4 servers with the Debian OS, because it is a very
+    fast and reliable system. We have installed a samba file-server, squid,
+    cups-server and also a host-platform with VirtualBox virtual machines in
+    headless mode.
+</p>

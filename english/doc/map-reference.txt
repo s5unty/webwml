@@ -1,0 +1,20 @@
+##
+## reference: both SGML and DocBook source exists
+##
+## This file's aim is to redirect old links to the new ones.
+## It's a RewriteMap Apache format one.
+## Don't touch this file unless you really know what you're doing!
+preface		pr01
+system		ch02
+install		ch03
+tutorial	ch01
+woody		ch02
+package		ch02
+kernel		ch09
+tips		ch09
+tune		ch03
+gateway		ch05
+edit		ch01
+vcs		ch10
+program		ch12
+gnupg		ch10

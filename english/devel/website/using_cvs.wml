@@ -1,0 +1,157 @@
+#use wml::debian::template title="Using CVS"
+
+<p>CVS is a program to help manage having multiple people work on
+the same material simultaneously. Every user creates a local copy
+of the main repository. The local copies can be on the same machine,
+or across the world. Users can then modify the local copy as they
+wish and when the modified material is ready, commit the changes
+back to the main repository.</p>
+
+<p>For a read only access it's possible
+to use the <a href="http://anonscm.debian.org/viewvc/webwml/webwml/">web
+frontend</a>. There exist also many graphical CVS clients such as
+KDE's <a href="https://packages.debian.org/cervisia">cervisia</a>.
+This document describes the workflow with the command line program
+<code>cvs</code>, other clients provide similar functionality.</p>
+
+<p>CVS will not let you commit a file if the copy in the main
+repository has been modified since your last update. This is
+not normally a problem as you can still update your local copy.
+If the modifications were to different parts than you were working
+on, the changes are silently merged. If the changes affect the same area you
+were working on, you will be warned that there is a conflict
+and you need to edit the file to fix the problem before committing.</p>
+
+<p>In what follows anonymous access will be used as an example. If
+you have access to another account which gives you write permission to
+the repository then you should use that account instead. If you
+are planning on making changes, you should get an account before
+starting as anonymous users cannot commit changes.  See <a
+href="#write-access">the section on write access</a> for more
+information.</p>
+
+<p>To begin using CVS, you must first <code>login</code> to the CVS server</p>
+
+<pre>
+   cvs -d :pserver:anonymous@anonscm.debian.org:/cvs/webwml login
+</pre>
+
+<p>(just hit enter for the password here)</p>
+
+<p>To check out a copy of the wml files on your local machine, you need to use</p>
+
+<pre>
+   cvs -d :pserver:anonymous@anonscm.debian.org:/cvs/webwml checkout webwml
+</pre>
+
+<p>You can check out a subset of the pages like this:</p>
+
+<pre>
+   cvs -d :pserver:anonymous@anonscm.debian.org:/cvs/webwml checkout -l \\
+          webwml webwml/&lt;<var>language</var>&gt;
+   cvs -d :pserver:anonymous@anonscm.debian.org:/cvs/webwml checkout \\
+          webwml/Perl webwml/english/template webwml/&lt;<var>language</var>&gt;/Pics
+   cvs -d :pserver:anonymous@anonscm.debian.org:/cvs/webwml checkout \\
+          webwml/&lt;<var>language</var>&gt;/&lt;<var>path to desired files</var>&gt;
+</pre>
+
+<p>Repeat for all subdirectories or files that you want. The second line
+includes all the files you will need if you wish to create HTML from the WML
+files. Partial checkouts such as these aren't really supported, though, so
+the above instructions may not always work.</p>
+
+<p>
+If you have an Alioth account, with an associated <a
+href="https://alioth.debian.org/account/editsshkeys.php">\
+public SSH key</a>, you can use it instead like this:
+</p>
+
+<pre>
+   cvs -d :ext:username@cvs.debian.org:/cvs/webwml checkout webwml/english/doc
+</pre>
+
+<p>From then on, you will not need to use the <code>'-d :ext:...'</code>
+part. Every few days you will want to do a</p>
+
+<pre>
+   cvs update -d
+</pre>
+
+<p>to retrieve any files from the repository which have changed.  The
+<code>-d</code> update option will add any new directories, automatically.
+It will also check out all the directories that were omitted if you performed a
+partial checkout &mdash; in that case you might want to use the
+<code>cvsup.py</code> script.</p>
+
+<p>
+You may want to create a <code>~/.cvsrc</code> file so that you don't have
+to type some options all the time. For example, it can contain:</p>
+
+<pre>
+cvs -z9
+update -d -P
+diff -u
+</pre>
+
+<p>The following is for those who have write permission on the repository.
+When you are done with a page, you can commit your changes to the repository using</p>
+
+<pre>
+   cvs commit &lt;file&gt;.wml
+</pre>
+
+<p>or</p>
+
+<pre>
+   cvs commit &lt;dir&gt;    (to commit all the changes in &lt;dir&gt;)
+</pre>
+
+<p>or</p>
+
+<pre>
+   cvs commit          (to commit all changes from the current dir down)
+</pre>
+
+<p>If you are the first person translating a page, you need to do</p>
+
+<pre>
+   cvs add &lt;file&gt;.wml
+</pre>
+
+<p>before you commit it. Note that <code>cvs add</code> is not recursive so
+you need to add a directory before you can add its contents.</p>
+
+<p>For more information on CVS, use <code>info cvs</code>.</p>
+
+<p>
+If you include <code>Closes: #</code><var>nnnnnn</var> in your commit log
+entry then bug number <code>#</code><var>nnnnnn</var> will be closed
+automatically when you commit. The precise form of this is the same as
+<a href="$(DOC)/debian-policy/footnotes.html#f17">in Debian policy</a>.</p>
+
+<p>
+Many Debian websites support SSL, please use HTTPS links for the
+ones that do support SSL.
+Some Debian/DebConf/SPI/etc websites do not have HTTPS support or are
+only signed by SPI and not by any SSL CA that is trusted by browsers
+outside of Debian, we should avoid linking to https: versions of
+these websites so that people not using Debian don't get errors
+they may not understand.
+The CVS repository will reject commits containing plain HTTP links for
+Debian websites that support HTTPS or containing HTTPS links for the
+Debian/DebConf/SPI websites that are known to either not
+support HTTPS or use certificates signed only by SPI.</p>
+
+<h3><a name="write-access">CVS Write Access</a></h3>
+
+<p>
+If you already know <a href="$(DEVEL)/website/desc#help">how to help</a>, and
+have provided enough patches that have been accepted by the web team or a
+localization team, you could obtain write access to the website: please <a
+href="https://alioth.debian.org/project/request.php?group_id=1135">request
+to join the <code>webwml</code> project on Alioth</a> (you will have to <a
+href="https://alioth.debian.org/account/register.php">create an Alioth
+account</a> if you don't already have one).
+Please write something useful in your request, like which language or which
+part of the website you plan to work on, and who would vouch for you.
+</p>

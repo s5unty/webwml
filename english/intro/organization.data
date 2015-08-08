@@ -1,0 +1,470 @@
+#use wml::debian::language_names
+#use wml::debian::common_tags
+
+<bind-gettext-domain domain="organization" />
+
+# <gettext domain="organization">Delegates</gettext>
+# <gettext domain="organization">Installation</gettext>
+# <gettext domain="organization">Mailing list</gettext>
+
+<define-tag spaces>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</define-tag>
+<define-tag job><li>%attributes —</define-tag>
+<define-tag genericemail>&lt;<a href="mailto:%0">%0</a>&gt;</define-tag>
+<define-tag delegationmail>— <a href="https://lists.debian.org/%0"><gettext domain="organization">delegation mail</gettext></a></define-tag>
+<define-tag appointmentmail>— <a href="https://lists.debian.org/%0"><gettext domain="organization">appointment mail</gettext></a></define-tag>
+# One male delegate
+<define-tag delegate_male> (<gettext domain="organization"><void id="male"/>delegate</gettext>)</define-tag>
+# One female delegate
+<define-tag delegate_female> (<gettext domain="organization"><void id="female"/>delegate</gettext>)</define-tag>
+# current* is only for positions necessarily transitional, such as the leader
+<define-tag current><br>
+<spaces><em><gettext domain="organization">current</gettext></em>&nbsp;</define-tag>
+<define-tag currentmail><br>
+<spaces><em><gettext domain="organization">current</gettext></em> %0 &lt;<a href="mailto:%1">%1</a>&gt;</define-tag>
+<define-tag member><br>
+<spaces><em><gettext domain="organization">member</gettext></em>&nbsp;</define-tag>
+<define-tag membermail><br>
+<spaces><em><gettext domain="organization">member</gettext></em> %0 &lt;<a href="mailto:%1">%1</a>&gt;</define-tag>
+# for release team we use <manager>, <srm>, <wizard> and <assistant>
+<define-tag manager><br>
+<spaces><em><gettext domain="organization">manager</gettext></em>&nbsp;</define-tag>
+<define-tag srm><br>
+<spaces><em><abbr title="<gettext domain="organization">Stable Release Manager</gettext>"><gettext domain="organization">SRM</gettext></abbr></em>&nbsp;</define-tag>
+<define-tag wizard><br>
+<spaces><em><gettext domain="organization">wizard</gettext></em>&nbsp;</define-tag>
+# we only use the chairman tag once, for techctte, I wonder why it's here.
+<define-tag chairman><br>
+<spaces><em><gettext domain="organization">chairman</gettext></em>&nbsp;</define-tag>
+# assistant tag added for DPL "second in command"
+<define-tag assistant><br>
+<spaces><em><gettext domain="organization">assistant</gettext></em>&nbsp;</define-tag>
+<define-tag secretary><br>
+<spaces><em><gettext domain="organization">secretary</gettext></em>&nbsp;</define-tag>
+<define-tag note><br>
+<em>%attributes</em></define-tag>
+
+# --------------------------------------------------------------------------
+
+# there is no officers page, yet
+# <em><strong><a href="$(HOME)/intro/officers"><gettext domain="organization">Officers</gettext></a></em></strong>
+<ul class="toc">
+<li><a href="#officers"><gettext domain="organization">Officers</gettext></a></li>
+<li><a href="#distribution"><gettext domain="organization">Distribution</gettext></a></li>
+<li><a href="#publicity"><gettext domain="organization">Publicity</gettext></a></li>
+<li><a href="#support"><gettext domain="organization">Support and Infrastructure</gettext></a></li>
+# formerly Custom Debian Distributions (CCDs); see https://blends.alioth.debian.org/blends/ch-about.en.html#s-Blends
+<li><a href="#blends"><gettext domain="organization">Debian Pure Blends</gettext></a></li>
+</ul>
+
+<a name="officers"></a>
+<h3><gettext domain="organization">Officers</gettext></h3>
+
+<ul>
+  <job <a name="leader" href="$(HOME)/devel/leader"><gettext domain="organization">Leader</gettext></a>> <genericemail leader@debian.org>
+    <current>Neil McGovern
+  <job <a name="tech-ctte" href="$(HOME)/devel/tech-ctte"><gettext domain="organization">Technical Committee</gettext></a>> <genericemail debian-ctte@lists.debian.org> <appointmentmail 20150308165327.GA13601@xanadu.blop.info>
+    <chairman>Don Armstrong
+    <member>Andreas Barth
+    <member>Bdale Garbee
+    <member>Sam Hartman
+    <member>Tollef Fog Heen
+    <member>Steve Langasek
+    <member>Keith Packard
+    <member>Didier Raboud
+  <job <a name="secretary" href="$(HOME)/devel/secretary"><gettext domain="organization">Secretary</gettext></a>> <genericemail secretary@debian.org> <appointmentmail 20130208193756.GA30999@upsilon.cc>
+    <current>Kurt Roeckx
+</ul>
+
+<a name="distribution"></a>
+<h3><gettext domain="organization">Distribution</gettext></h3>
+
+<ul>
+  <job <a name="devel" href="$(HOME)/devel/"><gettext domain="organization">Development Projects</gettext></a>> <genericemail debian-devel@lists.debian.org>
+  <job <a name="ftpmaster" href="https://ftp-master.debian.org/"><gettext domain="organization">FTP Archives</gettext></a>> <genericemail ftpmaster@debian.org> <delegationmail 20121017091648.GA32215@upsilon.cc>
+  <ul>
+    <job <a name="ftpmasters"><gettext domain="organization">FTP Masters</gettext></a>>
+      <member>Ansgar Burchardt <delegate_male>
+      <member>Joerg Jaspert <delegate_male>
+      <member>Mark Hymers <delegate_male>
+    <job <a name="ftpassistants"><gettext domain="organization">FTP Assistants</gettext></a>>
+      <member>Alexander Reichle-Schmehl
+      <member>Gergely Nagy
+      <member>Luca Falavigna
+      <member>Luke Faraone
+      <member>Paul Tagliamonte
+      <member>Scott Kitterman
+      <member>Thorsten Alteholz
+    <job <a name="ftpwizards"><gettext domain="organization">FTP Wizards</gettext></a>>
+      <member>Mike O'Connor
+      <member>Torsten Werner
+  </ul>
+<job <a name="backports" href="http://backports-master.debian.org/"><gettext domain="organization">Backports</gettext></a>> <genericemail backports-team@debian.org> <delegationmail 20110706145100.GA13459@upsilon.cc>
+  <ul>
+  <job <a name="backports-team"><gettext domain="organization">Backports Team</gettext></a>>
+    <member>Alexander Wirt<delegate_male>
+    <member>Gerfried Fuchs<delegate_female>
+  </ul>
+ <job <a name="packages" href="$(HOME)/devel/people"><gettext domain="organization">Individual Packages</gettext></a>> <var>&lt;packagename&gt;</var>@packages.debian.org
+  <job <a name="release"><gettext domain="organization">Release Management</gettext></a>>
+  <ul>
+    <job <a name="release-team" href="https://release.debian.org/"><gettext domain="organization">Release Team</gettext></a>> <genericemail debian-release@lists.debian.org> <delegationmail 20140528112324.GA29763@xanadu.blop.info>
+      <manager>Niels Thykier<delegate_male>
+      <manager>Emilio Pozuelo Monfort<delegate_male>
+      <srm>Adam D. Barratt<delegate_male>
+      <srm>Julien Cristau<delegate_male>
+      <srm>Philipp Kern<delegate_male>
+      <assistant>Andreas Barth<delegate_male>
+      <assistant>Felipe Augusto van de Wiel<delegate_male>
+      <assistant>Ivo De Decker<delegate_male>
+      <assistant>Julien Cristau<delegate_male>
+      <assistant>Jonathan Wiltshire<delegate_male>
+      <assistant>Cyril Brulebois<delegate_male>
+      <assistant>Mehdi Dogguy<delegate_male>
+    <job <a name="qa" href="https://qa.debian.org/"><gettext domain="organization">Quality Assurance</gettext></a>> <genericemail debian-qa@lists.debian.org>
+    <job <a name="installer"><gettext domain="organization">Installation System Team</gettext></a>> <genericemail debian-boot@lists.debian.org>
+    <job <a name="release-notes"><gettext domain="organization">Release Notes</gettext></a>> <genericemail debian-doc@lists.debian.org>
+      <member>Wolfgang Martin Borgert
+    <job <a name="cd" href="$(HOME)/CD/"><gettext domain="organization">CD Images</gettext></a>>
+    <ul>
+      <job <a name="cd-production"><gettext domain="organization">Production</gettext></a>> <genericemail debian-cd@lists.debian.org>
+        <member>Philip Hands
+        <member>Rapha&euml;l Hertzog
+        <member>Richard Atterer
+        <member>Santiago Garc&iacute;a Manti&ntilde;&aacute;n
+        <member>Steve McIntyre
+        <member>Mattias Wadenstein
+    </ul>
+    <job <a name="testing"><gettext domain="organization">Testing</gettext></a>> <genericemail debian-testing@lists.debian.org>
+  </ul>
+  <job <a name="buildd" href="https://buildd.debian.org/"><gettext domain="organization">Autobuilding infrastructure</gettext></a>>
+  <ul>
+    <job <a name="wanna-build"><gettext domain="organization">Wanna-build team</gettext></a>> <genericemail debian-wb-team@lists.debian.org>
+      <member>Andreas Barth
+      <member>Aurelien Jarno
+      <member>Kurt Roeckx
+      <member>Marc Brockschmidt
+      <member>Mehdi Dogguy
+      <member>Philipp Kern
+    <job <a name="buildd-adm"><gettext domain="organization">Buildd administration</gettext></a>> <var>&lt;architecture&gt;</var>@buildd.debian.org
+      <member>Andreas Barth
+      <member>Aurelien Jarno
+      <member>Christoph Egger
+      <member>Colin Tuckley
+      <member>Dann Frazier
+      <member>Frederik Sch&uuml;ler
+      <member>Hector Oron
+      <member>Konstantinos Margaritis
+      <member>Kurt Roeckx
+      <member>LaMont Jones
+      <member>Marc Brockschmidt
+      <member>Michael Banck
+      <member>Peter De Schrijver
+      <member>Philipp Kern
+      <member>Riku Voipio
+      <member>Samuel Thibault
+      <member>Wouter Verhelst
+  </ul>
+  <job <a name="doc" href="$(HOME)/doc/"><gettext domain="organization">Documentation</gettext></a>> <genericemail debian-doc@lists.debian.org>
+    <member>Javier Fern&aacute;ndez-Sanguino
+    <member>W. Martin Borgert
+    <member>Osamu Aoki
+    <member>Josip Rodin
+  <job <a name="wnpp" href="$(HOME)/devel/wnpp/"><gettext domain="organization">Work-Needing and Prospective Packages list</gettext></a>> <genericemail debian-wnpp@lists.debian.org>
+    <member>David Moreno Garza
+    <member>Matej Vela
+  <job <a name="live" href="http://live.debian.net/"><gettext domain="organization">Live System Team</gettext></a>> <genericemail debian-live@lists.debian.org>
+  <job <a name="ports" href="$(HOME)/ports/"><gettext domain="organization">Ports</gettext> — GNU/Linux</a>>
+    <ul>
+    <job <a name="alpha" href="$(HOME)/ports/alpha/">Alpha</a>> <genericemail debian-alpha@lists.debian.org>
+      <membermail "Michael Cree" mcree@orcon.net.nz>
+      <membermail "Bob Tracy" rct@gherkin.frus.com>
+      <membermail "Bill MacAllister" whm@stanford.edu>
+    <job <a name="amd64" href="$(HOME)/ports/amd64/">AMD64</a>> <genericemail debian-amd64@lists.debian.org>
+    <job <a name="arm" href="$(HOME)/ports/arm/">ARM</a>> <genericemail debian-arm@lists.debian.org>
+    <job <a name="i386">i386</a>> <genericemail debian-devel@lists.debian.org>
+    <job <a name="ia64" href="$(HOME)/ports/ia64/">IA-64</a>> <genericemail debian-ia64@lists.debian.org>
+      <member>Dann Frazier
+    <job <a name="m68k" href="$(HOME)/ports/m68k/">m68k</a>> <genericemail debian-68k@lists.debian.org>
+    <job <a name="mips" href="$(HOME)/ports/mips/">MIPS</a>> <genericemail debian-mips@lists.debian.org>
+    <job <a name="hppa" href="$(HOME)/ports/hppa/">PA-RISC</a>> <genericemail debian-hppa@lists.debian.org>
+      <member>Carlos O'Donell
+      <member>John David Anglin
+      <member>Thibaut Varene
+    <job <a name="powerpc" href="$(HOME)/ports/powerpc/">PowerPC</a>> <genericemail debian-powerpc@lists.debian.org>
+    <job <a name="s390" href="$(HOME)/ports/s390/">S/390</a>> <genericemail debian-s390@lists.debian.org>
+      <member>Philipp Kern
+    <job <a name="sparc" href="$(HOME)/ports/sparc/">SPARC/UltraSPARC</a>> <genericemail debian-sparc@lists.debian.org>
+      <member>Jurij Smakov
+    <job <a name="superh">SuperH</a>> <genericemail debian-superh@lists.debian.org>
+  </ul>
+  <job <a name="hurd" href="$(HOME)/ports/hurd/">GNU/Hurd</a>> <genericemail debian-hurd@lists.debian.org>
+    <member>Jeff Bailey
+    <member>Michael Banck
+    <member>Pino Toscano
+    <member>Samuel Thibault
+    <member>Svante Signell
+  <job <a name="kfreebsd" href="$(HOME)/ports/kfreebsd-gnu/">GNU/kFreeBSD</a>> <genericemail debian-bsd@lists.debian.org>
+    <member>Robert Millan
+    <member>Steven Chamberlain
+    <member>Petr Salinger
+    <member>Christoph Egger
+  <job <a name="special"><gettext domain="organization">Special Configurations</gettext></a>>
+  <ul>
+    <job <a name="beowulf" href="$(HOME)/ports/beowulf/">Beowulf</a>> <genericemail debian-beowulf@lists.debian.org>
+    <job <a name="laptop" href="$(HOME)/misc/laptops/"><gettext domain="organization">Laptops</gettext></a>> <genericemail debian-laptop@lists.debian.org>
+    <job <a name="firewall"><gettext domain="organization">Firewalls</gettext></a>> <genericemail debian-firewall@lists.debian.org>
+    <job <a name="embedded"><gettext domain="organization">Embedded systems</gettext></a>> <genericemail debian-embedded@lists.debian.org>
+  </ul>
+</ul>
+
+<a name="publicity"></a>
+<h3><gettext domain="organization">Publicity</gettext></h3>
+
+<ul>
+  <job <a name="press"><gettext domain="organization">Press Contact</gettext></a>> <genericemail press@debian.org> <delegationmail 20140102180809.GA19601@xanadu.blop.info>
+    <member>Martin Schulze<delegate_male>
+    <member>Neil McGovern<delegate_male>
+    <assistant>Paul Wise
+    <assistant>Moray Allan
+    <assistant>Kai Wasserb&auml;ch
+  <job <a name="partners" href="$(HOME)/partners/"><gettext domain="organization">Partner Program</gettext></a>> <genericemail partners@debian.org>
+    <member>Andre Felipe Machado
+    <member>Joerg Jaspert
+  <job <a name="events" href="$(HOME)/events/"><gettext domain="organization">Events</gettext></a>> <genericemail events@debian.org>
+    <member>Alexander Wirt
+    <member>Franziska Lichtblau
+    <member>Geert Stappers
+    <member>Luca Capello
+  <job <a name="bits" href="https://bits.debian.org/"><gettext domain="organization">Bits from Debian</gettext></a>> <genericemail debian-publicity@lists.debian.org> <delegationmail 20130520093925.GB5529@xanadu.blop.info>
+    <member>Francesca Ciceri<delegate_female>
+    <member>Ana Beatriz Guerrero López<delegate_female>
+</ul>
+
+<a name="support"></a>
+<h3><gettext domain="organization">Support and Infrastructure</gettext></h3>
+
+<ul>
+  <job <a name="user-support" href="$(HOME)/support"><gettext domain="organization">User support</gettext></a>>
+    <ul>
+<perl>
+	open LISTS, "<", "$(HOME)/../english/MailingLists/lists.cfg"
+		or die "Can't open lists.cfg: $!\n";
+
+	my ( %entry, %userlists );
+	while (<LISTS>) {
+		next if /^#/;
+		if (/^\s*$/) {
+			process_entry( %entry );
+			%entry = ();
+			next;
+		}
+		if (/^([^:]+):\s*(.*)$/) {
+			$entry{$1} = $2;
+		}
+	}
+	close LISTS;
+	if (keys %entry) { process_entry( %entry ); }
+
+	sub process_entry {
+		my %entry = @_;
+
+		return unless $entry{List};
+		return unless $entry{Section};
+		$entry{Language} ||= 'English';
+
+		if ($entry{List} =~ /(debian-user-(.*)\@lists.debian.org)/) {
+			$userlists{$2} = $1;
+#			warn "$2: $1\n";
+			return;
+		}
+
+		if ($entry{List} =~ /(debian-(chinese-(?:big5|gb))\@lists.debian.org)/) {
+			my ($lang,$list) = ($2,$1);
+			$lang =~ tr/-/_/;
+			$userlists{$lang} = $list;
+			#warn "$lang: $list\n";
+			return;
+		}
+
+		if (($entry{List} =~ /(debian-([^-]+)\@lists.debian.org)/)
+		    && ($entry{Section} eq 'user')
+                    && ($entry{Language} ne 'English')) {
+			$userlists{$2} = $1;
+#			warn "$2: $1\n";
+			return;
+		}
+	}
+
+	my $userlists_lang = {};
+
+	$userlists_lang{$trans{$CUR_ISO_LANG}{english}} = "debian-user\@lists.debian.org";
+	foreach my $list (keys %userlists) {
+		unless (exists($trans{$CUR_ISO_LANG}{$list}))
+		{
+			warn("Language `$list' not found in translation table'")
+		}
+ 		$userlists_lang{$trans{$CUR_ISO_LANG}{$list}} = "$userlists{$list}";
+	}
+
+	foreach my $list (sort langcmp keys %userlists_lang) {
+		print "<li>$list — &lt;<a href=\"mailto:$userlists_lang{$list}\">$userlists_lang{$list}</a>&gt;</li>\n";
+	}
+</perl>
+    </ul>
+  <job <a name="bugs" href="https://bugs.debian.org/"><gettext domain="organization">Bug Tracking System</gettext></a>> <genericemail owner@bugs.debian.org>
+    <member>Don Armstrong
+    <member>Blars Blarson
+    <member>Josip Rodin
+    <member>Colin Watson
+  <job <a name="lists" href="$(HOME)/MailingLists/"><gettext domain="organization">Mailing Lists Administration and Mailing List Archives</gettext></a>> <genericemail listmaster@lists.debian.org>
+    <current>Alexander Wirt
+    <current>Cord Beermann
+    <current>David Moreno Garza
+    <current>Don Armstrong
+    <current>Joey Schulze
+    <current>Martin Zobel-Helas
+    <current>Pascal Hakim
+  <job <a name="nmfrontdesk" href="$(HOME)/devel/join/newmaint#FrontDesk"><gettext domain="organization">New Members Front Desk</gettext></a>> <genericemail nm@debian.org> <delegationmail 20140327090403.GA11964@xanadu.blop.info>
+    <member>Bernd Zeimetz<delegate_male>
+    <member>Enrico Zini<delegate_male>
+    <member>Jan Dittberner<delegate_male>
+    <member>Jan Hauke Rahm<delegate_male>
+    <member>Jonathan Wiltshire<delegate_male>
+    <member>Mike Gabriel<delegate_male>
+  <job <a name="dam" href="$(HOME)/devel/join/newmaint#DAM"><gettext domain="organization">Debian Account Managers</gettext></a>> <genericemail da-manager@debian.org> <delegationmail 20131226104528.GA9842@xanadu.blop.info>
+    <member>Christoph Berg<delegate_male>
+    <member>Enrico Zini<delegate_male>
+    <member>Joerg Jaspert<delegate_male>
+    <member>Jonathan Wiltshire<delegate_male>
+  <job <a name="keyring" href="http://keyring.debian.org/"><gettext domain="organization">Keyring Maintainers (PGP and GPG)</gettext></a>> <genericemail keyring-maint@debian.org> <delegationmail 20131226104228.GD9708@xanadu.blop.info>
+    <member>Gunnar Wolf<delegate_male>
+    <member>Jonathan McDowell<delegate_male>
+  <job <a name="dmkeyring" href="https://wiki.debian.org/DebianMaintainer"><gettext domain="organization">Debian Maintainer (DM) Keyring Maintainers</gettext></a>> <genericemail debian-newmaint@lists.debian.org> <delegationmail 20071118163748.GA13768@zoy.org>
+    <member>Anibal Monsalve Salazar<delegate_male>
+    <member>Anthony Towns<delegate_male>
+    <member>Joey Hess<delegate_male>
+  <job <a name="security" href="$(HOME)/security/"><gettext domain="organization">Security Team</gettext></a>> <genericemail team@security.debian.org>
+    <member>Alessandro Ghedini
+    <member>Aurelien Jarno
+    <member>Florian Weimer
+    <member>Giuseppe Iuculano
+    <member>Luciano Bello
+    <member>Michael Gilbert
+    <member>Moritz Muehlenhoff
+    <member>Nico Golde
+    <member>Raphael Geissert
+    <member>Salvatore Bonaccorso
+    <member>Sebastien Delafond
+    <member>Stefan Fritsch
+    <member>Thijs Kinkhorst
+    <member>Yves-Alexis Perez
+  <job <a name="website" href="$(HOME)/devel/website/"><gettext domain="organization">Web Pages</gettext></a>> <genericemail debian-www@lists.debian.org>
+    <current>Gerfried Fuchs
+    <current>K&aring;re Thor Olsen
+    <current>Simon Paillard
+    <current>Martin Zobel-Helas
+    <member>Frank Lichtenheld
+    <member>Josip Rodin
+  <job <a name="consultants" href="$(HOME)/consultants/"><gettext domain="organization">Consultants Page</gettext></a>> <genericemail consultants@debian.org>
+    <member>Andrei Popescu
+    <member>Giuseppe Sacco
+    <member>Holger Wansing
+    <member>Martin Schulze
+  <job <a name="vendors" href="$(HOME)/CD/vendors/"><gettext domain="organization">CD Vendors Page</gettext></a>> <genericemail cdvendors@debian.org>
+    <member>Craig Small
+    <member>Richard Atterer
+  <job <a name="planet" href="http://planet.debian.org/"><gettext domain="organization">Planet Debian</gettext></a>> <genericemail planet@debian.org>
+    <member>Benjamin Mako Hill
+    <member>Joerg Jaspert
+    <member>Jordi Mallach
+  <job <a name="policy" href="$(DOC)/debian-policy/"><gettext domain="organization">Policy</gettext></a>> <genericemail debian-policy@lists.debian.org> <delegationmail 20131226101754.GA9708@xanadu.blop.info>
+    <member>Andreas Barth<delegate_male>
+    <member>Bill Allombert<delegate_male>
+    <member>Jonathan Nieder<delegate_male>
+    <member>Russ Allbery<delegate_male>
+  <job <a name="dsa" href="https://dsa.debian.org/"><gettext domain="organization">System Administration</gettext></a>> <genericemail debian-admin@lists.debian.org> <delegationmail 20140104133250.GA901@xanadu.blop.info>
+    <note <gettext domain="organization">This is the address to use when encountering problems on one of Debian's machines, including password problems or you need a package installed.</gettext>>
+    <member>Faidon Liambotis<delegate_male>
+    <member>Héctor Orón Martínez<delegate_male>
+    <member>Luca Filipozzi<delegate_male>
+    <member>Martin Zobel-Helas<delegate_male>
+    <member>Peter Palfrader<delegate_male>
+    <member>Stephen Gran<delegate_male>
+    <member>Tollef Fog Heen<delegate_male>
+    <member>Paul Wise
+    <member>Julien Cristau
+    <note <gettext domain="organization">If you have hardware problems with Debian machines, please see <a href="https://db.debian.org/machines.cgi">Debian Machines</a> page, it should contain per-machine administrator information.</gettext>>
+  <job <a name="db" href="https://db.debian.org/"><gettext domain="organization">LDAP Developer Directory Administrator</gettext></a>> <genericemail admin@db.debian.org>
+  <job <a name="mirrors" href="$(HOME)/mirror/"><gettext domain="organization">Mirrors</gettext></a>> <genericemail mirrors@debian.org>
+    <current>Joerg Jaspert
+    <current>Simon Paillard
+    <current>Raphael Geissert
+    <member>Felipe Augusto van de Wiel
+  <job <a name="dns"><gettext domain="organization">DNS Maintainer</gettext></a>> <genericemail hostmaster@debian.org>
+  <job <a name="pts" href="https://packages.qa.debian.org/"><gettext domain="organization">Package Tracking System</gettext></a>> <genericemail owner@packages.qa.debian.org>
+    <member>Rapha&euml;l Hertzog
+  <job <a name="donations-hardware" href="$(HOME)/donations#equipment_donations"><gettext domain="organization">Hardware Donations Coordination</gettext></a>> <genericemail hardware-donations@debian.org>
+    <current>Luca Filipozzi
+    <current>Bernd Zeimetz
+    <current>Martin Zobel-Helas
+    <member>Benjamin Mako Hill
+    <member>Rob Bradford
+  <job <a name="auditor" href="https://wiki.debian.org/Teams/Auditor"><gettext domain="organization">Auditor</gettext></a>> <genericemail auditor@debian.org> <delegationmail 20101009140120.GA26192@upsilon.cc>
+    <member>Martin Michlmayr<delegate_male>
+    <member>Martin Wuertele
+  <job <gettext domain="organization"><a name="trademark" href="m4_HOME/trademark">Trademark</a> use requests</gettext>> <genericemail trademark@debian.org>
+    <member><em><gettext domain="organization">current Debian Project Leader</gettext></em>
+    <member>Brian Gupta
+  <job <a name="alioth" href="https://alioth.debian.org/"><gettext domain="organization">Alioth administrators</gettext></a>> <genericemail admin@alioth.debian.org>
+    <member>Roland Mas
+    <member>Christian Bayle
+    <member>Stephen Gran
+    <member>Tollef Fog Heen
+    <member>Alexander Wirt
+  <job <a name="women" href="https://www.debian.org/women/"><gettext domain="organization">Debian Women Project</gettext></a>> <genericemail debian-women@lists.debian.org>
+    <member>Amaya Rodrigo
+    <member>Erinn Clark
+    <member>Hanna Wallach
+    <member>Helen Faulkner
+    <member>Margarita Manterola
+    <member>Meike Reichle
+  <job <a name="debconf" href="http://www.debconf.org/"><gettext domain="organization">DebConf chairs</gettext></a>> <genericemail debconf-chairs@debian.org> <delegationmail 20150502134229.GB5301@halon.org.uk>
+    <member>Giacomo Catenazzi<delegate_male>
+    <member>Martín Ferrari<delegate_male>
+    <member>Tássia Camões<delegate_female>
+  <job <a name="antiharassment" href="https://wiki.debian.org/AntiHarassment"><gettext domain="organization">Anti-harassment</gettext></a>> <genericemail antiharassment@debian.org>
+    <member>Margarita Manterola
+    <member>Patty Langasek
+  <job <a name="outreach" href="https://wiki.debian.org/Teams/Outreach"><gettext domain="organization">Outreach</gettext></a>> <genericemail outreach@debian.org> <delegationmail 20150416113514.GB8087@xanadu.blop.info>
+    <member>Nicolas Dandrimont
+    <member>Sylvestre Ledru
+</ul>
+
+
+<a name="blends"></a>
+<h3><a href="https://blends.alioth.debian.org/">Debian Pure Blends</a></h3>
+
+<ul>
+  <job <a name="debian-jr" href="$(HOME)/devel/debian-jr/">Debian Jr.</a> — <gettext domain="organization">Debian for children from 1 to 99</gettext>>
+    <genericemail debian-jr@lists.debian.org>
+    <member>Ben Armstrong
+  <job <a name="debian-med" href="$(HOME)/devel/debian-med/">Debian Med</a> — <gettext domain="organization">Debian for medical practice and research</gettext>>
+    <genericemail debian-med@lists.debian.org>
+    <member>Andreas Tille
+  <job <a name="debian-deu" href="https://wiki.debian.org/DebianEdu">Debian Edu</a> — <gettext domain="organization">Debian for education</gettext>>
+    <genericemail debian-edu@lists.debian.org>
+    <member>Petter Reinholdtsen
+    <member>Holger Levsen
+    <member>Ronny Aasen
+  <job <a name="debian-lex" href="$(HOME)/devel/debian-lex/">Debian-Lex</a> — <gettext domain="organization">Debian in legal offices</gettext>>
+    <genericemail debian-lex@lists.debian.org>
+    <member>Jeremy Malcolm
+    <member>Elaine Ter
+  <job <a name="debian-accessibility" href="$(HOME)/devel/debian-accessibility/">Debian Accessibility</a> — <gettext domain="organization">Debian for people with disabilities</gettext>>
+    <genericemail debian-accessibility@lists.debian.org>
+    <member>Mario Lang
+    <member>Samuel Thibault
+  <job <a name="debian-science" href="https://wiki.debian.org/DebianScience">Debian Science</a> — <gettext domain="organization">Debian for science and related research</gettext>>
+    <genericemail debian-science@lists.debian.org>
+    <member>Sylvestre Ledru
+</ul>

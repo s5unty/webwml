@@ -1,0 +1,4 @@
+Translators: in order to provide translated statistics, you just need
+to add a webwml/$lang/devel/website/stats directory with a minimal
+Makefile (see webwml/french/devel/website/stats/Makefile) and translate
+the stats.$ll.po file.

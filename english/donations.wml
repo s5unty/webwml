@@ -1,0 +1,314 @@
+#use wml::debian::template title="Donations"
+
+<p>
+Donations are managed by the
+<a href="$(HOME)/devel/leader">Debian Project Leader</a> (DPL)
+and allow Debian to have 
+<a href="https://db.debian.org/machines.cgi">machines</a>,
+<a href="https://wiki.debian.org/Teams/DSA/non-DSA-HW">other hardware</a>,
+domains, SSL certificates,
+<a href="http://www.debconf.org">the Debian conference</a>,
+<a href="https://wiki.debian.org/MiniDebConf">Debian mini-conferences</a>,
+<a href="https://wiki.debian.org/Sprints">development sprints</a>,
+presence at other events
+and other things.
+Thanks to all of our <a href="#donors">donors</a> for supporting Debian!
+</p>
+
+<p id="spi-usa-epay">
+The easiest method of donating to Debian is by credit/debit card via USA ePay
+to <a href="http://www.spi-inc.org/" title="SPI">Software in the Public Interest</a>,
+a non-profit organization that holds assets in trust for Debian.
+You can also donate via the <a href="#other">other methods listed below</a>.
+</p>
+
+<p>
+Up to August 2015, you can also support Debian by supporting DebConf15; this year's
+edition of Debian's developer conference. In this case, it is best to donate to
+<a href="http://debconf15.debconf.org/verein.xhtml">DebConf e.V.</a> directly.
+</p>
+
+<form method="post" action="https://www.usaepay.com/interface/epayform/">
+<div>
+  <span>$<input type="text" name="UMamount" size="6"> USD, paid once only</span>
+  <input name="UMdescription" value="Debian general contribution" type="hidden">
+  <input name="UMkey" value="ijWB0O98meGpX0LrCP0eb1Y94sI1Dl67" type="hidden"> 
+  <input name="UMcommand" value="sale" type="hidden" />
+  <input type="submit" tabindex="2" value="Donate" />
+</div>
+</form>
+
+<h2 id="other">Other methods</h2>
+
+<p>
+Various <a href="https://wiki.debian.org/Teams/Auditor/Organizations">organisations</a>
+hold assets in trust for Debian and recieve donations on Debian's behalf. 
+</p>
+
+<table>
+<tr>
+<th>Organisation</th>
+<th>Methods</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td><a href="#spi"><acronym title="Software in the Public Interest">SPI</acronym></a></td>
+<td>
+ <a href="#spi-usa-epay">USA ePay</a>,
+ <a href="#spi-click-n-pledge">Click &amp; Pledge</a> (recurring donations),
+ <a href="#spi-cheque">cheque</a> (USD/CAD),
+ <a href="#spi-other">other</a>
+</td>
+<td>USA, tax-exempt non-profit</td>
+</tr>
+<tr>
+<td><a href="#ffis"><acronym title="Verein zur Förderung Freier Informationen &amp; Software">FFIS</acronym></a></td>
+<td>
+ <a href="#ffis-bank">wire transfer</a>
+</td>
+<td>Germany, tax-exempt non-profit</td>
+</tr>
+<tr>
+<td><a href="#debianfrance">Debian France</a></td>
+<td>
+ <a href="#debianfrance-bank">wire transfer</a>,
+ <a href="#debianfrance-paypal">PayPal</a>
+</td>
+<td>France, tax-exempt non-profit</td>
+</tr>
+<tr>
+<td><a href="#debianch">debian.ch</a></td>
+<td>
+ <a href="#debianch-bank">wire transfer</a>,
+ <a href="#debianch-other">other</a>
+</td>
+<td>Switzerland, non-profit</td>
+</tr>
+<tr>
+<td><a href="#debian">Debian</a></td>
+<td>
+ <a href="#debian-equipment">equipment</a>,
+ <a href="#debian-time">time</a>,
+ <a href="#debian-other">other</a>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#debconf">DebConf e.V.</a></td>
+<td>
+ <a href="#debconf-bank">wire transfer</a>
+</td>
+<td>Germany, tax-exempt non-profit, purpose-bound to DebConf15</td>
+</tr>
+
+# Template: 
+#<tr>
+#<td><a href="#"><acronym title=""></acronym></a></td>
+#<td>
+# <a href="#"></a>,
+# <a href="#"></a> (allows recurring donations),
+# <a href="#cheque"></a> (CUR)
+#</td>
+#<td>, tax-exempt non-profit</td>
+#</tr>
+
+</table>
+
+<h3 id="spi">Software in the Public Interest</h3>
+
+<p>
+<a href="http://www.spi-inc.org/" title="SPI">Software in the Public Interest, Inc.</a>
+is a tax-exempt non-profit corporation based in the United States of America,
+founded by Debian people in 1997 to help free software/hardware organisations.
+</p>
+
+<h4 id="spi-click-n-pledge">Click &amp; Pledge</h4>
+
+<p>
+Single and recurring donations can be made via 
+<a href="https://co.clickandpledge.com/advanced/default.aspx?wid=34115">the SPI page</a>
+on the Click &amp; Pledge website.
+To make a recurring donation,
+choose how often you would like to donate on the right,
+scroll down to "Debian Project Donation",
+enter the amount you would like to donate,
+click on the "Add to cart" item and
+go through the rest of the process.
+</p>
+
+<!--
+Unfortunately this isn't possible to do yet:
+<form method="post" action="https://co.clickandpledge.com/advanced/default.aspx?wid=34115">
+<input name="ScriptManager1" value="UpdatePanel1|btnDAddToCart_dnt_33979" type="hidden">
+$<input name="DAmount_33979" size="6" id="DAmount_33979" type="text"> USD, paid
+<select name="cboxRecurring" id="cboxRecurring">
+  <option value="-1">once only</option>
+  <option value="0">weekly</option>
+  <option value="1">fortnightly</option>
+  <option value="2">monthly</option>
+  <option value="3">every 2 months</option>
+  <option value="4">quarterly</option>
+  <option value="5">bi-annually</option>
+  <option value="6">annually</option>
+</select>
+<input type="submit" name="btnDAddToCart_dnt_33977" id="btnDAddToCart_dnt_33977" value="Donate"/>
+</form>
+-->
+
+<h4 id="spi-cheque">Cheque</h4>
+
+<p>
+Donations can be made via cheque or money order in 
+<abbr title="US dollars">USD</abbr> and
+<abbr title="Canadian dollars">CAD</abbr>.
+Please put Debian in the memo field and send to SPI at the address listed
+on the <a href="http://www.spi-inc.org/donations/">SPI donations page</a>.
+</p>
+
+<h4 id="spi-other">Other</h4>
+
+<p>
+Donations via wire transfer and other methods are also available.
+For some parts of the world it may be easier to make the donation to
+one of the partner organizations of Software in the Public Interest.
+For more details, please visit the
+<a href="http://www.spi-inc.org/donations/">SPI donations page</a>.
+</p>
+
+<h3 id="ffis">Verein zur Förderung Freier Informationen &amp; Software</h3>
+
+<p>
+The <a href="http://www.ffis.de/" title="ffis e.V.">Verein zur Förderung Freier Informationen &amp; Software</a>
+is a tax-exempt non-profit corporation based in Germany,
+founded to help free software organisations.
+</p>
+
+<h4 id="ffis-bank">Wire transfer</h4>
+
+<p>
+Donations via wire transfer are available to the bank account listed on the
+<a href="http://www.ffis.de/Verein/spi-en.html">FFIS donations page</a>.
+Please mention that the donation is for Debian.
+</p>
+
+<h3 id="debianfrance">Debian France</h3>
+
+<p>
+The <a href="https://france.debian.net/">Debian France Association</a> is an
+organisation registered in France under the <q>law of 1901</q>,
+founded to support and promote the
+Debian Project in France.
+</p>
+
+<h4 id="debianfrance-bank">Wire transfer</h4>
+<p>
+Donations via wire transfer are available to the bank account listed on the
+<a href="https://france.debian.net/soutenir/#compte">Debian France donations
+page</a>. Receipts are available for those donations by emailing
+<a href="mailto:ca@france.debian.net">ca@france.debian.net</a>.
+</p>
+
+<h4 id="debianfrance-paypal">PayPal</h4>
+<p>
+Donations can be sent via the
+<a href="https://france.debian.net/galette/plugins/galette-plugin-paypal/paypal_form.php?pref_lang=en_US">Debian France PayPal page</a>.
+These can be directed to the Debian France specifically, or the Debian
+Project in general.
+</p>
+
+<h3 id="debianch">debian.ch</h3>
+
+<p>
+<a href="http://debian.ch/">debian.ch</a> was founded to represent the
+Debian project in Switzerland and in the Principality of Liechtenstein.
+</p>
+
+<h4 id="debianch-bank">Wire transfer</h4>
+
+<p>
+Donations via wire transfer from both Swiss and international banks are
+available to the bank accounts listed on the
+<a href="http://debian.ch/">debian.ch website</a>.
+</p>
+
+<h4 id="debianch-other">Other</h4>
+
+<p>
+Donations via other methods can be achieved by contacting the donations address
+listed on the <a href="http://debian.ch/">debian.ch website</a>.
+</p>
+
+# Template:
+#<h3 id=""></h3>
+#
+#<p>
+#</p>
+#
+#<h4 id=""></h4>
+#
+#<p>
+#</p>
+
+<h3 id="debian">Debian</h3>
+
+<p>
+Debian is able to accept direct <a href="#debian-equipment">equipment</a>
+donations but not <a href="#debian-other">other</a> donations at this time.
+</p>
+
+<a name="equipment_donations"></a>
+<h4 id="debian-equipment">Equipment and services</h4>
+
+<p>
+Debian also relies on the donation of equipment and services from individuals,
+companies, universities etc to keep Debian connected to the world.</p>
+
+<p>If your company has any idle machines or spare equipment (hard drives, SCSI
+controllers, network cards, etc) lying around, please consider donating them to
+Debian. Please contact our
+<a href="mailto:hardware-donations@debian.org">hardware donations delegate</a>
+for details.</p>
+
+<p>Debian maintains a <a href="https://wiki.debian.org/Hardware/Wanted">list of hardware that is wanted</a> for various
+services and groups within the project.</p>
+
+<h4 id="debian-time">Time</h4>
+
+<p>
+There are many ways to <a href="$(HOME)/intro/help">help Debian</a>
+using your personal or work time.
+</p>
+
+<h4 id="debian-other">Other</h4>
+
+<p>
+Debian is not able to accept any cryptocurrencies at this time but
+we are looking into being able to support this method of donation.
+# Brian Gupta requested we discuss this before including it:
+#If you have cryptocurrency to donate, or insights to share, please
+#get in touch with <a href="mailto:madduck@debian.org">Martin f. krafft</a>.
+</p>
+
+<h3 id="debconf">DebConf e.V.</h3>
+
+<p>
+<a href="http://debconf15.debconf.org/verein.xhtml">DebConf e.V.</a> is a tax-exempt non-profit corporation based in Germany. It has been incorporated to provide a legal entity for DebConf15.
+</p>
+
+<h4 id="debconf-bank">Wire transfer</h4>
+
+<p>
+You can find bank details <a href="http://debconf15.debconf.org/verein.xhtml">here</a>.
+At your request, we will mail you a signed donation receipt for tax purposes.
+</p>
+
+<h2 id="donors">Donors</h2>
+
+<p>The following are lists of organizations that have made donations of
+equipment or services to Debian:</p>
+
+<ul>
+  <li><a href="https://db.debian.org/machines.cgi">hosting and hardware sponsors</a></li>
+  <li><a href="mirror/official_sponsors">official mirror sponsors</a></li>
+  <li><a href="partners/">development and service partners</a></li>
+</ul>

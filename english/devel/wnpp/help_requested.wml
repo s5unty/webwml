@@ -1,0 +1,17 @@
+#use wml::debian::template title="Packages for which help was requested" GEN_TIME="true"
+
+#include "$(ENGLISHDIR)/devel/wnpp/wnpp.data"
+
+<p>
+This list is also available organized
+<a href="help_requested_byage">by age</a> or
+<a href="help_requested_bypop">by popularity</a>.
+</p>
+
+<help_req />
+
+<p>
+This list is also available organized
+<a href="help_requested_byage">by age</a> or
+<a href="help_requested_bypop">by popularity</a>.
+</p>

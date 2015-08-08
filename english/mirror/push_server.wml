@@ -1,0 +1,114 @@
+#use wml::debian::template title="Setting up a push server"
+#use wml::debian::toc
+
+<p>Setting up a push server consists of two basic tasks: setting up rsync
+access (for normal, <q>pull</q> mirroring) and setting up ssh trigger mechanism
+(for <q>pushing</q> the pull mirroring).
+</p>
+
+<p><small>(For more information on what a push server is, please read
+<a href="push_mirroring">the explanation of push mirroring</a>.)</small>
+</p>
+
+<toc-display />
+
+<toc-add-entry name="rsync">Setting up rsync</toc-add-entry>
+
+<p>Install <code>rsync</code> 2.1.1 or greater. If your site is running
+Debian, just install the latest
+<a href="https://packages.debian.org/stable/net/rsync">rsync</a> package.
+</p>
+
+<p>Create <code>rsyncd.conf</code> file and put something similar to this
+in it:
+</p>
+
+<pre>
+uid = nobody
+gid = nogroup
+max connections = 25
+socket options = SO_KEEPALIVE
+
+[debian]
+  path = /srv/debian/mirror
+  comment = The Debian Archive (~250 GB)
+  auth users = authorized_account1,authorized_account2,authorized_accountN
+  read only = true
+  secrets file = /etc/rsyncd/debian.secrets
+</pre>
+
+<p>Add an entry for each site you are pushing to in the
+<code>/etc/rsyncd/debian.secrets</code> file:
+</p>
+
+<pre>
+authorized_account1:a_password
+authorized_account2:another_password
+authorized_accountN:password
+</pre>
+
+<p>You have now given the downstream mirrors access to the archive on your
+machine.
+</p>
+
+<p>You will probably want to start the rsync daemon from inetd. To do this,
+you have to add rsync service in <code>/etc/services</code> file (if it
+isn't already there), like this:
+</p>
+
+<pre>
+rsync           873/tcp
+</pre>
+
+<p>
+To enable the daemon from inetd, add the following to your
+<code>/etc/inetd.conf</code> file:
+</p>
+
+<pre>
+rsync      stream      tcp         nowait      root /usr/bin/rsync rsyncd --daemon
+</pre>
+
+<p>
+(Remember to send inetd an HUP signal to tell it to reread its config file
+after modifying the file.)
+</p>
+
+<toc-add-entry name="sshtrigger">Setting up ssh trigger mechanism</toc-add-entry>
+
+<p>Create a new ssh key for the account that you use to mirror Debian. Make
+sure you don't overwrite your original ssh key by using the -f option, for
+example:
+</p>
+
+<pre>
+ssh-keygen -f ~/.ssh/identity.mysite
+</pre>
+
+<p>Make sure that the new public key (~/.ssh/identity.mysite.pub) contains
+this at the beginning, with IPADDRESS being the IP of your upstream mirror:
+</p>
+
+<pre>
+no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty,command="~/bin/ftpsync",from="IPADDRESS"
+</pre>
+
+<p>You need to set up a script that will contact the downstream mirrors.
+The ftpsync tarball contains the script <code>runmirrors</code> which is handling all
+needed tasks for you. Simply change your ftpsync.conf to include the setting
+<code>HUB=true</code>, copy the <code>runmirrors.conf.sample</code> to
+<code>runmirrors.conf</code> and <code>runmirrors.mirror.sample</code> to
+<code>runmirrors.mirror</code> and configure the config file to suit your system.
+Then list all your downstream mirrors inside runmirrors.mirror and the ftpsync/runmirror
+duo will do all the heavy lifting for you.
+</p>
+
+<p>The effect will be that your system will try to ssh to your downstream mirrors,
+after your own mirror updated, so they can start their own updates. This assumes
+you gave your downstream mirror operators the ssh key you told runmirrors to use
+and that they added it to their own ~/.ssh/authorized_keys as described above.
+</p>
+
+<p>If you have any trouble with this, <a href="mailto:mirrors@debian.org">\
+contact us</a>.
+</p>

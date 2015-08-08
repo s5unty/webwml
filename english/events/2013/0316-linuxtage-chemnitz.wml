@@ -1,0 +1,38 @@
+<define-tag abbr>CLT15</define-tag>
+<define-tag year>2013</define-tag>
+<define-tag pagetitle>15th Chemnitzer Linux-Tage</define-tag>
+<define-tag where>Chemnitz, Germany</define-tag>
+<define-tag startdate>2013-03-16</define-tag>
+<define-tag enddate>2013-03-17</define-tag>
+<define-tag infolink>http://chemnitzer.linux-tage.de/2013/info/</define-tag>
+<define-tag coord><a href="mailto:waja@cyconet.org">Jan Wagner</a></define-tag>
+
+<define-tag intro>
+
+<p>The <q>Chemnitz Linux Days</q> is a conference that deals with GNU/Linux and
+Open Source Software. It is open for everyone, novices and experts alike.
+This is one of the largest exhibitions and conferences in Germany that
+address GNU/Linux and Free Software.</p>
+
+</define-tag>
+
+<define-tag involve>
+
+<p>The Debian project will demonstrate their operating system in a
+booth.
+</p>
+
+<p>
+Andreas Tille will give a talk about Debian GIS and Axel Beckert will
+talk about Aptitude and its relation to APT.
+</p>
+
+</define-tag>
+#use wml::debian::past_event
+#Related Links here (free form)
+<ul>
+  <li><a href="https://wiki.debian.org/DebianEvents/de/2013/ChemnitzerLinuxTage">organisation wiki page</a></li>
+  <li><a href="http://chemnitzer.linux-tage.de/2013/vortraege/164">Debian GIS – GIS and OpenStreetMap with Debian tools (in German)</a></li>
+  <li><a href="http://chemnitzer.linux-tage.de/2013/vortraege/255">Aptitude - known and yet unknown (in German)</a></li>
+</ul>
+

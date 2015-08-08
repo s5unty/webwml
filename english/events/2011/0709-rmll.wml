@@ -1,0 +1,35 @@
+<define-tag abbr>rmll</define-tag>
+<define-tag year>2011</define-tag>
+<define-tag pagetitle>RMLL &mdash; Rencontres Mondiales du Logiciel Libre</define-tag>
+<define-tag where>Strasbourg, France</define-tag>
+<define-tag startdate>2011-07-09</define-tag>
+<define-tag enddate>2011-07-14</define-tag>
+<define-tag infolink>http://2011.rmll.info/</define-tag>
+<define-tag coord><a href="mailto:chaica@ohmytux.com">Carl Chenet</a></define-tag>
+
+<define-tag intro>
+
+<p>2011 RMLL is a free (as a beer and as a speech) and non commercial
+conference with talks, workshops and round tables about Free Software and
+its uses. The RMLL goal is to provide a place for exchange between Free
+Software developers, users and stakeholders.</p>
+
+
+</define-tag>
+<define-tag involve>
+<p>The Debian Project will demonstrate its operating system in a
+booth.</p> 
+
+<p>On July 11th at 09:40 at Patio 3211, Lucas Nussbaum, long time Debian Developer,
+will lead a workshop titled <q>Tutorial create a Debian package</q> (in
+French) in which he will go over all the basic steps involved when
+packaging software.</p>
+
+</define-tag>
+
+#use wml::debian::past_event
+#Related Links here (free form)
+<ul>
+ <li><a href="http://2011.rmll.info/">Official RMLL website</a></li>
+ <li><a href="https://wiki.debian.org/DebianEventsFr/2011/RMLL">wiki coordination page</a></li>
+</ul>

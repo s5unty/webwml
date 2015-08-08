@@ -1,0 +1,33 @@
+# From: Murray Walker <mwalker@theregister.com>, Matt Proud <matt.proud@sitpub.com>
+# Ping: Tue, 15 Nov 2011 10:58:45 +0000 <20111115105845.GA2549@mooker.vm.bytemark.co.uk>
+# DebURL: http://www.theregister.co.uk/about/company/website/
+
+<define-tag pagetitle>The Register, Situation Publishing, UK</define-tag>
+<define-tag webpage>http://www.theregister.co.uk/</define-tag>
+
+#use wml::debian::users
+
+<p>
+The Register website and infrastructure use a variety of open source products,
+including Apache, MySQL, PostgreSQL and Perl all running on Debian GNU/Linux.
+As of this writing in Nov 2011, all of our public facing services along with
+many of our internal and development machines are running Debian (or Debian
+based distributions like Ubuntu) and we see nothing else that comes close to
+the quality and utility of the Debian OS.
+</p>
+<p>
+Debian provides a solid platform for our DNS, email (including a mailing 
+list for Reg readers), the dynamic and static parts of our website and 
+production toolchain, supporting millions of our readers each month.
+</p>
+<p>
+We were
+  particularly attracted by Debian's reliability, stability, and
+  flexibility, but most of all by its unmatched support for remote
+  administration: since the system administrators and the systems
+  themselves are separated by several hundred kilometers, it's especially
+  important that as many tasks as possible can be accomplished remotely.
+  Apt makes remote package management and upgrading trivial, and the
+  Debian organization's enlightened and rapid response to security
+  vulnerabilities lets us sleep easy in our beds.
+</p>

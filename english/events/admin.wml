@@ -1,0 +1,20 @@
+#use wml::debian::template title="events@debian.org"
+# $Id: admin.wml,v 1.12 2014/02/05 21:32:21 aw-guest Exp $
+
+<p>The events Team coordinates the use of the small amount of shared
+resources used by organizers of debian presence at events, gives out help
+and advice in organizing debian presences on request and cares about the
+Events web pages and (among others) the events wiki pages.
+</p>
+
+<p>Above mentioned email address may be used to contact the events team 
+directly, but ideally members of the events team should read 
+debian-events-*@lists.debian.org mailinglists. (At the moment the team
+probably reads debian-events-eu and debian-events-nl - help would be
+welcome.)
+</p>
+
+# Europe ......: debian-events-eu@lists.debian.org
+# North America: debian-events-na@lists.debian.org
+# UK ..........: debian-uk@chiark.greenend.org.uk
+# Austria .....: debian-at@vnserv.vianova.at

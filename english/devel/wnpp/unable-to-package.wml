@@ -1,0 +1,7 @@
+#use wml::debian::template title="Software that can't be packaged"
+
+<ul>
+  <li>HotJava -- the license prohibits redistribution of any kind.
+  <li>Courtney -- the license is too restrictive.
+  <li><a href="unable-hdate">hdate</a> -- license issues.
+</ul>

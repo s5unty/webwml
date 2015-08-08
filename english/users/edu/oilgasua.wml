@@ -1,0 +1,17 @@
+# From: Andriy Lesyuk <s-andy@nung.edu.ua>
+# Ping: Tue, 29 Nov 2011 12:21:50 +0200 <4ED4B23E.9070100@nung.edu.ua>
+
+<define-tag pagetitle>Software &amp; Networking Lab, National University of Oil and Gas, Ivano-Frankivsk, Ukraine</define-tag>
+<define-tag webpage>http://www.nung.edu.ua/</define-tag>
+
+#use wml::debian::users
+
+<p>
+The university uses Debian on its main network servers.
+
+Softwares run include: Apache, BIND, ProFTPd, Postfix, MySQL, Courier.
+</p>
+<p>
+Debian is more stable, configurable (therefore powerful) and server-oriented
+than other distributions.
+</p>

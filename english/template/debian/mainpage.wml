@@ -1,0 +1,128 @@
+
+# Set the variable MENUWIDTH if you want to change the default width
+# of the menubar from 140. This can be done in webwml/<lang>/index.wml
+# For example,
+#   #use wml::debian::mainpage title="The Universal Operating System" MENUWIDTH=180
+
+# Set the variable SANS_SERIF_FONT if you want to change the default Sans serif
+# fonts from "Arial,Helvetica". This is useful to languages like
+# Chinese that don't use Arial or Helvetica as their Sans serif fonts.
+# This can be done in webwml/<lang>/index.wml
+# For example,
+#  #use wml::debian::mainpage title="The Universal Operating System" SANS_SERIF_FONT="Hei"
+# You can use this variable with the MENUWIDTH variable.
+
+# Do not change anything below here without asking on debian-www first
+
+#use wml::debian::common_translation
+#use wml::debian::basic MAINPAGE="true" SUMMARY="<blurb/>"
+#use wml::debian::links.tags
+#use wml::debian::languages
+#use wml::debian::release_info
+
+<define-tag FONTS_SANS-SERIF endtag=required whitespace=delete>
+    <font face="$(SANS_SERIF_FONT:-Arial,Helvetica)" %attributes>
+     %body
+    </font>
+</define-tag>
+
+<define-tag hometoc>
+<div id="hometoc">
+<!--UdmComment-->
+
+<ul id="hometoc-cola">
+  <li><a href="$(INTRO)/about"><about/></a>
+    <ul>
+      <li><a href="$(HOME)/social_contract"><socialcontract/></a></li>
+      <li><a href="$(HOME)/code_of_conduct"><codeofconduct/></a></li>
+      <li><a href="$(HOME)/intro/free"><freesoftware/></a></li>
+      <li><a href="$(HOME)/partners/"><partners/></a></li>
+      <li><a href="$(HOME)/donations"><donations/></a></li>
+      <li><a href="$(HOME)/contact"><contactus/></a></li>
+    </ul>
+  </li>
+  <li><a href="$(HOME)/intro/help"><helpdebian/></a></li>
+</ul>
+
+<ul id="hometoc-colb">
+  <li><a href="$(DISTRIB)/"><gettingdebian/></a>
+    <ul>
+      <li><a href="$(DISTRIB)/netinst"><netinst/></a></li>
+      <li><a href="$(HOME)/CD/"><cdisoimages/></a></li>
+      <li><a href="$(HOME)/CD/vendors/"><cdvendors/></a></li>
+      <li><a href="$(DISTRIB)/pre-installed"><pre-installed/></a></li>
+    </ul>
+  </li>
+  <li><a href="$(HOME)/devel/"><develcorner/></a></li>
+  <li><a href="$(DISTRIB)/packages"><debianpackages/></a></li>
+</ul>
+
+<ul id="hometoc-colc">
+  <li><a href="$(HOME)/News/"><news/></a>
+  <ul>
+    <li><a href="$(HOME)/News/weekly/"><projectnews/></a></li>
+    <li><a href="$(HOME)/events/"><events/></a></li>
+  </ul>
+  </li>
+  <li><a href="$(DOC)/"><documentation/></a>
+    <ul>
+      <li><a href="$(HOME)/releases/"><releaseinfo/></a></li>
+      <li><a href="$(HOME)/releases/stable/installmanual"><installationmanual/></a></li>
+      <li><a href="$(DOC)/books"><debianbooks/></a></li>
+      <li><a href="https://wiki.debian.org/"><debianwiki/></a></li>
+    </ul>
+  </li>
+</ul>
+
+<ul id="hometoc-cold">
+  <li><a href="$(HOME)/support"><support/></a>
+    <ul>
+      <li><a href="$(HOME)/international/"><debinternational/></a></li>
+      <li><a href="$(HOME)/security/"><security/></a></li>
+      <li><a href="$(BUGS)/"><bugreports/></a></li>
+      <li><a href="$(HOME)/MailingLists/"><mailinglists/></a></li>
+      <li><a href="https://lists.debian.org/"><mailarchives/></a></li>
+      <li><a href="$(HOME)/ports/"><portsarchitectures/></a></li>
+    </ul>
+  </li>
+</ul>
+
+<ul id="hometoc-cole">
+  <li><a href="$(MISC)/"><misc/></a></li>
+  <li><a href="$(HOME)/sitemap"><sitemap_short/></a></li>
+  <li><a href="$(SEARCH)"><search/></a></li>
+#  <li class="sponsorbutton"><a href="$(HOME)/sponsor.html"><img src="sponsor_img.jpg" alt="<visitsponsor/>" /></a></li>
+#  <li class="sponsorbutton"><a href="http://debconf12.debconf.org/"><img  src="$(HOME)/Pics/debconf12.png" alt="Debconf 12" /></a></li>
+# Make the appropriate string translatable before reactivating
+#  <li><a href="http://debconf12.debconf.org/watch.xhtml">DebConf12 video streaming</a></li>
+  <li><a href="https://bits.debian.org"><debianblog/></a></li>
+  <li><a href="http://identi.ca/debian"><img src="Pics/identica.png"
+  alt="follow debian on identi.ca!" /></a></li>
+  <li><a href="http://planet.debian.org"><img src="Pics/planet.png"
+  alt="follow debian on planet.debian.org!" /></a></li>
+  </ul>
+
+<!--/UdmComment-->
+</div> <!-- end hometoc -->
+</define-tag>
+
+{#check_trans#}
+
+<if-stable-release release="lenny">
+#<a href="$(HOME)/News/2009/20090214"><img src="Pics/lennybanner_indexed.png" alt="<lennypicturetext/>" width="380" height="310" style="margin-right: 10px; float: left;" /></a>
+## for the celebration
+#<a href="http://thank.debian.net/"><img src="Pics/Debian17.png"
+#alt="<lennypicturetext/>" width="380" height="269" style="margin-right: 10px; float: left;" /></a>
+</if-stable-release>
+
+{#mainbody#}
+
+{#pre_footer#:
+  <hrlinehidden/>
+  <:= languages_footer() :>
+<!--UdmComment-->
+:#pre_footer#}
+{#post_footer#:
+<!--/UdmComment-->
+:#post_footer#}
+{#mainbody#:

@@ -1,0 +1,294 @@
+#use wml::debian::ddp title="Debian Developers' Manuals"
+#include "$(ENGLISHDIR)/doc/manuals.defs"
+#include "$(ENGLISHDIR)/doc/devel-manuals.defs"
+
+<document "Debian Policy Manual" "policy">
+
+<div class="centerblock">
+<p>
+  This manual describes the policy requirements for the Debian GNU/Linux
+  distribution. This includes the structure and contents of the Debian
+  archive, several design issues of the operating system, as well as
+  technical requirements that each package must satisfy to be included
+  in the distribution.
+
+<doctable>
+  <authors "Ian Jackson, Christian Schwarz, David A. Morris">
+  <maintainer "The Debian Policy group">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "debian-policy">
+  <inddpsvn-debian-policy>
+  <p><a href="https://bugs.debian.org/debian-policy">Proposed amendments</a> to Policy
+
+  <p>Supplemental Policy documentation:</p>
+  <ul>
+    <li><a href="packaging-manuals/fhs/fhs-2.3.html">Filesystem Hierarchy Standard</a>
+    [<a href="packaging-manuals/fhs/fhs-2.3.pdf.gz">PDF</a>] 
+    [<a href="packaging-manuals/fhs/fhs-2.3.ps.gz">PS</a>] 
+    [<a href="packaging-manuals/fhs/fhs-2.3.txt.gz">plain text</a>] 
+    <li><a href="debian-policy/upgrading-checklist.html">Upgrading checklist</a>
+    <li><a href="packaging-manuals/virtual-package-names-list.txt">Virtual package names list</a>
+    <li><a href="packaging-manuals/menu-policy/">Menu policy</a>
+    [<a href="packaging-manuals/menu-policy/menu-policy.txt.gz">plain text</a>] 
+    <li><a href="packaging-manuals/perl-policy/">Perl policy</a>
+    [<a href="packaging-manuals/perl-policy/perl-policy.txt.gz">plain text</a>] 
+    <li><a href="packaging-manuals/debconf_specification.html">debconf specification</a>
+    <li><a href="packaging-manuals/debian-emacs-policy">Emacsen policy</a>
+    <li><a href="packaging-manuals/java-policy/">Java policy</a>
+    <li><a href="packaging-manuals/python-policy/">Python policy</a>
+    <li><a href="packaging-manuals/copyright-format/1.0/">copyright-format specification</a>
+  </ul>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Debian Developer's Reference" "devref">
+
+<div class="centerblock">
+<p>
+  This manual describes procedures and resources for Debian maintainers.
+  It describes how to become a new developer, the upload procedure, how
+  to handle our bug tracking system, the mailing lists, Internet
+  servers, etc.
+
+  <p>This manual is thought as a <em>reference manual</em> for all Debian
+  developers (newbies and old pros).
+
+<doctable>
+  <authors "Ian Jackson, Christian Schwarz, Adam Di Carlo, Rapha&euml;l Hertzog, Josip Rodin">
+  <maintainer "Adam Di Carlo, Rapha&euml;l Hertzog, Josip Rodin">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "developers-reference">
+  <inddpsvn-developers-reference>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Debian New Maintainers' Guide" "maint-guide">
+
+<div class="centerblock">
+<p>
+  This document will try to describe building of a Debian GNU/Linux package
+  to the common Debian user (and wannabe developer) in common language, and
+  well covered with working examples.
+
+  <p>Unlike previous attempts, this one is based on <code>debhelper</code>
+  and the new tools available to maintainers.  The author is making every
+  attempt to incorporate and unify previous efforts.
+
+<doctable>
+  <authors "Josip Rodin, Osamu Aoki">
+  <maintainer "Osamu Aoki">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "maint-guide">
+  <inddpsvn-maint-guide>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Guide for Debian Maintainers" "debmake-doc">
+
+<div class="centerblock">
+<p>
+This tutorial document describes the building of the Debian package to ordinary
+Debian users and prospective developers using the <code>debmake</code> command.
+</p>
+<p>
+It is focused on the modern packaging style and comes with many simple examples.
+</p>
+<ul>
+<li>POSIX shell script packaging</li>
+<li>Python3 script packaging</li>
+<li>C with Makefile/Autotools/CMake</li>
+<li>multiple binary packages with shared library etc.</li>
+</ul>
+<p>
+This “Guide for Debian Maintainers” can be considered as the successor to the
+“Debian New Maintainers’ Guide”.
+</p>
+
+<doctable>
+  <authors "Osamu Aoki">
+  <maintainer "Osamu Aoki">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "debmake-doc">
+  <inddpsvn-debmake-doc>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Introduction to Debian packaging" "packaging-tutorial">
+
+<div class="centerblock">
+<p>
+This tutorial is an introduction to Debian packaging.
+It teaches prospective
+developers how to modify existing packages, how to create their own packages,
+and how to interact with the Debian community.
+In addition to the main
+tutorial, it includes three practical sessions on modifying the <code>grep</code>
+package, and packaging the <code>gnujump</code> game and a Java library.
+</p>
+
+<doctable>
+  <authors "Lucas Nussbaum">
+  <maintainer "Lucas Nussbaum">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "packaging-tutorial">
+  <inddpsvn-packaging-tutorial>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Debian Menu System" "menu">
+
+<div class="centerblock">
+<p>
+  This manual describes the Debian Menu System and the <strong>menu</strong>
+  package.
+
+  <p>The menu package was inspired by the install-fvwm2-menu program from
+  the old fvwm2 package. However, menu tries to provide a more general
+  interface for menu building. With the update-menus command from this
+  package, no package needs to be modified for every X window manager again,
+  and it provides a unified interface for both text- and X-oriented
+  programs.
+
+<doctable>
+  <authors "Joost Witteveen, Joey Hess, Christian Schwarz">
+  <maintainer "Joost Witteveen">
+  <status>
+  ready
+  </status>
+  <availability>
+  <inpackage "menu">
+  <a href="packaging-manuals/menu.html/">HTML online</a>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Introduction to i18n" "i18n">
+
+<div class="centerblock">
+<p>
+  This document describes basic idea and howto of l10n (localization),
+  i18n (internationalization), and m17n (multilingualization) for
+  programmers and package maintainers.
+
+  <p>The aim of this document is to make more packages support i18n
+  and to make Debian a more internationalized distribution.
+  Contributions from all over the world will be welcome, because
+  the original author is Japanese-speaker and this document would be
+  on Japanization if there were no contributions.
+
+<doctable>
+  <authors "Tomohiro KUBOTA (&#20037;&#20445;&#30000;&#26234;&#24195;)">
+  <maintainer "Tomohiro KUBOTA (&#20037;&#20445;&#30000;&#26234;&#24195;)">
+  <status>
+  in development
+  </status>
+  <availability>
+  not yet complete
+  <inddpsvn-intro-i18n>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Debian XML/SGML Policy" "xml-sgml-policy">
+
+<div class="centerblock">
+<p>
+  Subpolicy for Debian packages that provide and/or make use
+  of XML or SGML resources.
+
+<doctable>
+  <authors "Mark Johnson, Ardo van Rangelrooij, Adam Di Carlo">
+  <status>
+  starting, merging in current SGML policy from <tt>sgml-base-doc</tt>
+  and new materials for XML catalog management
+  </status>
+  <availability>
+  <inddpsvn-xml-sgml-policy>
+  </availability>
+</doctable>
+</div>
+<hr>
+
+<document "How Software Producers can distribute their products directly in .deb format" "swprod">
+
+<div class="centerblock">
+<p>
+  This document is intended as a starting point to explain how software
+  producers can integrate their products with Debian, what different
+  situations can arise depending on the license of the products and the
+  choices of the producers, and what possibilities there are. It does not
+  explain how to create packages, but it links to documents which do exactly
+  that.
+
+  <p>You should read this if you are not familiar with the big picture of
+  creating and distributing Debian packages, and optionally with adding them
+  to the Debian distribution.
+
+<doctable>
+  <authors "Aaron Isotton">
+  <maintainer "Aaron Isotton">
+  <status>
+  ready (?)
+  </status>
+  <availability>
+  <inddpsvn-distribute-deb>
+  </availability>
+</doctable>
+</div>
+
+<hr>
+
+<document "Debian Installer internals" "d-i-internals">
+
+<div class="centerblock">
+<p>
+  This document is intended to make Debian Installer more accessible to new
+  developers and as a central location to document technical information.
+
+<doctable>
+  <authors "Frans Pop">
+  <maintainer "Debian Installer team">
+  <status>
+  ready
+  </status>
+  <availability>
+  <p><a href="https://d-i.alioth.debian.org/doc/internals/">HTML online</a>.</p>
+  <p><a href="http://anonscm.debian.org/gitweb/?p=d-i/debian-installer.git;a=tree;f=doc/devel/internals">DocBook XML source online</a>.</p>
+  </availability>
+</doctable>
+</div>
+

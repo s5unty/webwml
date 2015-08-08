@@ -1,0 +1,28 @@
+<define-tag abbr>Guaiba</define-tag>
+<define-tag year>2012</define-tag>
+<define-tag pagetitle>Talk and debate: What is the Debian Project</define-tag>
+<define-tag where>Guaíba, RS, Brazil</define-tag>
+<define-tag startdate>2012-09-24</define-tag>
+<define-tag enddate>2012-09-24</define-tag>
+<define-tag infolink>http://softwarelivre.org/debian-rs/palestra-e-debate-o-que-e-o-projeto-debian-aos-alunos-da-ulbra-guaiba</define-tag>
+<define-tag coord><a href="mailto:andremachado@techforce.com.br">André Felipe Machado</a></define-tag>
+
+<define-tag intro>
+<p>The south Brazilian local Debian user group Debian-RS is         
+promoting talk and debate <q>What is the Debian Project</q> with the
+students of ULBRA Guaíba University and local high schools      
+invited by the university.
+</p>
+</define-tag>
+
+<define-tag involve>
+<p>Debian will be present at the discussion.</p>
+</define-tag>
+
+#use wml::debian::past_event
+#Related Links here (free form)
+<ul>
+<li><a href="http://softwarelivre.org/debian-rs/palestra-e-debate-o-que-e-o-projeto-debian-aos-alunos-da-ulbra-guaiba">event page</a></li>
+<li><a href="http://www.debian-rs.org">Debian-RS user group</a></li>
+<li><a href="http://www.ulbra.br/guaiba">ULBRA Guaíba University</a></li>
+</ul>

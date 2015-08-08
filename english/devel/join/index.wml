@@ -1,0 +1,117 @@
+#use wml::debian::template title="How You Can Join"
+
+<p>The Debian Project consists of volunteers, and our products are developed
+entirely by volunteers. We are generally <a href="$(HOME)/intro/diversity">looking for new contributors</a> who have an interest in free software, and some free
+time.</p>
+
+<p>If you haven't already, you should read through most of the web pages
+to get a better understanding of what we are trying to do.
+Pay particular attention to the
+<a href="$(HOME)/social_contract#guidelines">Debian Free Software Guidelines</a>
+and our
+<a href="$(HOME)/social_contract">Social Contract</a>.</p>
+
+<p>A lot of communication in the project happens on our 
+<a href="$(HOME)/MailingLists/">mailing lists</a>.
+If you want to get a feeling for the inner workings of the Debian project,
+you should at least subscribe to the debian-devel-announce and debian-news
+lists. Both are very low-volume and document what's going on in the
+community. The Debian Project News (published on debian-news) summarizes
+recent discussions from Debian related mailing lists and blogs and provides
+links to them.
+As a prospective developer, you should also subscribe to debian-mentors,
+an open forum trying to help new maintainers (and also, though less often,
+people who are new to the Project and want to help with something else
+than package maintenance).
+Other interesting lists are debian-devel, debian-project, debian-release,
+debian-qa and, depending on your interests, a lot of others. See the
+<a href="$(HOME)/MailingLists/subscribe">Mailing List Subscription</a> page
+for a complete listing.
+(For those who wish to reduce the number of mails, there are "-digest"
+lists as read-only, digestified versions for some high-traffic lists.
+It's also worth knowing that you can use the
+<a href="https://lists.debian.org/">Mailing List Archives</a> page 
+to read the mails on various lists with your web browsers.)</p>
+
+<p><b>Contributing.</b>
+If you are interested in maintaining packages, then you should look at
+our <a href="$(DEVEL)/wnpp/">Work-Needing and Prospective Packages</a> list to see
+which packages need maintainers. Taking over an abandoned package is the
+best way to start out as a maintainer &ndash; not only does it aid
+Debian in keeping its packages well maintained, but it gives you the
+opportunity to learn from the previous maintainer.</p>
+
+<p>You can also aid by contributing to the <a href="$(HOME)/doc/">writing
+of documentation</a>, doing <a href="$(HOME)/devel/website/">web site
+maintenance</a>, <a href="$(HOME)/international/">translation</a> (i18n &amp; 
+l10n), publicity, legal support or other roles in the Debian community.
+Our <a href="https://qa.debian.org/">Quality Assurance</a> site lists several
+other possibilities.
+</p>
+
+<p>You don't need to be an official Debian Developer to carry out just 
+ about all of these tasks. Existing Debian Developers acting as 
+ <a href="newmaint#Sponsor">sponsors</a> can integrate your work into the 
+ project. It is generally best to try and find a developer who is working
+ in the same area as you and has an interest in what you have done.</p>
+
+<p>Finally, Debian provides many <a
+href="https://wiki.debian.org/Teams">teams</a> of developers working
+together on common tasks. Anybody can participate on a team, whether
+an official Debian Developer or not. Working together with a team is
+an excellent way to gain experience before starting the <a
+href="newmaint">New Member process</a> and is one of the best
+places to find package sponsors. So find a team that suits your
+interests and jump right in.
+</p>
+
+<p>
+<b>Joining.</b>
+After you have contributed for some time and are sure about your involvement
+in the Debian project, you can join Debian in a more official role. There
+are two different roles in which you might join Debian:
+</p>
+
+<ul>
+<li>Debian Maintainer (DM): The first step in which you can upload your own
+packages to the Debian archive yourself.</li>
+<li>Debian Developer (DD): The traditional full membership role in Debian. A DD
+ can participate in Debian elections. Packaging DDs can upload any package to the archive. 
+Before applying as a packaging DD you should have a track record of 
+    maintaining packages for at least six months. For example uploading 
+    packages as a DM, working inside a team or maintaining packages
+    uploaded by sponsors.
+Non-packaging DDs have no permissions in the archive. 
+Before applying as non-packaging DD, you should have a visible and significant track record
+of work inside the project.</li>
+
+</ul>
+
+<p>In spite of the fact that many of the rights and responsibilities
+of a DM and a DD are identical, there are currently independent
+processes for applying for either role. See the <a
+href="https://wiki.debian.org/DebianMaintainer">Debian Maintainer wiki
+page</a> for details on becoming a Debian Maintainer. And see the <a
+href="newmaint">New Members Corner</a> page to find out how to
+apply for official Debian Developer status.</p>
+
+<p>Note that during much of Debian's history, the Debian Developer
+role was the only role; the Debian Maintainer role was introduced on
+5th August 2007. This is why you see the term "maintainer" used in a
+historical sense where the term Debian Developer would be more
+precise. For example, the process of applying to become a Debian
+Developer was still known as the "Debian New Maintainer" process until
+2011 when it was renamed to "Debian New Member" process.</p>
+
+<p>Regardless of which role you choose to apply for, you should be
+familiar with Debian's procedures, so it is recommended to read the <a
+href="$(DOC)/debian-policy/">Debian Policy</a> and the <a
+href="$(DOC)/developers-reference/">Developer's
+Reference</a> before applying.</p>
+
+<p>Besides the many developers, there's many areas you
+<a href="$(HOME)/intro/help">can help Debian</a> with, including testing,
+documentation, porting, <a href="$(HOME)/donations">donations</a> of money and
+use of machines for development and connectivity. We are constantly looking for
+<a href="$(HOME)/mirror/">mirrors</a> in some parts of the world.</p>
+

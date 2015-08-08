@@ -1,0 +1,5303 @@
+#use wml::debian::countries
+#include "$(ENGLISHDIR)/consultants/consultant.inc"
+#include "$(ENGLISHDIR)/consultants/consultant.defs"
+
+# Nothing to translate here, see consultant.defs
+
+<define-tag other whitespace=delete>
+	%attributes<br>
+</define-tag>
+
+# Country
+<ul>
+<country-list consultants <list_country>>
+</ul>
+
+# Total
+<p><consult_total_message></p>
+
+<hr />
+
+<h1><a name="DZ"><country-name DZ>:</a></h1>
+
+# Consultant: DZ
+# (Algeria)
+# entry added on 21.03.2013
+# data updated on 26.11.2014
+<p>
+<company SupDesk>
+<address Alger, <country-name DZ>>
+<email   debian@supdesk.com>
+<rates   Negotiable.>
+</p>
+
+
+<h1><a name="AR"><country-name AR>:</a></h1>
+
+# Consultant: AR
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Gabriel Acquistapace>
+<address Ciudad de Buenos Aires, <country-name AR>>
+<phone   +54-11-5918-8888>
+<email   gabriel@acquistapace.com.ar>
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: AR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Ing. Javier Kohan>
+<company Aptix Information Technology>
+<address Pellegrini 391 PA (S2000BTD) Rosario, <country-name AR>>
+<phone   +54-341-423-0011>
+<fax     +54-341-423-0022>
+<email   dcon@aptix.com.ar scramble="yes">
+<URL     "http://www.aptix.com.ar/">
+</p>
+
+# Consultant: AR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active.
+# Entry is up-to-date
+<p>
+<name	 Fernando SFEIR>
+<company NiuX Servicios inform&aacute;ticos GNU/Linux en Neuqu&eacute;n>
+<address Diag. Pedro Palacios 616, &Aacute;rea de infuencia Rio Negro - Neuqu&eacute;n, Patagonia, <country-name AR>>
+<phone	 +54 299 501 7292>
+<email	 info@niux.com.ar>
+<URL	 http://www.niux.com.ar>
+<rates   Cont&aacute;ctenos para solicitar presupuesto.>
+</p>
+
+# Consultant: AR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Luis Federico Bricker>
+<company Dokko Group>
+<address Col&oacute;n 1427 Tandil, Buenos Aires <country-name AR>>
+<phone	 +54 (0249) 4426428>
+<email	 fbricker@dokkogroup.com.ar>
+<URL	 "http://www.dokkogroup.com.ar">
+<rates	 Contact us for rates>
+<additional_info dokko_group>
+</p>
+
+## Consultant: AR
+## mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Jos&eacute; Mar&iacute;a Schenone>
+#<company dotLinux Latinoamerica>
+#<address Vicente Franco 1918, B1881DQH Quilmes, Buenos Aires, <country-name AR>>
+#<phone	 +54 11 5199 6215>
+#<email	 jose@dotlinux.com.ar>
+#<URL	 "http://www.dotlinux.com.ar">
+#<rates	 Please, contact us for rates>
+#</p>
+
+# Consultant: AR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Eugenio Armel&iacute;n>
+<company freelance consultant>
+<address 26 de Abril 3251 Ituzaing&oacute; (1714), Buenos Aires, <country-name AR>>
+<phone   54-11-44818720>
+<email	 armelignux@gmail.com>
+<rates	 Please contact for rates>
+</p>
+
+# Consultant: AR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Diego Gomez>
+<address Buenos Aires, <country-name AR>>
+<phone   +54 11 15-5-8149450>
+<email	 diego@dgomez.com.ar>
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: AR
+# added on 04.03.2013
+<p>
+<name	 Gonzalo Ariel Mendez>
+<company IT-MORON>
+<address Buenos Aires (Morón &amp; Microcentro), <country-name AR>>
+<phone   +54-11-15-4404-7292>
+<email	 gmendez@it-moron.com.ar scramble="yes">
+<rates	 Please contact via e-mail or phone.>
+</p>
+
+# Consultant: AR
+# added on 07.03.2013
+<p>
+<name	 Oscar Renato Gonzalez>
+<company IANUX IT &amp; Security Solutions>
+<address Coronel Suarez 75, Salta, <country-name AR>>
+<phone   +54-387-154113043>
+<email	 help@ianux.com.ar>
+<email   oscar.gonzalez@ianux.com.ar>
+<url     "http://www.ianux.com/debian">
+<url     "http://www.ianux.com.ar">
+<rates	 Please contact me through the web or email to know the
+rates, it depends on your needs.>
+</p>
+
+# Consultant: AR
+# added on 14.03.2013
+<p>
+<name    Emiliano Piscitelli>
+<company VH Group>
+<address Hipolito Yrigoyen 636 5to A, Buenos Aires, <country-name AR>>
+<phone   +54-11-5219-6610>
+<email   emiliano.piscitelli@vhgroup.net>
+<url     "http://www.vhgroup.net">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: AR
+# added on 18.08.2013
+<p>
+<name    Ricardo Frydman>
+<company Eureka!>
+<address <country-name AR>>
+<email   ricardo.eureka@gmail.com>
+<rates	 According to the project. Please contact me via email to discuss further.>
+</p>
+  <ul>
+    <li>Linkedin profile: <url http://www.linkedin.com/in/ricardofrydman></li>
+  </ul>
+
+## Consultant: AR
+## added on 22.11.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name    Leandro David Cacciagioni>
+#<company LBS Consulting>
+#<address Rosario, Santa Fe, <country-name AR>>
+#<email   info@lbsconsulting.com.ar>
+#<email   leandro.cacciagioni@lbsconsulting.com.ar>
+#<url     "http://www.lbsconsulting.com.ar/?page_id=156">
+#<rates	 Please contact for rates / Contáctenos por presupuestos.>
+#</p>
+
+# Consultant: AR
+# added on 14.01.2014
+<p>
+<name    Javier Quiar>
+<company QuiAr IT>
+<address Calle 23 N°2746, Buenos Aires, <country-name AR>>
+<phone   +54-11-6476-6777>
+<email   quiar@quiarit.com>
+<url     "http://www.quiarit.com/servicios_linux.php">
+<additional_info quiarit>
+</p>
+
+# Consultant: AR
+# added on 24.03.2014
+<p>
+<name    Miguel Landaeta>
+<company Freelance consultant>
+<address Buenos Aires, <country-name AR>>
+<email   miguel@miguel.cc>
+<url     "http://www.linkedin.com/in/miguellandaeta">
+<rates   Please contact for rates.>
+</p>
+
+
+<h1><a name="AU"><country-name AU>:</a></h1>
+
+# Consultant: AU
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Dave Hall>
+<company Dave Hall Consulting>
+<address PO Box 106, Newstead VIC 3462, <country-name AU>>
+<phone   +61-410-47-42-55>
+<email   info@davehall.com.au>
+<url     "http://davehall.com.au/">
+<rates   Available on request.>
+</p>
+
+# Consultant: AU
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Andrew Foster &amp; David Kempe>
+<company Solutions First>
+<address PO Box 1493, Crows Nest NSW 1585, <country-name AU>>
+<phone   +61-2-9923-2180>
+<fax     +61-2-9923-2190>
+<email   info@solutionsfirst.com.au>
+<URL     "http://solutionsfirst.com.au/">
+<rates   $154 AUD/hour, including GST, bulk or negotiated rates available>
+<additional_info solutionsfirst>
+</p>
+
+# Consultant: AU
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+#
+<p>
+<name    Andrew Preece>
+<company AANDCP IT Solutions>
+<address Hobart, Tasmania, <country-name AU>>
+<phone   +61-428-587-649>
+<email   andrew@aandcp.com>
+<URL     "http://www.aandcp.com/">
+<rates   Available upon request.  Discounted for non-profit, education.>
+
+# Consultant: AU
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Ron Fabre and Con Zymaris>
+<company Cyber IT Solutions Pty Ltd>
+<address Melbourne, <country-name AU>>
+<phone   +61-3-9428-6922>
+<fax     +61-3-9428-6944>
+<email   info@cyber.com.au>
+<URL     "http://www.cyber.com.au/">
+<rates   Please contact for rates.>
+<additional_info con_z>
+</p>
+
+# Consultant: AU
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Scott Middleton>
+<company Linux Information Technology>
+<address PO Box 1392 West Perth WA 6872, <country-name AU>>
+<phone   +61-400-212-724>
+<email   scott@linuxit.com.au>
+<URL     "http://www.linuxit.com.au/">
+<rates   Available upon request.>
+</p>
+
+# Consultant: AU
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name	 Shane Machon>
+<company LinSec Consulting>
+<address Northern Beaches, Sydney, <country-name AU>>
+<phone	 +612 9007 9809>
+<fax     +612 9907 4922>
+<email	 info@linsec.com.au>
+<URL	 "http://www.linsec.com.au/">
+<rates	 Available on request.>
+</p>
+
+# Consultant: AU
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name	 Graham J Williams>
+<company Togaware>
+<address Canberra, <country-name AU>>
+<phone   +61-2-6251-5302>
+<phone   +61-402-409-418>
+<fax	 +61-2-6251-5302>
+<email	 graham.williams@togaware.com>
+<URL	 "http://www.togaware.com/">
+<rates	 Please contact for rates.>
+<additional_info togaware>
+</p>
+
+# Consultant: AU
+# addition request by Jason Edelstein <jasone@senseofsecurity.com>
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active.
+# Entry updated.
+<p>
+<name    Jason Edelstein>
+<company Sense of Security>
+<address Level 8, 66 King St, Sydney NSW 2000, <country-name AU>>
+<phone   +61 2 9290 4444>
+<fax     +61 2 9290 4455>
+<email   info@senseofsecurity.com.au>
+<URL     "http://www.senseofsecurity.com.au/">
+<rates   Please contact us for rates.>
+</p>
+
+# Consultant: AU
+# email checked on 2011-12-02
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Joe Matthew+>
+<company Powerful CMS>
+<address 102/278 Church Street, Richmond, VIC 3121, <country-name AU>>
+<phone	 +61 2 2891 3000>
+<email	 debian@powerfulcms.com>
+<URL	 "http://www.powerfulcms.com.au/unix-amazon-consulting-services">
+<rates	 from $65/hr>
+<additional_info powerfulcms>
+</p>
+
+## Consultant: AU
+## Added to the list on 23.02.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 James Bromberger>
+#<company JamesBromberger.com>
+#<address Ardross 6153, Perth, Western Australia, <country-name AU>>
+#<phone	 +61 422 166 708>
+#<email	 sales@jamesbromberger.com>
+#<URL	 "http://www.jamesbromberger.com/">
+#<rates	 on application>
+#</p>
+
+# Consultant: AU
+# Added to the list on 10.03.2013
+<p>
+<name	 Patrick Webster and Troy Rose>
+<company OSI Security Pty Ltd>
+<address PO Box 101, Concord NSW 2137, Sydney, <country-name AU>>
+<phone	 1300 953 324>
+<fax     1300 956 840>
+<email	 info@osisecurity.com.au>
+<URL	 "http://www.osisecurity.com.au/services/installation-and-configuration">
+<rates	 Call or email for pricing.>
+</p>
+
+# Consultant: AU
+# Added on 19.03.2013
+<p>
+<name	 JJ Fiasson>
+<company Cloud BT IT Support &amp; IT Services>
+<address 24B / 203 Castlereagh Street, Sydney, NSW, 2000, <country-name AU>>
+<phone	 1300 737 205>
+<email	 jj@cloudbt.com.au>
+<URL	 "http://www.it-support.com.au/">
+<rates	 Negotiable.>
+<additional_info cloud_bt>
+</p>
+
+# Consultant: AU
+# Added on 24.03.2013
+<p>
+<name	 Dmitry Smirnov>
+<company Libre Solutions Pty Ltd>
+<address Sydney, NSW 2232, <country-name AU>>
+<phone	 +61-2-8517-2526>
+<email	 admin@raid6.com.au>
+<URL	 "http://raid6.com.au/debian">
+<rates	 See web site for rates (work suitable for Debian may be entitled for discount).>
+</p>
+
+# Consultant: AU
+# Added on 03.09.2013
+<p>
+<name	 David Williams>
+<company Keyspace>
+<address Level 1, 16 McDougall Street, Milton QLD 4064, <country-name AU>>
+<phone	 07-3200-1986>
+<email	 sales@keyspace.com.au>
+<URL	 "http://www.keyspace.com.au/it-support/linux-unix-support/debian-gnulinux/">
+<URL	 "http://www.keyspace.com.au/it-support/linux-unix-support/">
+<URL	 "http://www.keyspace.com.au">
+<rates	 Available upon request.>
+</p>
+
+# Consultant: AU
+# Added on 17.09.2013
+<p>
+<name	 Brett Muscio>
+<company 4IT IT Support Sydney>
+<address 153 Macquarie St, Parramatta NSW 2150, <country-name AU>>
+<phone	 1800-367-448>
+<email	 info@4it.com.au>
+<URL	 "http://4it.com.au/it-support-services/">
+</p>
+
+# Consultant: AU
+# Added on 22.11.2013
+<p>
+<name	 John Pearson>
+<company Huiac.com Pty Ltd>
+<address PO Box 368, Findon SA 5023 <country-name AU>>
+<phone	 +61-4-0739-1169>
+<email	 john@huiac.com>
+<URL	 "http://www.huiac.com/open-source/debian/">
+</p>
+  <ul>
+    <li>Servicing Adelaide and the greater metropolitan area</li>
+  </ul>
+
+# Consultant: AU
+# Added on 21.02.2014
+<p>
+<company Dotline Infotech Pty Ltd>
+<address 818/301 George Street, Sydney NSW 2000, <country-name AU>>
+<phone	 02-9299-2971>
+<email	 support@dotline.com.au>
+<url     "http://www.dotline.com.au">
+<rates   Negotiable>
+<additional_info dotline_infotech>
+</p>
+
+# Consultant: AU
+# Added on 04.08.2015
+<p>
+<name	 Samantha Scafe>
+<company Small Business Data Company Pty Ltd>
+<address PO Box 1282, Cairns, Qld, 4870 <country-name AU>>
+<phone	 +61-7-4220-9898>
+<fax	 +61-7-4220-9858>
+<email	 sbdc@sbd.net.au>
+<url     "http://www.sbd.net.au">
+<rates   $88 AUD/hour (BH) and $154 AUD/hour (AH), including GST, bulk or
+negotiated rates available. Min charge: 15 mins BH, 30 mins AH,
+2 hours on gazetted public holidays.>
+<additional_info small_business>
+</p>
+
+# Consultant: AU
+# Added on 04.08.2015
+<p>
+<name	 Bob Jones>
+<company White IT>
+<address Brisbane, <country-name AU>>
+<phone	 0731026681>
+<email	 help@whiteit.com.au>
+<url     "http://www.whiteit.com.au">
+<rates   Contact for rates.>
+</p>
+
+
+<h1><a name="AT"><country-name AT>:</a></h1>
+
+# Consultant: AT
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name    Peter-Paul Witta>
+<company CUBiT IT Solutions GmbH>
+<address 1080 Wien, Albertgasse 43, <country-name AT>>
+<phone   +43-1-7189880-0>
+<fax     +43-1-7189880-11>
+<email   office@cubit.at>
+<url     "http://www.cubit.at/">
+<rates   Please contact us.>
+<additional_info cubit>
+</p>
+
+# Consultant: AT
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Patrick Seher>
+<company Rechenkraft GmbH &amp; Co IT Services KG>
+<address Roßauer Gasse 7; 1090 Wien, <country-name AT>>
+<phone   +43 50 191919>
+<fax     +43 50 191999>
+<email   office@rechenkraft.at>
+<url     "http://www.rechenkraft.at/">
+<rates   70 EUR / h>
+<additional_info seher_it>
+</p>
+
+# Consultant: AT
+# email checked on 2011-09-09
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Michael Prokop>
+<company Grml Solutions>
+<address Weblinger Strasse 75d, 8054 Graz, <country-name AT>>
+<phone   +43-0-664-1646346>
+<email   debian-consulting@grml-solutions.com>
+<url     "http://grml-solutions.com/">
+<rates   Please contact us for individual rates.>
+</p>
+
+# Consultant: AT
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company iPodion GmbH>
+<address Wichtelgasse 57-59, 1170 Wien, <country-name AT>>
+<phone   +43 1 216 32 98 5-00>
+<fax     +43 1 216 32 98 5-99>
+<email   office@iPodion.at>
+<URL     "http://www.iPodion.at">
+<rates   hourly rates: EUR 110,00>
+<additional_info ipodion>
+</p>
+
+# Consultant: AT
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Stefan Froehlich>
+<company Stefan Froehlich, EDV-Dienstleistungen>
+<address A-1060 Wien, Millergasse 17/19, <country-name AT>>
+<phone   +43-1-595-28-24>
+<email   debian@edv.froehli.ch>
+<URL     "http://froehli.ch/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: AT
+# email checked on 2011-09-09
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Josef Bergmann>
+<company Bergmann engineering &amp; consulting GmbH>
+<address Vienna, <country-name AT>>
+<phone   +43-1-6626523>
+<fax     +43-1-662652349>
+<email   support@bec.at>
+<URL     "http://bec.at/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: AT
+# mail sent to check status to wien@h.co.at: 23.02.2013 holger-guest
+# Result: still active, entry is updated.
+<p>
+<name    Ulrich Huber>
+<company Heureka GesmbH>
+<address Wiener Straße 101, 3032 Eichgraben, <country-name AT>>
+<phone   +43-1-9292815>
+<fax     +43-1-9292816>
+<email   wien@heureka.co.at>
+<email   ulrich.huber@heureka.co.at>
+<URL     "http://www.heureka.co.at">
+<rates   Please contact for rates.>
+<additional_info heureka>
+</p>
+
+# Consultant: AT
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Karl Deutsch>
+<company IT-WORKS.CO.AT - Consulting &amp; Solutions>
+<address Am Waldrand 12, A-8380 Jennersdorf, <country-name AT>>
+<phone   +43-664-4939234>
+<email   public@it-works.co.at>
+<URL     "http://www.karl-deutsch.at">
+</p>
+
+# Consultant: AT
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Hans-Jürgen Schönig>
+<company Cybertec Schönig &amp; Schönig GmbH>
+<address Gröhrmühlgasse 26, 2700 Wiener Neustadt, <country-name AT>>
+<phone	 +43-(0)2622-93022>
+<email	 office@cybertec.at>
+<URL	 "http://www.cybertec.at/">
+<rates	 Please ask for additional pricing information>
+<additional_info cybertec>
+</p>
+
+# Consultant: AT
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Christoph J&auml;ger>
+<company abaton EDV-Dienstleistungs GmbH>
+<address Hans-Resel-Gasse 17, 8020 Graz, <country-name AT>>
+<phone	 +43-316-817-896-0>
+<fax  	 +43-316-817-896-70>
+<email	 christoph.jaeger@abaton.at scramble="yes">
+<URL	 "http://www.abaton.at/">
+<rates	 Please contact us for rates - free initial consultation>
+<additional_info abaton>
+</p>
+
+# Consultant: AT
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active.
+# Entry is up-to-date.
+<p>
+<name	 Robert Wetzlmayr>
+<company Robert Wetzlmayr Web Development>
+<address 4860 Lenzing, Sommerfeld, <country-name AT>>
+<email	 info@wetzlmayr.at>
+<URL	 "http://wetzlmayr.at/">
+<rates	 Please contact me for rates>
+</p>
+
+# Consultant: AT
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Johnny Morano>
+<company moretrix[dot]com>
+<address Oberwirt 360, 5505 Mühlbach am Hochkönig, <country-name AT>>
+<email   jmorano@moretrix.com>
+<URL     "http://www.moretrix.com/">
+<rates   Depends on the task>
+</p>
+
+# Consultant: AT
+# added on 08.01.2015
+<p>
+<company ITACH GmbH>
+<name    Alois Kobler>
+<address Kornstraße 7a, AT-4060 Leonding, <country-name AT>>
+<email   a.kobler@itach.at>
+<phone   +43(0)732-211213>
+<rates   89 EUR per hour (without VAT).>
+</p>
+
+
+# <h1><a name="BS"><country-name BS>:</a></h1>
+
+
+<h1><a name="BD"><country-name BD>:</a></h1>
+
+# Consultant: BD
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Russell John>
+<address House # 55/A, Road # 4/A, Dhanmondi R/A, Dhaka 1209, <country-name BD>>
+<phone   +88-0192-4955-405>
+<email   russell@linux.org.bd>
+<URL     "http://russelljohn.net">
+<rates   Negotiable>
+</p>
+
+
+<h1><a name="BY"><country-name BY>:</a></h1>
+
+# Consultant: BY
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Alexander Arabei>
+<company Qulix Systems>
+<address Melnikaite 2, office 2301, Minsk, <country-name BY>, BY-220004>
+<phone   +375-17-222-62-51>
+<fax     +375-17-226-71-70>
+<email   info@qulix.com>
+<URL     "http://www.qulix.com">
+<rates   10-15$/hour>
+<additional_info qulix>
+</p>
+
+
+<h1><a name="BE"><country-name BE>:</a></h1>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name    Joachim Meyts>
+<company Xenco>
+<address Joseph van den Bosschestraat 163, 1750 Lennik, <country-name BE>>
+<phone   +32-478-81-51-69>
+<fax     +32-2-532-24-20>
+<email   info@xenco.be>
+<URL     "http://www.xenco.be/">
+</p>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Jens-Ingo Brodesser>
+<company Moving Art Studio, all2all.org>
+<address 51 rue de l'Instruction, 1070 Bruxelles, <country-name BE>>
+<phone   +32-24118410>
+<fax     +32-25385581>
+<email   info@all2all.org>
+<URL     "http://www.all2all.org/">
+<rates   75&euro;/hour, non-profit discount.>
+<additional_info all2all>
+</p>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Wouter Verhelst>
+<company NixSys BVBA>
+<address Battelsesteenweg 455e, Mechelen, <country-name BE>>
+<phone   +32 486 836 198 (mobile)>
+<email   info@nixsys.be>
+<URL     "http://www.nixsys.be/">
+<rates   negotiable>
+</p>
+
+# Consultant: BE
+# mail sent to check status to info@k.net: 23.02.2013 holger-guest
+# Result: still active, entry updated.
+<p>
+<name	 Peter Dens>
+<company Kangaroot Linux Solutions>
+<address Posthoflei 1 bus 3, 2600 Berchem, <country-name BE>>
+<phone   +32-2-614-01-00>
+<fax     +32-3-281-23-49>
+<email   info@kangaroot.net>
+<email   sales@kangaroot.net>
+<URL     "http://www.kangaroot.net/">
+<rates   Please contact our sales team for rates. Different rates for remote and on-site interventions. Monthly support contracts available.>
+<additional_info peter_d>
+</p>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Joan Lavrijs>
+<company Digibel>
+<address Linkestraat 41, 3582 Koersel, <country-name BE>>
+<phone   +32-473-269112>
+<fax     +32-11-220530>
+<email   joan@digibel.be>
+<URL     "http://www.digibel.be">
+<rates   Please contact for rates.>
+<additional_info joan_l>
+</p>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Tom Schouteden>
+<company Linugen>
+<address Antwerp, <country-name BE>>
+<phone   +32-475-45-85-55>
+<email   hello@linugen.com>
+<URL     "http://www.linugen.com/">
+<rates   Available upon request.>
+</p>
+
+# Consultant: BE
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Koen Vereeken>
+<company Sinopsys>
+<address Beukendreef 25, 9300 Aalst, <country-name BE>>
+<phone	 +32 498 / 63 95 68>
+<email	 koen@vereeken.net>
+<URL	 "http://www.vereeken.net/">
+<rates   depends on the project>
+</p>
+
+# Consultant: BE
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Christophe Lemaire>
+<company exp-Networks sprl>
+<address 5030 Ernage, <country-name BE>>
+<phone	 +32 497 73 00 47>
+<fax  	 +32 70 40 23 32>
+<email	 christophe.lemaire@exp-networks.be>
+<URL	 "http://www.exp-networks.be/">
+<rates   Please contact us for pricing.>
+</p>
+
+# Consultant: BE
+# mail sent to check status: 16.05.2013 holger-guest. Still active, entry updated.
+<p>
+<name	 Jérôme Warnier>
+<company BeezNest>
+<address 136, av. de la Verrerie, B-1190 Brussels, <country-name BE>>
+<email	 info@beeznest.net>
+#<URL	 "http://www.beeznest.net/">
+<rates	 600 &euro;/day.>
+<additional_info beeznest>
+</p>
+
+# Consultant: BE
+# added on 15.12.2014
+<p>
+<company Kinamo NV/SA>
+<address Hessenstraatje 2, 2000 Antwerpen, <country-name BE>>
+<phone	 +32-32308582>
+<email	 info@kinamo.be>
+<URL	 "https://www.kinamo.be">
+<rates	 Available on request.>
+</p>
+
+
+<h1><a name="BA"><country-name BA>:</a></h1>
+
+# Consultant: BA
+# email checked on 2011-10-16
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Amar Cosic>
+<company Nula Hosting>
+<address Vojvodica put 15, Zenica, <country-name BA>>
+<phone	 +387-61-240095>
+<email	 amar.cosic@gmail.com>
+<rates	 negotiable>
+</p>
+
+
+<h1><a name="BR"><country-name BR>:</a></h1>
+
+# Consultant: BR
+# Check URL at 22.02.2013 by holger-guest.
+# Result: address not found
+# mail sent to check status: 23.02.2013 holger-guest. Result: mail could not be delivered, entry disabled.
+#
+# New contact data was provided from Allan Garcia via consultants@debian.org, 
+# entry updated accordingly.
+<p>
+<name    Allan Garcia>
+<company Independent Consultant>
+<address Rua dos Amarantos, 186-A - Capim Macio - Natal/RN, <country-name BR>>
+<phone   +55-84-9113-4241>
+<email   allan.garcia@gmail.com scramble=yes>
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Carlos Eduardo Felicio de Oliveira>
+<address S&atilde;o Paulo/SP, <country-name BR>>
+<phone   +55-11-99227-9937>
+<email   k9@ig.com.br>
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Diogo Dourado>
+<company Brainatwork Servi&ccedil;os Interativos>
+<address Rua JK, 103, Montes Claros, MG, <country-name BR>>
+<phone   +55-38-3213-3795>
+<email   atendimento@brainatwork.com.br>
+<url     "http://www.brainatwork.com.br/">
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Marcio Jacson dos Santos>
+<company Informatech Informatica Ltda>
+<address Rua Fortaleza, 87, Sagua&ccedil;u, Joinville, Santa Catarina, <country-name BR>>
+<phone   +55-47-30263236>
+<phone   +55-47-88080410>
+<fax     +55-47-4721932>
+<email   marcio@informatech.com.br>
+<url     "http://www.informatech.com.br/">
+<rates   Negotiable.>
+<additional_info informatech>
+</p>
+
+# Consultant: BR
+# email checked on 2010-11-13
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Reinaldo Gil Lima de Carvalho>
+<address Bel&eacute;m, PA, <country-name BR>>
+<phone   +55-91-3229-5009>
+<phone   +55-91-8802-8171>
+<email   reinaldoc@gmail.com>
+<URL     "http://reinaldoc.wordpress.com/about/debian-consultant/">
+<rates   Negotiable.>
+<additional_info rei>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: mail could not be delivered, entry disabled.
+# re-activated at 08.03.2013 with updated data.
+<p>
+<name    Andr&eacute; Carezia>
+<company Carezia Consultoria>
+<address Itu, SP - <country-name BR>>
+<phone   +55-11-4023-1475>
+<email   andre@carezia.srv.br>
+<URL     "http://www.carezia.srv.br/">
+<rates   R$ 130,00 per hour.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Anderson Carlos Daniel Sanches>
+<address Tatuap&eacute; - S&atilde;o Paulo - SP, <country-name BR>>
+<phone   +55-11-96705-4926>
+<email   andycds@gmail.com>
+<URL     "http://www.software.pro.br/">
+<rates   Negotiable, depends on project.>
+<additional_info anderson>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry is up-to-date.
+<p>
+<name    Mauricio Maniga>
+<company Alpha Quattro Inform&aacute;tica Ltda.>
+<address Rua Alencar Araripe, 504 - Sobreloja - S&atilde;o Paulo - SP, <country-name BR>>
+<phone   +55-11-6215-3343>
+<email   mauricio@alphaquattro.com.br>
+<URL     "http://www.alphaquattro.com.br/">
+<rates   Contact us.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Marcos Helbert de Almeida Fontana>
+<company Desaes CO>
+<address Rua Serjobes de Faria 149, Belo Horizonte, MG, <country-name BR>>
+<phone	 +55 31 93661011>
+<email	 fontana.marcos@gmail.com>
+<rates	 Call me.>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Marlon Nunes>
+<company FOSS suporte>
+<address Macei&oacute;-AL, <country-name BR>>
+<phone	 +55-82-8888-9322>
+<email	 mcnunes@gmail.com>
+<URL	 "http://bitsinfo.wordpress.com">
+<rates	 Negotiable>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Leonardo Damasceno>
+<address Avenida Juca Sampaio - N&uacute;mero: 1990, Condom&iacute;nio Residencial Tropical  - Feitosa, Macei&oacute; city, <country-name BR>>
+<phone	 +55-82-9933-3226>
+<email	 damasceno.lnx@gmail.com>
+<URL	 "http://leodamasceno.blogspot.com">
+<rates	 Negotiable>
+</p>
+
+# Consultant: BR
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 George Mendes Marra>
+<address Goi&acirc;nia - GO, <country-name BR>>
+<phone	 +55-62-3285-1719>
+<phone   +55-62-9976-0915 - Claro>
+<phone   +55-64-92935444 - Claro>
+<phone   +55-62-81342770 - TIM>
+<phone   +55-62-84213433 - Oi>
+<email	 george.mendes@gmail.com>
+<rates	 Negotiable>
+</p>
+
+# Consultant: BR
+# email checked on 2011-10-01
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active.
+<p>
+<name	 Marco T&uacute;lio>
+<company OPEN Solu&ccedil;&otilde;es Integradas>
+<address Uberl&acirc;ndia/MG, <country-name BR>>
+<phone   +55 34 3221 8667>
+<email	 comercial@opensolucoes.com.br>
+<rates	 Negociable>
+</p>
+
+# Consultant: BR
+# email checked on 2011-10-30
+# mail sent to check status: 23.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Adonney Allan de Oliveira Veras>
+<address Bel&eacute;m-PA, <country-name BR>>
+<phone   (+5591)8116-6447>
+<phone   (+5591)9923-2500>
+<email	 allanverasce@gmail.com>
+<rates	 a combinar>
+</p>
+
+# Consultant: BR
+# added on 07.03.2013
+<p>
+<name	 Rafael Marangoni>
+<company BRLink Solucões em TI>
+<address Praça Barão de Anhambaí, 4 - Sacomã - São Paulo, <country-name BR>>
+<phone   +55-11-20686199>
+<fax     +55-11-20686199>
+<email	 contato@brlink.com.br>
+<URL     "http://www.brlink.com.br">
+<rates	 Call or email for rates, depends on project size.>
+</p>
+
+# Consultant: BR
+# added on 15.03.2013
+<p>
+<name	 Marcelo Felipe Dompieri>
+<company Dompieri Tecnologia>
+<address Rua Jussara, 301 - CS 11, São Paulo, SP, <country-name BR>>
+<phone   55-11-81068958>
+<email	 marcelofelipe@dompieri.com.br>
+<rates	 R$ 125,00 per/h only for government and enterprises.>
+<additional_info dompieri>
+</p>
+
+# Consultant: BR
+# added on 19.03.2013
+<p>
+<name	 Fábio Vieira>
+<company Winlinux Technology Solutions and Web>
+<address Mathilde Rua da Silva Wolf, 345 - Curitiba / Paraná, <country-name BR>>
+<phone   +55(41)3319-6254>
+<phone   +55(41)9893-8701>
+<fax     +55(41)3319-6254>
+<email	 winlinuxinfo@gmail.com>
+# <URL     "www.winlinuxtecnologia.com">
+<rates	 Negotiable.>
+</p>
+
+# Consultant: BR
+# added on 25.03.2013
+<p>
+<name	 Ricardo Alexandre Germano de Assis>
+<address Cuiabá, Mato Grosso, <country-name BR>>
+<phone   +55-65-9604-4880>
+<email	 segurancalinux@gmail.com>
+<URL     "http://segurancalinux.wix.com/ricardogermano">
+</p>
+
+# Consultant: BR
+# added on 25.05.2013
+<p>
+<name	 Fabio Luiz Zorzeto>
+<address Benjamin Ternury, 191A, Presidente Prudente, Sao Paulo, <country-name BR>>
+<phone   +55 18 9733-6094 / +55 18 3909-4151>
+<email	 fabiozorzeto@gmail.com>
+#<URL     "http://br.linkedin.com/in/fabiozorzeto/">
+<rates   Please, contact for rates.>
+</p>
+
+# Consultant: BR
+# added on 30.09.2013
+<p>
+<name	 Luis Augsuto Teixeira>
+<company INFORNET Soluções em Informática>
+<address Ananindeua, Pará, <country-name BR>>
+<phone   (91)8827-2837 / (91)8064-11-17 / (91)9253-2087>
+<email	 luisteixeira25@gmail.com>
+<rates   a combinar.>
+</p>
+
+# Consultant: BR
+# added on 22.02.2014
+<p>
+<name	 Thalysson Sarmento>
+<address Brasilia, <country-name BR>>
+<email	 sarmento@bsd.com.br>
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# added on 22.05.2014
+<p>
+<name	 Gabriel Ricardo de Lara Pereira>
+<company NerdWork TI>
+<address Curitiba/PR, <country-name BR>>
+<phone   +55-41-8881-7828>
+<email	 gabriel@nerdworkti.com.br>
+<URL     "http://www.nerdworkti.com.br">
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# added on 25.07.2014
+<p>
+<name	 Greyson Farias da Silva>
+<company Acrebell Engenharia e Comércio LTDA>
+<address Av. Nações Unidas, 339, Bosque. Rio Branco Acre, <country-name BR>>
+<phone   +55 68 3223-1513>
+<email	 greyson@cyberacrebell.com>
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# added on 25.07.2014
+<p>
+<name	 Diego Neves>
+<address Foz do Iguaçu - PR - <country-name BR>>
+<email	 diego@diegoneves.eti.br scramble="yes">
+<rates   To be verified per project.>
+</p>
+
+# Consultant: BR
+# added on 02.08.2014
+<p>
+<name	 Rodrigo de Campos>
+<address Joinville - SC - <country-name BR>>
+<email	 sprc86@gmail.com>
+<rates   Negotiable.>
+</p>
+
+# Consultant: BR
+# added on 28.07.2015
+<p>
+<company COLIVRE>
+<address <country-name BR>>
+<email   debian@colivre.coop.br>
+<URL     "http://colivre.coop.br/">
+<rates   Negotiable.>
+<additional_info colivre>
+</p>
+
+
+# <h1><a name="BG"><country-name BG>:</a></h1>
+
+
+<h1><a name="CA"><country-name CA>:</a></h1>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Shahryar Ghazi>
+<company Freelance Consultant>
+<address Greystone Walk Drive, Scarborough, Ontario, <country-name CA>>
+<phone   +1-647-764-6350>
+<email   shahryar.ghazi@gmail.com>
+<URL     "http://www.geeksww.com">
+<rates   Vary according to service.>
+<additional_info sghazi>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Hans Deragon>
+<company Deragon Informatique inc.>
+<email   hans@deragon.biz>
+<URL     "http://www.deragon.biz/">
+<rates   Depends on length of contract.>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+# mail contact: <murray@nesbitt.ca>
+<p>
+<name    Murray Nesbitt>
+<company Nesbitt &amp; Associates>
+<address Vancouver, BC, <country-name CA>>
+<contact http://www.nesbitt.ca/contact.html>
+<URL     "http://www.nesbitt.ca/">
+<rates   Competitive and fair.>
+</p>
+
+# Consultant: CA
+# mail sent to check status to tim@s.com: 26.02.2013 holger-guest
+# Starnix still active, update from Kevin Glendenning
+<p>
+<name    Kevin Glendenning and Matthew Rice>
+<company Starnix Inc.>
+<address PO Box 57059, 101-5602 Tenth Line West, Mississauga, ON L5M 7L0, <country-name CA>>
+<phone   +1-647-722-5301>
+<fax     +1-855-FOSS-PRO>
+<email   kevin@starnix.com>
+<email   matt@starnix.com>
+<URL     "http://www.starnix.com">
+<rates   Rates vary according to service required.>
+<additional_info starnix>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Kevin Traas>
+<company Superior Software Services>
+<address Chilliwack, BC, <country-name CA>>
+<phone   +1-604-858-5678>
+<email   kevin@tra.as>
+<rates   Variable/Negotiable depending on type of work.>
+<additional_info kevin_t>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name    Russell Sutherland>
+<company Quist Consulting>
+<address Toronto, ON, <country-name CA>>
+<phone   +1-416-696-7600>
+<email   russ@quist.ca>
+<URL     "http://www.quist.ca/">
+<rates   $75 per hour.>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company LinuxMagic (a division of Wizard Tower TechnoServices Ltd.)>
+<address Suite #407 - 1168 Hamilton Str, Vancouver BC, <country-name CA>>
+<phone	 +1-604-682-0022>
+<fax	 +1-604-682-0065>
+<email	 sales@linuxmagic.com>
+<URL	 "http://www.linuxmagic.com/">
+<rates	 Current Rates listed at http://www.linuxmagic.com/packages.html.>
+<additional_info linuxmagic>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Derrick Webber>
+<company Advosys Consulting Inc.>
+<address Ottawa, Ontario, <country-name CA>>
+<phone	 +1-613-290-7731>
+<email	 contact@advosys.ca>
+<URL	 "http://advosys.ca/">
+<rates	 Please contact us.>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+# Contact was via Nathan Jang <nathan@netdigix.com>
+<p>
+<name	 Nathan Jang>
+<company Netdigix Systems>
+<address #170 – 422 Richards street, Vancouver, BC, <country-name CA>>
+<phone	 +1-604-518-6695>
+<email	 sales@netdigix.com>
+<URL	 "http://www.netdigix.com/">
+<rates	 Base rate is $125CND/Hr depending on job.>
+<additional_info netdigix>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Amir Al-Shourbaji>
+<company Reality Information and Technology Services>
+<address 42 Guy, Vaudreuil, Qc J7V 8B2, <country-name CA>>
+<phone	 (514) 777-9453>
+<email	 a.al-shourbaji@realitywebs.ca>
+<URL	 http://www.realitywebs.ca>
+<rates	 Varies based upon task>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Neil H. Watson>
+<address Greater Toronto Area, Ontario, <country-name CA>>
+<email	 help@watson-wilson.ca>
+<URL	 "http://watson-wilson.ca">
+<rates	 Fair and negotiable>
+</p>
+
+# Consultant: CA
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Dave Cramer>
+<company credativ LTD.>
+<address Zina st. 78, Orangeville Ont., L9W1E8, <country-name CA>>
+<phone   +1-519-341-2469>
+<email	 info@credativ.ca>
+<URL	 "http://www.credativ.ca">
+<rates   Call for rates.>
+<additional_info credativ>
+</p>
+
+# Consultant: CA
+# email checked on 2011-10-19
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Sujay D'Souza>
+<company Win2ix Systems Inc.>
+<address 35 Auriga Drive Suite 210, Ottawa, ON K2E-8B7, <country-name CA>>
+<phone   +1-613-369-5127>
+<fax     +1-613-369-5128>
+<email	 contact.us@win2ix.ca>
+<URL	 "http://win2ix.ca/">
+<rates   Please contact us.>
+</p>
+
+# Consultant: CA
+# email checked on 2011-08-25
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Wim Kerkhoff>
+<company Kerkhoff Technologies Inc>
+<address Suite 204 &mdash; 45389 Luckakuck Way, Chilliwack, BC, V2R 3V1, <country-name CA>>
+<phone   604-824-2770>
+<email	 info@kerkhofftech.ca>
+<URL	 "http://www.kerkhofftech.ca/services-solutions/it-consulting/linux-consulting/">
+<rates   $175/hour, fixed-fee project, or monthly agreements>
+<additional_info kerkhoff>
+</p>
+
+# Consultant: CA
+# added on 10.03.2013
+# mail contact: Murray Nesbitt <murray@okts.ca>
+<p>
+<company Okanagan Technology Solutions>
+<address Okanagan, British Columbia, <country-name CA>>
+<phone   866 755 6689>
+<contact "http://www.okts.ca/contact.html">
+<URL	 "http://www.okts.ca">
+<rates   Competitive and fair.>
+</p>
+
+# Consultant: CA
+# added on 21.03.2013
+<p>
+<name    Oleg Koroz>
+<company ALT ITC>
+<address 2720 Queensview Dr. Suite 1142, Ottawa, Ontario, K2B 1A5, <country-name CA>>
+<phone   (613) 454-1422>
+<fax     (888) 424-0929>
+<email   info@alt-consulting.ca>
+<URL	 "http://linuxsupport.ca">
+<URL	 "http://linuxsupport.ca/solutions/supported-distributions/debian">
+<rates   Varies according to service.>
+<additional_info alt_itc>
+</p>
+
+# Consultant: CA
+# added on 22.03.2013
+<p>
+<name    Michael>
+<company Computer Problem>
+<address Toronto, Ontario, <country-name CA>>
+<phone   +1-905-428-3775, iNUM 011(883)510001399933>
+<email   debian@computerproblem.ca scramble="yes">
+<URL	 "http://www.computerproblem.ca">
+<rates   $35-80/h (rates vary according to service).>
+<additional_info computer_problem>
+</p>
+
+## Consultant: CA
+## added on 10.05.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name    Fabián Rodríguez>
+#<company Le Goût du Libre>
+#<address 48113 CP Bernard, Montreal QC H2V4H0, <country-name CA>>
+#<phone   +1-855-445-4273>
+#<phone   +1-514-880-6322>
+#<contact "http://www.legoutdulibre.com/en/contact/">
+#<email   debian@legoutdulibre.com scramble="yes">
+#<URL	 "http://www.legoutdulibre.com">
+#<rates   Vary according to services.>
+#</p>
+
+# Consultant: CA
+# added on 23.06.2013
+<p>
+<name    Antoine Beaupré>
+<company Koumbit.org>
+<address 6833, avenue de l'Épée #308 Montréal (Québec) H3N 2C7, <country-name CA>>
+<phone   +1-514-387-6262>
+<contact "http://koumbit.org/contact">
+<email   info@koumbit.org>
+<URL	 "http://koumbit.org/">
+<rates   100$/hr, sliding scale for non-profits and community groups.>
+</p>
+
+
+# <h1><a name="CL"><country-name CL>:</a></h1>
+
+
+<h1><a name="CN"><country-name CN>:</a></h1>
+
+# Consultant: CN
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name    Thomas Goirand>
+<company GPLHost>
+<address 200 120, GPLHost, Level 23, Citigroup tower, 33 Hua Yuan Shi Qiao Road, Pudong, Shanghai, <country-name CN>>
+<phone   +86-134-82-80-55-09>
+<email   thomas@gplhost.com scramble="yes">
+<URL     "http://www.gplhost.com/hosting-server-management-and-dtc-support.html">
+<rates   Negotiable, depending on the project. Discounts for: non-profit, educational, or open-source projects. Free help always available on instant messengers.>
+<additional_info gplhost>
+</p>
+
+
+<h1><a name="CY"><country-name CY>:</a></h1>
+
+# Consultant: CY
+# added on 07.05.2014
+<p>
+<name	 Demetris Demetriou>
+<company deZillium LTD>
+<address Karchidonos 26, Lakatamia, 2305, Nicosia, <country-name CY>>
+<phone   +357-99645740>
+<email	 dezillium@dezillium.com>
+<URL     "https://www.dezillium.com">
+<rates	 Please contact for rates.>
+</p>
+
+
+<h1><a name="CZ"><country-name CZ>:</a></h1>
+
+# Consultant: CZ
+# email checked on 2011-10-19
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Ond&#345;ej Sur&yacute;>
+<address Praha, <country-name CZ>>
+<email	 ondrej@sury.org>
+<rates	 Please contact for rates.>
+<additional_info ondrej_sury>
+</p>
+
+# Consultant: CZ
+# added on 04.03.2013
+<p>
+<name	 Alexander Hu>
+<company opensource company>
+<address Skuhrov 4, 56002 Ceska Trebova, <country-name CZ>>
+<phone   +420 - 466 566 269>
+<email	 contact@opensource-company.com>
+<URL     "http://www.opensource-company.com">
+<rates	 Starting from 50 €/h>
+<additional_info opensource_company>
+</p>
+
+# Consultant: CZ
+# updated on 25.07.2014
+<p>
+<name	 Peter Červenka>
+<company Peter Červenka>
+<address Jiráskova 604, 357 09 Habartov, <country-name CZ>>
+<phone   +420 774 194 938>
+<email	 peter.cervenka@email.cz>
+<rates	 Available upon request. Variable according service. Contact us.>
+<additional_info peter_cervenka>
+</p>
+
+# Consultant: CZ
+# added on 05.04.2013
+<p>
+<name	 Radek Šíma>
+<address <country-name CZ>>
+<email	 jupiter7777@volny.cz scramble="yes">
+<URL     "http://www.volny.cz/jupiter7777/pc.htm#instdeb">
+<URL     "http://www.volny.cz/jupiter7777/">
+<rates	 Variable. Negotiable. It is on my web pages or contact me. Lower
+prices during summer holidays.>
+<additional_info radek_sima>
+</p>
+
+
+<h1><a name="CO"><country-name CO>:</a></h1>
+
+# Consultant: CO
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Henry Diaz>
+<company 0 Riesgos Consultores>
+<address Calle 90 N. 87 A 24 Int 1, Bogota, <country-name CO>>
+<phone	 +57-1-3217461842 (mobile)>
+<email	 hadm88@yahoo.com>
+<URL	 "https://sites.google.com/site/hadm88/">
+<URL	 "http://hadm88.wix.com/0riesgosconsultores">
+</p>
+
+
+<h1><a name="CR"><country-name CR>:</a></h1>
+
+# Consultant: CR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jos&eacute; Pablo Rojas Carranza>
+<company Coral Systems>
+<address Sabanilla Montes de Oca, San Jos&eacute; <country-name CR>>
+<phone	 +506-22832222>
+<fax     +506-22249785>
+<email	 info@coral-systems.com>
+<URL	 "http://www.coral-systems.com/">
+<rates	 Mail us.>
+<additional_info coral>
+</p>
+
+# Consultant: CR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Elias Torres Arroyo>
+<company Comglobal IT S.A.>
+<address Boulevard Rohrmoser, Plaza Etreus #7, Rohrmoser, San José 10109, <country-name CR>>
+<phone	 +506-2520-2020>
+<email	 info+debian@comglobalit.com>
+<URL	 "http://www.comglobalit.com/">
+<rates	 Negotiable.>
+<additional_info comglobal>
+</p>
+
+# Consultant: CR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 David Ast&uacute;a Mora>
+<address San Jose, <country-name CR>>
+<phone	 (506) 89510675>
+<email	 ddastuam@gmail.com>
+<rates	 Please contact for rates>
+</p>
+
+# Consultant: CR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active.
+<p>
+<name	 Cristian Rucavado Leandro>
+<company Abax Asesores>
+<address Curridabat, San Jos&eacute;, <country-name CR>>
+<phone	 +506-2234-2290>
+<fax	 +506-2234-6622>
+<email	 info@abaxasesores.com>
+<URL	 "http://www.abaxasesores.com">
+<rates	 Negotiable.>
+</p>
+
+## Consultant: CR
+## added on 11.03.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Jose Gabriel Portuguez>
+#<company DOTLINUX LATINOAMERICA>
+#<address Ciudad Quesada, San Carlos, Alajuela, <country-name CR>>
+#<phone	 +506-8639-0955>
+#<email	 gabriel@dotlinux.com.ar>
+#<URL	 "http://www.dotlinux.com.ar">
+#<rates	 Please, contact us for rates.>
+#</p>
+
+# Consultant: CR
+# added on 19.06.2015
+<p>
+<name	 Robert Thomas Zamora>
+<company Upgrade Soluciones Tecnológicas>
+<address Calle 26. Avenida 3 y 5. Paseo Colón, <country-name CR>>
+<phone	 +506-89389544>
+<email	 info@upgradeacademy.com>
+<URL	 "http://www.upgradeacademy.com">
+<rates	 Negotiable.>
+<additional_info upgradeacademy>
+</p>
+
+
+<h1><a name="HR"><country-name HR>:</a></h1>
+
+# Consultant: HR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<name	 Josip Rodin>
+<address Zagreb, <country-name HR>>
+<email	 joy@debcons.entuzijast.net>
+<rates	 Based on service requirements.>
+</p>
+
+# Consultant: HR
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Davor Ocelic>
+<company Spinlock Solutions>
+<address Antona Mihica 6, HR-51410 Opatija, <country-name HR>>
+<email	 info@spinlocksolutions.com>
+<URL     http://www.spinlocksolutions.com/>
+<rates	 Based on duration and location. Special rates available for
+	 educational and Free Software projects.>
+</p>
+
+
+<h1><a name="DK"><country-name DK>:</a></h1>
+
+# Consultant: DK
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Christian Iversen>
+<company Iversen IT>
+<address C.F. Møllers Allé 12, 7th, 2300 Copenhagen S, <country-name DK>>
+<email   ci@iversenit.dk>
+<URL     "http://www.iversenit.dk/">
+<rates   Please contact.>
+</p>
+
+# Consultant: DK
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Sikkerhed.org ApS>
+<company Sikkerhed.org ApS>
+<address Reersøgade 8 B, 4., 2100 København Ø, <country-name DK>>
+<phone   (+45) 70 20 42 20>
+<fax     (+45) 70 20 42 29>
+<email   info@sikkerhed.org>
+<URL     "http://sikkerhed.org/">
+<rates   Please contact.>
+</p>
+
+# Consultant: DK
+# added at 19.09.2014
+<p>
+<company Adora>
+<name    Thomas Damgaard>
+<address Taarnvang 7, 4000, Roskilde, <country-name DK>>
+<phone   (+45) 61 70 20 50>
+<email   info@adora.dk>
+<URL     "http://adora.dk/debian/">
+</p>
+
+
+# <h1><a name="DO"><country-name DO>:</a></h1>
+
+
+# <h1><a name="EG"><country-name EG>:</a></h1>
+
+
+<h1><a name="EE"><country-name EE>:</a></h1>
+
+# Consultant: EE
+# added on 25.05.2013
+<p>
+<name    Raivo Laanemets>
+<company Infdot OÜ>
+<address Nooruse 13-39, Elva, Tartumaa 61507, <country-name EE>>
+<phone   +372 555 327 85>
+<email   info@infdot.com>
+<URL     "http://rlaanemets.com">
+<rates   30 EUR per hour.>
+</p>
+
+
+<h1><a name="ET"><country-name ET>:</a></h1>
+
+# Consultant: ET
+# added on 26.11.2014
+<p>
+<name    Mulugeta Ayalew>
+<company Dalet Consulting &amp; Technology Services Pvt. Ltd. Co.>
+<address Lideta Sub City, Kebelle 11, House No. 207, Addis Ababa, <country-name ET>>
+<phone   +251921786037>
+<email   mulugeta.ayalew@daletplc.com>
+<URL     "http://www.daletplc.com">
+<rates   Please contact for rates.>
+</p>
+
+
+<h1><a name="FI"><country-name FI>:</a></h1>
+
+# Consultant: FI
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Inoi Oy>
+<address Tykistokatu 4 D, Turku, <country-name FI>>
+<phone   +358-2-4788780>
+<fax     +358-2-4101710>
+<email   sales@inoi.fi>
+<URL     "http://www.inoi.fi/">
+<rates   Please contact us for further information.>
+</p>
+
+# Consultant: FI
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+# Sange was renamed into Seravo.
+<p>
+<company Seravo Oy>
+<address Finlaysoninkuja 8, 33210 Tampere, <country-name FI>>
+<phone   +358 44 5662204>
+<email   seravo@seravo.fi>
+<URL     "http://seravo.fi">
+<additional_info sange>
+</p>
+
+# Consultant: FI
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry up-to-date.
+<p>
+<company iQit>
+<address Turku, <country-name FI>>
+<phone   +358-40-531-9301>
+<email   iqit@iqit.fi>
+<URL     "http://www.iqit.fi/">
+<rates   Rates on request>
+</p>
+
+# Consultant: FI
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Erno Rasanen>
+<company Xetpoint Oy>
+<address Poukantie 3, FIN-37370 Narva, <country-name FI>>
+<phone	 +358-440-650653>
+<email	 info@xetpoint.fi>
+<URL	 "http://www.xetpoint.fi/">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: FI
+# email checked on 2010-11-13
+# mail sent to check status: 26.02.2013 holger-guest. Result: still active, entry updated.
+<p>
+#<name   Tapio Lehtonen>
+<company Osuuskunta Satatuuli>
+<address Telj&auml;nkatu 8 C, 28130 Pori, <country-name FI>>
+<phone   +358 2 641 4174>
+<email   Tapio.Lehtonen@satatuuli.fi>
+<URL     "http://satatuuli.fi/atk.shtml">
+<rates   EUR 38/hour or negotiable>
+</p>
+
+<h1><a name="FR"><country-name FR>:</a></h1>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Tony OGER>
+<company LibrA-LinuX>
+<address BP11, 74420 Boege, <country-name FR>>
+<phone   +33-4-50-35-60-02>
+<email   info@libra-linux.com>
+<url     "http://www.libra-linux.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<company Nativ'Object>
+<address 5, rue de la Tour de Guise, BP 91523, 37015 Tours Cedex 1, <country-name FR>>
+<email   contact@nativobject.com>
+# <URL     "http://www.nativobject.com/">
+<rates   Depends on task.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Jean-Christophe Becquet>
+<company APITUX>
+<address BP 32, 04001 Digne-les-Bains Cedex, <country-name FR>>
+<phone   +33-6-25-86-07-92>
+<email   jcb@apitux.com>
+<URL     "http://www.apitux.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Fabrice Mur>
+<company Tux-Logic>
+<address 6 rue des Chartreux, 13100 Aix-en-Provence, <country-name FR>>
+<phone   +33-9-53-77-84-36>
+<fax     +33-9-53-77-84-36>
+<email   contact@tux-logic.com>
+<URL     "http://www.tux-logic.com">
+<rates   Please call or email for rates.>
+</p>
+
+# Consultant: FR
+# data updated: 10.03.2013
+<p>
+<name    Michelle Konzack>
+<address <country-name FR>>
+<phone   +33-6-61925193 (France Mobile)>
+<phone   +49-177-9351947 (Germany Mobile)>
+<email   support@itsystems.tamay-dogan.net>
+<URL     "http://consultants.debian.tamay-dogan.net/">
+<rates   Depends on country and task.>
+<additional_info m_konzack>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<company Evolix>
+<address Marseille, <country-name FR>>
+<phone   +33-4-91-05-92-54>
+<email   info@evolix.fr>
+<URL     "http://www.evolix.fr/">
+<rates   Please contact for rates>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<company TT-Solutions SARL>
+<address 41 rue Paul Vaillant Couturier 78260 Acheres, <country-name FR>>
+<phone   +33-1-39-22-17-03>
+<fax     +33-1-69-89-82-49>
+<email   info@tt-solutions.com>
+<URL     "http://www.tt-solutions.com/fr/services/unix/">
+<rates   See website, we donate 10% of free/open software-related contracts to their authors.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<company Easter-eggs>
+<address 44-46, rue de l'Ouest - 75014 Paris, <country-name FR>>
+<phone   +33-1-43-35-00-37>
+<email   info@easter-eggs.com>
+<URL     "http://www.easter-eggs.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Michel Verdier>
+<company Thalix>
+<address Rueil-Malmaison, <country-name FR>>
+<phone   +33-1-57-69-12-29>
+<email   contact@thalix.com>
+<URL     "http://www.thalix.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    S&eacute;bastien Heitzmann>
+<company 2LE>
+<address 31 rue jean Monnet, 68200 Mulhouse, <country-name FR>>
+<phone   +33-389-333-889>
+<email   2le@2le.net>
+<URL     "http://www.2le.net/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Rodolphe Quiedeville>
+<address 7 rue Vert Soufflet, 62000 Arras, <country-name FR>>
+<phone   +33-6-13-79-63-41>
+<email   rodolphe@quiedeville.org>
+<URL     "http://rodolphe.quiedeville.org/">
+<rates   Please contact me.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<name	 Roland Mas>
+<company Gnurandal>
+<address 6 rue de la Treille, 34430 Saint-Jean de V&eacute;das, <country-name FR>>
+<phone	 +33-6-2249-9591>
+<email	 roland@gnurandal.com>
+<URL	 "http://www.gnurandal.com/">
+<rates	 See website for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Les D&eacute;veloppements Durables>
+<address 2 bis rue visitandines - 64100 Bayonne, <country-name FR>>
+<phone	 +33-(0)9-50-52-42-42>
+<email	 contact@ldd.fr>
+<URL	 "http://www.ldd.fr/tags/debian-47">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<company LOGILAB>
+<phone	 +33-1-45-32-03-12>
+<email	 commercial@logilab.fr>
+<URL	 "http://www.logilab.fr/">
+<rates	 Please contact us for rates.>
+<additional_info logilab>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Thomas CARTER>
+<company Cergy Internet>
+<address 1 bd de l'Oise, 95030 Cergy-Pontoise CXedex, <country-name FR>>
+<phone	 +33-0603511510>
+<email	 thomas.carter@cergy-internet.fr>
+<URL	 "http://www.cergy-internet.net/">
+<rates	 600 - 1000 euros/day +VAT.>
+<additional_info coherent_light>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<name    Rapha&euml;l Hertzog>
+<company Freexian>
+<address Rue Raoul Follereau, Ch&acirc;teau de Soleymieux, 42350 La Talaudi&egrave;re, <country-name FR>>
+<phone	 +33-6-88-21-35-47>
+<email	 raphael@freexian.com>
+<URL	 "http://www.freexian.com/">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Cyril Bouthors>
+<company ISVTEC>
+<address 14 avenue de l'Op&eacute;ra, 75001 Paris, <country-name FR>>
+<phone   +33(0)1-84-16-16-17>
+<email   contact@isvtec.com>
+<URL     "http://www.isvtec.com/consultation/#Debian">
+<rates   55&euro;/h>
+<additional_info isvtec>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Gr&eacute;gory Duchatelet>
+<address Annecy, <country-name FR>>
+<phone	 +336 23 86 10 48>
+<email	 gregory@duchatelet.net>
+<additional_info gregory_duchatelet>
+</p>
+
+# Consultant: FR
+# mail sent to check status: 24.03.2013 holger-guest. Result: still active.
+<p>
+<name	 S&eacute;bastien Delafond>
+<company 415 Conseil>
+<address Poitiers, <country-name FR>>
+<phone	 +33 6 48 38 16 56>
+<email	 sdelafond@gmail.com>
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# added on 12.03.2013
+<p>
+<name	 Carl Chenet>
+<company MyTux>
+<address 4 rue Auguste Perret, 75013 Paris, <country-name FR>>
+<phone	 +33-6-10-45-59-80>
+<email	 carl.chenet@mytux.fr>
+<URL     "http://carlchenet.com/about/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# added on 16.03.2013
+<p>
+<name	 Julien Danjou>
+<company Julien Danjou>
+<address <country-name FR>>
+<email	 julien@danjou.info>
+<URL     "http://julien.danjou.info">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# added on 21.03.2013
+<p>
+<name	 Arnaud Patard>
+<company hupstream>
+<address 23 rue d'Anjou, 75008 PARIS, <country-name FR>>
+<phone   +33-9-72-37-71-64>
+<email	 mailbox@hupstream.com>
+<URL     "http://hupstream.com">
+<rates   Please contact us for rates.>
+</p>
+
+## Consultant: FR
+## added on 25.03.2013
+## Mail contact: <information@ikux.fr>
+#<p>
+#<name	 Daniel Castronovo>
+#<company Ikux>
+#<address 04160 L'Escale, <country-name FR>>
+#<phone   +33-9-72-28-65-54>
+#<contact "http://www.ikux.fr/contact/">
+#<URL     "http://www.ikux.fr">
+#<rates   Please contact for rates.>
+#</p>
+
+# Consultant: FR
+# mail sent to check status: 10.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jason Armstrong>
+<company Riverdrums>
+<address 2 Impasse Christol, 34140, Mèze, <country-name FR>>
+<phone	 +33-609-639-709>
+<email	 ja@riverdrums.com>
+<URL	 "http://jason.riverdrums.com/">
+<rates	 On request.>
+</p>
+
+# Consultant: FR
+# added on 22.06.2013
+<p>
+<name	 Denis CARDON>
+<company TRANQUIL IT SYSTEMS>
+<address Les Espaces Jules Verne - Bât A, 12 avenue Jules Verne, 44230 Saint Sébastien sur Loire, <country-name FR>>
+<phone   +33(0)240-975-755>
+<email   "commercial@tranquil-it-systems.fr">
+<URL	 "http://www.tranquil-it-systems.fr/">
+<rates   Depends on project and client.>
+</p>
+
+# Consultant: FR
+# added on 22.08.2014
+<p>
+<name	 Cyril Brulebois>
+<address Rennes, <country-name FR>>
+<phone   +33 6 35 93 35 96>
+<email   cyril@mraw.org>
+<URL	 "https://mraw.org/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: FR
+# added on 22.08.2014
+<p>
+<company Sysnove>
+<address 1, avenue de la Gare - 40100 DAX, <country-name FR>>
+<phone   +33-5-64-11-50-52>
+<email   contact@sysnove.fr>
+<URL	 "http://www.sysnove.fr/">
+<rates   Please contact us for rates.>
+<additional_info sysnove>
+</p>
+
+# Consultant: FR
+# added on 28.07.2015
+<p>
+<name    Samuel MARTIN MORO>
+<address 94270, Kremlin-Bicetre, <country-name FR>>
+<phone   +33-630520179>
+<email   faust64@gmail.com scramble="yes">
+<rates   from 25$/hour.>
+</p>
+
+
+<h1><a name="DE"><country-name DE>:</a></h1>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Stefan Bauer>
+<company Cubewerk GmbH>
+<address Herzog-Otto-Str. 32, 83308 Trostberg, <country-name DE>>
+<phone   +49(0)8621-9960237>
+<phone	 +49(0)179-1194767>
+<email   stefan.bauer@cubewerk.de>
+<url     "http://www.cubewerk.de">
+<rates   80 EUR/h.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Torsten Cimala>
+<company edv2go GmbH>
+<address Henriettenstr. 18, 42719 Solingen, <country-name DE>>
+<phone   +49-212-38081270>
+<fax     +49-212-38081279>
+<email   torsten.cimala@edv2go.de scramble="yes">
+# <url     "http://www.edv2go.de/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Andreas Godzina>
+<company axxeo GmbH>
+<address Gustav-Adolf-Stra&szlig;e 8, D-30167 Hannover, <country-name DE>>
+<phone   +49-511-4753706>
+<fax     +49-511-4753716>
+<email   debian@axxeo.de>
+<url     "http://www.axxeo.de/">
+<rates   Please contact us for rates.>
+<additional_info axxeo>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Still active, entry updated.
+<p>
+<name    Johannes Franken>
+<company FRANKEN IT-CONCEPTS>
+<address Staufenbergring 26, 35396 Gießen, <country-name DE>>
+<phone   +49-176-24673327>
+<fax     +49-641-98429077>
+<email   jfranken@jfranken.de>
+<URL     "http://www.jfranken.de/unternehmen/software.en.html">
+<rates   By the hour or project/offer-based, please ask for rates.>
+<additional_info jfranken>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Bernd Schumacher>
+<company Hewlett-Packard>
+<address Hewlett-Packard Str. 1, 61352 Bad Homburg, <country-name DE>>
+<phone   +49(0)6172-161806>
+<email   opensource-germany@hp.com>
+<additional_info hp_germany>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Khalid Shukri>
+<company IT-Dienstleistungen Khalid Shukri>
+<address Liebigstr. 151, 50823 K&ouml;ln, <country-name DE>>
+<phone   +49(0)178-5295227>
+<email   khalid.shukri@web.de>
+<rates   Please contact me.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Frank Neps>
+<company EDV-Beratung Neps>
+<address Meisenweg 13, D-72631 Aichtal, <country-name DE>>
+<phone   +49-7127-953201>
+<fax     +49-7127-8114628>
+<email   info@neps.de>
+<URL     "http://www.neps.de/cms/index.php?option=com_content&amp;view=article&amp;id=110&amp;Itemid=114">
+<URL     "http://www.neps.de">
+<rates   Negotiable, depends on problem/project size>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Richard Rafalski>
+<company R. Rafalski IT-Beratung>
+<address Bismarckstra&szlig;e 44, 70197 Stuttgart, <country-name DE>>
+<phone   +49-711-6203983>
+<fax     +49-711-6203984>
+<email   contact@richard-rafalski.de>
+<rates   80-160 Euro per hour depending on the task>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Dipl.-Ing. Ansgar H. Licher>
+<name    Dipl.-Ing. Martin Werthmoeller>
+<company LWsystems GmbH &amp; Co. KG - System&uuml;bergreifende IT-Beratung und Service>
+<address Tegelerweg 11, D-49186 Bad Iburg, <country-name DE>>
+<phone   +49-5403-5556>
+<fax     +49-5403-7958997>
+<email   info@lw-systems.de>
+# <URL     "http://www.lw-systems.de">
+<rates   Depends on the problem, please call or mail us for rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Richardson &amp; B&uuml;ren GbR>
+<address Römerstr. 45 - 47, 53111 Bonn, <country-name DE>>
+<phone   +49(0)228-92982012>
+<email   information@kivitendo-premium.de scramble="yes">
+# <URL     "http://kivitendo-support.de/">
+<rates   90 Euro/h>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Heiko Schlittermann>
+<company schlittermann -- internet &amp; unix support>
+<address Dresden, <country-name DE>>
+<phone   +49-351-8029981>
+<fax     +49-351-8029983>
+<email   hs@schlittermann.de>
+<URL     "http://www.schlittermann.de/">
+<rates   Depends on the customer (average 120 &euro; per hour).  Quick help for free.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company LiHAS - LinuxHaus Stuttgart, Adrian Reyer>
+<address Hessenwiesenstr. 10, 70565 Stuttgart, <country-name DE>>
+<phone   +49-711-78285090>
+<fax     +49-711-78285091>
+<email   lihas@lihas.de>
+<URL     "http://www.lihas.de/">
+<rates   Call for rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Intevation GmbH>
+<address Osnabr&uuml;ck, <country-name DE>>
+<phone   +49(0)541-33508-30>
+<email   intevation@intevation.de>
+<URL     "http://osnabrueck.intevation.de/services/ucs.de.html">
+<rates   Depends on the problem. Call or email us.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Alfred Schroeder>
+<company GONICUS GmbH>
+<address M&ouml;hnestrasse 55, 59755 Arnsberg, <country-name DE>>
+<phone   +49 (0) 2932 / 916-0>
+<fax     +49 (0) 2932 / 916-230>
+<email   info@gonicus.de>
+<URL     "http://www.gonicus.de/">
+<rates   Please contact us for a detailed proposal>
+</p>
+
+# Consultant: DE
+# data confirmed on 27.02.2013.
+<p>
+<name	 Michael Meskes>
+<company credativ GmbH>
+<address M&ouml;nchengladbach, <country-name DE>>
+<phone   +49-2161-4643-0>
+<fax     +49-2161-4643-100>
+<email   info@credativ.de>
+<URL     "http://www.credativ.de">
+<rates   Call for rates.>
+<additional_info credativ>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Karsten M&uuml;ller>
+<address Hamburg, <country-name DE>>
+<email   kmue@me.com>
+<URL     "https://www.xing.com/profile/Karsten_Mueller">
+<rates   Please mail me for rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Linux Information Systems AG>
+<address Munich, <country-name DE>>
+<phone   +49(0)89-993412-0>
+<fax     +49(0)89-993412-99>
+<email   info@linux-ag.com>
+<URL     "http://www.linux-ag.com/">
+<rates   Call for rates.>
+<additional_info linux_ag>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Frank Kirschner>
+<company trustsec IT solutions GmbH>
+<address Stuttgart, <country-name DE>>
+<phone   +49-700-87878732>
+<fax     +49-700-87323291>
+<email   info@trustsec.de>
+# <URL     "http://www.trustsec.de/">
+<rates   Please contact us for rates.>
+<additional_info trustsec>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Thomas Wien>
+<company thwien.de>
+<address D&uuml;sseldorf, <country-name DE>>
+<email   info@thwien.de>
+<URL     "http://www.thwien.de">
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Arvids Lemchens>
+<company IT-/Media-Design Arvids Lemchens>
+<address Kuppenheim, <country-name DE>>
+<phone   +49(0)7222-9057813>
+<email   info@dv-lemchens.de>
+<URL     "http://www.dv-lemchens.de/">
+<rates   Negotiable, quick (e-mail) help for free.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Oliver Poths>
+<company LinSoft GmbH>
+<address Feldstra&szlig;e 20, 65326 Aarbergen, <country-name DE>>
+<phone   +49(0)6120-972330>
+<fax     +49(0)6120-972368>
+<email   info@linsoft.de>
+<URL     "http://www.linsoft.de/">
+<rates   Negotiable.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+# data updated: 15.12.2014
+<p>
+<name	 Toni Mueller>
+<company oeko.net>
+<address Hauptstraße 95, D-53721 Siegburg, <country-name DE>>
+<phone	 +49-2241-1488440>
+<fax	 +49-2241-1488441>
+<email	 vertrieb@oeko.net>
+<URL	 "http://www.oeko.net/content/support.html">
+<URL	 "http://www.oeko.net">
+<rates	 Negotiable, depending on task, country, time etc.>
+<additional_info toni_m>
+</p>
+
+## Consultant: DE
+## mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Thomas Lange>
+#<company fai-cluster.de>
+#<address K&ouml;ln, <country-name DE>>
+#<phone   +49-178-5232164>
+#<email   info@fai-cluster.de>
+#<URL	 "http://fai-cluster.de/">
+#<additional_info fai-cluster>
+#</p>
+
+# Consultant: DE
+# entry updated as requested on consultants@d.o: 11.03.2013
+<p>
+<name	 Joerg Henner>
+<company JH-Networks / Telebistro>
+<address Postfach 800521, 70505 Stuttgart, <country-name DE>>
+<phone	 +49-32121-435020>
+<email	 jhe@jh-networks.de>
+# <URL	 "http://www.jh-networks.de/">
+<rates	 Ask for rates.>
+<additional_info jh_networks>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Thomas Drillich>
+<company IT-Service Drillich>
+<address Heugasse 4, D-55116 Mainz, <country-name DE>>
+<phone	 +49-6131-57026-21>
+<email	 th@drillich.com>
+<rates	 Depends on country and task.>
+<additional_info it_service_drillich>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Markus Welters>
+<company Welters Datentechnik>
+<address Winternam 132, 47647 Kerken, <country-name DE>>
+<phone	 +49(0)2831-9779560>
+<fax	 +49(0)2831-9779561>
+<email	 datentechnik@welters.de>
+<URL	 "http://www.welters.de/">
+<rates	 120 EUR/hour.>
+<additional_info welters>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Stefan-Michael Guenther>
+<company in-put GbR - Das Linux-Systemhaus>
+<address Karlsruhe, <country-name DE>>
+<phone	 +49(0)721-68032880>
+<fax	 +49(0)721-68032883>
+<email	 service@in-put.de>
+<URL	 "http://www.in-put.de/">
+<rates	 Call or email for rates, depends on project size.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Martin Bork>
+<company EDV-Service con.victo UG (haftungsbeschränkt)>
+<address Rheinfelser Straße 1b, 35398 Gießen, <country-name DE>>
+<phone	 +49(0)6403-504-6-999>
+<fax	 +49(0)69-254-965-02>
+<email	 info@con-victo.de>
+<URL	 "http://www.con-victo.de/">
+<rates	 Depends on problem - from free to 80,- EUR per hour.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Mathias Kettner GmbH>
+<address Kellerstraße 29, 81667 München, <country-name DE>>
+<phone	 +49(0)89-18904350>
+<email	 mk@mathias-kettner.de>
+<URL	 "http://mathias-kettner.de/">
+<rates	 Depends on location, duration and kind of work.>
+<additional_info mathias_kettner>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Hans-J. Ullrich>
+<company Ullrich-IT-Consult>
+<address Peine (near Hannover), <country-name DE>>
+<phone	 +49-179-3666059>
+<email	 kontakt@ullrich-it.de>
+<URL     "http://www.ullrich-it.de/">
+<rates	 Please contact for rates (individually according to your needs!).>
+<additional_info ullrich-it-consult>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Christoph Scheeder>
+<company Scheeder &amp; Partner GmbH>
+<address Ludwigsplatz 2, 75180 Pforzheim, <country-name DE>>
+<phone	 +49-7231-977030>
+<fax     +49-7231-977031>
+<email	 christoph.scheeder@scheeder.de>
+<URL     "http://www.scheeder.de/">
+<rates	 Our normal rate ist 84,- Euro/hour + Vat.>
+<additional_info scheeder>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Uwe Steinmann>
+<company MMK GmbH>
+<address Fleyer Str. 196, 58097 Hagen, <country-name DE>>
+<phone	 +49-2331-840446>
+<fax     +49-2331-843920>
+<email	 uwe.steinmann@mmk-hagen.de>
+<URL     "http://www.mmk-hagen.de/">
+<rates	 600 EUR/day.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jan Tegtmeier>
+<company Tegtmeier Internet Solutions e.K.>
+<address Hamburg, <country-name DE>>
+<phone	 +49(0)40-76500390>
+<fax     +49(0)321-21220302>
+<email   debian@tegtmeier.de scramble="yes">
+<URL     "http://www.tegtmeier.de/">
+<rates	 150 EUR/h, varies on task and project size.>
+<additional_info tegtmeier>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Dieter J&auml;ger>
+<company Magnum Opus GmbH>
+<address Eichendorffstr. 19a, 85276 Pfaffenhofen, <country-name DE>>
+<phone   +49(0)8441-7978107>
+<fax     +49(0)8441-7977114>
+<email   dieter.jaeger@magnum-opus.de>
+<URL     "http://www.magnum-opus.de/">
+<rates   Multiple rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Stefan Wintermeyer>
+<company amooma GmbH>
+<address Bachstr. 124, 56566 Neuwied, <country-name DE>>
+<email   info@amooma.de>
+<URL     "http://amooma.de">
+<rates   Depends on tasks - negotiable for non-profit>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Michael Mende>
+<company Michael Mende, Linux Cluster Consulting>
+<address Herderstrasse 29, 22085 Hamburg, <country-name DE>>
+<phone   +49(0)40-41346412>
+<email   m.mende@failover.de>
+<URL     "http://www.failover.de/">
+<rates   Please contact for rates. Free help for simple questions, discount or free for open-source and non-profit projects.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Florian Lihl>
+<company INGATE GmbH>
+<address Puccinistr. 7, 86199 Augsburg, <country-name DE>>
+<phone	 +49-821-9983546>
+<fax	 +49-821-9983548>
+<email	 info@ingate.de>
+<URL	 "http://www.ingate.de/dienstleistungen.html">
+<rates	 Please contact us for rates.>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name	 Alexander Hosfeld>
+<company Alexander Hosfeld Netzwerkadministration>
+<address Lindenstrasse 67, 33415 Verl, <country-name DE>>
+<phone	 +49(0)5246-934797>
+<email	 info@hosfeld.de>
+<url	 http://www.hosfeld.de>
+<rates	 65 EUR/h.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name    Volker Dormeyer>
+<company Volker Dormeyer Systementwicklung>
+<address Am Helgengraben 23, 64331 Weiterstadt, <country-name DE>>
+<phone   +49(0)6150-972982-10>
+<email   info@ixolution.de>
+<url     "http://www.ixolution.de">
+<rates   Depends on request/problem.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Bjoern Hahnefeld>
+<company bjoern hahnefeld IT>
+<address Amberger Strasse 60, 93057 Regensburg <country-name DE>>
+<phone   +49(0)800-424633353 (free-call)>
+<fax     +49(0)700-424633353>
+<email   info@hahnefeld.de>
+<url     "http://www.hahnefeld.de/internet-services_server.html">
+<url     "http://www.hahnefeld.de/">
+<rates   Negotiable, dependent on project/question.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company B1 Systems GmbH>
+<address Osterfeldstr. 7, 85088 Vohburg, <country-name DE>>
+<phone   +49-8457-931096>
+<fax     +49-8457-931097>
+<email   info@b1-systems.de>
+<url     "http://www.b1-systems.de/consulting/schwerpunkte/">
+<url     "http://www.b1-systems.de/">
+<rates   "Depends on order (location, complexity, duration, profit-/non-profit organization etc.).">
+<additional_info b1-systems>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Erik Zettel>
+<company ZETTEL IT>
+<address Gartenstr. 11, 09618 Brand-Erbisdorf, <country-name DE>>
+<phone   +49-37322-492222>
+<fax     +49-37322-492424>
+<email   info@zettel-it.de>
+<URL     "http://www.zettel-it.de/cms/it-support/open-source-und-linux-support.html">
+<URL     "http://www.zettel-it.de/">
+<rates   Prices depend on project.>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Markus Manzke>
+<company MARE system>
+<address Kiel, <country-name DE>>
+<phone   +49(0)431-5568-3480>
+<fax     +49(0)431-5568-3489>
+<email   mail@mare-system.de>
+<URL     "http://www.mare-system.de/">
+<rates   Depends on kind of support (local/remote).>
+<additional_info mare>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Victor-Philipp Busch>
+<company Sybuca GmbH>
+<address Herrengraben 26, 20459 Hamburg, <country-name DE>>
+<phone   +49(0)40-27863190>
+<fax     +49(0)40-27863189>
+<email   kontakt@sybuca.de>
+<URL     "http://www.sybuca.de">
+<rates   Please contact us for rates.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Andreas G&uuml;nther>
+<company IT-LINUXMAKER>
+<address James-F.-Byrnes-Stra&szlig;e 9, 70376 Stuttgart, <country-name DE>>
+<phone   +49-711-8063112>
+<fax     +49-711-8063169>
+<email   info@it-linuxmaker.eu>
+<URL     "http://www.it-linuxmaker.eu/leistungen/it-projekte.html">
+<URL     "http://www.it-linuxmaker.eu">
+<rates   Depends on the problem. Call or email us.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Werner Detter>
+<company Werner Detter - IT-Consulting, IT-Services>
+<address Lilienstr. 4, 81669 Munich, <country-name DE>>
+<phone	 +49(0)89-89064727>
+<email	 info@detter.biz>
+<URL	 "http://www.werner-detter.de">
+<rates	 Negotiable.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name	 Peter Linke>
+<company IT-Dienstleistungen Linke>
+<address Rhein-Main-Gebiet, <country-name DE>>
+<phone	 +49(0)177-4110491>
+<email	 peter.linke@it-l.org>
+<rates	 Projektbasiert; einfaches Probleml&ouml;sen kostenlos.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Patrick Matth&auml;i>
+<company LEONEX Internet GmbH>
+<address Technologiepark 20, 33100 Paderborn, <country-name DE>>
+<phone	 +49(0)5251-14807-20>
+<fax     +49(0)5251-14807-30>
+<email	 technik@leonex.de>
+#<URL     "http://www.leonex.de/">
+<rates	 80,00 EUR/hour / project based price>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Reza Ameri>
+<company Taldo IT-Systems EngTech GmbH>
+<address Im Pannenhack 74, 51503 Rösrath (K&ouml;ln), <country-name DE>>
+<phone	 +49 2202 96429 66>
+<email	 team@taldo.de>
+<URL     "http://www.taldo.de/debian">
+<rates	 Depends on location, duration and kind of work, starts at 65,00 Euro/h - special project offers possible>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name	 Dipl.-Ing. (FH) Ansgar Freking>
+<company EDV-Systeme mit OpenSource>
+<address Am Kessenberg 19, 49401 Damme, <country-name DE>>
+<phone	 05491-816305>
+<email	 info@freking-damme.de>
+<URL     "http://www.edv-os.de/">
+<rates	 90 EUR/h.>
+</p>
+
+# Consultant: DE
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active.
+<p>
+<name	 Jan Gornowicz>
+<address Guntherweg 1, 23562 L&uuml;beck, <country-name DE>>
+<phone	 0174-1951692>
+<email	 J.Gornowicz@gmail.com>
+<rates	 40-80 EUR/h. Depends on location, duration and kind of work.>
+</p>
+
+# Consultant: DE
+# added at 06.03.2013, data updated at 19.01.2015
+<p>
+<name	 Torsten Behrens>
+<company beitco - Behrens IT-Consulting>
+<address Äußere Laufer Gasse 20, 90403 Nürnberg, <country-name DE>>
+<phone	 +49(0)911-14870808-0>
+<fax     +49(0)911-14870808-9>
+<email	 info@beitco.de>
+<URL     "http://www.beitco.de">
+<rates	 Special offer for new customers: 44 Eur/h, Project and 
+Maintenance Plan rates available.>
+</p>
+
+## Consultant: DE
+## added at 18.03.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Christoph Fölmer>
+#<company folinX EDV Service>
+#<address Konradstr. 18, 94065 Waldkirchen, <country-name DE>>
+#<phone	 0171/9188742>
+#<fax     08541/975140>
+#<email	 kontakt@folinx.de>
+#<URL     "http://www.folinx.de">
+#<rates	 Depending on the Project.>
+#<additional_info folinx>
+#</p>
+
+# Consultant: DE
+# added at 06.06.2013
+<p>
+<company UWS Software Service Ltd.>
+<name	 Herr Kunst>
+<address Frankfurt am Main, <country-name DE>>
+<phone	 +49(0)69-5780-4996>
+<email	 info@uws.ie scramble="yes">
+<URL     "http://uws-software-service.com/en/services/software-development/overview.html">
+<URL     "http://uws-software-service.com/">
+<rates	 Negiotable.>
+</p>
+  <ul>
+    <li>Software Development Company, Debian Experts.</li> 
+  </ul>
+
+## Consultant: DE
+## mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Martin F. Krafft>
+#<company AERAsec GmbH>
+#<address München, <country-name DE>>
+#<phone	 +49(0)8102-89519-0>
+#<email	 mkrafft@aerasec.de>
+#<rates	 Project and duration dependent, quick help for free.
+#	 10-20% of profit will be donated to Debian.>
+#<additional_info aerasec>
+#</p>
+
+# Consultant: DE
+# added at 09.11.2013
+<p>
+<name	 Heiko Scherpinski>
+<company SATIS INFORMATION GmbH>
+<address Köpenicker Straße 60, 10179 Berlin, <country-name DE>>
+<phone	 +493043077661 / +493043077660 / +4933439151496>
+<fax	 +4933439151495>
+<email	 debian.consulting@satis-information.com>
+#<URL	 "http://www.satis-information.com">
+<rates	 Please contact us for rates.>
+</p>
+
+# Consultant: DE
+# added at 08.12.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+# 24.10.14 holger-guest: entry re-enabled, since their mail is working,
+# according to discussion on consultants@d.o
+# 05.07.15 holger-guest: entry updated
+<p>
+<name	 Uwe Disch>
+<company Disch Services GmbH>
+<address Eichenhainstr. 14, 91207 Lauf a.d. Pegn., <country-name DE>>
+<phone	 +49(0)9123-966-2512>
+<fax	 +49(0)9123-966-2516>
+<email	 info@disch-services.de>
+<URL	 "http://disch.com.de/de/dienstleistungen-fuer-debian/">
+<rates	 Please contact us for rates.>
+<additional_info disch>
+</p>
+
+# Consultant: DE
+# added at 24.03.2014
+<p>
+<name	 Frank Sell>
+<company Xpile Software Entwicklung>
+<address Sebastianstr. 29, 52066 Aachen, <country-name DE>>
+<phone	 +49(0)163-825-26-17>
+<contact "http://www.xpile.de/kontact.php">
+<email	 fsell@xpile.de>
+<URL	 "http://www.xpile.de">
+<rates	 Please contact for rates.>
+<additional_info xpile>
+</p>
+
+# Consultant: DE
+# added at 01.05.2014
+<p>
+<name	 Volker D. Pallas>
+<company pall.as Internetwork GmbH>
+<address Ipfweg 1, 70771 Leinfelden-Echterdingen, <country-name DE>>
+<phone	 +49(0)711-21-72-44-111>
+<fax	 +49(0)711-21-72-44-119>
+<email	 support@pall.as>
+<rates	 depending on request, tbd.>
+</p>
+
+# Consultant: DE
+# added at 26.11.2014
+<p>
+<name	 Peter Thurner>
+<company blunix.org Professional Linux Service>
+<address Schloßallee 41, 13156 Berlin, <country-name DE>>
+<phone	 +49(0)30-301-338-38>
+<fax	 +49(0)30-233-288-28>
+<email	 support@blunix.org>
+<URL	 "http://www.blunix.org">
+<rates	 Project/offer-based and negotiable, invoiced by hour, 75,00 € per hour.>
+<additional_info blunix>
+</p>
+
+# Consultant: DE
+# re-added at 08.05.2015
+<p>
+<company IT-Schulungen.com>
+<address Thurn-und-Taxis-Straße 10, 90411 Nürnberg, <country-name DE>>
+<phone	 +49(0)911-6500830>
+<email	 m.giglhuber@it-schulungen.com>
+<URL	 "http://www.it-schulungen.com/seminare/serversysteme/debian/index.html">
+<rates	 Depends on service.>
+</p>
+
+# Consultant: DE
+# updated at 10.06.2015
+<p>
+<name	 Martin Hasenbein>
+<address Munich, <country-name DE>>
+<email	 debian@unix.one>
+<rates	 Please contact me for rates.>
+</p>
+
+# Consultant: DE
+# updated at 19.06.2015
+## Contact mail address: mail@jonas.me
+<p>
+<name	 Jonas Jacek>
+<address Efeuweg 8, 22299 Hamburg, <country-name DE>>
+<phone	 +49(0)160-6808800>
+<URL	 "http://jonas.me/">
+<rates	 Project and duration dependent. Quick help is always free.>
+</p>
+
+
+<h1><a name="GR"><country-name GR>:</a></h1>
+
+# Consultant: GR
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Spiros Gatzounas>
+<company Verve Internet &amp; OSS>
+<address Menegaton 13, 28100 Argostoli, <country-name GR>>
+<phone	 +30-211-8007440>
+<phone	 +30-697-6197830>
+<email	 info@verve.gr>
+<URL	 "http://www.verve.gr/">
+<rates	 Approx. &euro;50/hr depending on the project.>
+</p>
+
+# Consultant: GR
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Stelios Asmargianakis>
+<company Guru-host>
+<address Stavrakia, Heraklion, Crete, <country-name GR>>
+<phone	 +30 211 212 5024>
+<fax	 +30 211 800 1866>
+<email	 support@guru-host.eu>
+<URL	 "http://guru-host.eu/en/Support_Services/Server_Management/Debian_Linux_support_and_consultancy">
+<rates	 Per project>
+</p>
+
+# Consultant: GR
+# added on 08.12.2013
+<p>
+<name	 Stin Priza>
+<company Stin Priza Tech Collective>
+<address Nileos 36, 11851, Athens, <country-name GR>>
+<phone	 +30-211-7802500>
+<email	 eimaste@stinpriza.org>
+<URL	 "http://stinpriza.org/debian-consultants">
+<rates	 Please contact for rates.>
+<additional_info stin_priza>
+</p>
+
+
+<h1><a name="GD"><country-name GD>:</a></h1>
+
+# Consultant: GD
+# added on 22.08.2014
+<p>
+<name	 Greg DeFreitas>
+<address Top Woburn, St. George, <country-name GD>>
+<phone	 +1-473-443-3845 (LandLine)>
+<phone	 +1-473-415-0042 (Mobile)>
+<phone	 +1-473-538-0007 (Mobile)>
+<email	 unixgreg@gmail.com>
+<rates	 100% Negotiable.>
+<additional_info defreitas>
+</p>
+
+
+<h1><a name="GT"><country-name GT>:</a></h1>
+
+# Consultant: GT
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jorge Luis Andrade Escobar>
+<company ITM>
+<address <country-name GT>>
+<phone	 +502-5526-4101>
+<phone   +502-5203-6891>
+<email	 jandrade@i-t-m.com>
+<url     "http://www.i-t-m.com/">
+<rates	 Negotiable.>
+</p>
+  <ul>
+    <li>Offers services for Guatemala, Honduras, El Salvador and Costa Rica.</li>
+  </ul>
+
+
+<h1><a name="HU"><country-name HU>:</a></h1>
+
+## Consultant: HU
+## mail sent to check status: 07.04.2013 holger-guest. Result: still active.
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name    Pl Szab>
+#<company vpsadmins.com>
+#<address Ggdll, <country-name HU>>
+#<phone   +36307548413>
+#<email   contact@vpsadmins.com>
+#<URL     "http://www.vpsadmins.com">
+#<rates   Negotiable>
+#</p>
+
+# Consultant: HU
+# added on 24.03.2014
+# data updated on 03.12.2014
+<p>
+<name	 Miklós Quartus>
+<company Miklos Consulting>
+<address Erdőkertes, <country-name HU>>
+<phone	 +36-21-252-6700>
+<email	 inbox@miklos.info>
+<URL	 "http://www.miklos.info/konzultacio.php">
+<rates   Negotiable, starting from 82000 HUF / day.>
+<additional_info miklos>
+</p>
+
+
+# <h1><a name="HK"><country-name HK>:</a></h1>
+
+
+<h1><a name="IN"><country-name IN>:</a></h1>
+
+# Consultant: IN
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Mitul Limbani>
+<company Enterux Solutions>
+<address D/704, Crystal Plaza, Andheri Link Road, Andheri (W), Mumbai 400053, <country-name IN>>
+<phone   +91-22-26740850>
+<phone   +91-98203-32422>
+<phone   +91-98673-33566>
+<phone   +1-302-691-0104>
+<fax     Available on request.>
+<email   info@enterux.com>
+#<URL     "http://www.enterux.com/">
+#<URL     "http://www.embian.net/">
+<rates   $15/hr.>
+<additional_info enterux>
+</p>
+
+# Consultant: IN
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jayadev Chanakath>
+<company credativ software (India) pvt. ltd.>
+<address No.158, 9th Main Road, HSR Layout, Bengaluru, Karnataka, <country-name IN>>
+<phone	 +91-80-65954374>
+<email	 info@credativ.in>
+<rates   Call for rates.>
+<additional_info credativ>
+</p>
+
+# Consultant: IN
+# added on 25.09.2013
+<p>
+<name	 Tirveni Yadav>
+<company Udyansh>
+<address New Delhi, <country-name IN>>
+<phone	 +91.9810732926>
+<email	 info@udyansh.org scramble="yes">
+<URL	 "http://udyansh.org/foss_debian.shtml">
+<rates   30 US $ / hour.>
+<additional_info udyansh>
+</p>
+
+# Consultant: IN
+# added on 22.05.2014
+<p>
+<name	 Faheem Mitha>
+<company freelance consultant>
+<address Nhava House, 2nd Floor, 65 Maharshi Karve Rd., Mumbai 400002, <country-name IN>>
+<phone	 +91-22-22019466>
+<email	 faheem@faheem.info>
+<rates   Negotiable.>
+<additional_info f_mitha>
+</p>
+
+# Consultant: IN
+# added on 28.01.2015
+<p>
+<name	 V.Kiran Babu>
+<address Hyderabad, <country-name IN>>
+<email	 kiranvakkapatla@yahoo.com scramble="yes">
+<rates   Please contact by e-mail.>
+<additional_info kiran_babu>
+</p>
+
+
+<h1><a name="ID"><country-name ID>:</a></h1>
+
+# Consultant: ID
+# added on 14.03.2013
+<p>
+<name	 Khokho Sumanto>
+<address <country-name ID>>
+<phone	 (+62)81279036094>
+<email	 saiyans.kakarott@gmail.com>
+<URL	 "http://www.konsultan-debian.blogspot.com">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: ID
+# added on 03.12.2014
+<p>
+<name	 Randy Mukti>
+<company Freelance Consultant>
+<address Jl. Anggrek Cendrawasih II Blok J No. 14a, RT 4 / RW 3
+Slipi-Palmerah, Jakarta Barat 11480, <country-name ID>>
+<phone	 +6289665779466 -or- via Skype: randy.mukti>
+<email	 randymukti@gmail.com>
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: ID
+# added on 28.12.2014
+<p>
+<name	 Arif Wahyudi>
+<company Synaptic OpenSource UII>
+<address Jl. Kaliurang KM 13 Sleman Yogyakarta, <country-name ID>>
+<phone	 +62-85752354970 -or- via facebook: arief.wahyudi.10899>
+<email	 arifwahyudidt@gmail.com>
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: ID
+# added on 07.07.2015
+<p>
+<name	 Agus Prasetiyo>
+<company ANT Net>
+<address Sukolilo Park Regency, <country-name ID>>
+<phone	 +62-82334937490>
+<contact https://www.fb.me/aoktox>
+<email	 agus@antnet.id>
+<rates   Please contact for rates.>
+</p>
+
+
+<h1><a name="IE"><country-name IE>:</a></h1>
+
+# Consultant: IE
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Filippo Giunchedi>
+<address Dublin, <country-name IE>>
+<email	 filippo@esaurito.net>
+<rates	 Contact me by email.>
+<additional_info filippo_giunchedi>
+</p>
+
+# Consultant: IE
+# added on 22.02.2014
+<p>
+<name	 Martín Ferrari>
+<company tincho.org>
+<email	 tincho@tincho.org>
+<url     "http://tincho.org/">
+<additional_info tincho>
+</p>
+
+
+<h1><a name="IL"><country-name IL>:</a></h1>
+
+# Consultant: IL
+# mail sent to check status: 07.04.2013 holger-guest. Result: still active.
+<p>
+<name	 Antony Gelberg>
+<address Tel Aviv-Yafo, <country-name IL>>
+<email	 antony.gelberg@gmail.com>
+<rates	 Dependent on project. Development and other fixed-term projects
+         estimated before commencement of work, support and maintenance
+         charged by the hour or contract.>
+</p>
+
+# Consultant: IL
+# added on 06.06.2013
+<p>
+<name	 Yehuda Korotkin>
+<company Korotkin>
+<address P.O. Box 3551, 81523 Yavne, <country-name IL>>
+<phone   +972(50)414-6444>
+<fax     +972(8)943-9547>
+<email	 info@korotkin.co.il>
+<contact http://www.korotkin.co.il/contact-us/>
+<url     "http://www.korotkin.co.il/debian-consulting-services/">
+<url     "http://www.korotkin.co.il/">
+<rates	 Please contact for rates. Fair price. 5% to Debian. Big discounts to
+         OpenSource projects. Support for companies and individuals.>
+</p>
+
+
+<h1><a name="IT"><country-name IT>:</a></h1>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+<p>
+<name    Giuliano Natali (diaolin)>
+<company Open IT>
+<address viale Dante, 78 - Pergine Valsugana (TN), <country-name IT>>
+<phone   +39-0461-504800>
+<phone   +39-0461-538443>
+<fax     +39-349-6684215>
+<email   diaolin@diaolin.com>
+<email   diaolin@openit.it>
+<URL     "http://www.openit.it">
+<rates   variable from 40&euro; to 75 &euro;>
+<additional_info openit>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Enrico Rossi>
+<company Tecno Brain>
+<address via Marcovigi, 2 - Bologna, <country-name IT>>
+<phone   +39-338-9064702>
+<email   e.rossi@tecnobrain.com>
+# <URL     "http://www.tecnobrain.com">
+<rates   75e/h - 500e/day - Job based or Monthly/Annual based contract available.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Amadego S.R.L.>
+<address Milan, <country-name IT>>
+<phone   +39-02-6193672>
+<fax     +39-170-2240520>
+<email   amadego@amadego.com>
+<URL     "http://www.amadego.com/chisiamo/competenze">
+<URL     "http://www.amadego.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Claudio Brazzale, Roberto Giuliari>
+<company Liberobit.net Srl>
+<address viale Verona, 47 - 36100 Vicenza, <country-name IT>>
+<phone   +39-0444-568438>
+<fax     +39-0444-1830954>
+<email   info@liberobit.net>
+<URL     "http://www.liberobit.net">
+<rates   From 50 to 150 Euro/hour- depends on work.>
+<additional_info liberobit>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    David N. Welton>
+<company DedaSys - Dedicated Systems Consulting>
+<address Padova, <country-name IT>>
+<email   davidw@dedasys.com>
+<URL     "http://www.dedasys.com/">
+<rates   Phone or email for more information.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+<p>
+<company Truelite srl>
+<address Firenze, <country-name IT>>
+<phone	 +39-055-7879597>
+<fax	 +39-055-7333336>
+<email	 info@truelite.it>
+<URL	 "http://www.truelite.it/">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+<p>
+<name    Fabio Fioravanti PhD>
+<company Independent consultant>
+<address Folignano (AP), <country-name IT>>
+<email   ff@ascoli.biz>
+<rates   Email for rates.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Gianfranco Panico, PhD>
+<company Linuz.it>
+<address Strada Revigliasco, 72/3, 10024 Moncalieri (TO), <country-name IT>>
+<phone   +39-011-23414703>
+<email   info@linuz.it scramble="yes">
+#<URL     "http://www.linuz.it/">
+<additional_info jean_p>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Simone Giustetti>
+<company Studio Simone Giustetti>
+<address via Gaggianego 33A I-16036 Recco (GE), <country-name IT>>
+<phone	 +39-340-3425647>
+<email	 studiosg@giustetti.net>
+<URL	 "http://www.giustetti.net/wiki/index.php?title=En/studiosg">
+<URL	 "http://www.giustetti.net/">
+<rates	 Please contact for rates.>
+<additional_info simone_giustetti>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Giovanni Bechis>
+<company SnB>
+<address Jesi (AN), <country-name IT>>
+<email	 g.bechis@snb.it>
+<URL	 "http://www.snb.it/ps/959/t/Assistenza-informatica-software-hardware-Jesi">
+<URL	 "http://www.snb.it/">
+<rates	 Please email for rates.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+<p>
+<name	 Mauro Chiarugi>
+<company Dogma Systems>
+<address Ancona, <country-name IT>>
+<phone	 +39-071-9090188>
+<phone	 +39-331-4786225>
+<email	 info@dogmasystems.it >
+#<URL	 "http://www.dogmasystems.it/">
+<rates	 Please call for rates.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Massimo Martini>
+<company GuruNetwork di Massimo Martini>
+<address Vicenza, <country-name IT>>
+<phone	 +39-0444-1496522>
+<phone	 +39-3384956355 (mobile)>
+<fax	 +39-0444-1491327>
+<email	 info@gurunetwork.it>
+<URL	 "http://www.gurunetwork.it/node/4">
+<rates	 50EUR/hour, 500EUR/Day; negotiable for non-profit, edu, etc.
+	 Monthly/annual support contracts available.>
+<additional_info gurunetwork>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+<p>
+<company Ethical Software Soc. Coop.>
+<address Piazza Mazzini 50-56, 39100 Bolzano, <country-name IT>>
+<phone	 +39 0471 068170>
+<email	 info@ethicalsoftware.it>
+<URL     "http://www.ethicalsoftware.it/index.php/en/partners-en/debian">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: IT
+# email checked on 2010-12-14
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Raoul Scarazzini>
+<company MMUL>
+<address Via Cantore, 11 - 20117, Rho (MI), <country-name IT>>
+<phone   +39 3281776712>
+<email   rasca@mmul.it>
+<url     "http://www.mmul.it/debian.php">
+<url     "http://www.mmul.it/">
+<rates   Email for pricing.>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Alessio Cecchi>
+<company CBS - cecchi.biz>
+<address Via Pollative 111/o - 59100 Prato (PO), <country-name IT>>
+<phone   +39 057 40 26 03 0>
+<fax     +39 057 47 89 01 8>
+<email   box-online@cecchi.biz>
+<url     "http://www.cecchi.biz/open_source/quale_distribuzione_linux.html">
+<url     "http://www.cecchi.biz/">
+<rates   Please contact for rates.>
+<additional_info cecchi>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Mirco Piccin>
+<company Xuni Technology>
+<address Via Cima Mandria 19 - 31044 Montebelluna - Treviso, <country-name IT>>
+<phone   +39-0423-1995889>
+<fax     +39-0423-1990159>
+<email   mirco.piccin@xuni.it>
+<url     "http://www.xuni.it/tecnologie/open-source">
+<url     "http://www.xuni.it/">
+<rates   Feel free to contact us for an updated free quote.>
+<additional_info xuni_tech>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active.
+# data updated: 21.03.2015
+<p>
+<name    Andrea Scarso>
+<address Vicenza, <country-name IT>>
+<email   andrea.scarso@gmail.com>
+<rates   Project-based.>
+<additional_info andrea_scarso>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Paolo Lulli>
+<address Via Gallicano-Colonna 18, 00039 Zagarolo (RM), <country-name IT>>
+<phone	 +39(0)328-6685449>
+<email	 paolo@lulli.net>
+<URL	 "http://www.lulli.net/paolo">
+<rates	 Feel free to contact me for a quote.>
+</p>
+
+# Consultant: IT
+# data updated: 29.07.2013
+<p>
+<name	 Mattia Zanoni>
+<company ALPHALAB>
+<address Via Francesco Petrarca Ranked # 6, 36075 Montecchio Maggiore (Vicenza), <country-name IT>>
+<phone	 +39-348.9065272>
+<email	 it.info@alphalab.it>
+<URL	 "http://digitalforensics.alphalab.it/opensource.html">
+<URL	 "http://www.alphalab.it">
+<rates	 Consult>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Palazzini Francesco>
+<company Palazzini Francesco>
+<address via martiri della libertà 216, Zimella - Verona, <country-name IT>>
+<phone	 +39 347 95 42 452>
+<email	 palazzini.francesco@gmail.com>
+<URL	 "http://en.palazzinifrancesco.com/">
+<rates	 Variable depending on the location, duration and type of work.>
+<additional_info palazzini_francesco>
+</p>
+
+# Consultant: IT
+# mail sent to check status: 13.04.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Eugenio Ghiglia>
+<company Zenworks>
+<address Milano, <country-name IT>>
+<phone	 +393398395526>
+<email	 info@zenworks.it>
+<URL	 "http://zenworks.it/tecnologie/">
+<URL	 "http://zenworks.it/">
+<rates	 free to contact me and ask for consulting>
+</p>
+
+# Consultant: IT
+# added on 02.03.2013
+# mail contact: <gabriele.vivinetto@rvmgroup.it>
+<p>
+<name	 Gabriele Vivinetto>
+<company RVM S.r.l.>
+<address Via Giovanni XXIII, 8 - 22060 - Arosio (CO) - <country-name IT>>
+<contact "http://www.ict.rvmgroup.it/contattaci/">
+<phone	 +39-031-758241>
+<phone	 +39-335-225346>
+<fax	 +39-031-764171>
+<URL	 "http://www.ict.rvmgroup.it/attivita/area-opensource-linux/">
+<rates	 available upon request>
+<additional_info rvm>
+</p>
+
+# Consultant: IT
+# added on 07.03.2013
+<p>
+<company Lixper S.r.L.>
+<address Via Pio VII, 130, Torino, <country-name IT>>
+<phone	 +39-0112178739>
+<email   info@lixper.it>
+<URL     http://www.lixper.it/egroupware/sitemgr/sitemgr-site/?category_id=40>
+<rates	 Rates Varying in range 300-500€/day depending on projects.>
+</p>
+
+# Consultant: IT
+# added on 18.03.2013
+<p>
+<company Lindo Nepi>
+<address Ascoli Piceno (AP), <country-name IT>>
+<email   lindo@lindonepi.com>
+<URL     "http://www.lindonepi.com">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: IT
+# added on 22.03.2013
+<p>
+<company Marco Urban>
+<address Via Giorgio Gaber, 19 20873 Cavenago di Brianza (MB), <country-name IT>>
+<phone	 +39-347-77-44-333>
+<email   info@marcourban.net>
+<URL     "http://marcourban.net">
+<rates	 Variable depending on the location, duration and type of work.>
+</p>
+
+# Consultant: IT
+# added on 30.07.2013
+<p>
+<name    Garofano Matteo>
+<company Sicurezzarete>
+<address Via G. di Vittorio 22a, 16018 Mignanego (GE), <country-name IT>>
+<phone	 +39.3387683188>
+<fax     +39.01042069192>
+<email   info@sicurezzarete.com>
+<URL     "http://www.sicurezzarete.com/">
+<rates	 Depends on projects, please contact us.>
+<additional_info sicurezzarete>
+</p>
+
+# Consultant: IT
+# added on 12.03.2015
+<p>
+<name    Matteo Temporini>
+<company Servisys>
+<address Udine, Friuli-Venezia-Giulia, <country-name IT>>
+<phone	 +39 328-0185272>
+<fax     +39 432-1841923>
+<email   info@servisys.it>
+<URL     "https://www.servisys.it/consulenti-debian/">
+<rates	 Please contacts for rates.>
+</p>
+
+# Consultant: IT
+# added on 08.06.2015
+<p>
+<name    Alessio Ligabue>
+<company Independent consultant>
+<address Reggio Emilia, <country-name IT>>
+<phone   +39-331-2962148>
+<email   info@alessioligabue.it>
+<URL     "http://www.alessioligabue.it">
+<rates   Call or e-mail for pricing, negotiable rates availible for
+non-profits, educational.>
+</p>
+
+
+<h1><a name="JP"><country-name JP>:</a></h1>
+
+# Consultant: JP
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Shigeru Yamamoto>
+<company codwiz.com>
+<address Yokohama, <country-name JP>>
+<email   deb1@codwiz.com scramble="yes">
+<url     "http://www.codwiz.com/sys/fs/">
+<url     "http://www.codwiz.com/">
+</p>
+
+
+#<h1><a name="JO"><country-name JO>:</a></h1>
+
+
+# <h1><a name="KE"><country-name KE>:</a></h1>
+
+
+<h1><a name="LI"><country-name LI>:</a></h1>
+
+# Consultant: LI
+# added on 23.03.2013
+<p>
+<name	 Peter Beck / Robert Gstoehl>
+<company foo.li - Systeme und Software>
+<address Hampflaender 64, FL-9496 Balzers, <country-name LI>>
+<phone	 +41(0)78-629-10-38>
+<email	 info@foo.li>
+<URL     "http://www.foo.li/?page_id=77">
+<URL     "http://www.foo.li">
+<rates   Depends on service/project.>
+</p>
+
+
+# <h1><a name="LT"><country-name LT>:</a></h1>
+
+#<h1><a name="LU"><country-name LU>:</a></h1>
+
+
+<h1><a name="MY"><country-name MY>:</a></h1>
+
+# Consultant: MY
+# mail sent to check status: 16.05.2013 holger-guest. Still active.
+<p>
+<name    Yeu Sian Lee>
+<company Naurasis Technology>
+<address WDT No 111, 88901 Kota Kinabalu, <country-name MY>>
+<phone   +60-19-8108002>
+<fax     +60-88-421316>
+<email   ys.lee@naurasis.com>
+#<URL     "http://www.naurasis.com/">
+<rates   Project-based. Free for non-profit and educational (subject to availability).>
+</p>
+
+# Consultant: MY
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Dr. Mohamed Sulaiman Sultan Suhaibuddeen>
+<address Information Technology Services Division, Melaka State Government,
+Kompleks Seri Negeri, 75450 Melaka, <country-name MY>>
+<address Faculty of Information Technology &amp; Quantitative Science,
+Universiti Teknologi MARA, 40450 Shah Alam, Selangor, <country-name MY>>
+<phone	 +60-122223893>
+<fax	 +60-122223893>
+<email   mohamedsulaiman@gmail.com>
+<additional_info suhaibuddeen>
+</p>
+
+## Consultant: MY
+# added on 22.11.2013
+#<p>
+#<name	 Arun Kumar>
+#<address A-12-08, Pangsapuri Desa Tenaga, Jalan Persiaran Klang,
+#Jalan Klang Lama 58200, Kuala Lumpur, <country-name MY>>
+#<phone	 +60-16-6334911>
+#<email   thangam.arun@gmail.com>
+#<rates   Please ask for rates.>
+#<URL     "http://thangamaniarun.wordpress.com/debian-contsultant/">
+#<URL     "http://thangamaniarun.wordpress.com/">
+#</p>
+
+
+<h1><a name="MX"><country-name MX>:</a></h1>
+
+# Consultant: MX
+# added on 05.07.2015
+<p>
+<name    Isaac Quezada>
+<company OpenSolutionsMx>
+<address <country-name MX>>
+<email   isaac@opensolutions.mx>
+<URL     "http://www.opensolutions.mx">
+<rates   Please email me for rates.>
+<additional_info open_solutions>
+</p>
+
+
+<h1><a name="MA"><country-name MA>:</a></h1>
+
+# Consultant: MA
+# added on 09.11.2013
+<p>
+<name    Abadi Samir>
+<address Rue 12 El Bassatine, Meknès, <country-name MA>>
+<phone   +212 (0) 3550090 >
+<email   abadisamir@hotmail.com>
+<rates   1100 Mad/Heure>
+<additional_info abadi_samir>
+</p>
+
+
+<h1><a name="NG"><country-name NG>:</a></h1>
+
+# Consultant: NG
+# added on 12.07.2015
+<p>
+<name    Hodonou SOUNTON>
+<company Reysh Tech>
+<address 07 BP 0637 Cotonou, Benin, <country-name NG>>
+<phone   (229) 95 30 24 24>
+<email   hodonou@sounton.me>
+<rates   $50 per hour>
+</p>
+
+
+<h1><a name="NL"><country-name NL>:</a></h1>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Paul van der Vlis>
+<company Firma van der Vlis>
+<address J.W. Frisostraat 24, 9717 EP Groningen, <country-name NL>>
+<phone   +31-050-3131178>
+<email   paul@vandervlis.nl>
+<URL     "http://www.vandervlis.nl/">
+<rates   Please ask (inexpensive).>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Rudolph Froger>
+<company Estrate>
+<address Oostsingel 57B, 2612HD Delft, <country-name NL>>
+<phone   +31-6-45-23-34-06>
+<email   info@estrate.nl>
+<URL     "http://www.estrate.nl">
+<rates   Please contact us for rates>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active.
+<p>
+<name    M.J. Roelofs>
+<company Murphy Software BV>
+<address P.O. Box 285, 7500 AG Enschede, <country-name NL>>
+<phone   +31-53-4320055>
+<email   office@murphy.nl>
+<URL     "http://www.murphy.nl/">
+<rates   Depends on type of work and location.>
+<additional_info murphy_soft>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active.
+<p>
+<name    Sim IJskes>
+<company QCG>
+<address Leiderdorp, <country-name NL>>
+<phone   +31-71-5890970>
+<fax     +31-71-5894810>
+<email   info@qcg.nl>
+<URL     "http://linux.qcg.nl/">
+<rates   Please refer to web page.>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company VirtualConcepts B.V.>
+<address Tilburg, <country-name NL>>
+<phone	 +31-13-7079940>
+<email	 support@virtualconcepts.nl>
+<URL	 "http://www.virtualconcepts.nl">
+<rates	 75 euro per hour, but depends on type of project.>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Renato Cavallari>
+<address Camperstraat 44-I, 1091AH, Amsterdam, <country-name NL>>
+<phone	 +31(0)20 331 85 27>
+<email	 renasboy@gmail.com>
+<rates	 on request>
+</p>
+
+# Consultant: NL
+# mail sent to check status: 16.05.2013 holger-guest. Result: still active.
+# data updated: 11.04.2015 holger-guest
+<p>
+<name    Jelle de Jong and Barry de Graaff>
+<company PowerCraft Technology>
+<address IJmeerstraat 117, 2652JP Berkel en Rodenrijs, <country-name NL>>
+<phone	 +31107079913>
+<email	 service@powercraft.nl>
+<URL	 "http://www.powercraft.nl/producten/">
+<rates	 Please contact us for our flexible rates.>
+</p>
+
+# Consultant: NL
+# added on 15.03.2013
+<p>
+<name    Joost van Baal-Ilić>
+<company ad 1810>
+<address Strijpsestraat 48 B, 5616 GR Eindhoven, <country-name NL>>
+<phone	 +31(0)6-26831629>
+<email	 info@ad1810.com>
+<URL	 "http://ad1810.com/">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: NL
+# added on 19.03.2013
+<p>
+<name    Bob Rosbag>
+<address Utrecht, <country-name NL>>
+<email	 debian@bobrosbag.nl>
+<rates	 Negotiable, support for personal, educational and scientific projects.>
+</p>
+
+# Consultant: NL
+# added on 09.10.2014
+<p>
+<name    Jerome BENOIT>
+<address Amsterdam, <country-name NL>>
+<email	 calculus@rezozer.net>
+<rates	 Negotiable, depends on the requirements --
+         support for educational, academic and scientific projects (worldwide).>
+</p>
+
+
+#<h1><a name="NZ"><country-name NZ>:</a></h1>
+
+
+#<h1><a name="NO"><country-name NO>:</a></h1>
+
+
+#<h1><a name="PK"><country-name PK>:</a></h1>
+
+
+#<h1><a name="PA"><country-name PA>:</a></h1>
+
+
+<h1><a name="PE"><country-name PE>:</a></h1>
+
+# Consultant: PE
+# mail sent to check status: 26.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Renzo Portocarrero Miranda>
+<company ID SECURITY SOLUTIONS>
+<address Av. Jos&eacute; Glavez Barrenechea 1275, Lima, <country-name PE>>
+<phone   +51-1-226-5058>
+<fax     +51-1-226-5058>
+<email   rportocarrero@gmail.com>
+#<URL     "http://www.id-security.net/">
+<rates   Please contact for rates>
+</p>
+
+# Consultant: PE
+# mail sent to check status: 26.05.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Daniel Alejandro Yucra Sotomayor>
+<company GUSL - SomosLibres.org>
+<address Av. Santa Cruz 130, Of. 901, Lima, <country-name PE>>
+<phone   +51+1+6509281>
+<fax     +51+1+6509281>
+<email   daniel@somoslibres.org>
+<URL     "http://www.somoslibres.org/">
+<rates   Negotiable>
+</p>
+
+
+<h1><a name="PH"><country-name PH>:</a></h1>
+
+# Consultant: PH
+# added on 16.01.2014
+<p>
+<name    Raymund John Ang>
+<company Blue Drive IT Solutions>
+<address Bacolod City, <country-name PH>>
+<phone   (+63)939-5985706>
+<email   contact@bluedriveph.com>
+<URL     "http://www.bluedriveph.com/solutions.html">
+<rates   Available on request; project based>
+</p>
+
+
+<h1><a name="PL"><country-name PL>:</a></h1>
+
+# Consultant: PL
+# mail sent to check status: 09.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Wojciech Tylek>
+<company FHU WAT>
+<address Cracow, <country-name PL>>
+<phone   +48-607-510-510>
+<email   wat@wat.net.pl>
+#<URL     "http://www.wat.net.pl">
+<rates   Depends on the problem - negotiated individually.>
+</p>
+
+# Consultant: PL
+# 03.04.2013: data updated.
+<p>
+<name    Marcin Engelmann>
+<company IMAGIN>
+<address Wroclaw, <country-name PL>>
+<phone   +48-71-723-01-20>
+<email   debian@imagin.pl scramble="yes">
+<URL     "http://imagin.pl/">
+<rates   40-80EUR/h, negotiable according to the type, length and complexity of the project, support contracts available.>
+<additional_info imagin>
+</p>
+
+# Consultant: PL
+# mail sent to check status: 09.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Konrad Matyas>
+<company Revolit>
+<address Krak&#243;w, <country-name PL>>
+<phone   +48-601-446-007>
+<email   info@revolit.com>
+<URL     "http://www.pl.revolit.com/administracja/administracja-serwerami.html">
+<URL     "http://www.revolit.com">
+<rates   Negotiated individually.>
+</p>
+
+# Consultant: PL
+# mail sent to check status: 09.06.2013 holger-guest. Result: still active.
+<p>
+<name	 Jaros&#322;aw Prochal>
+<company Aboo Technology>
+<address Krakowskie Przedmie&#347;cie 242, 32-087, <country-name PL>>
+<phone	 +48 791274780>
+<email	 aboo@aboo.pl>
+#<URL	 "http://www.aboo.pl">
+<rates	 Depending on requirements - please contact us.>
+<additional_info aboo_technology>
+</p>
+
+# Consultant: PL
+# mail sent to check status: 09.06.2013 holger-guest. Result: still active.
+<p>
+<company Informatyka Boguslawski sp. z o.o. sp.k.>
+<address Poznan, <country-name PL>>
+<phone	 +48 61 671 08 72>
+<email   info@ib.pl>
+<URL	 "http://www.ib.pl/">
+<rates	 Upon request, please contact us for details.>
+<additional_info boguslawski>
+</p>
+
+# Consultant: PL
+# added on 08.03.2013
+<p>
+<name	 Adam Ziaja>
+<company adamziaja.com>
+<address <country-name PL>>
+<email   adam@adamziaja.com>
+<URL	 "http://adamziaja.com">
+<rates	 Negotiable.>
+<additional_info adamziaja>
+</p>
+
+# Consultant: PL
+# added on 22.03.2013
+<p>
+<name	 Tytus Kurek>
+<address Krakow, <country-name PL>>
+<phone   +48-513-106-743>
+<email   tkurek7@gmail.com>
+<URL	 "http://www.linkedin.com/pub/tytus-kurek/15/a85/6ab">
+<rates	 ~ 20 - 40 $ / h, negotiable.>
+<additional_info t_kurek>
+</p>
+
+## Consultant: PL
+## added on 26.03.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 David Golak>
+#<company TradeMaker.pl>
+#<address Poznan, <country-name PL>>
+#<phone   (+48)61-66-62-928>
+#<email   dawid@trademaker.pl>
+#<URL	 "http://www.trademaker.pl/nasza-oferta/administracja-serwerami-linux/">
+#<URL	 "http://www.trademaker.pl">
+#<rates	 Depends on the problem - negotiated individually.>
+#<additional_info trademaker>
+#</p>
+
+# Consultant: PL
+# added on 09.11.2013
+<p>
+<name	 Przemyslaw Nowakowski>
+<company Linuxlabs>
+<address Krakow, <country-name PL>>
+<phone   (+48)697 721 158>
+<email   info@linuxlabs.pl>
+<URL	 "http://linuxlabs.pl">
+<rates	 25-40EUR/h.>
+<additional_info linuxlabs>
+</p>
+
+# Consultant: PL
+# added on 28.07.2015
+<p>
+<name	 Patryk Gorczyca>
+<company NetFS>
+<address Szczecin / Slupsk, <country-name PL>>
+<phone   (+48)600-076-192>
+<email   a@netfs.pl>
+<URL	 "https://netfs.pl">
+<rates	 Depending on requirements, please contact us for details.>
+<additional_info netfs>
+</p>
+
+
+<h1><a name="PT"><country-name PT>:</a></h1>
+
+# Consultant: PT
+# added on 25.03.2013
+<p>
+<name    Luís Pedro Algarvio>
+<address Lisbon, <country-name PT>>
+<email   lp.algarvio@gmail.com scramble="yes">
+<URL     "http://lp.algarvio.org">
+<rates   Depending on project. Please contact for negotiation. Will
+provide lower rates for non-profit/government organizations.>
+</p>
+
+
+<h1><a name="RO"><country-name RO>:</a></h1>
+
+# Consultant: RO
+# mail sent to check status: 09.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Ioana Leonte>
+<company Evozon Systems S.R.L.>
+<address Calea Turzii 110, Cluj-Napoca, Cluj, 400193, <country-name RO>>
+<email	 sales@evozon.com>
+<URL	 "http://www.evozon.com/what-we-do/technical-support-and-system-administration">
+<URL	 "http://www.evozon.com">
+<rates	 We offer free email consultancy. Project rates depend on project complexity, timeline, and size.>
+</p>
+
+# Consultant: RO
+# added on 09.03.2013
+<p>
+<name	 Arthur Alves>
+<address Iaşi, <country-name RO>>
+<phone   +4075 365 79 36>
+<email	 arthuralves.p@gmail.com>
+<rates	 15 EURO/hour.>
+<additional_info a_alves>
+</p>
+
+# Consultant: RO
+# added on 04.08.2015
+<p>
+<name	 Sorin Pop>
+<company CertCore>
+<address Calea Dorobantilor 6, Cluj-Napoca, Cluj, <country-name RO>>
+<phone   +40-723-782673>
+<email	 sales@certcore.com>
+<URL	 "http://www.certcore.com">
+<rates	 Available upon request. Discounted for non-profit, education or
+open-source projects. Free help available on IM.>
+<additional_info certcore>
+</p>
+
+
+<h1><a name="RU"><country-name RU>:</a></h1>
+
+# Consultant: RU
+# added on 12.03.2013
+<p>
+<name    Mikhail Lukyanchenko>
+<address Rostov-na-Donu, <country-name RU>>
+<phone   +7-903-402-0613>
+<email   ml@akabos.com>
+<rates   $25-$30, negotiable for non-commerce.>
+</p>
+
+# Consultant: RU
+# added on 26.04.2013
+<p>
+<name    Vladimir Ipatov>
+<company Intellect-Service>
+<address Rossiyskiy pr. 3/1, 193231 Saint-Petersburg, <country-name RU>>
+<phone   +7(812)9182032>
+<URL     "http://it-ic.ru">
+<rates   $15-$30 per hour.>
+</p>
+
+
+<h1><a name="SG"><country-name SG>:</a></h1>
+
+# Consultant: SG
+# mail sent to check status: 10.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Mr. Clark>
+<company Science Resource Asia>
+<address <country-name SG>>
+<phone   +65 96.15.86.61>
+<email   &#105;&#110;&#102;&#111;&#64;&#115;&#99;&#105;&#114;&#101;&#115;&#111;&#117;&#114;&#99;&#101;&#46;&#99;&#111;&#109;>
+# Watch out: To conform with HTML strict, we need to close the
+# paragraph tag <p> first before starting the unordered list <ul>.
+<rates   </p>
+  <ul>
+    <li>By project proposal. First contact free.</li> 
+    <li>Discount for: non-profit, NGO, or educational projects.</li>
+    <li>Free phone consultations to proponents of new projects
+	for NGO or education sectors.</li>
+    <li>2% of <i>total revenue</i> from each project initiated from
+	the <i>Debian Consultants List</i> will be donated to Debian
+	(possibly shared with TeX Users Group, TUG, if significant
+	LaTeX component), within 8-12 weeks from closeout. (To assist,
+	please tag subject of email enquiries with "[DCL]").</li>
+  </ul>
+<p>>
+<additional_info science_resource_asia>
+</p>
+
+# <h1><a name="SK"><country-name SK>:</a></h1>
+
+
+<h1><a name="SI"><country-name SI>:</a></h1>
+
+# Consultant: SI
+# mail sent to check status: 10.06.2013 holger-guest. Result: still active.
+<p>
+<company Serverflow consulting, d.o.o.>
+<address Mali Lipoglav 22, 1293 Smarje Sap, <country-name SI>>
+<email   matija@serverflow.si>
+<URL     "http://www.serverflow.com/server.html">
+<rates   $40/hr, negotiable for bigger projects>
+<additional_info serverflow>
+</p>
+
+# Consultant: SI
+# mail sent to check status: 10.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Jan Prunk>
+<company Jan Prunk k.d.>
+<address Postojnska 18, 1000 Ljubljana, <country-name SI>>
+<phone   +386 (41) 710598>
+<email   janprunk@gmail.com>
+<URL     "http://www.prunk.si/">
+<rates   Please contact me for rates.>
+</p>
+
+
+#<h1><a name="ZA"><country-name ZA>:</a></h1>
+
+
+<h1><a name="ES"><country-name ES>:</a></h1>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Roberto Majadas>
+<company OpenShine S.L.>
+<address C/ G&oacute;mez De Avellaneda 14 4&ordm; &Ntilde;, Madrid, <country-name ES>>
+<phone   +34-663-273-501>
+<email   comercial@openshine.com>
+<url     "http://www.openshine.com">
+<rates   Depende del proyecto.>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Juan Miguel Taboada Godoy>
+<company Centrologic Computational Logistic Center>
+<address Calle Aguacate 36/48, 29738 Rincón de la Victoria, <country-name ES>>
+<phone   +34-610-37-01-65>
+<email   info@centrologic.com>
+<url     "http://www.centrologic.com/">
+<rates   55-185 euros/hour (all Europe).>
+<additional_info centrologic>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Rub&eacute;n da Silva>
+<company Ozono Multimedia s.l.l.>
+<address C/Galeras, 13. 15705 Santiago de Compostela, <country-name ES>>
+<phone   +34-981580679>
+<fax     +34-981580679>
+<email   ozono@ozonomultimedia.com>
+#<url     "http://www.ozonomultimedia.com/">
+<rates   Available upon request. Variable according service. Contact us.>
+<additional_info ozonomultimedia>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Carlos Parra Camargo>
+<company Emergya>
+<address Avd. Luis de Morales, 32. Sevilla, <country-name ES>>
+<phone   +34-954-51-75-77>
+<fax     +34-954-51-64-73>
+<email   debian@emergya.com>
+<URL     "http://www.emergya.com">
+<additional_info emergya>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Alberto Gonzalez Iniesta>
+<address c/ Golondrinas, 2. 28470 Cercedilla, <country-name ES>>
+<phone   +34-639-688-119>
+<email   agi@inittab.org>
+<URL     "http://inittab.com">
+<rates   Depends on task and project length>
+<additional_info inittab>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company Tecno Servicio>
+<address Aribau 162. Barcelona, <country-name ES>>
+<phone   +34-652669294>
+<fax     +34-931824040>
+<email   info@tecno-servicio.com>
+<URL     "http://www.tecno-servicio.com">
+<rates   Negotiable.>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry udpated.
+<p>
+<name    Jaume Teixi>
+<address Barcelona, <country-name ES>>
+<email   jaume@teixi.net>
+<rates   Upon request.>
+<additional_info jaume_t>
+</p>
+
+# Consultant: ES
+# Data updated on 10.03.2013
+<p>
+<name    Jos&eacute; Luis Martin>
+<company Freelance>
+<address C/ Caballa 5 (La Barrosa), Chiclana de la Frontera 11130, Cádiz, <country-name ES>>
+<phone   +34-627-552-741>
+<email   jlm@joseluismartin.info>
+<url     "http://www.joseluismartin.info">
+<rates   Upon request.>
+</p>
+
+# Consultant: ES
+# entry updated: 18.03.2013
+<p>
+<company Igalia>
+<address C/Bugallal Marchesi, 22, 1&ordm;. 15008 A Coru&ntilde;a, <country-name ES>>
+<phone	 +34-981-913991>
+<fax	 +34-981-913949>
+<email	 info@igalia.com>
+<URL	 "http://www.igalia.com/">
+<rates	 Upon request.>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Eduardo D&iacute;az Comellas>
+<company Ultreia Comunicaciones S.L.>
+<address C. Cial. Cidade Universitaria, local A4, 36310 - Vigo, <country-name ES>>
+<phone	 +34-986243324>
+<fax     +34-986123899>
+<email	 ediaz@ultreia.es>
+<URL	 "http://www.ultreia.es/">
+<rates	 Please contact.>
+<additional_info ultreia>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Eduardo Garc&iacute;a-M&aacute;dico>
+<company Eurogaran Inform&aacute;tica S.L>
+<address Las Guiller&iacute;as, 3 - 08320 El Masnou Barcelona, <country-name ES>>
+<phone	 +34-935-554-000>
+<fax	 +34-93-540-33-87>
+<email	 informatica@eurogaran.com>
+<URL	 "http://www.eurogaran.com/index.php/es/servicios-tic/administracion-de-redes-y-sistemas-linux">
+<URL	 "http://www.eurogaran.com/">
+<rates	 Please contact for rates.>
+</p>
+
+# Consultant: ES
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active.
+# data updated: 19.06.2015
+<p>
+<name	 Gonzalo P&eacute;rez de Olaguer C&oacute;rdoba>
+<address C/ Joventut, 106 - 4, 08904 Hospitalet de Llobregat, Barcelona, <country-name ES>>
+<email	 salo@gpoc.es>
+<URL	 "http://www.gpoc.es">
+<rates	 A negociar (200€/día máx).>
+</p>
+
+# Consultant: ES
+# added on 24.03.2014
+<p>
+<name	 Juan Sierra Pons>
+<address Alicante, <country-name ES>>
+<phone   +34 651045771>
+<email	 juan@elsotanillo.net>
+<URL	 "http://www.elsotanillo.net">
+<rates	 Available upon request. Variable according service.>
+</p>
+
+# Consultant: ES
+# added on 09.10.2014
+<p>
+<company Tegnix>
+<address Uruguay 8, Planta 5, Ofic. 8, 36201 Vigo, Pontevedra, <country-name ES>>
+<phone   +34 886 122 307>
+<email	 info@tegnix.com>
+<URL	 "http://www.tegnix.com">
+<rates	 Upon request.>
+</p>	
+
+
+<h1><a name="SE"><country-name SE>:</a></h1>
+
+# Consultant: SE
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Marcus Rej&aring;s>
+<company Rej&aring;s Datakonsult AB>
+<address Vårgatan 2, 761 63 Norrtälje, <country-name SE>>
+<phone   +46-176-250100>
+<fax     +46-176-250130>
+<email   info@rejas.se>
+<URL     "http://www.rejas.se/">
+<rates   Negotiable.>
+<additional_info rejas>
+</p>
+
+# Consultant: SE
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    H&aring;kan Anjou>
+<address G&ouml;teborg, <country-name SE>>
+<phone   +4670-7747049>
+<email   kh_anjou@hotmail.com>
+<rates   Negotiable in relation to project.>
+</p>
+
+# Consultant: SE
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Ola Lundqvist>
+<company Inguza Technology AB>
+<address Annebergsslingan 37, 65465 Karlstad, <country-name SE>>
+<phone   +46-703-32-1551>
+<email   info@inguza.com>
+<url     "http://inguza.com/">
+<rates   750 SEK/h or fixed price offers.>
+</p>
+
+# Consultant: SE
+# mail sent to check status: 16.06.2013 holger-guest. Result: still active.
+<p>
+<company Stickybit>
+<address Gustav Adolfs torg 10A Malm&ouml;, <country-name SE>>
+<phone	 +46-40-631-15-00>
+<email	 info@stickybit.se>
+#<URL	 "http://www.stickybit.se/">
+<rates	 Please contact us for information.>
+</p>
+
+## Consultant: SE
+## Check URL at 23.02.2013 by holger-guest.
+## Result: empty page. Still active as Debian consultant?
+## mail sent to check status: 16.06.2013 holger-guest. 
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Wilhelm Assarsson>
+#<company Progenitor>
+#<address Ideon research center, Beta 1, Scheelev&auml;gen 17, 223 70 Lund, <country-name SE>>
+#<phone	 (+46) 46 286 20 90>
+#<email	 info@progenitor.se>
+#<URL	 "http://www.progenitor.se/">
+#<rates	 Depending on task and length. Contact us!>
+#</p>
+
+# Consultant: SE
+# added on 26.04.2013, data updated on 28.12.2014
+<p>
+<name	 Helio Loureiro>
+<address <country-name SE>>
+<phone   +55-11-98270-4106>
+<email	 helio@loureiro.eng.br scramble="yes">
+<URL     "http://helio.loureiro.eng.br/index.php/debian/294-debian-consultant.html">
+<rates   Free for non-profit organizations.>
+<additional_info h_loureiro>
+</p>
+
+
+<h1><a name="CH"><country-name CH>:</a></h1>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Florian M. Weps>
+<address Ebnistrasse 27, 5463 Wislikofen, <country-name CH>>
+<phone   +41-79-374-05-73>
+<email   fmw@hactrn.ch>
+<rates   Project and duration dependent, quick help for free. 10-20% of profit will be donated to Debian.>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Marcus Holthaus>
+<company Logintas>
+<address Sonnhaldenstrasse 87, CH 6331 Hünenberg, <country-name CH>>
+<phone   +41-41-783-21-21>
+<email   marcus.holthaus@logintas.ch>
+<URL     "http://www.logintas.ch/">
+<rates   Quick support for free, support for private users for low charges, but
+depending on capacity. Professional service with current local market rates
+according to staff certification levels.>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Josef Ender>
+<company ender informatics gmbh>
+<address Rietlistrasse 1, CH-6345 Neuheim (Zug), <country-name CH>>
+<phone   +41-41-755-00-88>
+<fax     +41-41-755-34-88>
+<email   info@ender-informatics.ch>
+<URL     "http://www.ender-informatics.ch/">
+<rates   CHF 155/h>
+<additional_info ender_informatics>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active.
+<p>
+<name    Gilbert Robert>
+<company ProLibre>
+<address 18, rue des Moraines  CH-1227 Gen&egrave;ve, <country-name CH>>
+<phone   +41-22-301-5383>
+<fax     +41-22-301-538>
+<email   info@prolibre.com>
+<URL     "http://www.prolibre.com/">
+<rates   Please contact for rates.>
+<additional_info prolibre>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Marc SCHAEFER, ing. inf. dip. EPF>
+<company CRIL>
+<address Epervier 15, 2053 Cernier, <country-name CH>>
+<phone	 +41-32-841-40-14>
+<email	 info@cril.ch>
+<URL	 "http://www.cril.ch/">
+<rates	 160 CHF/hour, or project-based rate.>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Reto Galante>
+<company Fensterkitt Computer Support>
+<address CH-2500 Biel/Bienne, <country-name CH>>
+<phone	 +41-79-77-23-557>
+<email	 info@fensterkitt.ch>
+<URL	 "http://fensterkitt.ch/">
+<rates	 From CHF 75 to 100 per hour, simple requests for free.>
+<additional_info fensterkitt>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Tomas Pospisek>
+<company Sourcepole AG>
+<address Weberstrasse 5, 8004 Zürich, <country-name CH>>
+<phone	 +41-44-440-77-11>
+<email   info@sourcepole.ch scramble="yes">
+<URL	 "http://sourcepole.ch/">
+<rates	 145 CHF/h; negotiable; non-profit and similar get specials.>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 F&eacute;lix Hauri>
+<company F&eacute;lix Hauri &mdash; Informaticien consultant>
+<address 7, rue Centrale, 1450 Ste-Croix, <country-name CH>>
+<phone	 +41 24 454 54 04>
+<fax	 +41 24 454 54 00>
+<email   hauri@f-hauri.ch>
+<URL	 "http://www.f-hauri.ch/root/offres.html">
+<rates	 158 CHF/hour, or offer-based.>
+</p>
+
+# Consultant: CH
+# mail sent to check status: 29.03.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Arne Wichmann>
+<address Beckenstrasse 6, 4056 Basel, <country-name CH>>
+<phone   +49-162-4752939>
+<email   aw@linux.de>
+<rates   40 EUR/h for interesting free-software only projects, typical rates 70 EUR/h.>
+</p>
+
+# Consultant: CH
+# added on 30.06.2013
+<p>
+<name	 Luca Capello>
+<address Rue Caroline 53, 1227 Carouge GE, <country-name CH>>
+<phone	 +41-79-321-76-13>
+<email   luca@pca.it>
+<URL	 "http://luca.pca.it/working/">
+<rates	 Project and duration dependent, quick help for free. 10% of profit 
+will be donated to Debian.>
+</p>
+
+# Consultant: CH
+# added on 18.03.2015
+<p>
+<name	 Gaudenz Steinlin, Benedikt Trefzer>
+<address Theaterplatz 2, 3011 Bern, <country-name CH>>
+<email   support@cirrax.com>
+<URL	 "https://www.cirrax.com">
+<rates	 Project and duration dependent, please contact for offer.>
+</p>
+
+
+#<h1><a name="TN"><country-name TN>:</a></h1>
+
+
+<h1><a name="TR"><country-name TR>:</a></h1>
+
+# Consultant: TR
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Murat Demirten>
+<company Yeni Hayat Bili&#351;im Teknolojileri A.&#350;>
+<address Dünya İş Hanı, No: 15/A Setüstü, Kabataş / İstanbul, <country-name TR>>
+<phone   +90-212-292-04-46>
+<fax     +90-212-292-04-93>
+<email   mdemirten@yh.com.tr>
+<URL     "http://www.yh.com.tr/">
+<rates   Negotiable for non-profit; 10% of fees will be donated to Software in the Public Interest.>
+<additional_info murat_demirten>
+</p>
+
+# Consultant: TR
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Caglar Ulkuderner>
+<company Profelis Bilisim Danismanlik Ltd. Sti.>
+<address Profelis, Cinnah Cad. 11/3 06680 Kavaklidere Cankaya, Ankara, <country-name TR>>
+<phone	 +90 312 482 8012>
+<fax     +90 312 482 8040>
+<email   bilgi@profelis.com.tr>
+<URL	 "http://www.profelis.com.tr">
+<additional_info profelis>
+</p>
+
+# Consultant: TR
+# mail sent to check status: 23.06.2013 holger-guest. Result: still active.
+<p>
+<name	 Barış Ala>
+<company Parkyeri>
+<address Beytem Plaza Büyükdere Caddesi No:22 Kat:4 Şişli 34381, Istanbul, <country-name TR>>
+<phone	 +90 212 2969509>
+<fax     +90 212 2969514>
+<email   danismanlik@parkyeri.com>
+<URL	 "http://www.parkyeri.com/open-source/">
+<rates   Contact us for quotation.>
+</p>
+
+# Consultant: TR
+# added on 17.03.2013
+<p>
+<name	 Can Kavaklıoğlu>
+<address Bağatur Sokak No 22 Zeytindalı Sitesi A Blok No 7, Bahçelievler Üsküdar, İstanbul,
+<country-name TR>>
+<phone	 +90-5322542110>
+<email   eposta@cankavaklioglu.name.tr>
+<URL	 "http://ck.name.tr/debian.html">
+<rates   Free for personal/non-profit if time permits, 80 TL/hour for professionals.
+25% donated to Debian project.>
+</p>
+
+
+<h1><a name="UA"><country-name UA>:</a></h1>
+
+# Consultant: UA
+# added on 13.03.2013
+<p>
+<company Alet>
+<address Prospect Kirova 25, TC Vialaki, 3-floor, 95000 Simferopol, <country-name UA>>
+<phone	 +380-99-628-15-00>
+<phone	 +380-652-700-661>
+<email	 sales@alet.crimea.ua>
+<URL	 "http://alet.crimea.ua">
+<rates	 20$ per hour.>
+</p>
+
+# Consultant: UA
+# added on 14.03.2013
+<p>
+<name    Sergey Kovalets>
+<address Khar'kov, <country-name UA>>
+<phone	 +380-63-33-55-005>
+<email	 info@sergeykovalets.com>
+<URL	 "http://sergeykovalets.com">
+<rates	 10-20 USD/h.>
+</p>
+
+# Consultant: UA
+# added on 19.04.2013
+<p>
+<name    Stanislav Semenov>
+<company Ainstainer Software Development Teams>
+<address Bakulina 4a, Kharkov, <country-name UA>>
+<phone	 +44 208 819-62-52>
+<email	 info@ainstainer.com>
+<URL	 "http://www.ainstainer.com/what-we-do/software-applications-development">
+<URL	 "http://www.ainstainer.com">
+<rates	 All our rates are custom, so please contact us to get more details.>
+<additional_info ainstainer>
+</p>
+
+
+<h1><a name="GB"><country-name GB>:</a></h1>
+
+# Consultant: GB
+# data updated: 23.03.2013
+<p>
+<name    Mark Taylor>
+<company Sirius Corporation>
+<address Rivermead House, Hamm Moor Lane, Weybridge, Surrey, KT15 2SF, <country-name GB>>
+<phone   +44-0870-608-0063>
+<fax     +44-01932-841-488>
+<email   info@siriusit.co.uk>
+<URL     "http://www.siriusopensource.com/">
+<rates   Varies.>
+<additional_info sirius>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active, entry updated.
+<p>
+<name    Matthew King>
+<company Dagilev Consulting Ltd.>
+<address Fleet, Hampshire, <country-name GB>>
+<phone   +44 20 7099-8832>
+<email   info@dagilev.co.uk>
+#<URL     "http://dagilev.co.uk/">
+<rates   Negotiable at 500 GBP / day (75 GBP / hour)>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Sam Bashton>
+<company Bashton Ltd>
+<address Manchester, <country-name GB>>
+<phone   +44-161-424-9600>
+<email   sales@bashton.com>
+<URL     "http://www.bashton.com/">
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active, entry updated.
+<p>
+<name    Philip Hands>
+<company hands.com ltd.>
+<address London, <country-name GB>>
+<phone   +44-20-85309560>
+<email   info@hands.com>
+<URL	 "http://hands.com">
+<rates   1075.00 UKP (about 1700.00 US) +VAT +expenses per day. Annual support contracts also available.>
+<additional_info philiphands>
+</p>
+
+# Consultant: GB
+# entry updated on 19.09.14
+<p>
+<name    David Goodenough>
+<company David Goodenough &amp; Associates>
+<address The Old Stable, Kencot, GLOS, GL7 3QT, <country-name GB>>
+<phone   +44-7788 140074>
+<email   david.goodenough@dga.co.uk>
+#<URL     "http://dga.co.uk/">
+<rates   Vary according to the job.>
+<additional_info steve_l>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Ben Bell>
+<address Gatwick, London, <country-name GB>>
+<phone   07733-113039>
+<email   debian@tyriantech.com scramble="yes">
+<URL     "http://www.tyriantech.com/debian.html">
+<rates   640 UKP / day + expenses>
+<additional_info ben_b>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active, entry updated.
+<p>
+<name	 Dr. Richard Mills>
+<company The Linux Academy Ltd>
+<address Dorset, <country-name GB>>
+<email	 rmills@the-linux-academy.co.uk>
+<URL	 "http://the-linux-academy.co.uk/">
+<rates	 &pound;400 / day + expenses.>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active.
+<p>
+<name	 James Penn-Dunnett>
+<company Dynnocht Computer Services>
+<address 83 Ben Venue Road, Cumbernauld, SCOTLAND, G68 9JE, <country-name GB>>
+<phone	 +44-1236-728490>
+<email	 info@dynnocht.co.uk>
+<URL	 "http://www.dynnocht.co.uk/">
+<rates	 On request.>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Keith Edmunds>
+<company Tiger Computing Ltd.>
+<address Wyastone Business Park, Wyastone Leys, Monmouth, NP25 3SR, <country-name GB>>
+<phone	 +44-1600-483-484>
+<email	 kae@tiger-computing.co.uk>
+<URL	 http://www.tiger-computing.co.uk/>
+<rates	 Support: dependent upon package; consultancy: by agreement.>
+<additional_info tiger_computing>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Steve Nice>
+<company Reconnix Limited>
+<address Innovation House, Beacon Hill Office Park, Newark, <country-name GB>>
+<phone	 +44-1636-881200>
+<fax	 +44-1636-703910>
+<email	 sales@reconnix.com>
+<URL	 "http://www.reconnix.com/">
+<rates	 From &pound;85 per hour>
+<additional_info reconnix>
+</p>
+
+# Consultant: GB
+# data updated on 27.02.2013
+<p>
+<name    Chris Halls>
+<company credativ Ltd. (Open Source Support Centre)>
+<address Rugby, Warwickshire, <country-name GB>>
+<phone   +44-1788-298150>
+<email   info@credativ.co.uk>
+<URL     "http://www.credativ.co.uk/services/support/projects/linux-distributions/debian-gnulinux/">
+<rates   Call for rates.>
+<additional_info credativ>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active, entry updated.
+<p>
+<name	 Tomasz J. Kotarba>
+<company SYSTEM7, University of Cambridge>
+<address Cambridge, <country-name GB>>
+<phone	 +44 7588 587 617>
+<email	 tomasz@kotarba.net>
+<URL	 "http://www.linkedin.com/in/kotarba">
+<rates	 &pound;650/day + expenses (discounts for universities and non-profit). Long-term 
+projects negotiable.>
+<additional_info kotarba>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Peter G. Smith>
+<company Linuxbox>
+<address Middlesbrough, <country-name GB>>
+<phone	 (+44) 7890 592198>
+<email	 pete@linuxbox.co.uk>
+<URL	 "http://linuxbox.co.uk/areas.php">
+<URL	 "http://linuxbox.co.uk">
+<rates	 varies, around 30-40 GBP per hour>
+<additional_info linuxbox>
+</p>
+
+# Consultant: GB
+# Entry updated 05.03.2013.
+<p>
+<name	 Norbert Laposa>
+<company Laposa Ltd>
+<address 58 Howard Street, Belfast, BT1 6PJ, Northern Ireland, <country-name GB>>
+<phone	 +44 2890 328 988>
+<email	 info@laposa.co.uk>
+<URL	 "http://laposa.co.uk">
+<rates	 Bespoke work from &pound;400 per day. Debian based server ongoing management from &pound;200 per year.>
+</p>
+
+# Consultant: GB
+# mail sent to check status: 29.06.2013 holger-guest. Still active, entry updated.
+<p>
+<name	 Adam Sweet / Adam James / Simon Bowring>
+<company Transitiv Technologies Ltd>
+<address Creative Industries Centre, Wolverhampton Science Park, Wolverhampton, WV10 9TG, <country-name GB>>
+<phone	 +44 203 384 7207>
+<email	 sales@transitiv.co.uk>
+<URL	 "http://www.transitiv.co.uk/services/consultancy/debian">
+<URL	 "http://www.transitiv.co.uk/">
+<rates   Rates dependant on quantity of work and location, please enquire>
+</p>
+
+## Consultant: GB
+## added on 14.03.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Steven Carr>
+#<company Indigo Solutions Europe Ltd.>
+#<address Durham, <country-name GB>>
+#<phone	 +44-3333-444-520>
+#<email	 sales@indigo-solutions.eu>
+#<URL	 "http://www.indigo-solutions.eu/solutions/consulting">
+#<rates   On request, SLA backed monitoring/management/maintenance contracts available.>
+#<additional_info indigo_solutions>
+#</p>
+
+# Consultant: GB
+# added on 19.03.2013
+<p>
+<name	 James Cort>
+<company Bediwin Information Services>
+<address Somerset, <country-name GB>>
+<email	 info@bediwin.co.uk>
+<URL	 "http://www.bediwin.co.uk/services/linux-consultancy/">
+<rates   Agreed on a per-project basis.>
+</p>
+
+# Consultant: GB
+# added on 29.06.2014
+<p>
+<name	 Reza Snowdon>
+<company Vixre>
+<address 1 Slingsby Gardens, Romanby, Northallerton, North Yorkshire, <country-name GB>>
+<phone	 +44-1609-617-887>
+<email	 reza@vixre.co.uk>
+<URL	 "http://www.vixre.co.uk">
+<rates   £45 per hour.>
+</p>
+
+# Consultant: GB
+# added on 25.07.2014
+<p>
+<company Collabora>
+<address Kett House, Station Road, Cambridge, CB1 2JH, <country-name GB>>
+<phone	 +44(0)1223-362967>
+<fax	 +44(0)1223-351966>
+<email	 contact@collabora.com>
+<URL	 "http://www.collabora.com/">
+<rates   Please contact for rates.>
+</p>
+
+# Consultant: GB
+# added on 24.12.2014
+<p>
+<name	 Adam Palmer>
+<company IO Digital Sec>
+<address <country-name GB>>
+<phone	 +44(0)208-123-9497>
+<email	 adam@adampalmer.me>
+<contact "http://www.iodigitalsec.com/contact-us/">
+<URL	 "http://www.iodigitalsec.com/linux-consultant/">
+<rates   From £85 + VAT per hour.>
+<additional_info io_digital>
+</p>
+
+
+<h1><a name="US"><country-name US>:</a></h1>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Still active, entry updated.
+<p>
+<name    Robert Oliver>
+<company OCS Solutions, Inc.>
+<address PO Box 3355, Florence, AL 35630, <country-name US>>
+<phone   +1-256-764-4035>
+<fax     +1-480-247-5307>
+<email   sales@ocstech.com>
+<url     "http://www.ocssolutions.com/debian-consulting.php">
+<rates   Depending on project, call or e-mail for quotes.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Mark Deason>
+<company Visionary Networks>
+<address 16505A SE First Street PMB 120, Vancouver, WA 98684, <country-name US>>
+<email   debian@visionary-networks.com>
+<url     "http://www.visionary-networks.com/">
+<rates   Negotiable.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Sean Reifschneider (jafo), Kevin Fenzi, Evelyn Mitchell, Scott Kleihege>
+<company tummy.com, ltd.>
+<address 5400 Fossil Court North, Fort Collins, CO 80525, <country-name US>>
+<phone   +1-970-494-0355>
+<fax     +1-970-377-2320>
+<email   info@tummy.com>
+#<url     "http://www.tummy.com/">
+<rates   We offer both pay-as-you-go hourly rates and service packages.>
+<additional_info tummy>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Alex Adriaanse>
+<company Innova Computing, L.L.C.>
+<address Oklahoma City, OK, <country-name US>>
+<phone   +1-405-751-0270>
+<fax     +1-405-751-2119>
+<email   info@innovacomputing.com>
+<url     "http://innovacomputing.com/services.shtml">
+<rates   Project-based or hourly.>
+<additional_info innova_computing>
+</p>
+
+# Consultant: US
+# data updated: 23.03.2013
+<p>
+<name    Dave Goel>
+<address Oakwood, Georgia (GA) 30566, <country-name US>>
+<email   deego3@gmail.com>
+<rates   Depends on the job. Also, often helps non-profit organizations or worthy causes for free.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Stuart Sheldon>
+<company ACT USA>
+<address 3533 Old Conejo Rd. Suite 103, Newbury Park, CA. 91320, <country-name US>>
+<phone   +1-805-370-8001>
+<email   sales@actusa.net>
+<URL     "https://www.actusa.net/technologies/linux">
+<rates   Varies based on project and location.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Christoph Lameter>
+<company Graphe Networks>
+<address POB 478, LaGrange, IL 60525, <country-name US>>
+<phone   +12025965598>
+<email   christoph@lameter.com>
+<rates   $250/hr first time. Negotiable later.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    CJ Fearnley>
+<company LinuxForce Inc.>
+<address Upper Darby, PA, <country-name US>>
+<phone   +1-610-734-1900>
+<email   sales@linuxforce.net>
+<URL     "http://www.linuxforce.net/">
+<rates   Job dependent.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Shannon Dealy>
+<company DeaTech Research Inc.>
+<address Philomath, OR, <country-name US>>
+<phone   +1-800-467-5820>
+<phone	 +1-541-929-4089>
+<email   dealy@deatech.com>
+<URL     "http://www.deatech.com/">
+<rates   Fixed Price or Hourly (substantial discount for open source)>
+<additional_info shannon_d>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name    Jeremy C. Reed>
+<company Puget Sound Technology>
+<address Marysville, WA, <country-name US>>
+<phone   +1-360-658-5676>
+<email   info@pugetsoundtechnology.com>
+<URL     "http://www.pugetsoundtechnology.com/">
+<rates   Hourly-based: $80-$95/hour; incident-based: $55-$80/each (US).>
+<additional_info jeremy_r>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Robert Coffman>
+<company Info From Data Corporation>
+<address 1804 Brown Street, Akron, Ohio 44301, <country-name US>>
+<phone   +1-330-724-9000>
+<email   bcoffman@infofromdata.com>
+#<URL     "http://www.infofromdata.com/">
+<rates   Call for current rates.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name	 Elizabeth Ziph>
+<company The Linux Box Corporation>
+<address 206 South Fifth Avenue, Suite 150, Ann Arbor, Michigan, 48104, <country-name US>>
+<phone	 1.877.546.8929>
+<phone	 734.761.4689>
+<fax	 734.769.8938>
+<email	 info@linuxbox.com>
+#<URL	 "http://www.linuxbox.com/">
+<rates	 Please email or call for current rate information.>
+<additional_info linux_box>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Jeremy T. Bouse>
+<company UnderGrid Network Services>
+<address Atlanta, GA, <country-name US>>
+<phone	 +1-678-348-0867>
+<email	 jeremy.bouse@undergrid.net>
+<URL	 "http://UnderGrid.net/">
+<rates	 Negotiable depending on project.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Philip Carinhas>
+<company Fortuitous Technologies>
+<address Austin.Tx.US, <country-name US>>
+<phone	 +1-512-351-7783>
+<email	 support@fortuitous.com>
+<URL	 "http://fortuitous.com/">
+<rates	 $135-190 depending on volume and retainer.>
+<additional_info fortuitous>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company LinuxCertified, Inc.>
+<address 349 Cobalt Way, Suite #304, CA 94085, <country-name US>>
+<phone	 +1-408-314-6700>
+<fax	 +1-425-732-7143>
+<email	 info@linuxcertified.com>
+#<URL	 "http://www.linuxcertified.com/">
+<rates	 Vary depending on the project size.>
+<additional_info linux_certified>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name	 Daniel A. Hoffman>
+<company Afinitech>
+<address Chicago, Illinois 60666, <country-name US>>
+<phone	 +1-312-498-4820>
+<email	 dh@afinitech.net scramble="yes">
+#<URL	 "http://afinitech.net/">
+<rates	 Call.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name	 Evan Macbeth>
+<company Sine Nomine Associates>
+<address 43596 Blacksmith Square, Ashburn VA 20147, <country-name US>>
+<phone	 +1-703-723-6673>
+<fax	 +1-703-729-9516>
+<email	 info@sinenomine.net>
+<URL	 "http://www.sinenomine.net/">
+<rates	 T&amp;M or flat rate by project.>
+<additional_info sine_nomine>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Alexander Perry>
+<company PAMurray>
+<address PO Box 7042, Santa Monica, CA 90406-7042, <country-name US>>
+<email	 alex.perry@ieee.org>
+<URL     "http://www.pamurray.com/">
+<rates	 Multiple rates>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<company HermeTek Network Solutions>
+<address P.O. Box 2264, Pflugerville, TX, 78691, <country-name US>>
+<phone	 +1-866-235-1288>
+<email	 sales@hermetek.com>
+<url	 https://www.hermetek.com>
+<rates	 Varies: hourly, bulk blocks, and contracts available.>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name    Dan Ouellet>
+<company Ouellet Consulting, Inc>
+<address 7996 Grant Court, Tallahassee, Florida, 32309, <country-name US>>
+<phone   (M) +1(850)510-6162, (B) +1(850)907-9757>
+<email   dan@danosoft.com>
+<URL     "http://sirius.danosoft.com/oci">
+<rates   $100 per hour - No minimum - Negotiable depending on size of contract. >
+<additional_info dan_ouellet>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name    Christopher J. Pace>
+<address 120 Forrest Avenue Laurel, MT, <country-name US>>
+<phone   4068608125>
+<email   chris@linuxconsultant.info>
+<url     "http://linuxconsultant.info">
+<rates   Please contact for a quote>
+<additional_info christopher_pace>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name	 Wayne Guhan Iyer>
+<company shark7llc>
+<address <country-name US>>
+<phone	 859-4-shark7>
+<email	 guhan.iyer@shark7.com>
+#<URL	 "http://shark7.com">
+<rates	 $75 to $150 per hour.>
+<additional_info guhan_net>
+</p>
+
+# Consultant: US
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active.
+<p>
+<name	 Dr. Tim Lynch>
+<company Psychsoft>
+<address P.O. Box 232   North Quincy, MA 02171, <country-name US>>
+<phone	 617-471-8733>
+<fax  	 866-420-1030>
+<email	 sales@psychsoftek.com>
+<URL	 "http://www.psychsoftek.com">
+<rates	 $65 per hour>
+<additional_info psychsoft>
+</p>
+
+# Consultant: US
+# data updated on 27.02.2013
+<p>
+<name	 Joe Conway>
+<company credativ LLC>
+<address 616 Burnham Street, El Cajon / San Diego, CA 92019, <country-name US>>
+<phone	 +1-619-270-8787>
+<email	 info@credativ.us>
+<URL	 "http://www.credativ.us">
+<rates   Call for rates.>
+<additional_info credativ>
+</p>
+
+## Consultant: US
+## Still active, data is valid. 21.03.2013
+# 09.10.14 holger-guest: mail bounced, commented out.
+#<p>
+#<name	 Duane Powers>
+#<company Powers Consulting &amp; Computer Services, Inc.>
+#<address Ranch Place, Westminster, CO. 80234, <country-name US>>
+#<phone   303.469.9321>
+#<email	 debian@powersccs.com>
+#<URL     "http://www.powersccs.com/">
+#<rates   $125/hr>
+#</p>
+
+# Consultant: US
+# added on 04.03.2013
+<p>
+<name	 Keith Herron>
+<address Boston, MA, <country-name US>>
+<phone   646-543-7766>
+<email	 keithjherron@gmail.com>
+<URL     "http://backdrift.org/aboutme">
+<rates   Hourly, project and monthly rates available. Please
+contact me for a free consultation and quote.>
+<additional_info keith_h>
+</p>
+
+# Consultant: US
+# added on 05.03.2013
+<p>
+<name	 Michael Compton>
+<company Compton Networks Organization / Compton's Computer Services>
+<address PO Box 148, Kettle Falls, Washington 99141, <country-name US>>
+<phone   509-675-0417>
+<email	 support@compton-networks.org>
+<URL     "http://www.compton-networks.org">
+<rates   $75/hr. Negotiable rates availible for non-profits &amp; low
+income parties such as seniors and those with disabilities.>
+<additional_info compton_networks>
+</p>
+
+# Consultant: US
+# added on 13.04.2014
+<p>
+<name    David Retz>
+<company Comware International, Inc.>
+<address P.O.Box 410, Solvang, CA 93464, <country-name US>>
+<phone   (805) 686-1262>
+<email   dretz@comware.us>
+<URL     "http://comware.us/Content/linuxconsulting">
+<rates   US$225/hour unless otherwise by contract/project.>
+<additional_info comware>
+</p>
+
+# Consultant: US
+# added on 29.06.2014
+<p>
+<name    Ted Jordan>
+<company JordanTeam Learning LLC>
+<address 23715 Mercantile Road, Ste 215, Beachwood, OH 44122, <country-name US>>
+<phone   216-378-9035 (mobile)>
+<fax  	 216-378-9476>
+<email   ted@jordanteam.com>
+<URL     "http://www.jordanteam.com">
+<rates   $2000 a week for Linux Certification Class.>
+<additional_info jordan>
+</p>
+
+# Consultant: US
+# added on 25.07.2014
+<p>
+<name    Jill Rouleau>
+<company Bespoke Software Solutions>
+<address 2875 W Ray Rd #6-209 Chandler, AZ 85224, <country-name US>>
+<phone   480-788-1715>
+<email   info@bespokess.com>
+<URL     "http://www.bespokess.com">
+<rates   Hourly, Project, and Maintenance plans available.>
+</p>
+
+# Consultant: US
+# added on 28.07.2014
+# data updated on 26.11.2014
+<p>
+<company Pantek, Inc.>
+<address 4401 Rockside Rd #205, Independence, OH 44131, <country-name US>>
+<phone   +1-216-344-1614 -or- 877-LINUXFIX>
+<email   support@pantek.com>
+<URL     "http://www.pantek.com/support.php">
+<rates   $199/hour -or- $1750 for 10 hours -or- $7500 for 50 Hours. 
+Monthly server administration and management programs also available, 
+please check our website for pricing.>
+</p>
+  <ul>
+    <li>Pantek is active for the United States, Canada, United 
+        Kingdom and Australia.</li>
+  </ul>
+
+# Consultant: US
+# added on 19.09.2014
+<p>
+<name    Acu Ilie Dorin Ph.D.>
+<company Acu Corporation>
+<address 15 east Palatine Road Ste 112, Prospect Heights, IL, <country-name US>>
+<phone   (507)-3582929>
+<email   acu@acucorporation.com>
+<URL     "http://www.acucorporation.com">
+<rates   $45/hour to $200/hour, depends on the project length.>
+<additional_info acu>
+</p>
+
+# Consultant: US
+# added on 03.03.2015
+<p>
+<company Aikidev, LLC>
+<address Portland, OR, <country-name US>>
+<email   debian-consulting@aikidev.net>
+<URL     "http://www.aikidev.net/consulting">
+<additional_info aikidev>
+</p>
+
+# Consultant: US
+# added on 08.05.2015
+<p>
+<name    Ben Francom>
+<address <country-name US>>
+<email   bfrancom@gmail.com>
+<URL     "http://www.benfrancom.com/debian/">
+<rates   Negotiable.>
+</p>
+
+# Consultant: US
+# re-added on 12.07.2015
+<p>
+<name    John Michael Rulnick, Ph.D.>
+<company Rulnick Engineering>
+<address Boston MA, <country-name US>>
+<email   debian@rulnick.com scramble="yes">
+<URL     "https://rulnick.com/">
+<rates   Free initial consultation; discounts for small businesses,
+         non-profits, and educational institutions; please see rulnick.com.>
+</p>
+
+# Consultant: US
+# re-added on 28.07.2015
+<p>
+<company ScratchSpace Inc.>
+<address 101 Cooper Street, Suite 218, Santa Cruz, CA 95060, <country-name US>>
+<phone   831-621-7928>
+<email   sales@scratchspace.com>
+<URL     "http://www.scratchspace.com">
+<rates   Hourly, Project, and Maintenance plans available.>
+<additional_info scratchspace>
+</p>
+
+
+<h1><a name="AE"><country-name AE>:</a></h1>
+
+# Consultant: AE
+# mail sent to check status: 16.07.2013 holger-guest. Result: still active, entry updated.
+<p>
+<name    Christian Schmidt>
+<company DN-Systems International Limited>
+<address Box 500 581, Dubai, <country-name AE>>
+<phone   +971-50-2861299>
+<email   debhelp@dn-systems.com>
+<URL     http://www.dn-systems.com>
+<rates   Please get a quotation first.>
+</p>
+
+
+<h1><a name="VE"><country-name VE>:</a></h1>
+
+# Consultant: VE
+# added on 24.05.2014
+<p>
+<name    Anderson Guzman>
+<company Pendulo Software>
+<address 4ta Av. Campo Claro, Quinta Los Ríos, <country-name VE>>
+<phone   +58.212.625.07.08>
+<email   pendulosoftware@gmail.com>
+<rates   Please contact via e-mail or phone.>
+</p>

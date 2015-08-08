@@ -1,0 +1,28 @@
+# From: James Roberts <j.roberts@stabilys.com>
+# Ping: Sat, 14 Apr 2012 17:16:14 +0100 <4F89A2CE.80104@stabilys.com>
+
+<define-tag pagetitle>Computer Division, Stabilys Ltd, London, United Kingdom</define-tag>
+<define-tag webpage>http://stabilys.com/</define-tag>
+
+#use wml::debian::users
+
+<p>
+              The bulk of our SME backbone infrastructure runs on Debian. 
+</p>
+
+<p>
+    We chose Debian back in 2004 as our preferred option after
+    an extensive review process and considerable experience with
+    (inter alia) Red Hat, SuSE, Ubuntu and Slackware.
+We have recently rerun the process and have again
+chosen Debian as our prime infrastructure tool. We
+    prefer Debian for its package management system, its security management, 
+    its strict adherence to policies, and its relatively slow upgrade cycle. 
+</p>
+<p>
+We use Debian as a KVM host, to provide NAS/NFS/iSCSI
+services, SMB, for archiving servers, for monitoring/NOC
+hosting, web serving, email, and many application servers.
+We currently run two small private clouds based on Debian.
+We have just under 100 instances in total at present.
+</p>

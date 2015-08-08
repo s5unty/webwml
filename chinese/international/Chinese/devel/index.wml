@@ -1,0 +1,14 @@
+#use tmpl::debian-zh::template area=devel title="Debian Chinese Project Development" NOHEADER=yes
+
+# $Id: index.wml,v 1.5 2011/04/06 22:52:51 foka Exp $
+
+<H1>Debian 中文計劃的開發</H1>
+
+<UL>
+<LI><A href="people">計劃成員</A>
+<LI><A href="groups">計劃小組</A>
+<LI><A href="join">參與計劃</A>
+<LI><A href="zhongwenhua">中文化</A>
+<LI><A href="doc_translate">[CN:文檔:][HKTW:文件:]翻譯</A>
+<LI><A href="www_translate">網頁翻譯</A>
+</UL>

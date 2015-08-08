@@ -1,0 +1,51 @@
+#use wml::debian::template title="Debian in Bulgarian" BARETITLE="yes"
+#use wml::debian::translation-check translation="1.10" original="bulgarian"
+
+# This contents of this page is maintained by the Bulgarian translators.
+# Unlike the other pages, this is a translation; the original is in
+# bulgarian/international/Bulgarian.wml
+
+<p>Debian specific resources:
+</p>
+<ul>
+  <li><strong>Debian book in Bulgarian</strong> &mdash; <a
+      href="http://debian-book-bg.openfmi.net">\
+      http://debian-book-bg.openfmi.net</a>.</li>
+  <li>Mailing list for Bulgarian users of Debian &mdash; <a
+      href="http://lists.uni-sofia.bg/cgi-bin/mailman/listinfo/debian">\
+      debian@lists.uni-sofia.bg</a>.</li>
+</ul>
+
+<p>Resources for translators:
+</p>
+<ul>
+  <li><a href="http://fsa-bg.org/cgi-bin/mailman/listinfo/dict">Mailing
+      list</a> for discussion and information about translating free software
+      and documentation in Bulgarian.</li>
+  <li><a href="http://m-balabanov.hit.bg/">Useful translation hints</a> (accessible only from Bulgaria).</li>
+</ul>
+
+<p>Other projects for translation of free software and documentation in
+Bulgarian:
+</p>
+<ul>
+  <li><a href="http://gnome.cult.bg">Gnome Bulgarian Translation
+      Project</a>.</li>
+  <li><a href="http://kde.lindeas.com">KDE Bulgarian Translation
+      Project</a>.</li>
+  <li><a href="http://bgoffice.sourceforge.net">BG Office Project</a>. Spell
+      checker, thesaurus, hyphenation and other tools for OpenOffice.org,
+      aspell, ispell, Mozilla and others.</li>
+  <li><a href="http://bg.openoffice.org">OpenOffice.org for
+      bulgarians</a>.</li>
+</ul>
+
+<p>General Linux resources:
+</p>
+<ul>
+   <li><a href="http://www.linux-bg.org/"><strong>Linux for
+       bulgarians</strong></a> &mdash; a Linux portal.</li>
+   <li>LUG-BG mailing list:
+       <a href="http://www.linux-bulgaria.org/public/mail_list.html">\
+       lug-bg@linux-bulgaria.org</a>.</li>
+</ul>

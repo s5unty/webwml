@@ -1,0 +1,244 @@
+# If this makefile is not generic enough to support a translation,
+# please contact debian-www.
+
+WMLBASE=..
+CUR_DIR=po
+
+include $(WMLBASE)/Make.lang
+
+LOCALEROOT = $(WMLBASE)/../locale
+
+DOMAINS = templates bugs cdimage consultants countries date distrib \
+	  doc l10n langs legal mailinglists newsevents organization \
+	  ports security stats vendors vote wnpp others
+
+bugs_FILES      = $(ENGLISHDIR)/Bugs/pkgreport-opts.inc
+cdimage_FILES   = $(TEMPLDIR)/cdimage.wml $(ENGLISHDIR)/CD/CD-keys.data \
+		  $(ENGLISHDIR)/devel/debian-installer/images.data
+consultants_FILES = $(TEMPLDIR)/consultant.wml \
+  $(ENGLISHDIR)/consultants/consultant.defs
+countries_FILES = $(TEMPLDIR)/countries.wml
+date_FILES      = $(TEMPLDIR)/ctime.wml
+distrib_FILES	= $(ENGLISHDIR)/distrib/search_packages-form.inc \
+  $(ENGLISHDIR)/distrib/search_contents-form.inc \
+  $(ENGLISHDIR)/releases/arches.data
+doc_FILES       = $(ENGLISHDIR)/doc/books.def $(ENGLISHDIR)/doc/manuals.defs \
+		  $(ENGLISHDIR)/doc/books.data $(ENGLISHDIR)/releases/arches.data
+l10n_FILES      = $(ENGLISHDIR)/international/l10n/dtc.def \
+  $(ENGLISHDIR)/international/l10n/menu.def
+langs_FILES     = $(TEMPLDIR)/language_names.wml
+legal_FILES     = $(addprefix $(TEMPLDIR)/, legal.wml legal_tags.wml)
+mailinglists_FILES = $(ENGLISHDIR)/MailingLists/mklist.tags
+newsevents_FILES = $(addprefix $(TEMPLDIR)/, \
+  events_common.wml news.wml speakers.wml \
+  projectnews/footer.wml weeklynews/footer.wml \
+  projectnews/boilerplates.wml ) \
+  $(ENGLISHDIR)/News/press/press.tags \
+  $(ENGLISHDIR)/events/speakers/speakers.defs \
+  $(ENGLISHDIR)/events/talks.defs \
+  $(ENGLISHDIR)/News/news.rdf.in \
+  $(ENGLISHDIR)/News/weekly/dwn-to-rdf.pl 
+organization_FILES = $(ENGLISHDIR)/intro/organization.data
+ports_FILES     = $(ENGLISHDIR)/ports/menu.defs \
+  $(shell export LC_COLLATE=C; echo $(ENGLISHDIR)/ports/*/menu.inc)
+security_FILES  = $(TEMPLDIR)/security.wml \
+  $(TEMPLDIR)/securityreferences.wml \
+  $(ENGLISHDIR)/security/faq.inc \
+  $(ENGLISHDIR)/security/dsa.rdf.in \
+  $(ENGLISHDIR)/security/make-ref-table.pl \
+  $(ENGLISHDIR)/security/index.include
+stats_FILES 	= $(WMLBASE)/../stattrans.pl $(TEMPLDIR)/stats_tags.wml
+vendors_FILES   = $(ENGLISHDIR)/CD/vendors/vendors.CD.def
+vote_FILES      = $(TEMPLDIR)/votebar.wml
+wnpp_FILES      = $(TEMPLDIR)/wnpp.wml
+others_FILES    = $(ENGLISHDIR)/banners/index.tags \
+  $(ENGLISHDIR)/devel/debian-installer/ports-status.defs \
+  $(ENGLISHDIR)/devel/website/tc.data \
+  $(ENGLISHDIR)/distrib/pre-installed.data $(ENGLISHDIR)/distrib/pre-installed.defs \
+  $(ENGLISHDIR)/logos/index.data \
+  $(ENGLISHDIR)/misc/merchandise.def $(ENGLISHDIR)/y2k/l10n.data \
+  $(ENGLISHDIR)/devel/join/nm-steps.inc \
+  $(ENGLISHDIR)/mirror/submit.inc \
+  $(ENGLISHDIR)/women/profiles/profiles.def
+templates_FILES = $(addprefix $(TEMPLDIR)/, \
+  basic.wml \
+  common_tags.wml common_translation.wml \
+  ddp.wml fixes_link.wml footer.wml languages.wml \
+  links.tags.wml navbar.wml recent_list.wml release.wml \
+  translation-check.wml url.wml users.wml) $(ENGLISHDIR)/search.xml.in
+
+
+POTFILES = $(addprefix $(ENGLISHDIR)/po/,$(addsuffix .pot,$(DOMAINS)))
+MOFILES = $(addsuffix .mo,$(DOMAINS))
+SOURCEFILES = \
+  $(bugs_FILES)                 \
+  $(cdimage_FILES)              \
+  $(consultants_FILES)          \
+  $(countries_FILES)            \
+  $(date_FILES)                 \
+  $(distrib_FILES)              \
+  $(doc_FILES)                  \
+  $(l10n_FILES)                 \
+  $(langs_FILES)                \
+  $(legal_FILES)                \
+  $(mailinglists_FILES)         \
+  $(newsevents_FILES)           \
+  $(organization_FILES)         \
+  $(ports_FILES)                \
+  $(security_FILES)             \
+  $(stats_FILES)                \
+  $(vendors_FILES)              \
+  $(vote_FILES)                 \
+  $(wnpp_FILES)                 \
+  $(others_FILES)               \
+  $(templates_FILES)
+
+all install:: $(POTFILES) install-mo
+
+$(ENGLISHDIR)/po/templates.pot: # $(templates_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl templates $(templates_FILES) > $@
+
+$(ENGLISHDIR)/po/bugs.pot: # $(bugs_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl bugs $(bugs_FILES) > $@
+
+$(ENGLISHDIR)/po/cdimage.pot: # $(cdimage_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl cdimage $(cdimage_FILES) > $@
+
+$(ENGLISHDIR)/po/consultants.pot: # $(consultants_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl consultants $(consultants_FILES) > $@
+
+$(ENGLISHDIR)/po/countries.pot: # $(countries_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl countries $(countries_FILES) > $@
+
+$(ENGLISHDIR)/po/date.pot: # $(date_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl date $(date_FILES) > $@
+
+$(ENGLISHDIR)/po/distrib.pot: # $(date_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl distrib $(distrib_FILES) > $@
+
+$(ENGLISHDIR)/po/doc.pot: # $(doc_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl doc $(doc_FILES) > $@
+
+$(ENGLISHDIR)/po/l10n.pot: # $(l10n_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl l10n $(l10n_FILES) > $@
+
+$(ENGLISHDIR)/po/langs.pot: # $(langs_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl langs $(langs_FILES) > $@
+
+$(ENGLISHDIR)/po/legal.pot: # $(legal_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl legal $(legal_FILES) > $@
+
+$(ENGLISHDIR)/po/mailinglists.pot: # $(mailinglists_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl mailinglists $(mailinglists_FILES) > $@
+
+$(ENGLISHDIR)/po/newsevents.pot: # $(newsevents_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl newsevents $(newsevents_FILES) > $@
+
+$(ENGLISHDIR)/po/organization.pot: # $(organization_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl organization $(organization_FILES) > $@
+
+$(ENGLISHDIR)/po/ports.pot: # $(ports_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl ports $(ports_FILES) > $@
+
+$(ENGLISHDIR)/po/security.pot: # $(security_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl security $(security_FILES) > $@
+
+$(ENGLISHDIR)/po/stats.pot: # $(stats_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl stats $(stats_FILES) > $@
+
+$(ENGLISHDIR)/po/vendors.pot: # $(vendors_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl vendors $(vendors_FILES) > $@
+
+$(ENGLISHDIR)/po/vote.pot: # $(vote_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl vote $(vote_FILES) > $@
+
+$(ENGLISHDIR)/po/wnpp.pot: # $(wnpp_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl wnpp $(wnpp_FILES) > $@
+
+$(ENGLISHDIR)/po/others.pot: # $(others_FILES)
+	$(ENGLISHDIR)/po/wmlxgettext.pl others $(others_FILES) > $@
+
+ifeq "$(LANGUAGE)" "en"
+
+init-po:
+update-po:
+install-mo:
+stats:
+
+pot:
+	rm -f $(POTFILES)
+	$(MAKE) $(POTFILES)
+
+gen-%.pot:
+	potfile=$(ENGLISHDIR)/po/$*.pot; \
+	rm -f $$potfile; \
+	$(MAKE) $$potfile
+
+cvsupdate:
+	@echo 'cd $(WMLBASE)/..;' `echo cvs update $(SOURCEFILES) | sed -e 's/ [^ ]*\/\.\.\// /g'`
+
+else # not english
+
+%.$(LANGUAGE).po: $(ENGLISHDIR)/po/%.pot
+# this prevents breakage when a new .pot file is added
+	@[ -f $@ ] || cp $(ENGLISHDIR)/po/$*.pot $@
+
+%.mo: %.$(LANGUAGE).po
+	msgmerge -q $*.$(LANGUAGE).po $(ENGLISHDIR)/po/$*.pot | \
+            msgfmt --statistics -o $@ -
+
+init-po:
+	for d in $(DOMAINS); do \
+	  [ -f $$d.$(LANGUAGE).po ] || cp $(ENGLISHDIR)/po/$$d.pot $$d.$(LANGUAGE).po; \
+	done
+
+update-po: $(POTFILES)
+	for d in $(DOMAINS); do \
+	  if [ ! -e $$d.$(LANGUAGE).po ]; then cp $(ENGLISHDIR)/po/$$d.pot $$d.$(LANGUAGE).po; fi; \
+	  msgmerge --previous -F -q $$d.$(LANGUAGE).po $(ENGLISHDIR)/po/$$d.pot -o $$d.$(LANGUAGE).po.new && mv $$d.$(LANGUAGE).po.new $$d.$(LANGUAGE).po; \
+	done
+
+update-%.$(LANGUAGE).po:
+	msgmerge --previous -F -q $*.$(LANGUAGE).po $(ENGLISHDIR)/po/$*.pot -o $*.$(LANGUAGE).po.new
+	mv $*.$(LANGUAGE).po.new $*.$(LANGUAGE).po
+
+# can't have this here, it's like that in Makefile.common
+# DESTMOFILES := $(addprefix $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES/,$(MOFILES))
+# 
+# $(DESTMOFILES): $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES/%.mo: %.mo
+# 	@[ -d $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES ] || mkdir -p $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES
+# 	@cp -vu $< $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES/$<
+
+INSTMOFILES := $(addprefix install-,$(MOFILES))
+
+$(INSTMOFILES): install-%.mo: %.mo
+	@[ -d $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES ] || mkdir -p $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES
+	@cp -vu $< $(LOCALEROOT)/$(LANGUAGE)/LC_MESSAGES/$<
+
+install-mo: $(INSTMOFILES)
+
+clean::
+	rm -f *.mo
+
+
+stats: $(POTFILES)
+# Suppress errors from msgmerge as they corrupt translation stats on
+# the Debian website
+	-@for d in $(DOMAINS); do \
+		echo -n "$$d.$(LANGUAGE).po: " 1>&2; \
+		if [ -e $$d.$(LANGUAGE).po ]; then \
+			msgmerge -q $$d.$(LANGUAGE).po $(ENGLISHDIR)/po/$$d.pot 2>/dev/null | \
+			msgfmt -o /dev/null --statistics -; \
+		else \
+			echo -n $$(expr $$(egrep '^msgid ' $(ENGLISHDIR)/po/$$d.pot | wc -l) - 1); \
+			echo ' untranslated messages.'; \
+		fi; \
+	done
+
+todo:
+	-@for d in $(DOMAINS); do \
+          echo "##############  $$d.$(LANGUAGE).po: " ; \
+	  msgattrib --untranslated $$d.$(LANGUAGE).po; \
+	done
+
+endif # english or not

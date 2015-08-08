@@ -1,0 +1,303 @@
+#use wml::debian::template title="Debian GNU/Hurd -- News" NOHEADER="yes"
+#include "$(ENGLISHDIR)/ports/hurd/menu.inc"
+
+<h1>News about Debian GNU/Hurd</h1>
+
+<h3><:=spokendate ("2015-04-25"):></h3>
+
+<p>Debian GNU/Hurd 2015 <em>released</em>!</p>
+
+<p>It is with huge pleasure that the Debian GNU/Hurd team announces the 
+<strong>release of Debian GNU/Hurd 2015</strong>. <br />
+This is a snapshot of Debian "sid" at the time of the stable Debian
+"jessie" release (April 2015), so it is mostly based on the same sources.  It is <em>not</em> an
+official Debian release, but it is an official Debian GNU/Hurd port release.</p>
+
+<p>The installation ISO images can be downloaded from
+<a href="http://ftp.debian-ports.org/debian-cd/hurd-i386/debian-hurd-2015/">Debian Ports</a>
+in the usual three Debian flavors: NETINST, CD, or DVD. Besides the friendly
+Debian installer, a pre-installed disk image is also available, making it even easier to try
+Debian GNU/Hurd. The easiest way to run it is
+<a href="https://www.debian.org/ports/hurd/hurd-install">inside a VM such as qemu</a></p>
+
+<p>Debian GNU/Hurd is currently available for the i386 architecture with more
+than 80% of the Debian archive, and more to come!</p>
+
+<p>Since the last snapshot release coinciding with "wheezy", the init system has been
+switched to sysvinit for a more Debian-like experience. Further changes since 
+the last snapshot include:</p>
+
+<ul>
+<li>The core GNU Hurd and GNU Mach packages were updated to versions 0.6 and 
+   1.5, respectively. Besides numerous other improvements, they bring vastly 
+   improved stability under load and prolonged uptime.</li>
+<li>The networking drivers were migrated to user-space drivers using the NetDDE 
+   framework and a  Linux-2.6.32 codebase.</li>
+</ul>
+
+<p>
+Notable new or upgraded packages which required considerable porting effort and/or 
+are known to work well on Debian GNU/Hurd include Iceweasel 31 ESR, Xfce 4.10, 
+X.org 7.7 and Emacs 24.4.
+</p>
+
+<p>Please make sure to read the
+<a href="https://www.debian.org/ports/hurd/hurd-install">configuration information</a>,
+the <a href="http://www.gnu.org/software/hurd/faq.html">FAQ</a> (or <a href="http://darnassus.sceen.net/~hurd-web/faq/">its latest version</a>),
+and the <a href="http://www.gnu.org/software/hurd/hurd/documentation/translator_primer.html">translator primer</a>
+to get a grasp of the great features of GNU/Hurd.</p>
+
+<p>We would like to thank all the people who have worked on GNU/Hurd <a
+href=http://www.gnu.org/software/hurd/history.html>in the past</a>.
+There were not many people at any given time (and still not many people
+today, please <a href="http://www.gnu.org/software/hurd/contributing.html">join</a>!), but in the end a lot of people have
+contributed one way or the other. <strong>Thanks everybody!</strong></p>
+
+<h3><:=spokendate ("2013-05-21"):></h3>
+
+<p>Debian GNU/Hurd 2013 <em>released</em>!</p>
+
+<p>It is with huge pleasure that the Debian GNU/Hurd team announces the 
+<strong>release of Debian GNU/Hurd 2013</strong>. <br />
+This is a snapshot of Debian "sid" at the time of the Debian
+"wheezy" release (May 2013), so it is mostly based on the same sources.  It is <em>not</em> an
+official Debian release, but it is an official Debian GNU/Hurd port release.</p>
+
+<p>The installation ISO images can be downloaded from
+<a href="http://ftp.debian-ports.org/debian-cd/hurd-i386/debian-hurd-2013/">Debian Ports</a>
+in the usual three Debian flavors: NETINST, CD, or DVD. Besides the friendly
+Debian installer, a pre-installed disk image is also available, making it even easier to try
+Debian GNU/Hurd.</p>
+
+<p>Debian GNU/Hurd is currently available for the i386 architecture with more than 75% of the Debian archive, and more to come!</p>
+
+<p>Please make sure to read the
+<a href="https://www.debian.org/ports/hurd/hurd-install">configuration information</a>,
+the <a href="http://www.gnu.org/software/hurd/faq.html">FAQ</a>,
+and the <a href="http://www.gnu.org/software/hurd/hurd/documentation/translator_primer.html">translator primer</a>
+to get a grasp of the great features of GNU/Hurd.</p>
+
+<p>Due to the very small number of developers,
+our progress of the project has not been as fast as other successful
+operating systems, but we believe to have reached <a
+href="http://www.gnu.org/software/hurd/hurd/status.html">a very decent
+state</a>, even with our limited resources. </p>
+
+<p>We would like to thank all the people who have worked on GNU/Hurd <a
+href=http://www.gnu.org/software/hurd/history.html>over the past
+decades</a>. There were not many people at any given time (and still not many people
+today, please <a href="http://www.gnu.org/software/hurd/contributing.html">join</a>!), but in the end a lot of people have
+contributed one way or the other. <strong>Thanks everybody!</strong></p>
+
+<h3><:=spokendate ("2011-06-11"):></h3>
+
+<p>Various bugs of the debian-installer based image were fixed, there is no
+known issue except that GNOME and KDE are not installable yet.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2011-02-15"):></h3>
+
+<p>The debian-installer based image was updated to squeeze d-i packages.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2010-09-01"):></h3>
+
+<p>A debian-installer based image is available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2009-10-19"):></h3>
+
+<p>The L1 DVD images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2007-12-21"):></h3>
+
+<p>The K16 CD images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2007-11-19"):></h3>
+
+<p>The K15 CD images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2006-11-27"):></h3>
+
+<p>The K14 CD images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2006-04-26"):></h3>
+
+<p>The K11 CD mini image is now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2005-10-26"):></h3>
+
+<p>The K10 CD and DVD images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2005-05-14"):></h3>
+
+<p>The K9 CD Images are now available.<br/>
+See the <a href="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2004-12-30"):></h3>
+
+<P>The K8 CD Images are now available. These Images  support Filesystems bigger
+than 2 GB and feature an update of the network device drivers.<br/>
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2004-03-06"):></h3>
+
+<P>After a long time of not being updated, new CVS snapshots of <a
+href="https://packages.qa.debian.org/hurd">the Hurd</a> and <a
+href="https://packages.qa.debian.org/gnumach">GNU Mach</a> are uploaded.</p>
+
+<h3><:=spokendate ("2003-07-31"):></h3>
+
+<P>The K4 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2003-04-30"):></h3>
+
+<P>The K3 CD images are now available. 
+They have been renamed to GNU-K3-CDx.iso <br>
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+
+<h3><:=spokendate ("2003-03-06"):></h3>
+
+<P>The K2 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2002-10-10"):></h3>
+
+<P>The J2 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+
+<P>Upgrading Debian GNU/Hurd from a libio-based system before
+2002-08-12 (including J1 CD series).
+
+<P>Updating a Debian GNU/Hurd system in August 2002 requires to follow
+the procedure outlined in the <A HREF="extra-files/hurd-upgrade.txt">upgrade
+manual</A>.  This update procedure is necessary because the Hurd
+interfaces went through an incompatible change to prepare support of
+long files.
+
+<h3><:=spokendate ("2002-08-05"):></h3>
+
+<P>The J1 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2002-02-26"):></h3>
+
+<P>The H3 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2001-12-15"):></h3>
+
+<P>The H2 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2001-11-11"):></h3>
+
+<P>The H1 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2001-10-05"):></h3>
+
+<P>The G1 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2001-08-07"):></h3>
+
+<p>
+Today is the first time we crossed the 40% mark in the <a
+href="https://buildd.debian.org/stats/graph.png">statistic about
+up-to-date packages</a> per architecture.</p>
+
+<h3><:=spokendate ("2001-07-31"):></h3>
+
+<P>The F3 CD images are now available.  
+See the <A HREF="./hurd-cd">Hurd CD page</a> for further information.</p>
+
+<h3><:=spokendate ("2001-07-12"):></h3>
+
+<p>Marcus Brinkmann has made available his presentation about the hurd.
+It is currently available from:</p>
+<a href="http://www.marcus-brinkmann.de/talks.en.html">http://www.marcus-brinkmann.de/talks.en.html</a>
+
+<h3><:=spokendate ("1999-11-01"):></h3>
+
+<p>
+Cleaned up some outstanding bug reports which were closed by now. Going to
+upload some more packages, in addition to those uploaded in the last days
+(inetutils, grub, man-db, now coming hostname, mtools, ...). All those now
+compile without any changes, which is a good thing. Seems we are slowly
+stabilizing the basic set of packages.</p>
+
+<h3><:=spokendate ("1999-09-29"):></h3>
+
+<p>
+There are <a
+href="ftp://alpha.gnu.org/gnu/hurd/contrib/marcus/">patches to glue
+Linux character devices into GNU Mach</a> now. These patches are very
+experimental, and the tty driver does not work correctly with the term
+translator, but we are working on it and hope to be able to provide a
+binary soon. Note that this will bring the Linux console to the Hurd
+(including color and virtual consoles), as well as drivers for various
+non standard mice and other serial devices.</p>
+
+<p>
+I heard that some people are concerned about the size of GNU Mach, as
+well as it becoming a subset of Linux. Please note that we are only
+searching for a temporary solution here, until we have the time to
+redesign the driver interface in GNU Mach (or use another
+Microkernel). The microkernel is not at all that important as the Hurd
+servers are which run on top of it.</p>
+
+<p>
+On the package side, we have now a proper <code>shadow</code> package
+(which produces <code>passwd</code> (thanks, BenC!)). Also,
+<code>man-db</code> should work out of the box now even with long
+filenames, but I haven't checked the other changes. All in all, the
+base section is getting into a good shape. Torin has applied my patch
+for <code>perl</code>, and that's another package I have to check out
+if it can be `finalized' now.</p>
+
+<h3><:=spokendate ("1999-08-31"):></h3>
+
+<p>
+<code>debianutils 1.12</code> does now compile without patch.</p>
+
+<h3><:=spokendate ("1999-08-05"):></h3>
+
+<p>
+Source NMU for <code>passwd</code> (<code>shadow</code>) should fix
+all remaining problems in this package. This should make for a
+smoother install.  On the other side, <code>mutt</code> requires a
+small patch.</p>
+
+<h3><:=spokendate ("1999-07-27"):></h3>
+
+<p>
+New packages of the core system are finished now. The Hurd has a new
+way to boot (the part that happens after init is started), take a look
+at <code>/libexec/runsystem</code>. This is useful for the
+<code>sysvinit</code> package, which is almost done. Fixed a buglet in
+GNU Lib C and one in GNU Mach. Autodetection of all network cards
+should work now, but maybe we need to tweak the order a bit (3c5x9
+before 3c59x).</p>
+
+<h3><:=spokendate ("1999-07-22"):></h3>
+
+<p>
+<code>cpio 2.4.2-25</code> fixes the remaining Hurd compatibility issue
+and can now be compiled without changes. Thanks Brian!</p>
+
+<h3><:=spokendate ("1999-07-05"):></h3>
+
+<p>
+Perl 5.005.03 patches submitted to the maintainer. The upstream code
+was already clean (thanks, Mark!), but the Debian packaging scripts
+were linux specific.</p>

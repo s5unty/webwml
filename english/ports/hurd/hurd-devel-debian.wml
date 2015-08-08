@@ -1,0 +1,145 @@
+#use wml::debian::template title="Debian GNU/Hurd --- Development" NOHEADER="yes"
+#include "$(ENGLISHDIR)/ports/hurd/menu.inc"
+
+<h1>
+Debian GNU/Hurd</h1>
+<h2>
+Development of the Distribution</h2>
+
+<h3>
+Porting Debian Packages</h3>
+<p>
+If you want to help the Debian GNU/Hurd port, you should make yourself
+familiar with the Debian packaging system.  Once you have done this by
+reading the available documentation and visiting the <a
+href="$(HOME)/devel/">Developer's Corner</a> you should know how to
+extract Debian source packages and build a Debian package. Here is a
+crash course for the very lazy people:</p>
+
+<h3>
+Obtaining Source and Building Packages</h3>
+
+<p>
+Obtaining Source code can be done by simply running <code>apt-get source
+package</code>, which will also extract the source.
+</p>
+
+<p>
+Extracting a Debian source package requires the file
+<code>package_version.dsc</code> and the files listed in it. You build the
+Debian build directory with the command
+<code>dpkg-source -x package_version.dsc</code>
+</p>
+
+<p>
+Building a package is done in the now existing Debian build directory
+<code>package-version</code> with the command
+<code>dpkg-buildpackage -B "-mMyName &lt;MyEmail&gt;"</code>.
+Instead <code>-B</code> you can use
+<code>-b</code> if you also want to build the architecture independent
+parts of the package. You can add
+<code>-uc</code> to avoid signing the package with your pgp key.</p>
+
+<p>
+Building may needed additional installed packages. The simplest way it to run
+<code>apt-get build-dep package</code> which will install all required packages.
+</p>
+
+<h3>
+Pick One</h3>
+<p>
+Which package needs to be worked on?  Well, every package that is not
+yet ported, but needs to be ported.  This changes constantly, so
+it's preferred to concentrate first on packages with a lot of reverse
+dependencies, which can be seen in the package dependency graph
+<url "https://people.debian.org/~sthibault/graph-radial.pdf"> updated every day,
+or on the most-wanted list
+<url "https://people.debian.org/~sthibault/graph-total-top.txt"> (this is
+long-term wanted, the short-term wanted is
+<url "https://people.debian.org/~sthibault/graph-top.txt">).
+It is also usually a good idea to pick from the out of date list
+<url "https://people.debian.org/~sthibault/out_of_date.txt">, as these used to be
+working, and are now broken probably only for just a couple of reasons.
+You can also just pick one of the missing packages at random, or watch out for
+autobuilding logs on the debian-hurd-build-logs mailing list, or use the
+wanna-build list from
+<url "https://people.debian.org/~sthibault/failed_packages.txt"> . Some build issues are easier to fix than the others. Typically, "undefined reference to foo", where foo is something like pthread_create, dlopen, cos, ... (which are obviously available on hurd-i386), which just shows that the configure step of the package forgot to include -lpthread, -ldl, -lm, etc. on the Hurd too. Note however that ALSA MIDI functions are not available.
+</p>
+<p>
+Also, check whether work has already been done on
+<url "https://alioth.debian.org/tracker/?atid=410472&amp;group_id=30628&amp;func=browse">,
+<url "https://alioth.debian.org/tracker/?atid=411594&amp;group_id=30628&amp;func=browse">,
+and the BTS (<url "https://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-hurd@lists.debian.org;tag=hurd">), and <url "https://wiki.debian.org/Debian_GNU/Hurd">,
+and the live state of packages on buildd.debian.org, e.g.
+<url "https://buildd.debian.org/util-linux">.
+</p>
+
+<h4>
+Packages That Won't Be Ported</h4>
+<p>
+Some of these packages, or parts of them, might be portable later, but
+currently they are considered to be unportable at least. They are normally
+marked as NotForUs in the buildd database.
+</p>
+
+<ul>
+<li>
+<code>base/makedev</code>, because the Hurd comes with its own version
+of this script. The Debian source package only contains a Linux
+specific version.</li>
+<li>
+<code>base/modconf</code> and <code>base/modutils</code>, because
+modules are a concept specific to Linux.</li>
+<li>
+<code>base/netbase</code>, because the remaining stuff that is there
+is highly specific to the Linux kernel. The Hurd uses
+<code>inetutils</code> instead.</li>
+<li>
+<code>base/pcmcia-cs</code>, because this package is Linux specific.</li>
+<li>
+<code>base/setserial</code>, because it is specific to the Linux
+kernel. However, with the port of Linux char drivers to GNU Mach, we
+might be able to use it.</li>
+</ul>
+
+<h3> <a name="porting_issues">
+General Porting Issues</a></h3>
+<p>
+<a href=http://www.gnu.org/software/hurd/hurd/porting/guidelines.html>A list of
+common issues</a> is available on the upstream website. The following common
+issues are specific to Debian.</p>
+<p>Before attempting to fix something, check whether the kfreebsd* port maybe
+has some fix already, which just needs to be extended to hurd-i386.</p>
+
+<ul>
+<li>
+<code>Broken libc6 dependency</code>
+<p>
+Some packages use an erroneous dependency on <code>libc6-dev</code>. This
+is incorrect because <code>libc6</code> is specific to some architectures
+of GNU/Linux. The corresponding package for GNU is <code>libc0.3-dev</code>
+but other OSes will have different ones. You can locate the problem in the
+<code>debian/control</code> file of the source tree. Typical solutions include
+detecting the OS using <code>dpkg-architecture</code> and hardcoding the
+soname, or better, use a logical OR. eg: 
+<code>libc6-dev | libc6.1-dev | libc0.3-dev | libc0.1-dev | libc-dev</code>.
+The <code>libc-dev</code> is a
+virtual package that works for any soname but you have to put it only as the
+last option.</p></li>
+<li>
+<code>undefined reference to snd_*, SND_* undeclared</code>
+<p>
+Some packages use ALSA even on non-Linux architectures. The oss-libsalsa package
+provides some emulation over OSS, but it is limited to 1.0.5, and some features
+are not provided, such as all sequencer operations.
+</p>
+<p>
+If the package permits it, alsa support should be disabled on the
+<code>!linux-any</code> archs (e.g. through a <code>configure</code>
+option), and a <code>[linux-any]</code> qualifier added to the
+alsa <code>Build-Depends</code>, and the converse added to
+<code>Build-Conflicts</code>, such as 
+<code>Build-Conflicts: libasound2-dev [!linux-any]</code>.
+</p>
+</li>
+</ul>

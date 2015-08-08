@@ -1,0 +1,60 @@
+# From: Tim Cutts <tjrc@sanger.ac.uk>
+# Ping: Wed, 15 Feb 2012 10:43:19 +0000 <59692190-B273-4178-BE88-D84DD4DA1F38@sanger.ac.uk>
+# 2015 Audit: Current as of April 27, 2015
+# 2015 Email: https://lists.debian.org/debian-www/2015/04/msg00193.html
+
+<define-tag pagetitle>Systems Support Group, The Wellcome Trust Sanger Institute, Cambridge, UK</define-tag>
+<define-tag webpage>http://www.sanger.ac.uk/</define-tag>
+
+#use wml::debian::users
+
+<p>
+The organisation uses Ubuntu and Debian as the first choice distribution on Linux 
+  systems, and they are used in several areas:
+</p>
+<ul>
+  <li>
+We have about 80 desktop machines, running Debian or Ubuntu, for the use of 
+laboratory staff for mail, web browsing, DNA sequence analysis and so on.
+  </li>
+  <li>
+We have around 950 Debian/Ubuntu machines in HPC clusters.
+These run a variety of HPC applications, including the IT
+for the <a href="http://www.yourgenome.org/sc/">largest
+DNA sequencing facility in Europe</a>, the building
+    of the public <a href="http://www.ensembl.org/">Ensembl</a> database of 
+genome information, epidemiological genetic research and many others.
+Most of the software used for these studies are either standard bioinformatics
+and statistical applications, or in-house research applications, many of which
+are <a href="http://www.sanger.ac.uk/resources/software/">available for
+download</a> mostly under open source licences.
+  </li>
+  <li>
+Debian and Ubuntu are also used for many internal infrastructure services;
+mail, LDAP etc.
+Our entire web site runs on Debian or Ubuntu, most of it on virtual machines.
+  </li>    
+  <li>
+    Many internal data servers are also larger machines running  
+Debian for running MySQL servers.
+  </li>
+<li>
+As of 27/04/2015: 190 Debian machines, 1557 Ubuntu machines.
+</li>
+</ul>
+
+<p>
+There were a number of factors which led to our adoption of Debian (and later Ubuntu)
+</p>
+<ul>
+<li>
+First, the Debian and open source philosophy in
+general fits very well with the Wellcome Trust's
+<a href="http://www.wellcome.ac.uk/About-us/Policy/Policy-and-position-statements/WTX035043.htm">policies</a>
+to open access data to improve human and animal health worldwide.
+</li>
+<li>
+Second, there are two Debian Developers on the Systems
+team, so we have lots of in-house experience and expertise.
+</li>
+</ul>

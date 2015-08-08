@@ -1,0 +1,57 @@
+<define-tag abbr>CeBIT11</define-tag>
+<define-tag year>2011</define-tag>
+<define-tag pagetitle>CeBIT</define-tag>
+<define-tag where>Hanover, Germany</define-tag>
+<define-tag startdate>2011-03-01</define-tag>
+<define-tag enddate>2011-03-05</define-tag>
+<define-tag infolink>http://www.cebit.de/</define-tag>
+<define-tag coord><a href="mailto:tolimar@debian.org">Alexander Reichle-Schmehl</a></define-tag>
+
+<define-tag intro>
+
+<p>CeBIT is one of the world's most important computer exhibitions,
+together with Comdex in Las Vegas.  It's the largest one worldwide.</p>
+
+</define-tag>
+
+<define-tag involve>
+
+<p>The Debian project will be present with a presentation point at the
+booth of <a href="http://www.univention.de/">Univention GmbH</a>.  The 
+Univention GmbH's booth is in exhibition <a href="http://maps.messe.de/ipar?fid=007&amp;mapType=overview&amp;hallId=2&amp;sizeX=415&amp;sizeY=415&amp;lang=en">hall
+2</a> <a href="http://maps.messe.de/ipar?fid=007&amp;mapType=detail&amp;hallId=2&amp;standId=D36&amp;sizeX=415&amp;sizeY=415&amp;lang=en">stand
+D36</a>.</p>
+
+<p>Members of the Debian project will be available for all kinds of
+questions and present the just released Debian 6.0
+<q>Squeeze</q> including the new port to the FreeBSD kernel.</p>
+
+
+<p>In addition some of <q>Squeeze's</q> new features will be presented 
+in a short talk at the <a href="http://www.univention.de/univention/termine/cebit-2011/open-source-buehne/">Univention
+Open Source-B&uuml;hne</a> on Tuesday the 1st of March at 13:30 and again
+on Thursday the 3rd of March at 15:30.  An audio stream of the first
+session will be provided by <a href="http://blog.radiotux.de/sendeplan/">Radio Tux</a>, who will also
+open their Podcast on Saturday the 5th of March with interviews with Debian
+Developers and Press Officers Meike Reichle and Alexander
+Reichle-Schmehl.</p>
+
+<p>We would like to thank our sponsors, notably <a
+href="http://www.univention.de/en/">Univention GmbH</a> and <a
+href="http://messe.de">Deutsche Messe AG</a> for again sponsoring Debian's
+presence at this year's CeBIT.
+</p>
+
+</define-tag>
+
+#use wml::debian::past_event
+# $Id: 0301-cebit.wml,v 1.10 2011/03/08 09:57:12 zobel Exp $
+#Related Links here (free form)
+<ul>
+ <li><a href="http://www.univention.de/univention/termine/cebit-2011/">Univention</a></li>
+ <li><a href="http://www.cebit.de/exhibitor/debian?directLink=B52341">Debian at CeBIT</a></li>
+ <li><a href="http://www.linux-magazin.de/Events/CeBIT-Open-Source-Forum-2011">CeBIT Open Source Forum 2011</a></li>
+ <li><a href="http://www.univention.de/univention/termine/cebit-2011/open-source-buehne/">Univention Open Source stage</a></li>
+ <li><a href="http://blog.radiotux.de/2011/02/21/sendeplan-cebit-2011/">Radio
+Tux</a></li>
+</ul>

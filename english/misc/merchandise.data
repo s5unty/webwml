@@ -1,0 +1,134 @@
+#include "$(ENGLISHDIR)/misc/merchandise.def"
+
+<hr>
+# disables, doesn't exist
+#<mercentry>
+#  <vendor About Debian.com>
+#  <URL "http://www.aboutdebian.com/gear.htm">
+#  <their_products <mouse_pads>, <t-shirts>, <mugs>, <basketball_goals>>
+#</mercentry>
+
+<mercentry>
+  <vendor Antcom Shop>
+  <URL "http://antcom.spreadshirt.net/">
+  <their_products <t-shirts>, <hats>, <stickers>, <mugs>, <polo_shirts>, <mouse_pads>> 
+</mercentry>
+
+# Removed on request
+# <mercentry>
+#   <vendor Camisetas Nerds>
+#   <URL "http://camisetas.punksmedia.org/?product_cat=debian">
+#   <their_products <t-shirts>, <stickers>, <hats>, <other_clothing>, <usb-sticks>>
+# </mercentry>
+
+<mercentry>
+  <vendor common shirts>
+  <URL "http://common-shirts.org/?p=3444">
+  <their_products <t-shirts>>
+</mercentry>
+
+<mercentry>
+  <vendor debian.ch>
+  <URL "http://www.debian.ch/merchandise/">
+  <their_products <t-shirts>, <stickers>, <umbrellas>>
+</mercentry>
+
+<mercentry>
+  <vendor Debian France>
+  <URL "http://www.enventelibre.org/debian">
+  <their_products <polo_shirts>, <stickers>, <other_clothing>, <knives>, <umbrellas>>
+</mercentry>
+
+# Disabled, no longer operating
+#<mercentry>
+#  <vendor DebianShop>
+#  <URL "http://www.debianshop.com/">
+#  <their_products <badges>, <t-shirts>, <mugs>, <other_clothing>>
+#</mercentry>
+
+<mercentry>
+  <vendor DebianStuff>
+  <URL "http://www.cafeshops.com/DebianStuff">
+  <their_products <t-shirts>, <other_clothing>, <hats>, <mouse_pads>, <mugs>>
+</mercentry>
+
+<mercentry>
+  <vendor Digistickr>
+  <URL "http://www.digistickr.de/debian-sticker.html">
+  <their_products <stickers>>
+</mercentry>
+
+<mercentry>
+  <vendor FreeWear.org>
+  <URL "http://www.freewear.org/?org=Debian">
+  <their_products <t-shirts>, <other_clothing>>
+</mercentry>
+
+# Not a trustworthy vendor:
+# <9f0a69bf0911122109t32e071b8pc7c01b243c4b2139@mail.gmail.com>
+# <6E67CDEA-F626-400A-8095-D91AEE6DA998@thekurt.net>
+#<mercentry>
+#  <vendor HackerStickers>
+#  <URL "http://www.hackerstickers.com/product/sticker-debian/">
+#  <their_products <stickers>>
+#</mercentry>
+
+<mercentry>
+  <vendor HELLOTUX>
+  <URL "http://www.hellotux.com/Category_Debian.php">
+  <their_products <t-shirts>, <polo_shirts>, <pillowcases>, <other_clothing>>
+</mercentry>
+
+<mercentry>
+  <vendor IT2L>
+  <URL "http://www.it2l.com/debian-d-2.html">
+  <their_products <mouse_pads>, <mugs>, <stickers>, <t-shirts>> 
+</mercentry>
+
+<mercentry>
+ <vendor Koszulkomat>
+ <URL "http://debian.koszulkomat.eu">
+ <their_products <t-shirts>, <pillowcases>>
+</mercentry>
+
+# librestickers is on hiatus and will be back 2015-02
+#<mercentry>
+# <vendor LibreStickers>
+# <URL "http://www.librestickers.com/index.php/catalogsearch/result/?q=debian">
+# <their_products <stickers>>
+#</mercentry>
+
+# disabled as it is closed and redirects to another site:
+# https://lists.debian.org/22ef44b842316693f4d7fce202a4a69e.squirrel@mail.alcos.me
+#<mercentry>
+#  <vendor Linux Mall Brasil>
+#  <URL "http://www.linuxmall.com.br/index?page=search%2Fsearch_result&amp;keyword=debian">
+#  <their_products <t-shirts>, <hats>, <mugs>, <stickers>>
+#</mercentry>
+
+#<mercentry>
+#  <vendor ThinkGeek>
+#  <URL "http://www.thinkgeek.com/">
+#  <their_products <polo_shirts>>
+#</mercentry>
+
+# disabled, see <4F27FB57.1020600@gmail.com>
+# reenabled, see <668D08A0FCCB4D50ABE8E712F0E4B755@unixstickers.com>
+<mercentry>
+  <vendor Unixstickers>
+  <URL "http://unixstickers.com/">
+  <their_products <stickers>>
+</mercentry>
+
+<mercentry>
+  <vendor UnixStuff>
+  <URL "http://www.unixstuff.net/">
+  <their_products <stickers>, <keychains>>
+</mercentry>
+
+
+<mercentry>
+  <vendor STS Stitching>
+  <URL "https://www.etsy.com/shop/STSStitching?ref=hdr_shop_menu">
+  <their_products <hats>>
+</mercentry>

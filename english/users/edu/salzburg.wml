@@ -1,0 +1,23 @@
+# From: Daniel Hofer <dhofer@cosy.sbg.ac.at>
+# Ping: Wed, 28 Dec 2011 09:14:02 +0100 (CET) <4EFACFA7.2060809@cosy.sbg.ac.at>
+
+<define-tag pagetitle>Department of Computer Science, University of Salzburg, Salzburg, Austria</define-tag>
+<define-tag webpage>http://www.cosy.sbg.ac.at/</define-tag>
+
+#use wml::debian::users
+
+<p>
+Our sites IT infrastructure is based on Debian GNU/Linux.
+Debian is used for almost all of the servers at our site.
+This includes web servers, mail servers, file
+servers, print servers and other services.
+</p>
+<p>
+Also the majority of our desktop systems are running Debian.
+That includes about 30 PCs used as public workstations for
+students, and about 40 PCs as workstations for our staff.
+</p>
+<p>
+The ease of use and its maintainability as well as its
+stability makes Debian GNU/Linux our first choice.
+</p>
